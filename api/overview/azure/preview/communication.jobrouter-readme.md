@@ -1,12 +1,12 @@
 ---
 title: Azure Communication JobRouter client library for .NET
 keywords: Azure, dotnet, SDK, API, Azure.Communication.JobRouter, communication
-ms.date: 09/12/2023
+ms.date: 10/23/2023
 ms.topic: reference
 ms.devlang: dotnet
 ms.service: communication
 ---
-# Azure Communication JobRouter client library for .NET - version 1.0.0-beta.3 
+# Azure Communication JobRouter client library for .NET - version 1.0.0-alpha.20231023.1 
 
 
 This package contains a C# SDK for Azure Communication Services for JobRouter.
@@ -33,7 +33,6 @@ To create a new Communication Service, you can use the [Azure Portal][communicat
 ### Using statements
 ```C# Snippet:Azure_Communication_JobRouter_Tests_Samples_UsingStatements
 using Azure.Communication.JobRouter;
-using Azure.Communication.JobRouter.Models;
 ```
 
 ### Create a JobRouter Client
@@ -107,7 +106,7 @@ Response<DistributionPolicy> distributionPolicy = await routerAdministrationClie
 ### Queue
 Next, we can create the queue.
 ```C# Snippet:Azure_Communication_JobRouter_Tests_Samples_CreateQueue_Async
-Response<Models.RouterQueue> queue = await routerAdministrationClient.CreateQueueAsync(
+Response<RouterQueue> queue = await routerAdministrationClient.CreateQueueAsync(
     new CreateQueueOptions(
         queueId: "queue-1",
         distributionPolicyId: distributionPolicy.Value.Id)
@@ -184,7 +183,7 @@ foreach (EventGridEvent egEvent in egEvents)
 However, we could also wait a few seconds and then query the worker directly against the JobRouter API to see if an offer was issued to it.
 ```C# Snippet:Azure_Communication_JobRouter_Tests_Samples_QueryWorker_Async
 Response<RouterWorker> result = await routerClient.GetWorkerAsync(worker.Value.Id);
-foreach (Models.RouterJobOffer? offer in result.Value.Offers)
+foreach (RouterJobOffer? offer in result.Value.Offers)
 {
     Console.WriteLine($"Worker {worker.Value.Id} has an active offer for job {offer.JobId}");
 }
@@ -194,7 +193,7 @@ foreach (Models.RouterJobOffer? offer in result.Value.Offers)
 Once a worker receives an offer, it can take two possible actions: accept or decline. We are going to accept the offer.
 ```C# Snippet:Azure_Communication_JobRouter_Tests_Samples_AcceptOffer_Async
 // fetching the offer id
-Models.RouterJobOffer jobOffer = result.Value.Offers.First<RouterJobOffer>(x => x.JobId == job.Value.Id);
+RouterJobOffer jobOffer = result.Value.Offers.First<RouterJobOffer>(x => x.JobId == job.Value.Id);
 
 string offerId = jobOffer.OfferId; // `OfferId` can be retrieved directly from consuming event from Event grid
 
@@ -281,12 +280,12 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For m
 [communication_resource_create_power_shell]: /powershell/module/az.communication/new-azcommunicationservice
 [communication_resource_create_net]: /azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-net
 [nextsteps]:/azure/communication-services/concepts/router/concepts
-[source]: https://github.com/Azure/azure-sdk-for-net/tree/Azure.Communication.JobRouter_1.0.0-beta.3/sdk/communication/Azure.Communication.JobRouter/src
+[source]: https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/communication/Azure.Communication.JobRouter/src
 [product_docs]: /azure/communication-services/overview
 [classification_concepts]: /azure/communication-services/concepts/router/classification-concepts
 [subscribe_events]: /azure/communication-services/how-tos/router-sdk/subscribe-events
 [offer_issued_event_schema]: /azure/communication-services/how-tos/router-sdk/subscribe-events#microsoftcommunicationrouterworkerofferissued
-[deserialize_event_grid_event_data]: https://github.com/Azure/azure-sdk-for-net/tree/Azure.Communication.JobRouter_1.0.0-beta.3/sdk/eventgrid/Azure.Messaging.EventGrid#receiving-and-deserializing-events
+[deserialize_event_grid_event_data]: https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/eventgrid/Azure.Messaging.EventGrid#receiving-and-deserializing-events
 [event_grid_event_handlers]: /azure/event-grid/event-handlers
 [webhook_event_grid_event_delivery]: /azure/event-grid/webhook-event-delivery
 [nuget_link]: https://www.nuget.org
