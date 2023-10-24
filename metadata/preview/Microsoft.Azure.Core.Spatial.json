@@ -1,7 +1,7 @@
 {
   "Name": "Microsoft.Azure.Core.Spatial",
-  "Version": "1.2.0-alpha.20231024.1",
-  "DevVersion": "1.2.0-alpha.20231024.1",
+  "Version": "1.2.0-alpha.20231024.2",
+  "DevVersion": "1.2.0-alpha.20231024.2",
   "DirectoryPath": "sdk/core/Microsoft.Azure.Core.Spatial",
   "ServiceDirectory": "core",
   "ReadMePath": "sdk/core/Microsoft.Azure.Core.Spatial/README.md",
