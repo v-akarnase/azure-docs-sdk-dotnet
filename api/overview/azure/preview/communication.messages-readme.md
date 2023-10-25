@@ -1,12 +1,12 @@
 ---
 title: Azure Communication Messages client library for .NET
 keywords: Azure, dotnet, SDK, API, Azure.Communication.Messages, communication
-ms.date: 10/10/2023
+ms.date: 10/25/2023
 ms.topic: reference
 ms.devlang: dotnet
 ms.service: communication
 ---
-# Azure Communication Messages client library for .NET - version 1.0.0-beta.1 
+# Azure Communication Messages client library for .NET - version 1.0.0-alpha.20231025.1 
 
 
 This package contains a C# SDK for Azure Communication Messages Services.
