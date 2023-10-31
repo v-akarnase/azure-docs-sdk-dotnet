@@ -48,9 +48,6 @@
       <MemberSignature Language="VB.NET" Value="Sub ImportPolicy (importer As MetadataImporter, context As PolicyConversionContext) Implements IPolicyImportExtension.ImportPolicy" />
       <MemberSignature Language="F#" Value="abstract member System.ServiceModel.Description.IPolicyImportExtension.ImportPolicy : System.ServiceModel.Description.MetadataImporter * System.ServiceModel.Description.PolicyConversionContext -&gt; unit&#xA;override this.System.ServiceModel.Description.IPolicyImportExtension.ImportPolicy : System.ServiceModel.Description.MetadataImporter * System.ServiceModel.Description.PolicyConversionContext -&gt; unit" Usage="tcpRelayTransportBindingElementImporter.System.ServiceModel.Description.IPolicyImportExtension.ImportPolicy (importer, context)" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.ServiceModel.Description.IPolicyImportExtension.ImportPolicy(System.ServiceModel.Description.MetadataImporter,System.ServiceModel.Description.PolicyConversionContext)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -79,9 +76,6 @@
       <MemberSignature Language="VB.NET" Value="Sub BeforeImport (wsdlDocuments As ServiceDescriptionCollection, xmlSchemas As XmlSchemaSet, policy As ICollection(Of XmlElement)) Implements IWsdlImportExtension.BeforeImport" />
       <MemberSignature Language="F#" Value="abstract member System.ServiceModel.Description.IWsdlImportExtension.BeforeImport : System.Web.Services.Description.ServiceDescriptionCollection * System.Xml.Schema.XmlSchemaSet * System.Collections.Generic.ICollection&lt;System.Xml.XmlElement&gt; -&gt; unit&#xA;override this.System.ServiceModel.Description.IWsdlImportExtension.BeforeImport : System.Web.Services.Description.ServiceDescriptionCollection * System.Xml.Schema.XmlSchemaSet * System.Collections.Generic.ICollection&lt;System.Xml.XmlElement&gt; -&gt; unit" Usage="tcpRelayTransportBindingElementImporter.System.ServiceModel.Description.IWsdlImportExtension.BeforeImport (wsdlDocuments, xmlSchemas, policy)" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.ServiceModel.Description.IWsdlImportExtension.BeforeImport(System.Web.Services.Description.ServiceDescriptionCollection,System.Xml.Schema.XmlSchemaSet,System.Collections.Generic.ICollection{System.Xml.XmlElement})</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -111,9 +105,6 @@
       <MemberSignature Language="VB.NET" Value="Sub ImportContract (importer As WsdlImporter, context As WsdlContractConversionContext) Implements IWsdlImportExtension.ImportContract" />
       <MemberSignature Language="F#" Value="abstract member System.ServiceModel.Description.IWsdlImportExtension.ImportContract : System.ServiceModel.Description.WsdlImporter * System.ServiceModel.Description.WsdlContractConversionContext -&gt; unit&#xA;override this.System.ServiceModel.Description.IWsdlImportExtension.ImportContract : System.ServiceModel.Description.WsdlImporter * System.ServiceModel.Description.WsdlContractConversionContext -&gt; unit" Usage="tcpRelayTransportBindingElementImporter.System.ServiceModel.Description.IWsdlImportExtension.ImportContract (importer, context)" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.ServiceModel.Description.IWsdlImportExtension.ImportContract(System.ServiceModel.Description.WsdlImporter,System.ServiceModel.Description.WsdlContractConversionContext)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -141,9 +132,6 @@
       <MemberSignature Language="VB.NET" Value="Sub ImportEndpoint (importer As WsdlImporter, context As WsdlEndpointConversionContext) Implements IWsdlImportExtension.ImportEndpoint" />
       <MemberSignature Language="F#" Value="abstract member System.ServiceModel.Description.IWsdlImportExtension.ImportEndpoint : System.ServiceModel.Description.WsdlImporter * System.ServiceModel.Description.WsdlEndpointConversionContext -&gt; unit&#xA;override this.System.ServiceModel.Description.IWsdlImportExtension.ImportEndpoint : System.ServiceModel.Description.WsdlImporter * System.ServiceModel.Description.WsdlEndpointConversionContext -&gt; unit" Usage="tcpRelayTransportBindingElementImporter.System.ServiceModel.Description.IWsdlImportExtension.ImportEndpoint (importer, context)" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.ServiceModel.Description.IWsdlImportExtension.ImportEndpoint(System.ServiceModel.Description.WsdlImporter,System.ServiceModel.Description.WsdlEndpointConversionContext)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.ServiceBus</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>

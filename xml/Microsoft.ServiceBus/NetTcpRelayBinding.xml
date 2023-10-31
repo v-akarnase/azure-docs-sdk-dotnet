@@ -1,8 +1,8 @@
 <Type Name="NetTcpRelayBinding" FullName="Microsoft.ServiceBus.NetTcpRelayBinding">
-  <TypeSignature Language="C#" Value="public class NetTcpRelayBinding : Microsoft.ServiceBus.NetTcpRelayBindingBase, System.ServiceModel.Channels.IBindingRuntimePreferences" />
+  <TypeSignature Language="C#" Value="public class NetTcpRelayBinding : Microsoft.ServiceBus.NetTcpRelayBindingBase" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit NetTcpRelayBinding extends Microsoft.ServiceBus.NetTcpRelayBindingBase implements class System.ServiceModel.Channels.IBindingRuntimePreferences" />
   <TypeSignature Language="DocId" Value="T:Microsoft.ServiceBus.NetTcpRelayBinding" />
-  <TypeSignature Language="VB.NET" Value="Public Class NetTcpRelayBinding&#xA;Inherits NetTcpRelayBindingBase&#xA;Implements IBindingRuntimePreferences" />
+  <TypeSignature Language="VB.NET" Value="Public Class NetTcpRelayBinding&#xA;Inherits NetTcpRelayBindingBase" />
   <TypeSignature Language="F#" Value="type NetTcpRelayBinding = class&#xA;    inherit NetTcpRelayBindingBase&#xA;    interface IBindingRuntimePreferences" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.ServiceBus</AssemblyName>
