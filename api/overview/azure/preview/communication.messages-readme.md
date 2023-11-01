@@ -1,12 +1,12 @@
 ---
 title: Azure Communication Messages client library for .NET
 keywords: Azure, dotnet, SDK, API, Azure.Communication.Messages, communication
-ms.date: 10/10/2023
+ms.date: 11/01/2023
 ms.topic: reference
 ms.devlang: dotnet
 ms.service: communication
 ---
-# Azure Communication Messages client library for .NET - version 1.0.0-beta.1 
+# Azure Communication Messages client library for .NET - version 1.0.0-alpha.20231101.4 
 
 
 This package contains a C# SDK for Azure Communication Messages Services.
@@ -106,5 +106,19 @@ This project welcomes contributions and suggestions. Most contributions require 
 
 This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For more information see the [Code of Conduct FAQ][coc_faq] or contact [opencode@microsoft.com][coc_contact] with any additional questions or comments.
 
-
+<!-- LINKS -->
+[source]: https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/communication/Azure.Communication.Messages/src
+[package]: https://www.nuget.org/packages/Azure.Communication.Messages
+[product_docs]: /azure/communication-services/overview
+[nuget]: https://www.nuget.org.
+[azure_sub]: https://azure.microsoft.com/free/dotnet/
+[communication_resource_docs]: /azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp
+[communication_resource_create_portal]:  /azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp
+[communication_resource_create_power_shell]: /powershell/module/az.communication/new-azcommunicationservice
+[communication_resource_create_net]: /azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-net
+[azure_portal]: https://portal.azure.com.
+[cla]: https://cla.microsoft.com
+[coc]: https://opensource.microsoft.com/codeofconduct/
+[coc_faq]: https://opensource.microsoft.com/codeofconduct/faq/
+[coc_contact]: mailto:opencode@microsoft.com
 
