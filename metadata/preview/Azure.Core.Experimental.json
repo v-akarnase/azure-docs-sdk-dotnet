@@ -1,7 +1,7 @@
 {
   "Name": "Azure.Core.Experimental",
-  "Version": "0.1.0-alpha.20231102.1",
-  "DevVersion": "0.1.0-alpha.20231102.1",
+  "Version": "0.1.0-alpha.20231102.5",
+  "DevVersion": "0.1.0-alpha.20231102.5",
   "DirectoryPath": "sdk/core/Azure.Core.Experimental",
   "ServiceDirectory": "core",
   "ReadMePath": "sdk/core/Azure.Core.Experimental/README.md",
