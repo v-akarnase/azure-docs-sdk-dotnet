@@ -12,6 +12,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.advisor-readme.md
         children:
         - Azure.ResourceManager.Advisor
+        - Azure.ResourceManager.Advisor.Mocking
         - Azure.ResourceManager.Advisor.Models
       - name: Management - Advisor (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.advisor-readme.md
@@ -28,6 +29,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.agfoodplatform-readme.md
         children:
         - Azure.ResourceManager.AgFoodPlatform
+        - Azure.ResourceManager.AgFoodPlatform.Mocking
         - Azure.ResourceManager.AgFoodPlatform.Models
   - name: Alerts Management
     href: ~/api/overview/azure/{moniker}/alerts-management.md
@@ -39,6 +41,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.alertsmanagement-readme.md
         children:
         - Azure.ResourceManager.AlertsManagement
+        - Azure.ResourceManager.AlertsManagement.Mocking
         - Azure.ResourceManager.AlertsManagement.Models
       - name: Management - Alerts Management (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.alertsmanagement-readme.md
@@ -66,6 +69,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.apicenter-readme.md
         children:
         - Azure.ResourceManager.ApiCenter
+        - Azure.ResourceManager.ApiCenter.Mocking
         - Azure.ResourceManager.ApiCenter.Models
   - name: API for FHIR
     href: ~/api/overview/azure/{moniker}/api-for-fhir.md
@@ -88,6 +92,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.apimanagement-readme.md
         children:
         - Azure.ResourceManager.ApiManagement
+        - Azure.ResourceManager.ApiManagement.Mocking
         - Azure.ResourceManager.ApiManagement.Models
       - name: Management - API Management (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.apimanagement-readme.md
@@ -129,6 +134,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.appconfiguration-readme.md
         children:
         - Azure.ResourceManager.AppConfiguration
+        - Azure.ResourceManager.AppConfiguration.Mocking
         - Azure.ResourceManager.AppConfiguration.Models
   - name: App Platform
     href: ~/api/overview/azure/{moniker}/app-platform.md
@@ -140,6 +146,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.appplatform-readme.md
         children:
         - Azure.ResourceManager.AppPlatform
+        - Azure.ResourceManager.AppPlatform.Mocking
         - Azure.ResourceManager.AppPlatform.Models
   - name: App Service
     href: ~/api/overview/azure/{moniker}/app-service.md
@@ -217,6 +224,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.applicationinsights-readme.md
         children:
         - Azure.ResourceManager.ApplicationInsights
+        - Azure.ResourceManager.ApplicationInsights.Mocking
         - Azure.ResourceManager.ApplicationInsights.Models
       - name: Management - Application Insights (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.applicationinsights-readme.md
@@ -248,6 +256,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.attestation-readme.md
         children:
         - Azure.ResourceManager.Attestation
+        - Azure.ResourceManager.Attestation.Mocking
         - Azure.ResourceManager.Attestation.Models
   - name: Authorization
     href: ~/api/overview/azure/{moniker}/authorization.md
@@ -259,6 +268,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.authorization-readme.md
         children:
         - Azure.ResourceManager.Authorization
+        - Azure.ResourceManager.Authorization.Mocking
         - Azure.ResourceManager.Authorization.Models
       - name: Management - Authorization (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.authorization-readme.md
@@ -271,6 +281,11 @@
     items:
     - name: Auto Suggest
       href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.autosuggest-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.AutoSuggest
+      - Microsoft.Azure.CognitiveServices.Search.AutoSuggest.Models
+    - name: Auto Suggest
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.bingautosuggest-readme.md
       children:
       - Microsoft.Azure.CognitiveServices.Search.AutoSuggest
       - Microsoft.Azure.CognitiveServices.Search.AutoSuggest.Models
@@ -362,6 +377,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.batch-readme.md
         children:
         - Azure.ResourceManager.Batch
+        - Azure.ResourceManager.Batch.Mocking
         - Azure.ResourceManager.Batch.Models
       - name: Management - Batch (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.batch-readme.md
@@ -416,6 +432,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.blueprint-readme.md
         children:
         - Azure.ResourceManager.Blueprint
+        - Azure.ResourceManager.Blueprint.Mocking
         - Azure.ResourceManager.Blueprint.Models
       - name: Management - Blueprint (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.blueprint-readme.md
@@ -433,6 +450,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.botservice-readme.md
         children:
         - Azure.ResourceManager.BotService
+        - Azure.ResourceManager.BotService.Mocking
         - Azure.ResourceManager.BotService.Models
   - name: Change Analysis
     href: ~/api/overview/azure/{moniker}/change-analysis.md
@@ -455,6 +473,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.chaos-readme.md
         children:
         - Azure.ResourceManager.Chaos
+        - Azure.ResourceManager.Chaos.Mocking
         - Azure.ResourceManager.Chaos.Models
       - name: Resource Management - Chaos (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.chaos-readme.md
@@ -517,7 +536,7 @@
       href: ~/api/overview/azure/{moniker}/ai.translation.text-readme.md
       children:
       - Azure.AI.Translation.Text
-      - Azure.AI.Translation.Text.Custom
+      - Microsoft.Extensions.Azure
     - name: Vision Common
       href: ~/api/overview/azure/{moniker}/ai.vision.common-readme.md
       children:
@@ -584,6 +603,46 @@
       - Microsoft.Azure.CognitiveServices.Personalizer
       - Microsoft.Azure.CognitiveServices.Personalizer.Models
     - name: Custom Image Search
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.bingcustomimagesearch-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.CustomImageSearch
+      - Microsoft.Azure.CognitiveServices.Search.CustomImageSearch.Models
+    - name: Custom Search
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.bingcustomsearch-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.CustomSearch
+      - Microsoft.Azure.CognitiveServices.Search.CustomSearch.Models
+    - name: Entity Search
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.bingentitysearch-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.EntitySearch
+      - Microsoft.Azure.CognitiveServices.Search.EntitySearch.Models
+    - name: Image Search
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.bingimagesearch-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.ImageSearch
+      - Microsoft.Azure.CognitiveServices.Search.ImageSearch.Models
+    - name: News Search
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.bingnewssearch-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.NewsSearch
+      - Microsoft.Azure.CognitiveServices.Search.NewsSearch.Models
+    - name: Video Search
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.bingvideosearch-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.VideoSearch
+      - Microsoft.Azure.CognitiveServices.Search.VideoSearch.Models
+    - name: Visual Search
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.bingvisualsearch-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.VisualSearch
+      - Microsoft.Azure.CognitiveServices.Search.VisualSearch.Models
+    - name: Web Search
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.bingwebsearch-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.WebSearch
+      - Microsoft.Azure.CognitiveServices.Search.WebSearch.Models
+    - name: Custom Image Search
       href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.customimagesearch-readme.md
       children:
       - Microsoft.Azure.CognitiveServices.Search.CustomImageSearch
@@ -628,6 +687,11 @@
       children:
       - Microsoft.Azure.CognitiveServices.Vision.ComputerVision
       - Microsoft.Azure.CognitiveServices.Vision.ComputerVision.Models
+    - name: Vision Content Moderator
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.vision.contentmoderator-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.ContentModerator
+      - Microsoft.Azure.CognitiveServices.ContentModerator.Models
     - name: Custom Vision Prediction
       href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.vision.customvision.prediction-readme.md
       children:
@@ -681,6 +745,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.cognitiveservices-readme.md
         children:
         - Azure.ResourceManager.CognitiveServices
+        - Azure.ResourceManager.CognitiveServices.Mocking
         - Azure.ResourceManager.CognitiveServices.Models
       - name: Management - Cognitive Services (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.cognitiveservices-readme.md
@@ -755,7 +820,6 @@
       href: ~/api/overview/azure/{moniker}/communication.jobrouter-readme.md
       children:
       - Azure.Communication.JobRouter
-      - Azure.Communication.JobRouter.Models
   - name: Compute
     href: ~/api/overview/azure/{moniker}/compute.md
     landingPageType: Service
@@ -766,6 +830,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.compute-readme.md
         children:
         - Azure.ResourceManager.Compute
+        - Azure.ResourceManager.Compute.Mocking
         - Azure.ResourceManager.Compute.Models
       - name: Management - Compute (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.compute-readme.md
@@ -871,6 +936,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.connectedvmwarevsphere-readme.md
         children:
         - Azure.ResourceManager.ConnectedVMwarevSphere
+        - Azure.ResourceManager.ConnectedVMwarevSphere.Mocking
         - Azure.ResourceManager.ConnectedVMwarevSphere.Models
   - name: Consumption
     href: ~/api/overview/azure/{moniker}/consumption.md
@@ -882,6 +948,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.consumption-readme.md
         children:
         - Azure.ResourceManager.Consumption
+        - Azure.ResourceManager.Consumption.Mocking
         - Azure.ResourceManager.Consumption.Models
       - name: Management - Consumption (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.consumption-readme.md
@@ -985,6 +1052,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.containerservice-readme.md
         children:
         - Azure.ResourceManager.ContainerService
+        - Azure.ResourceManager.ContainerService.Mocking
         - Azure.ResourceManager.ContainerService.Models
       - name: Management - Container Service Fluent (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.containerservice.fluent-readme.md
@@ -1075,6 +1143,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.cosmosdb-readme.md
         children:
         - Azure.ResourceManager.CosmosDB
+        - Azure.ResourceManager.CosmosDB.Mocking
         - Azure.ResourceManager.CosmosDB.Models
       - name: Management - Cosmos DB (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.cosmosdb-readme.md
@@ -1125,6 +1194,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.cosmosdbforpostgresql-readme.md
         children:
         - Azure.ResourceManager.CosmosDBForPostgreSql
+        - Azure.ResourceManager.CosmosDBForPostgreSql.Mocking
         - Azure.ResourceManager.CosmosDBForPostgreSql.Models
   - name: Cost Management
     href: ~/api/overview/azure/{moniker}/cost-management.md
@@ -1136,6 +1206,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.costmanagement-readme.md
         children:
         - Azure.ResourceManager.CostManagement
+        - Azure.ResourceManager.CostManagement.Mocking
         - Azure.ResourceManager.CostManagement.Models
   - name: Customer Insights
     href: ~/api/overview/azure/{moniker}/customer-insights.md
@@ -1147,6 +1218,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.customerinsights-readme.md
         children:
         - Azure.ResourceManager.CustomerInsights
+        - Azure.ResourceManager.CustomerInsights.Mocking
         - Azure.ResourceManager.CustomerInsights.Models
   - name: Data Box
     href: ~/api/overview/azure/{moniker}/data-box.md
@@ -1174,6 +1246,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.databoxedge-readme.md
         children:
         - Azure.ResourceManager.DataBoxEdge
+        - Azure.ResourceManager.DataBoxEdge.Mocking
         - Azure.ResourceManager.DataBoxEdge.Models
   - name: Data Explorer
     href: ~/api/overview/azure/{moniker}/data-explorer.md
@@ -1196,6 +1269,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.datafactory-readme.md
         children:
         - Azure.ResourceManager.DataFactory
+        - Azure.ResourceManager.DataFactory.Mocking
         - Azure.ResourceManager.DataFactory.Models
       - name: Management - Data Factories (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.datafactories-readme.md
@@ -1224,6 +1298,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.datalakeanalytics-readme.md
         children:
         - Azure.ResourceManager.DataLakeAnalytics
+        - Azure.ResourceManager.DataLakeAnalytics.Mocking
         - Azure.ResourceManager.DataLakeAnalytics.Models
       - name: Management - Data Lake Analytics (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.datalake.analytics-readme.md
@@ -1240,6 +1315,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.datalakestore-readme.md
         children:
         - Azure.ResourceManager.DataLakeStore
+        - Azure.ResourceManager.DataLakeStore.Mocking
         - Azure.ResourceManager.DataLakeStore.Models
   - name: Data Protection
     href: ~/api/overview/azure/{moniker}/data-protection.md
@@ -1251,6 +1327,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.dataprotectionbackup-readme.md
         children:
         - Azure.ResourceManager.DataProtectionBackup
+        - Azure.ResourceManager.DataProtectionBackup.Mocking
         - Azure.ResourceManager.DataProtectionBackup.Models
   - name: Data Share
     href: ~/api/overview/azure/{moniker}/data-share.md
@@ -1262,6 +1339,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.datashare-readme.md
         children:
         - Azure.ResourceManager.DataShare
+        - Azure.ResourceManager.DataShare.Mocking
         - Azure.ResourceManager.DataShare.Models
       - name: Management - Data Share (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.datashare-readme.md
@@ -1300,6 +1378,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.datadog-readme.md
         children:
         - Azure.ResourceManager.Datadog
+        - Azure.ResourceManager.Datadog.Mocking
         - Azure.ResourceManager.Datadog.Models
   - name: Defender EASM
     href: ~/api/overview/azure/{moniker}/defender-easm.md
@@ -1311,6 +1390,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.defendereasm-readme.md
         children:
         - Azure.ResourceManager.DefenderEasm
+        - Azure.ResourceManager.DefenderEasm.Mocking
         - Azure.ResourceManager.DefenderEasm.Models
   - name: Deployment Manager
     href: ~/api/overview/azure/{moniker}/deployment-manager.md
@@ -1338,6 +1418,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.desktopvirtualization-readme.md
         children:
         - Azure.ResourceManager.DesktopVirtualization
+        - Azure.ResourceManager.DesktopVirtualization.Mocking
         - Azure.ResourceManager.DesktopVirtualization.Models
   - name: Dev Center
     href: ~/api/overview/azure/{moniker}/dev-center.md
@@ -1446,6 +1527,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.edgeorder-readme.md
         children:
         - Azure.ResourceManager.EdgeOrder
+        - Azure.ResourceManager.EdgeOrder.Mocking
         - Azure.ResourceManager.EdgeOrder.Models
   - name: Elastic
     href: ~/api/overview/azure/{moniker}/elastic.md
@@ -1535,6 +1617,10 @@
       href: ~/api/overview/azure/{moniker}/microsoft.azure.eventhubs.processor-readme.md
       children:
       - Microsoft.Azure.EventHubs.Processor
+    - name: Event Hubs - Service Fabric Processor
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.eventhubs.servicefabricprocessor-readme.md
+      children:
+      - Microsoft.Azure.EventHubs.ServiceFabricProcessor
     - name: Management
       items:
       - name: Resource Management - Event Hubs
@@ -1587,6 +1673,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.extendedlocations-readme.md
         children:
         - Azure.ResourceManager.ExtendedLocations
+        - Azure.ResourceManager.ExtendedLocations.Mocking
         - Azure.ResourceManager.ExtendedLocations.Models
   - name: Extensions
     href: ~/api/overview/azure/{moniker}/extensions.md
@@ -1611,6 +1698,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.fluidrelay-readme.md
         children:
         - Azure.ResourceManager.FluidRelay
+        - Azure.ResourceManager.FluidRelay.Mocking
         - Azure.ResourceManager.FluidRelay.Models
   - name: Front Door
     href: ~/api/overview/azure/{moniker}/front-door.md
@@ -1622,6 +1710,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.frontdoor-readme.md
         children:
         - Azure.ResourceManager.FrontDoor
+        - Azure.ResourceManager.FrontDoor.Mocking
         - Azure.ResourceManager.FrontDoor.Models
   - name: Grafana
     href: ~/api/overview/azure/{moniker}/grafana.md
@@ -1711,6 +1800,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.hdinsight-readme.md
         children:
         - Azure.ResourceManager.HDInsight
+        - Azure.ResourceManager.HDInsight.Mocking
         - Azure.ResourceManager.HDInsight.Models
       - name: Management - HDInsight (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.hdinsight-readme.md
@@ -1739,6 +1829,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.hdinsight.containers-readme.md
         children:
         - Azure.ResourceManager.HDInsight.Containers
+        - Azure.ResourceManager.HDInsight.Containers.Mocking
         - Azure.ResourceManager.HDInsight.Containers.Models
   - name: Health Bot
     href: ~/api/overview/azure/{moniker}/health-bot.md
@@ -1750,6 +1841,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.healthbot-readme.md
         children:
         - Azure.ResourceManager.HealthBot
+        - Azure.ResourceManager.HealthBot.Mocking
         - Azure.ResourceManager.HealthBot.Models
   - name: Healthcare APIs
     href: ~/api/overview/azure/{moniker}/healthcare-apis.md
@@ -1761,6 +1853,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.healthcareapis-readme.md
         children:
         - Azure.ResourceManager.HealthcareApis
+        - Azure.ResourceManager.HealthcareApis.Mocking
         - Azure.ResourceManager.HealthcareApis.Models
   - name: Hybrid Compute
     href: ~/api/overview/azure/{moniker}/hybrid-compute.md
@@ -1788,6 +1881,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.hybridconnectivity-readme.md
         children:
         - Azure.ResourceManager.HybridConnectivity
+        - Azure.ResourceManager.HybridConnectivity.Mocking
         - Azure.ResourceManager.HybridConnectivity.Models
   - name: Hybrid Container Service
     href: ~/api/overview/azure/{moniker}/hybrid-container-service.md
@@ -1799,6 +1893,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.hybridcontainerservice-readme.md
         children:
         - Azure.ResourceManager.HybridContainerService
+        - Azure.ResourceManager.HybridContainerService.Mocking
         - Azure.ResourceManager.HybridContainerService.Models
   - name: Hybrid Data
     href: ~/api/overview/azure/{moniker}/hybrid-data.md
@@ -1834,10 +1929,15 @@
       href: ~/api/overview/azure/{moniker}/iot.deviceupdate-readme.md
       children:
       - Azure.IoT.DeviceUpdate
+      - Microsoft.Extensions.Azure
     - name: IoT Models Repository
       href: ~/api/overview/azure/{moniker}/iot.modelsrepository-readme.md
       children:
       - Azure.IoT.ModelsRepository
+    - name: Time Series Insights
+      href: ~/api/overview/azure/{moniker}/iot.timeseriesinsights-readme.md
+      children:
+      - Azure.IoT.TimeSeriesInsights
     - name: Microsoft.Azure.Devices
       href: ~/api/overview/azure/{moniker}/microsoft.azure.devices-readme.md
       children:
@@ -1937,11 +2037,13 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.iotcentral-readme.md
         children:
         - Azure.ResourceManager.IotCentral
+        - Azure.ResourceManager.IotCentral.Mocking
         - Azure.ResourceManager.IotCentral.Models
       - name: Resource Management - IoT Firmware Defense
         href: ~/api/overview/azure/{moniker}/resourcemanager.iotfirmwaredefense-readme.md
         children:
         - Azure.ResourceManager.IotFirmwareDefense
+        - Azure.ResourceManager.IotFirmwareDefense.Mocking
         - Azure.ResourceManager.IotFirmwareDefense.Models
       - name: Resource Management - IoT Hub
         href: ~/api/overview/azure/{moniker}/resourcemanager.iothub-readme.md
@@ -2027,6 +2129,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.keyvault-readme.md
         children:
         - Azure.ResourceManager.KeyVault
+        - Azure.ResourceManager.KeyVault.Mocking
         - Azure.ResourceManager.KeyVault.Models
       - name: Management - Key Vault (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.keyvault-readme.md
@@ -2080,6 +2183,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.kusto-readme.md
         children:
         - Azure.ResourceManager.Kusto
+        - Azure.ResourceManager.Kusto.Mocking
         - Azure.ResourceManager.Kusto.Models
   - name: Lab Services
     href: ~/api/overview/azure/{moniker}/lab-services.md
@@ -2122,6 +2226,15 @@
         children:
         - Azure.ResourceManager.LoadTesting
         - Azure.ResourceManager.LoadTesting.Models
+  - name: Local Search
+    href: ~/api/overview/azure/{moniker}/local-search.md
+    landingPageType: Service
+    items:
+    - name: Local Search
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.binglocalsearch-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.LocalSearch
+      - Microsoft.Azure.CognitiveServices.Search.LocalSearch.Models
   - name: Logic Apps
     href: ~/api/overview/azure/{moniker}/logic-apps.md
     landingPageType: Service
@@ -2132,6 +2245,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.logic-readme.md
         children:
         - Azure.ResourceManager.Logic
+        - Azure.ResourceManager.Logic.Mocking
         - Azure.ResourceManager.Logic.Models
       - name: Management - Logic Apps (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.logic-readme.md
@@ -2196,6 +2310,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.managednetworkfabric-readme.md
         children:
         - Azure.ResourceManager.ManagedNetworkFabric
+        - Azure.ResourceManager.ManagedNetworkFabric.Mocking
         - Azure.ResourceManager.ManagedNetworkFabric.Models
   - name: Managed Service Identity
     href: ~/api/overview/azure/{moniker}/managed-service-identity.md
@@ -2294,6 +2409,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.marketplace-readme.md
         children:
         - Azure.ResourceManager.Marketplace
+        - Azure.ResourceManager.Marketplace.Mocking
         - Azure.ResourceManager.Marketplace.Models
       - name: Management - Marketplace (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.marketplace-readme.md
@@ -2407,6 +2523,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.mobilenetwork-readme.md
         children:
         - Azure.ResourceManager.MobileNetwork
+        - Azure.ResourceManager.MobileNetwork.Mocking
         - Azure.ResourceManager.MobileNetwork.Models
   - name: Mobile Services
     href: ~/api/overview/azure/{moniker}/mobile-services.md
@@ -2750,6 +2867,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.networkfunction-readme.md
         children:
         - Azure.ResourceManager.NetworkFunction
+        - Azure.ResourceManager.NetworkFunction.Mocking
         - Azure.ResourceManager.NetworkFunction.Models
   - name: Networkanalytics
     href: ~/api/overview/azure/{moniker}/networkanalytics.md
@@ -2761,6 +2879,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.networkanalytics-readme.md
         children:
         - Azure.ResourceManager.NetworkAnalytics
+        - Azure.ResourceManager.NetworkAnalytics.Mocking
         - Azure.ResourceManager.NetworkAnalytics.Models
   - name: New Relic Observability
     href: ~/api/overview/azure/{moniker}/new-relic-observability.md
@@ -2783,6 +2902,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.nginx-readme.md
         children:
         - Azure.ResourceManager.Nginx
+        - Azure.ResourceManager.Nginx.Mocking
         - Azure.ResourceManager.Nginx.Models
   - name: Notification Hubs
     href: ~/api/overview/azure/{moniker}/notification-hubs.md
@@ -2923,6 +3043,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.privatedns-readme.md
         children:
         - Azure.ResourceManager.PrivateDns
+        - Azure.ResourceManager.PrivateDns.Mocking
         - Azure.ResourceManager.PrivateDns.Models
       - name: Management - Private DNS (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.privatedns-readme.md
@@ -2948,6 +3069,7 @@
       href: ~/api/overview/azure/{moniker}/analytics.purview.account-readme.md
       children:
       - Azure.Analytics.Purview.Account
+      - Microsoft.Extensions.Azure
     - name: Purview Administration
       href: ~/api/overview/azure/{moniker}/analytics.purview.administration-readme.md
       children:
@@ -2956,10 +3078,12 @@
       href: ~/api/overview/azure/{moniker}/analytics.purview.catalog-readme.md
       children:
       - Azure.Analytics.Purview.Catalog
+      - Microsoft.Extensions.Azure
     - name: Purview Scanning
       href: ~/api/overview/azure/{moniker}/analytics.purview.scanning-readme.md
       children:
       - Azure.Analytics.Purview.Scanning
+      - Microsoft.Extensions.Azure
     - name: Purview Share (deprecated)
       href: ~/api/overview/azure/{moniker}/analytics.purview.share-readme.md
       children:
@@ -3024,6 +3148,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.quota-readme.md
         children:
         - Azure.ResourceManager.Quota
+        - Azure.ResourceManager.Quota.Mocking
         - Azure.ResourceManager.Quota.Models
       - name: Resource Management - Quota (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.quota-readme.md
@@ -3050,6 +3175,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.recoveryservicesdatareplication-readme.md
         children:
         - Azure.ResourceManager.RecoveryServicesDataReplication
+        - Azure.ResourceManager.RecoveryServicesDataReplication.Mocking
         - Azure.ResourceManager.RecoveryServicesDataReplication.Models
       - name: Resource Management - Site Recovery
         href: ~/api/overview/azure/{moniker}/resourcemanager.recoveryservicessiterecovery-readme.md
@@ -3083,6 +3209,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.redis-readme.md
         children:
         - Azure.ResourceManager.Redis
+        - Azure.ResourceManager.Redis.Mocking
         - Azure.ResourceManager.Redis.Models
       - name: Resource Management - Redis Enterprise
         href: ~/api/overview/azure/{moniker}/resourcemanager.redisenterprise-readme.md
@@ -3157,6 +3284,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.reservations-readme.md
         children:
         - Azure.ResourceManager.Reservations
+        - Azure.ResourceManager.Reservations.Mocking
         - Azure.ResourceManager.Reservations.Models
       - name: Management - Reservations (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.reservations-readme.md
@@ -3184,6 +3312,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.resourcegraph-readme.md
         children:
         - Azure.ResourceManager.ResourceGraph
+        - Azure.ResourceManager.ResourceGraph.Mocking
         - Azure.ResourceManager.ResourceGraph.Models
       - name: Management - Resource Graph (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.resourcegraph-readme.md
@@ -3267,6 +3396,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.resourcemover-readme.md
         children:
         - Azure.ResourceManager.ResourceMover
+        - Azure.ResourceManager.ResourceMover.Mocking
         - Azure.ResourceManager.ResourceMover.Models
       - name: Management - Resource Mover (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.migrate.resourcemover-readme.md
@@ -3355,6 +3485,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.search-readme.md
         children:
         - Azure.ResourceManager.Search
+        - Azure.ResourceManager.Search.Mocking
         - Azure.ResourceManager.Search.Models
       - name: Management - Cognitive Search (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.search-readme.md
@@ -3389,6 +3520,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.securitydevops-readme.md
         children:
         - Azure.ResourceManager.SecurityDevOps
+        - Azure.ResourceManager.SecurityDevOps.Mocking
         - Azure.ResourceManager.SecurityDevOps.Models
   - name: Security Insights
     href: ~/api/overview/azure/{moniker}/security-insights.md
@@ -3457,6 +3589,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.servicebus-readme.md
         children:
         - Azure.ResourceManager.ServiceBus
+        - Azure.ResourceManager.ServiceBus.Mocking
         - Azure.ResourceManager.ServiceBus.Models
       - name: Management - Service Bus (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.servicebus-readme.md
@@ -3499,6 +3632,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.servicefabric-readme.md
         children:
         - Azure.ResourceManager.ServiceFabric
+        - Azure.ResourceManager.ServiceFabric.Mocking
         - Azure.ResourceManager.ServiceFabric.Models
       - name: Resource Management - Service Fabric Managed Clusters
         href: ~/api/overview/azure/{moniker}/resourcemanager.servicefabricmanagedclusters-readme.md
@@ -3563,6 +3697,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.sphere-readme.md
         children:
         - Azure.ResourceManager.Sphere
+        - Azure.ResourceManager.Sphere.Mocking
         - Azure.ResourceManager.Sphere.Models
   - name: Spring Cloud
     href: ~/api/overview/azure/{moniker}/spring-cloud.md
@@ -3585,6 +3720,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.sql-readme.md
         children:
         - Azure.ResourceManager.Sql
+        - Azure.ResourceManager.Sql.Mocking
         - Azure.ResourceManager.Sql.Models
       - name: Management - SQL (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.sql-readme.md
@@ -3738,12 +3874,10 @@
       href: ~/api/overview/azure/{moniker}/storage.datamovement-readme.md
       children:
       - Azure.Storage.DataMovement
-      - Azure.Storage.DataMovement.Models
     - name: Data Movement - Blobs
       href: ~/api/overview/azure/{moniker}/storage.datamovement.blobs-readme.md
       children:
       - Azure.Storage.Blobs
-      - Azure.Storage.Blobs.Models
       - Azure.Storage.DataMovement.Blobs
     - name: Storage - Files Data Lake
       href: ~/api/overview/azure/{moniker}/storage.files.datalake-readme.md
@@ -3845,17 +3979,18 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.storage-readme.md
         children:
         - Azure.ResourceManager.Storage
-        - Azure.ResourceManager.Storage.Mocking
         - Azure.ResourceManager.Storage.Models
       - name: Resource Management - Storage Cache
         href: ~/api/overview/azure/{moniker}/resourcemanager.storagecache-readme.md
         children:
         - Azure.ResourceManager.StorageCache
+        - Azure.ResourceManager.StorageCache.Mocking
         - Azure.ResourceManager.StorageCache.Models
       - name: Resource Management - Storage Mover
         href: ~/api/overview/azure/{moniker}/resourcemanager.storagemover-readme.md
         children:
         - Azure.ResourceManager.StorageMover
+        - Azure.ResourceManager.StorageMover.Mocking
         - Azure.ResourceManager.StorageMover.Models
       - name: Resource Management - Storage Pool
         href: ~/api/overview/azure/{moniker}/resourcemanager.storagepool-readme.md
@@ -3958,6 +4093,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.streamanalytics-readme.md
         children:
         - Azure.ResourceManager.StreamAnalytics
+        - Azure.ResourceManager.StreamAnalytics.Mocking
         - Azure.ResourceManager.StreamAnalytics.Models
       - name: Management - Stream Analytics (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.streamanalytics-readme.md
@@ -4004,7 +4140,7 @@
       href: ~/api/overview/azure/{moniker}/analytics.synapse.accesscontrol-readme.md
       children:
       - Azure.Analytics.Synapse.AccessControl
-      - Azure.Analytics.Synapse.AccessControl.Models
+      - Microsoft.Extensions.Azure
     - name: Synapse - Artifacts
       href: ~/api/overview/azure/{moniker}/analytics.synapse.artifacts-readme.md
       children:
@@ -4071,6 +4207,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.trafficmanager-readme.md
         children:
         - Azure.ResourceManager.TrafficManager
+        - Azure.ResourceManager.TrafficManager.Mocking
         - Azure.ResourceManager.TrafficManager.Models
       - name: Management - Traffic Manager (deprecated)
         href: ~/api/overview/azure/{moniker}/microsoft.azure.management.trafficmanager-readme.md
@@ -4095,6 +4232,10 @@
         children:
         - Microsoft.WindowsAzure.Management.TrafficManager
         - Microsoft.WindowsAzure.Management.TrafficManager.Models
+  - name: Unknown Service
+    href: ~/api/overview/azure/{moniker}/unknown-service.md
+    landingPageType: Service
+    items: []
   - name: Video Analyzer
     href: ~/api/overview/azure/{moniker}/video-analyzer.md
     landingPageType: Service
@@ -4177,6 +4318,7 @@
         href: ~/api/overview/azure/{moniker}/resourcemanager.workloads-readme.md
         children:
         - Azure.ResourceManager.Workloads
+        - Azure.ResourceManager.Workloads.Mocking
         - Azure.ResourceManager.Workloads.Models
   - name: Other
     landingPageType: Service
