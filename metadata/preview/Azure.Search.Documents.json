@@ -1,7 +1,7 @@
 {
   "Name": "Azure.Search.Documents",
-  "Version": "11.5.0-alpha.20231102.1",
-  "DevVersion": "11.5.0-alpha.20231102.1",
+  "Version": "11.5.0-alpha.20231102.3",
+  "DevVersion": "11.5.0-alpha.20231102.3",
   "DirectoryPath": "sdk/search/Azure.Search.Documents",
   "ServiceDirectory": "search",
   "ReadMePath": "sdk/search/Azure.Search.Documents/README.md",
