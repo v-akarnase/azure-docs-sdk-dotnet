@@ -1,7 +1,7 @@
 {
   "Name": "Azure.ResourceManager.ResourceConnector",
-  "Version": "1.0.0-beta.1",
-  "DevVersion": null,
+  "Version": "1.0.0-alpha.20231102.1",
+  "DevVersion": "1.0.0-alpha.20231102.1",
   "DirectoryPath": "sdk/resourceconnector/Azure.ResourceManager.ResourceConnector",
   "ServiceDirectory": "resourceconnector",
   "ReadMePath": "sdk/resourceconnector/Azure.ResourceManager.ResourceConnector/README.md",
@@ -10,9 +10,10 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "Azure.ResourceManager.ResourceConnector",
-  "ReleaseStatus": "2023-09-15",
+  "ReleaseStatus": null,
   "Namespaces": [
     "Azure.ResourceManager.ResourceConnector",
+    "Azure.ResourceManager.ResourceConnector.Mocking",
     "Azure.ResourceManager.ResourceConnector.Models"
   ]
 }
