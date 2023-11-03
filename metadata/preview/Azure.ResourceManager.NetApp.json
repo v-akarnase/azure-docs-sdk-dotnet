@@ -1,0 +1,19 @@
+{
+  "Name": "Azure.ResourceManager.NetApp",
+  "Version": "1.5.0-alpha.20231103.1",
+  "DevVersion": "1.5.0-alpha.20231103.1",
+  "DirectoryPath": "sdk/netapp/Azure.ResourceManager.NetApp",
+  "ServiceDirectory": "netapp",
+  "ReadMePath": "sdk/netapp/Azure.ResourceManager.NetApp/README.md",
+  "ChangeLogPath": "sdk/netapp/Azure.ResourceManager.NetApp/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "Azure.ResourceManager.NetApp",
+  "ReleaseStatus": null,
+  "Namespaces": [
+    "Azure.ResourceManager.NetApp",
+    "Azure.ResourceManager.NetApp.Mocking",
+    "Azure.ResourceManager.NetApp.Models"
+  ]
+}
