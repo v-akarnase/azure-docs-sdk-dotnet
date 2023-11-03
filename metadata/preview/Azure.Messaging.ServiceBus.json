@@ -1,7 +1,7 @@
 {
   "Name": "Azure.Messaging.ServiceBus",
-  "Version": "7.17.0-alpha.20231103.1",
-  "DevVersion": "7.17.0-alpha.20231103.1",
+  "Version": "7.17.0-alpha.20231103.4",
+  "DevVersion": "7.17.0-alpha.20231103.4",
   "DirectoryPath": "sdk/servicebus/Azure.Messaging.ServiceBus",
   "ServiceDirectory": "servicebus",
   "ReadMePath": "sdk/servicebus/Azure.Messaging.ServiceBus/README.md",

@@ -1,7 +1,7 @@
 {
-  "Name": "Microsoft.Azure.WebJobs.Extensions.ServiceBus",
-  "Version": "5.14.0-alpha.20231103.4",
-  "DevVersion": "5.14.0-alpha.20231103.4",
+  "Name": "Microsoft.Azure.WebJobs.Extensions.ServiceBus.Grpc",
+  "Version": "1.0.0-alpha.20231103.4",
+  "DevVersion": "1.0.0-alpha.20231103.4",
   "DirectoryPath": "sdk/servicebus/Microsoft.Azure.WebJobs.Extensions.ServiceBus",
   "ServiceDirectory": "servicebus",
   "ReadMePath": "sdk/servicebus/Microsoft.Azure.WebJobs.Extensions.ServiceBus/README.md",
@@ -9,7 +9,7 @@
   "Group": null,
   "SdkType": "client",
   "IsNewSdk": true,
-  "ArtifactName": "Microsoft.Azure.WebJobs.Extensions.ServiceBus",
+  "ArtifactName": "Microsoft.Azure.WebJobs.Extensions.ServiceBus.Grpc",
   "ReleaseStatus": null,
   "Namespaces": [
     "Microsoft.Azure.WebJobs",

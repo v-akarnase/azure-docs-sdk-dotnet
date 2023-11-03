@@ -1,12 +1,12 @@
 ---
 title: Azure WebJobs Service Bus client library for .NET
-keywords: Azure, dotnet, SDK, API, Microsoft.Azure.WebJobs.Extensions.ServiceBus, servicebus
+keywords: Azure, dotnet, SDK, API, Microsoft.Azure.WebJobs.Extensions.ServiceBus.Grpc, servicebus
 ms.date: 11/03/2023
 ms.topic: reference
 ms.devlang: dotnet
 ms.service: servicebus
 ---
-# Azure WebJobs Service Bus client library for .NET - version 5.14.0-alpha.20231103.4 
+# Azure WebJobs Service Bus client library for .NET - version 1.0.0-alpha.20231103.4 
 
 
 This extension provides functionality for accessing Azure Service Bus from an Azure Function.
