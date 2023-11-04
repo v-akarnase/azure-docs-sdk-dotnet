@@ -132,10 +132,10 @@
         <Parameter Name="blobInventoryPolicyName" Type="Azure.ResourceManager.Storage.Models.BlobInventoryPolicyName" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="accountName">To be added.</param>
-        <param name="blobInventoryPolicyName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="accountName"> The accountName. </param>
+        <param name="blobInventoryPolicyName"> The blobInventoryPolicyName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Storage.BlobInventoryPolicyResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

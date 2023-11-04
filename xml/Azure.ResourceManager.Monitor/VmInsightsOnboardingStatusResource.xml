@@ -62,7 +62,7 @@
         <Parameter Name="resourceUri" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="resourceUri">To be added.</param>
+        <param name="resourceUri"> The resourceUri. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Monitor.VmInsightsOnboardingStatusResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

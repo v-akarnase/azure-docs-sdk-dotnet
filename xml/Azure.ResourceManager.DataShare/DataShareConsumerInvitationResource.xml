@@ -61,8 +61,8 @@
         <Parameter Name="invitationId" Type="System.Guid" />
       </Parameters>
       <Docs>
-        <param name="location">To be added.</param>
-        <param name="invitationId">To be added.</param>
+        <param name="location"> The location. </param>
+        <param name="invitationId"> The invitationId. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.DataShare.DataShareConsumerInvitationResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

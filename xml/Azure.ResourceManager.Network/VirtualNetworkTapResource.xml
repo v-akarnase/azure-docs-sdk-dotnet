@@ -134,9 +134,9 @@
         <Parameter Name="tapName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="tapName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="tapName"> The tapName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Network.VirtualNetworkTapResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

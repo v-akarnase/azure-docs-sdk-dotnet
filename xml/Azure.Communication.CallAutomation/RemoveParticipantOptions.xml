@@ -66,6 +66,28 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="OverrideCallbackUrl">
+      <MemberSignature Language="C#" Value="public string OverrideCallbackUrl { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OverrideCallbackUrl" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.RemoveParticipantOptions.OverrideCallbackUrl" />
+      <MemberSignature Language="VB.NET" Value="Public Property OverrideCallbackUrl As String" />
+      <MemberSignature Language="F#" Value="member this.OverrideCallbackUrl : string with get, set" Usage="Azure.Communication.CallAutomation.RemoveParticipantOptions.OverrideCallbackUrl" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The callback URI to override the main callback URI.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="ParticipantToRemove">
       <MemberSignature Language="C#" Value="public Azure.Communication.CommunicationIdentifier ParticipantToRemove { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.CommunicationIdentifier ParticipantToRemove" />

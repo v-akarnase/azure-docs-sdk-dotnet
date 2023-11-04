@@ -65,13 +65,13 @@
         <Parameter Name="sku" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="providerNamespace">To be added.</param>
-        <param name="resourceType">To be added.</param>
-        <param name="nestedResourceTypeFirst">To be added.</param>
-        <param name="nestedResourceTypeSecond">To be added.</param>
-        <param name="nestedResourceTypeThird">To be added.</param>
-        <param name="sku">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="providerNamespace"> The providerNamespace. </param>
+        <param name="resourceType"> The resourceType. </param>
+        <param name="nestedResourceTypeFirst"> The nestedResourceTypeFirst. </param>
+        <param name="nestedResourceTypeSecond"> The nestedResourceTypeSecond. </param>
+        <param name="nestedResourceTypeThird"> The nestedResourceTypeThird. </param>
+        <param name="sku"> The sku. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.ProviderHub.NestedResourceTypeThirdSkuResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

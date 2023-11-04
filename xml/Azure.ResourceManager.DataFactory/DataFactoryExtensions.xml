@@ -44,7 +44,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates a factory's repo information.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataFactory/locations/{locationId}/configureFactoryRepo</description></item><item><term>Operation Id</term><description>Factories_ConfigureFactoryRepo</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataFactory/locations/{locationId}/configureFactoryRepo</description></item><item><term>Operation Id</term><description>Factories_ConfigureFactoryRepo</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataFactory.Mocking.MockableDataFactorySubscriptionResource.ConfigureFactoryRepoInformation(Azure.Core.AzureLocation,Azure.ResourceManager.DataFactory.Models.FactoryRepoContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -78,7 +78,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates a factory's repo information.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataFactory/locations/{locationId}/configureFactoryRepo</description></item><item><term>Operation Id</term><description>Factories_ConfigureFactoryRepo</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataFactory/locations/{locationId}/configureFactoryRepo</description></item><item><term>Operation Id</term><description>Factories_ConfigureFactoryRepo</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataFactory.Mocking.MockableDataFactorySubscriptionResource.ConfigureFactoryRepoInformation(Azure.Core.AzureLocation,Azure.ResourceManager.DataFactory.Models.FactoryRepoContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -104,7 +104,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of DataFactoryResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of DataFactoryResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataFactory.Mocking.MockableDataFactoryResourceGroupResource.GetDataFactories" /> instead.</description></item></summary>
         <returns> An object representing collection of DataFactoryResources and their operations over a DataFactoryResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -132,7 +134,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists factories under the specified subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataFactory/factories</description></item><item><term>Operation Id</term><description>Factories_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataFactory/factories</description></item><item><term>Operation Id</term><description>Factories_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataFactory.Mocking.MockableDataFactorySubscriptionResource.GetDataFactories(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -160,7 +162,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists factories under the specified subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataFactory/factories</description></item><item><term>Operation Id</term><description>Factories_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataFactory/factories</description></item><item><term>Operation Id</term><description>Factories_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataFactory.Mocking.MockableDataFactorySubscriptionResource.GetDataFactories(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -192,13 +194,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a factory.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}</description></item><item><term>Operation Id</term><description>Factories_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}</description></item><item><term>Operation Id</term><description>Factories_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataFactory.Mocking.MockableDataFactoryResourceGroupResource.GetDataFactory(System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="factoryName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="factoryName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="factoryName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetDataFactoryAsync">
@@ -228,13 +230,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a factory.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}</description></item><item><term>Operation Id</term><description>Factories_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}</description></item><item><term>Operation Id</term><description>Factories_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataFactory.Mocking.MockableDataFactoryResourceGroupResource.GetDataFactoryAsync(System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="factoryName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="factoryName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="factoryName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetDataFactoryChangeDataCaptureResource">
@@ -261,7 +263,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryChangeDataCaptureResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataFactory.DataFactoryChangeDataCaptureResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryChangeDataCaptureResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataFactory.Mocking.MockableDataFactoryArmClient.GetDataFactoryChangeDataCaptureResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryChangeDataCaptureResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -290,7 +292,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryDataFlowResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataFactory.DataFactoryDataFlowResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryDataFlowResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataFactory.Mocking.MockableDataFactoryArmClient.GetDataFactoryDataFlowResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryDataFlowResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -319,7 +321,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryDatasetResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataFactory.DataFactoryDatasetResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryDatasetResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataFactory.Mocking.MockableDataFactoryArmClient.GetDataFactoryDatasetResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryDatasetResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -348,7 +350,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryGlobalParameterResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataFactory.DataFactoryGlobalParameterResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryGlobalParameterResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataFactory.Mocking.MockableDataFactoryArmClient.GetDataFactoryGlobalParameterResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryGlobalParameterResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -377,7 +379,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryIntegrationRuntimeResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataFactory.DataFactoryIntegrationRuntimeResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryIntegrationRuntimeResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataFactory.Mocking.MockableDataFactoryArmClient.GetDataFactoryIntegrationRuntimeResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryIntegrationRuntimeResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -406,7 +408,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryLinkedServiceResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataFactory.DataFactoryLinkedServiceResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryLinkedServiceResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataFactory.Mocking.MockableDataFactoryArmClient.GetDataFactoryLinkedServiceResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryLinkedServiceResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -435,7 +437,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryManagedIdentityCredentialResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataFactory.DataFactoryManagedIdentityCredentialResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryManagedIdentityCredentialResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataFactory.Mocking.MockableDataFactoryArmClient.GetDataFactoryManagedIdentityCredentialResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryManagedIdentityCredentialResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -464,7 +466,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryManagedVirtualNetworkResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataFactory.DataFactoryManagedVirtualNetworkResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryManagedVirtualNetworkResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataFactory.Mocking.MockableDataFactoryArmClient.GetDataFactoryManagedVirtualNetworkResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryManagedVirtualNetworkResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -493,7 +495,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryPipelineResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataFactory.DataFactoryPipelineResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryPipelineResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataFactory.Mocking.MockableDataFactoryArmClient.GetDataFactoryPipelineResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryPipelineResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -522,7 +524,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryPrivateEndpointConnectionResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataFactory.DataFactoryPrivateEndpointConnectionResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryPrivateEndpointConnectionResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataFactory.Mocking.MockableDataFactoryArmClient.GetDataFactoryPrivateEndpointConnectionResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryPrivateEndpointConnectionResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -551,7 +553,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryPrivateEndpointResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataFactory.DataFactoryPrivateEndpointResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryPrivateEndpointResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataFactory.Mocking.MockableDataFactoryArmClient.GetDataFactoryPrivateEndpointResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryPrivateEndpointResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -580,7 +582,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataFactory.DataFactoryResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataFactory.Mocking.MockableDataFactoryArmClient.GetDataFactoryResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -609,7 +611,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryTriggerResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataFactory.DataFactoryTriggerResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryTriggerResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataFactory.Mocking.MockableDataFactoryArmClient.GetDataFactoryTriggerResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryTriggerResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -641,7 +643,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get exposure control feature for specific location.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataFactory/locations/{locationId}/getFeatureValue</description></item><item><term>Operation Id</term><description>ExposureControl_GetFeatureValue</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataFactory/locations/{locationId}/getFeatureValue</description></item><item><term>Operation Id</term><description>ExposureControl_GetFeatureValue</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataFactory.Mocking.MockableDataFactorySubscriptionResource.GetFeatureValueExposureControl(Azure.Core.AzureLocation,Azure.ResourceManager.DataFactory.Models.ExposureControlContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -675,7 +677,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get exposure control feature for specific location.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataFactory/locations/{locationId}/getFeatureValue</description></item><item><term>Operation Id</term><description>ExposureControl_GetFeatureValue</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataFactory/locations/{locationId}/getFeatureValue</description></item><item><term>Operation Id</term><description>ExposureControl_GetFeatureValue</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataFactory.Mocking.MockableDataFactorySubscriptionResource.GetFeatureValueExposureControl(Azure.Core.AzureLocation,Azure.ResourceManager.DataFactory.Models.ExposureControlContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

@@ -59,7 +59,7 @@
         <Parameter Name="bestPracticeName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="bestPracticeName">To be added.</param>
+        <param name="bestPracticeName"> The bestPracticeName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Automanage.AutomanageBestPracticeResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

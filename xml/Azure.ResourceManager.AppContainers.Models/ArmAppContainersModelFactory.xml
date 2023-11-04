@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.Models.AppContainerResources</ReturnType>
@@ -55,6 +57,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppAuthConfigData</ReturnType>
@@ -95,6 +98,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.Models.ContainerAppAuthToken</ReturnType>
@@ -133,6 +137,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.Models.ContainerAppAvailableWorkloadProfile</ReturnType>
@@ -167,6 +172,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.Models.ContainerAppBillingMeter</ReturnType>
@@ -201,6 +207,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppCertificateData</ReturnType>
@@ -237,6 +244,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.Models.ContainerAppCertificateProperties</ReturnType>
@@ -281,6 +289,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentData</ReturnType>
@@ -329,6 +338,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentStorageData</ReturnType>
@@ -361,6 +371,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.Models.ContainerAppCustomDomainConfiguration</ReturnType>
@@ -397,6 +408,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.Models.ContainerAppCustomDomainVerificationFailureInfo</ReturnType>
@@ -427,6 +439,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.Models.ContainerAppCustomDomainVerificationFailureInfoDetailsItem</ReturnType>
@@ -455,6 +468,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.Models.ContainerAppCustomHostnameAnalysisResult</ReturnType>
@@ -501,6 +515,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppDaprComponentData</ReturnType>
@@ -547,6 +562,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.Models.ContainerAppDaprSecret</ReturnType>
@@ -573,6 +589,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppData</ReturnType>
@@ -637,6 +654,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppDiagnosticData</ReturnType>
@@ -669,6 +687,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.Models.ContainerAppDiagnosticsMetadata</ReturnType>
@@ -711,6 +730,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.Models.ContainerAppDiagnosticSupportTopic</ReturnType>
@@ -737,6 +757,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.Models.ContainerAppEnvironmentAuthToken</ReturnType>
@@ -775,6 +796,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.Models.ContainerAppIngressConfiguration</ReturnType>
@@ -821,6 +843,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppJobData</ReturnType>
@@ -871,6 +894,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.Models.ContainerAppJobExecutionBase</ReturnType>
@@ -897,6 +921,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppJobExecutionData</ReturnType>
@@ -935,6 +960,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.Models.ContainerAppJobExecutions</ReturnType>
@@ -961,6 +987,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppManagedCertificateData</ReturnType>
@@ -997,6 +1024,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentData</ReturnType>
@@ -1069,6 +1097,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentStorageData</ReturnType>
@@ -1101,6 +1130,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.Models.ContainerAppNameAvailabilityResult</ReturnType>
@@ -1129,6 +1159,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.Models.ContainerAppReplicaContainer</ReturnType>
@@ -1169,6 +1200,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppReplicaData</ReturnType>
@@ -1209,6 +1241,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppRevisionData</ReturnType>
@@ -1268,6 +1301,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.Models.ContainerAppSecret</ReturnType>
@@ -1298,6 +1332,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppSourceControlData</ReturnType>
@@ -1340,6 +1375,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.Models.ContainerAppWorkloadProfileState</ReturnType>
@@ -1372,6 +1408,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.Models.ManagedCertificateProperties</ReturnType>

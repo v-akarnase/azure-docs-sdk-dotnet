@@ -62,8 +62,8 @@
         <Parameter Name="linkerName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="resourceUri">To be added.</param>
-        <param name="linkerName">To be added.</param>
+        <param name="resourceUri"> The resourceUri. </param>
+        <param name="linkerName"> The linkerName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.ServiceLinker.LinkerResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

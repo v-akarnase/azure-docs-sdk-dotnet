@@ -124,9 +124,9 @@
         <Parameter Name="quotaBucketName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="location">To be added.</param>
-        <param name="quotaBucketName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="location"> The location. </param>
+        <param name="quotaBucketName"> The quotaBucketName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.LoadTesting.LoadTestingQuotaResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

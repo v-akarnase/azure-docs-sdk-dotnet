@@ -63,8 +63,8 @@
         <Parameter Name="providerport" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="providerport">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="providerport"> The providerport. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Network.ExpressRouteProviderPortResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

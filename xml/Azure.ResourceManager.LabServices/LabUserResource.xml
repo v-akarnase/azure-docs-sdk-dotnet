@@ -63,10 +63,10 @@
         <Parameter Name="userName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="labName">To be added.</param>
-        <param name="userName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="labName"> The labName. </param>
+        <param name="userName"> The userName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.LabServices.LabUserResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

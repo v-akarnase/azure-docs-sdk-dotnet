@@ -69,10 +69,10 @@
         <Parameter Name="loadBalancingRuleName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="loadBalancerName">To be added.</param>
-        <param name="loadBalancingRuleName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="loadBalancerName"> The loadBalancerName. </param>
+        <param name="loadBalancingRuleName"> The loadBalancingRuleName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Network.LoadBalancingRuleResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

@@ -9,6 +9,7 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -29,6 +30,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Hci.ArcExtensionResource</ReturnType>
@@ -43,7 +45,7 @@
         <summary>
             Gets an object representing an <see cref="T:Azure.ResourceManager.Hci.ArcExtensionResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Hci.ArcExtensionResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.Hci.ArcExtensionResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Hci.Mocking.MockableHciArmClient.GetArcExtensionResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Hci.ArcExtensionResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -58,6 +60,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Hci.ArcSettingResource</ReturnType>
@@ -72,7 +75,7 @@
         <summary>
             Gets an object representing an <see cref="T:Azure.ResourceManager.Hci.ArcSettingResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Hci.ArcSettingResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.Hci.ArcSettingResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Hci.Mocking.MockableHciArmClient.GetArcSettingResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Hci.ArcSettingResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -87,6 +90,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Hci.HciClusterResource&gt;</ReturnType>
@@ -102,13 +106,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get HCI cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Hci.Mocking.MockableHciResourceGroupResource.GetHciCluster(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="clusterName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="clusterName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="clusterName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetHciClusterAsync">
@@ -121,6 +125,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Hci.HciClusterResource&gt;&gt;</ReturnType>
@@ -136,13 +141,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get HCI cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Hci.Mocking.MockableHciResourceGroupResource.GetHciClusterAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="clusterName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="clusterName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="clusterName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetHciClusterResource">
@@ -155,6 +160,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Hci.HciClusterResource</ReturnType>
@@ -169,7 +175,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Hci.HciClusterResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Hci.HciClusterResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Hci.HciClusterResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Hci.Mocking.MockableHciArmClient.GetHciClusterResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Hci.HciClusterResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -184,6 +190,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Hci.HciClusterCollection</ReturnType>
@@ -193,7 +200,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of HciClusterResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of HciClusterResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Hci.Mocking.MockableHciResourceGroupResource.GetHciClusters" /> instead.</description></item></summary>
         <returns> An object representing collection of HciClusterResources and their operations over a HciClusterResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -208,6 +217,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Hci.HciClusterResource&gt;</ReturnType>
@@ -221,7 +231,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all HCI clusters in a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.AzureStackHCI/clusters</description></item><item><term>Operation Id</term><description>Clusters_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.AzureStackHCI/clusters</description></item><item><term>Operation Id</term><description>Clusters_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Hci.Mocking.MockableHciSubscriptionResource.GetHciClusters(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Hci.HciClusterResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -236,6 +246,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Hci.HciClusterResource&gt;</ReturnType>
@@ -249,7 +260,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all HCI clusters in a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.AzureStackHCI/clusters</description></item><item><term>Operation Id</term><description>Clusters_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.AzureStackHCI/clusters</description></item><item><term>Operation Id</term><description>Clusters_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Hci.Mocking.MockableHciSubscriptionResource.GetHciClusters(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Hci.HciClusterResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -264,6 +275,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Hci.HciSkuResource</ReturnType>
@@ -278,7 +290,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Hci.HciSkuResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Hci.HciSkuResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Hci.HciSkuResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Hci.Mocking.MockableHciArmClient.GetHciSkuResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Hci.HciSkuResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -293,6 +305,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Hci.OfferResource</ReturnType>
@@ -307,7 +320,7 @@
         <summary>
             Gets an object representing an <see cref="T:Azure.ResourceManager.Hci.OfferResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Hci.OfferResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.Hci.OfferResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Hci.Mocking.MockableHciArmClient.GetOfferResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Hci.OfferResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -322,6 +335,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Hci.PublisherResource</ReturnType>
@@ -336,7 +350,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Hci.PublisherResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Hci.PublisherResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Hci.PublisherResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Hci.Mocking.MockableHciArmClient.GetPublisherResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Hci.PublisherResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -351,6 +365,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Hci.UpdateResource</ReturnType>
@@ -365,7 +380,7 @@
         <summary>
             Gets an object representing an <see cref="T:Azure.ResourceManager.Hci.UpdateResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Hci.UpdateResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.Hci.UpdateResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Hci.Mocking.MockableHciArmClient.GetUpdateResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Hci.UpdateResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -380,6 +395,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Hci.UpdateRunResource</ReturnType>
@@ -394,7 +410,7 @@
         <summary>
             Gets an object representing an <see cref="T:Azure.ResourceManager.Hci.UpdateRunResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Hci.UpdateRunResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.Hci.UpdateRunResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Hci.Mocking.MockableHciArmClient.GetUpdateRunResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Hci.UpdateRunResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -409,6 +425,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Hci.UpdateSummaryResource</ReturnType>
@@ -423,7 +440,7 @@
         <summary>
             Gets an object representing an <see cref="T:Azure.ResourceManager.Hci.UpdateSummaryResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Hci.UpdateSummaryResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.Hci.UpdateSummaryResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Hci.Mocking.MockableHciArmClient.GetUpdateSummaryResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Hci.UpdateSummaryResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>

@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
     <AssemblyVersion>4.20.0.0</AssemblyVersion>
+    <AssemblyVersion>4.21.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.20.0.0</AssemblyVersion>
+        <AssemblyVersion>4.21.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -47,6 +49,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.20.0.0</AssemblyVersion>
+        <AssemblyVersion>4.21.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -67,6 +70,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.20.0.0</AssemblyVersion>
+        <AssemblyVersion>4.21.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -93,6 +97,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.20.0.0</AssemblyVersion>
+        <AssemblyVersion>4.21.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
@@ -113,6 +118,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.20.0.0</AssemblyVersion>
+        <AssemblyVersion>4.21.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.Messaging.EventGrid.SystemEvents.AcsRouterLabelOperator&gt;</ReturnType>
@@ -133,6 +139,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.20.0.0</AssemblyVersion>
+        <AssemblyVersion>4.21.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.Messaging.EventGrid.SystemEvents.AcsRouterWorkerSelectorState&gt;</ReturnType>
@@ -153,6 +160,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.20.0.0</AssemblyVersion>
+        <AssemblyVersion>4.21.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -179,6 +187,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.20.0.0</AssemblyVersion>
+        <AssemblyVersion>4.21.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.TimeSpan&gt;</ReturnType>

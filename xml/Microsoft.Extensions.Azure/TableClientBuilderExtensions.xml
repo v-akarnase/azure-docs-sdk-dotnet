@@ -20,6 +20,7 @@
     <AssemblyVersion>12.7.1.0</AssemblyVersion>
     <AssemblyVersion>12.8.0.0</AssemblyVersion>
     <AssemblyVersion>12.8.1.0</AssemblyVersion>
+    <AssemblyVersion>12.8.2.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -42,6 +43,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.8.1.0</AssemblyVersion>
+        <AssemblyVersion>12.8.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Data.Tables.TableServiceClient,Azure.Data.Tables.TableClientOptions&gt;</ReturnType>
@@ -77,6 +79,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.8.1.0</AssemblyVersion>
+        <AssemblyVersion>12.8.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Data.Tables.TableServiceClient,Azure.Data.Tables.TableClientOptions&gt;</ReturnType>
@@ -112,6 +115,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.8.1.0</AssemblyVersion>
+        <AssemblyVersion>12.8.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Data.Tables.TableServiceClient,Azure.Data.Tables.TableClientOptions&gt;</ReturnType>
@@ -149,6 +153,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.8.1.0</AssemblyVersion>
+        <AssemblyVersion>12.8.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Data.Tables.TableServiceClient,Azure.Data.Tables.TableClientOptions&gt;</ReturnType>

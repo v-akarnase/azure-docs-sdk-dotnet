@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -31,6 +32,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -48,6 +50,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.LocalRulestackResource&gt;</ReturnType>
@@ -80,6 +83,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.LocalRulestackResource&gt;&gt;</ReturnType>
@@ -112,6 +116,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -141,6 +146,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -170,6 +176,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -180,9 +187,9 @@
         <Parameter Name="localRulestackName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="localRulestackName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="localRulestackName"> The localRulestackName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.LocalRulestackResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -198,6 +205,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PaloAltoNetworks.Ngfw.LocalRulestackData</ReturnType>
@@ -219,6 +227,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -248,6 +257,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -277,6 +287,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.LocalRulestackResource&gt;</ReturnType>
@@ -303,6 +314,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.AdvancedSecurityObjectListResult&gt;</ReturnType>
@@ -335,6 +347,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.AdvancedSecurityObjectListResult&gt;&gt;</ReturnType>
@@ -367,6 +380,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;System.String&gt;</ReturnType>
@@ -401,6 +415,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;System.String&gt;</ReturnType>
@@ -435,6 +450,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.LocalRulestackResource&gt;&gt;</ReturnType>
@@ -461,6 +477,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.RulestackChangelog&gt;</ReturnType>
@@ -487,6 +504,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.RulestackChangelog&gt;&gt;</ReturnType>
@@ -513,6 +531,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.RulestackCountry&gt;</ReturnType>
@@ -543,6 +562,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.RulestackCountry&gt;</ReturnType>
@@ -573,6 +593,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;System.String&gt;</ReturnType>
@@ -599,6 +620,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;System.String&gt;</ReturnType>
@@ -625,6 +647,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.LocalRulestackCertificateObjectResource&gt;</ReturnType>
@@ -641,10 +664,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/localRulestacks/{localRulestackName}/certificates/{name}</description></item><item><term>Operation Id</term><description>CertificateObjectLocalRulestack_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="name" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetLocalRulestackCertificateObjectAsync">
@@ -657,6 +680,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.LocalRulestackCertificateObjectResource&gt;&gt;</ReturnType>
@@ -673,10 +697,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/localRulestacks/{localRulestackName}/certificates/{name}</description></item><item><term>Operation Id</term><description>CertificateObjectLocalRulestack_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="name" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetLocalRulestackCertificateObjects">
@@ -689,6 +713,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PaloAltoNetworks.Ngfw.LocalRulestackCertificateObjectCollection</ReturnType>
@@ -710,6 +735,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.LocalRulestackFqdnResource&gt;</ReturnType>
@@ -726,10 +752,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/localRulestacks/{localRulestackName}/fqdnlists/{name}</description></item><item><term>Operation Id</term><description>FqdnListLocalRulestack_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="name" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetLocalRulestackFqdnAsync">
@@ -742,6 +768,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.LocalRulestackFqdnResource&gt;&gt;</ReturnType>
@@ -758,10 +785,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/localRulestacks/{localRulestackName}/fqdnlists/{name}</description></item><item><term>Operation Id</term><description>FqdnListLocalRulestack_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="name" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetLocalRulestackFqdns">
@@ -774,6 +801,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PaloAltoNetworks.Ngfw.LocalRulestackFqdnCollection</ReturnType>
@@ -795,6 +823,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.LocalRulestackPrefixResource&gt;</ReturnType>
@@ -811,10 +840,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/localRulestacks/{localRulestackName}/prefixlists/{name}</description></item><item><term>Operation Id</term><description>PrefixListLocalRulestack_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="name" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetLocalRulestackPrefixAsync">
@@ -827,6 +856,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.LocalRulestackPrefixResource&gt;&gt;</ReturnType>
@@ -843,10 +873,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/localRulestacks/{localRulestackName}/prefixlists/{name}</description></item><item><term>Operation Id</term><description>PrefixListLocalRulestack_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="name" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetLocalRulestackPrefixes">
@@ -859,6 +889,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PaloAltoNetworks.Ngfw.LocalRulestackPrefixCollection</ReturnType>
@@ -880,6 +911,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.LocalRulestackRuleResource&gt;</ReturnType>
@@ -896,10 +928,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/localRulestacks/{localRulestackName}/localRules/{priority}</description></item><item><term>Operation Id</term><description>LocalRules_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="priority" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="priority" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="priority" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetLocalRulestackRuleAsync">
@@ -912,6 +944,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.LocalRulestackRuleResource&gt;&gt;</ReturnType>
@@ -928,10 +961,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/localRulestacks/{localRulestackName}/localRules/{priority}</description></item><item><term>Operation Id</term><description>LocalRules_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="priority" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="priority" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="priority" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetLocalRulestackRules">
@@ -944,6 +977,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PaloAltoNetworks.Ngfw.LocalRulestackRuleCollection</ReturnType>
@@ -965,6 +999,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.PredefinedUrlCategory&gt;</ReturnType>
@@ -995,6 +1030,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.PredefinedUrlCategory&gt;</ReturnType>
@@ -1025,6 +1061,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.RulestackSecurityServiceListResult&gt;</ReturnType>
@@ -1057,6 +1094,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.RulestackSecurityServiceListResult&gt;&gt;</ReturnType>
@@ -1089,6 +1127,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.FirewallSupportInfo&gt;</ReturnType>
@@ -1117,6 +1156,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.FirewallSupportInfo&gt;&gt;</ReturnType>
@@ -1145,6 +1185,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1165,6 +1206,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.LocalRulestackResource&gt;</ReturnType>
@@ -1195,6 +1237,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.LocalRulestackResource&gt;&gt;</ReturnType>
@@ -1225,6 +1268,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -1244,6 +1288,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -1270,6 +1315,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -1296,6 +1342,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.LocalRulestackResource&gt;</ReturnType>
@@ -1326,6 +1373,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.LocalRulestackResource&gt;&gt;</ReturnType>
@@ -1356,6 +1404,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.LocalRulestackResource&gt;</ReturnType>
@@ -1386,6 +1435,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.LocalRulestackResource&gt;&gt;</ReturnType>

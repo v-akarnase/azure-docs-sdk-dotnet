@@ -1032,11 +1032,11 @@
       </Docs>
     </Member>
     <Member MemberName="OperationalInsightsWorkspacePurgeResult">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsWorkspacePurgeResult OperationalInsightsWorkspacePurgeResult (Guid operationId = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsWorkspacePurgeResult OperationalInsightsWorkspacePurgeResult(valuetype System.Guid operationId) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.OperationalInsights.Models.ArmOperationalInsightsModelFactory.OperationalInsightsWorkspacePurgeResult(System.Guid)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function OperationalInsightsWorkspacePurgeResult (Optional operationId As Guid = Nothing) As OperationalInsightsWorkspacePurgeResult" />
-      <MemberSignature Language="F#" Value="static member OperationalInsightsWorkspacePurgeResult : Guid -&gt; Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsWorkspacePurgeResult" Usage="Azure.ResourceManager.OperationalInsights.Models.ArmOperationalInsightsModelFactory.OperationalInsightsWorkspacePurgeResult operationId" />
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsWorkspacePurgeResult OperationalInsightsWorkspacePurgeResult (string operationStringId = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsWorkspacePurgeResult OperationalInsightsWorkspacePurgeResult(string operationStringId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.OperationalInsights.Models.ArmOperationalInsightsModelFactory.OperationalInsightsWorkspacePurgeResult(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function OperationalInsightsWorkspacePurgeResult (Optional operationStringId As String = Nothing) As OperationalInsightsWorkspacePurgeResult" />
+      <MemberSignature Language="F#" Value="static member OperationalInsightsWorkspacePurgeResult : string -&gt; Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsWorkspacePurgeResult" Usage="Azure.ResourceManager.OperationalInsights.Models.ArmOperationalInsightsModelFactory.OperationalInsightsWorkspacePurgeResult operationStringId" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
@@ -1046,13 +1046,15 @@
         <ReturnType>Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsWorkspacePurgeResult</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="operationId" Type="System.Guid" />
+        <Parameter Name="operationStringId" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="operationId"> Id to use when querying for status for a particular purge operation. </param>
+        <param name="operationStringId"> Id to use when querying for status for a particular purge operation. </param>
         <summary> Initializes a new instance of OperationalInsightsWorkspacePurgeResult. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsWorkspacePurgeResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="operationStringId" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="OperationalInsightsWorkspacePurgeStatusResult">

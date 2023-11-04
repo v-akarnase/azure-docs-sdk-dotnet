@@ -66,11 +66,11 @@
         <Parameter Name="staticMemberName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="networkManagerName">To be added.</param>
-        <param name="networkGroupName">To be added.</param>
-        <param name="staticMemberName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="networkManagerName"> The networkManagerName. </param>
+        <param name="networkGroupName"> The networkGroupName. </param>
+        <param name="staticMemberName"> The staticMemberName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Network.NetworkGroupStaticMemberResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

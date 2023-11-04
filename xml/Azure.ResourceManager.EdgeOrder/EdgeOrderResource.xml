@@ -63,10 +63,10 @@
         <Parameter Name="orderName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="location">To be added.</param>
-        <param name="orderName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="location"> The location. </param>
+        <param name="orderName"> The orderName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.EdgeOrder.EdgeOrderResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

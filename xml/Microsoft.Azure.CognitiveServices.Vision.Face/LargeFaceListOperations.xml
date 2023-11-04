@@ -36,7 +36,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.Face</AssemblyName>
-        <AssemblyVersion>2.8.0.0</AssemblyVersion>
+        <AssemblyVersion>2.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="client" Type="Microsoft.Azure.CognitiveServices.Vision.Face.FaceClient" />
@@ -66,7 +66,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.Face</AssemblyName>
-        <AssemblyVersion>2.8.0.0</AssemblyVersion>
+        <AssemblyVersion>2.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.HttpOperationResponse&lt;Microsoft.Azure.CognitiveServices.Vision.Face.Models.PersistedFace&gt;&gt;</ReturnType>
@@ -105,7 +105,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.Face</AssemblyName>
-        <AssemblyVersion>2.8.0.0</AssemblyVersion>
+        <AssemblyVersion>2.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.HttpOperationResponse&lt;Microsoft.Azure.CognitiveServices.Vision.Face.Models.PersistedFace&gt;&gt;</ReturnType>
@@ -141,7 +141,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.Face</AssemblyName>
-        <AssemblyVersion>2.8.0.0</AssemblyVersion>
+        <AssemblyVersion>2.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.CognitiveServices.Vision.Face.FaceClient</ReturnType>
@@ -166,7 +166,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.Face</AssemblyName>
-        <AssemblyVersion>2.8.0.0</AssemblyVersion>
+        <AssemblyVersion>2.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.HttpOperationResponse&gt;</ReturnType>
@@ -262,7 +262,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.Face</AssemblyName>
-        <AssemblyVersion>2.8.0.0</AssemblyVersion>
+        <AssemblyVersion>2.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.HttpOperationResponse&gt;</ReturnType>
@@ -319,7 +319,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.Face</AssemblyName>
-        <AssemblyVersion>2.8.0.0</AssemblyVersion>
+        <AssemblyVersion>2.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.HttpOperationResponse&gt;</ReturnType>
@@ -371,7 +371,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.Face</AssemblyName>
-        <AssemblyVersion>2.8.0.0</AssemblyVersion>
+        <AssemblyVersion>2.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.HttpOperationResponse&lt;Microsoft.Azure.CognitiveServices.Vision.Face.Models.PersistedFace&gt;&gt;</ReturnType>
@@ -430,7 +430,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.Face</AssemblyName>
-        <AssemblyVersion>2.8.0.0</AssemblyVersion>
+        <AssemblyVersion>2.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.HttpOperationResponse&lt;Microsoft.Azure.CognitiveServices.Vision.Face.Models.TrainingStatus&gt;&gt;</ReturnType>
@@ -484,7 +484,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.Face</AssemblyName>
-        <AssemblyVersion>2.8.0.0</AssemblyVersion>
+        <AssemblyVersion>2.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.HttpOperationResponse&lt;Microsoft.Azure.CognitiveServices.Vision.Face.Models.LargeFaceList&gt;&gt;</ReturnType>
@@ -544,7 +544,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.Face</AssemblyName>
-        <AssemblyVersion>2.8.0.0</AssemblyVersion>
+        <AssemblyVersion>2.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.HttpOperationResponse&lt;System.Collections.Generic.IList&lt;Microsoft.Azure.CognitiveServices.Vision.Face.Models.PersistedFace&gt;&gt;&gt;</ReturnType>
@@ -608,7 +608,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.Face</AssemblyName>
-        <AssemblyVersion>2.8.0.0</AssemblyVersion>
+        <AssemblyVersion>2.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.HttpOperationResponse&lt;System.Collections.Generic.IList&lt;Microsoft.Azure.CognitiveServices.Vision.Face.Models.LargeFaceList&gt;&gt;&gt;</ReturnType>
@@ -643,7 +643,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.Face</AssemblyName>
-        <AssemblyVersion>2.8.0.0</AssemblyVersion>
+        <AssemblyVersion>2.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.HttpOperationResponse&gt;</ReturnType>
@@ -695,7 +695,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.Face</AssemblyName>
-        <AssemblyVersion>2.8.0.0</AssemblyVersion>
+        <AssemblyVersion>2.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.HttpOperationResponse&gt;</ReturnType>
@@ -754,7 +754,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.Face</AssemblyName>
-        <AssemblyVersion>2.8.0.0</AssemblyVersion>
+        <AssemblyVersion>2.7.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.HttpOperationResponse&gt;</ReturnType>

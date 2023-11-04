@@ -128,9 +128,9 @@
         <Parameter Name="workspaceName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="workspaceName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="workspaceName"> The workspaceName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -677,10 +677,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/dataExports/{dataExportName}</description></item><item><term>Operation Id</term><description>DataExports_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="dataExportName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="dataExportName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="dataExportName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetOperationalInsightsDataExportAsync">
@@ -710,10 +710,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/dataExports/{dataExportName}</description></item><item><term>Operation Id</term><description>DataExports_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="dataExportName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="dataExportName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="dataExportName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetOperationalInsightsDataExports">
@@ -765,10 +765,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/dataSources/{dataSourceName}</description></item><item><term>Operation Id</term><description>DataSources_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="dataSourceName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="dataSourceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="dataSourceName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetOperationalInsightsDataSourceAsync">
@@ -798,10 +798,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/dataSources/{dataSourceName}</description></item><item><term>Operation Id</term><description>DataSources_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="dataSourceName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="dataSourceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="dataSourceName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetOperationalInsightsDataSources">
@@ -853,10 +853,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/linkedServices/{linkedServiceName}</description></item><item><term>Operation Id</term><description>LinkedServices_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="linkedServiceName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="linkedServiceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="linkedServiceName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetOperationalInsightsLinkedServiceAsync">
@@ -886,10 +886,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/linkedServices/{linkedServiceName}</description></item><item><term>Operation Id</term><description>LinkedServices_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="linkedServiceName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="linkedServiceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="linkedServiceName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetOperationalInsightsLinkedServices">
@@ -999,10 +999,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/savedSearches/{savedSearchId}</description></item><item><term>Operation Id</term><description>SavedSearches_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="savedSearchId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="savedSearchId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="savedSearchId" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetOperationalInsightsSavedSearchAsync">
@@ -1032,10 +1032,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/savedSearches/{savedSearchId}</description></item><item><term>Operation Id</term><description>SavedSearches_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="savedSearchId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="savedSearchId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="savedSearchId" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetOperationalInsightsSavedSearches">
@@ -1087,10 +1087,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/tables/{tableName}</description></item><item><term>Operation Id</term><description>Tables_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="tableName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="tableName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="tableName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetOperationalInsightsTableAsync">
@@ -1120,10 +1120,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/tables/{tableName}</description></item><item><term>Operation Id</term><description>Tables_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="tableName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="tableName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="tableName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetOperationalInsightsTables">
@@ -1349,10 +1349,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/storageInsightConfigs/{storageInsightName}</description></item><item><term>Operation Id</term><description>StorageInsightConfigs_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="storageInsightName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="storageInsightName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="storageInsightName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetStorageInsightAsync">
@@ -1382,10 +1382,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/storageInsightConfigs/{storageInsightName}</description></item><item><term>Operation Id</term><description>StorageInsightConfigs_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="storageInsightName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="storageInsightName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="storageInsightName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetStorageInsights">
@@ -1508,11 +1508,11 @@
         <param name="content"> Describes the body of a request to purge data in a single table of an Log Analytics Workspace. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Purges data in an Log Analytics workspace by a set of user-defined filters.
+             Purges data in an Log Analytics workspace by a set of user-defined filters.
             
-            In order to manage system resources, purge requests are throttled at 50 requests per hour. You should batch the execution of purge requests by sending a single command whose predicate includes all user identities that require purging. Use the in operator to specify multiple identities. You should run the query prior to using for a purge request to verify that the results are expected.
-            Log Analytics only supports purge operations required for compliance with GDPR. The Log Analytics product team reserves the right to reject requests for purge operations that are not for the purpose of GDPR compliance. In the event of a dispute, please create a support ticket
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/purge</description></item><item><term>Operation Id</term><description>WorkspacePurge_Purge</description></item></list></summary>
+             In order to manage system resources, purge requests are throttled at 50 requests per hour. You should batch the execution of purge requests by sending a single command whose predicate includes all user identities that require purging. Use the in operator to specify multiple identities. You should run the query prior to using for a purge request to verify that the results are expected.
+             Log Analytics only supports purge operations required for compliance with GDPR. The Log Analytics product team reserves the right to reject requests for purge operations that are not for the purpose of GDPR compliance. In the event of a dispute, please create a support ticket
+             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/purge</description></item><item><term>Operation Id</term><description>WorkspacePurge_Purge</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1542,11 +1542,11 @@
         <param name="content"> Describes the body of a request to purge data in a single table of an Log Analytics Workspace. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Purges data in an Log Analytics workspace by a set of user-defined filters.
+             Purges data in an Log Analytics workspace by a set of user-defined filters.
             
-            In order to manage system resources, purge requests are throttled at 50 requests per hour. You should batch the execution of purge requests by sending a single command whose predicate includes all user identities that require purging. Use the in operator to specify multiple identities. You should run the query prior to using for a purge request to verify that the results are expected.
-            Log Analytics only supports purge operations required for compliance with GDPR. The Log Analytics product team reserves the right to reject requests for purge operations that are not for the purpose of GDPR compliance. In the event of a dispute, please create a support ticket
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/purge</description></item><item><term>Operation Id</term><description>WorkspacePurge_Purge</description></item></list></summary>
+             In order to manage system resources, purge requests are throttled at 50 requests per hour. You should batch the execution of purge requests by sending a single command whose predicate includes all user identities that require purging. Use the in operator to specify multiple identities. You should run the query prior to using for a purge request to verify that the results are expected.
+             Log Analytics only supports purge operations required for compliance with GDPR. The Log Analytics product team reserves the right to reject requests for purge operations that are not for the purpose of GDPR compliance. In the event of a dispute, please create a support ticket
+             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/purge</description></item><item><term>Operation Id</term><description>WorkspacePurge_Purge</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

@@ -9,6 +9,7 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <AssemblyVersion>1.3.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -28,6 +29,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Security.ConfidentialLedger</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -45,6 +47,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Security.ConfidentialLedger</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="certificateEndpoint" Type="System.Uri" />
@@ -68,6 +71,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Security.ConfidentialLedger</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="certificateEndpoint" Type="System.Uri" />
@@ -93,6 +97,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Security.ConfidentialLedger</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -127,10 +132,18 @@ Schema for <c>LedgerIdentityInformation</c>:
           <paramref name="ledgerId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call GetLedgerIdentity with required parameters and parse the result.
+This sample shows how to call GetLedgerIdentity and parse the result.
 <code><![CDATA[
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ConfidentialLedgerCertificateClient(endpoint);
+ConfidentialLedgerCertificateClient client = new ConfidentialLedgerCertificateClient(new Uri("http://localhost:3000"));
+
+Response response = client.GetLedgerIdentity("<ledgerId>");
+
+JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+Console.WriteLine(result.GetProperty("ledgerTlsCertificate").ToString());
+]]></code>
+This sample shows how to call GetLedgerIdentity with all parameters and parse the result.
+<code><![CDATA[
+ConfidentialLedgerCertificateClient client = new ConfidentialLedgerCertificateClient(new Uri("http://localhost:3000"));
 
 Response response = client.GetLedgerIdentity("<ledgerId>");
 
@@ -150,6 +163,7 @@ Console.WriteLine(result.GetProperty("ledgerTlsCertificate").ToString());
       <AssemblyInfo>
         <AssemblyName>Azure.Security.ConfidentialLedger</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -184,10 +198,18 @@ Schema for <c>LedgerIdentityInformation</c>:
           <paramref name="ledgerId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call GetLedgerIdentityAsync with required parameters and parse the result.
+This sample shows how to call GetLedgerIdentityAsync and parse the result.
 <code><![CDATA[
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ConfidentialLedgerCertificateClient(endpoint);
+ConfidentialLedgerCertificateClient client = new ConfidentialLedgerCertificateClient(new Uri("http://localhost:3000"));
+
+Response response = await client.GetLedgerIdentityAsync("<ledgerId>");
+
+JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+Console.WriteLine(result.GetProperty("ledgerTlsCertificate").ToString());
+]]></code>
+This sample shows how to call GetLedgerIdentityAsync with all parameters and parse the result.
+<code><![CDATA[
+ConfidentialLedgerCertificateClient client = new ConfidentialLedgerCertificateClient(new Uri("http://localhost:3000"));
 
 Response response = await client.GetLedgerIdentityAsync("<ledgerId>");
 
@@ -207,6 +229,7 @@ Console.WriteLine(result.GetProperty("ledgerTlsCertificate").ToString());
       <AssemblyInfo>
         <AssemblyName>Azure.Security.ConfidentialLedger</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Pipeline.HttpPipeline</ReturnType>

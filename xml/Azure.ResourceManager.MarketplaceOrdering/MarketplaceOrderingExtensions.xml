@@ -49,13 +49,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get marketplace agreement.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.MarketplaceOrdering/agreements/{publisherId}/offers/{offerId}/plans/{planId}</description></item><item><term>Operation Id</term><description>MarketplaceAgreements_GetAgreement</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.MarketplaceOrdering/agreements/{publisherId}/offers/{offerId}/plans/{planId}</description></item><item><term>Operation Id</term><description>MarketplaceAgreements_GetAgreement</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MarketplaceOrdering.Mocking.MockableMarketplaceOrderingSubscriptionResource.GetMarketplaceAgreement(System.String,System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="publisherId" />, <paramref name="offerId" /> or <paramref name="planId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="publisherId" />, <paramref name="offerId" /> or <paramref name="planId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="publisherId" />, <paramref name="offerId" /> or <paramref name="planId" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetMarketplaceAgreementAsync">
@@ -88,13 +88,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get marketplace agreement.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.MarketplaceOrdering/agreements/{publisherId}/offers/{offerId}/plans/{planId}</description></item><item><term>Operation Id</term><description>MarketplaceAgreements_GetAgreement</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.MarketplaceOrdering/agreements/{publisherId}/offers/{offerId}/plans/{planId}</description></item><item><term>Operation Id</term><description>MarketplaceAgreements_GetAgreement</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MarketplaceOrdering.Mocking.MockableMarketplaceOrderingSubscriptionResource.GetMarketplaceAgreementAsync(System.String,System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="publisherId" />, <paramref name="offerId" /> or <paramref name="planId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="publisherId" />, <paramref name="offerId" /> or <paramref name="planId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="publisherId" />, <paramref name="offerId" /> or <paramref name="planId" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetMarketplaceAgreementResource">
@@ -122,7 +122,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.MarketplaceOrdering.MarketplaceAgreementResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.MarketplaceOrdering.MarketplaceAgreementResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.MarketplaceOrdering.MarketplaceAgreementResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MarketplaceOrdering.Mocking.MockableMarketplaceOrderingArmClient.GetMarketplaceAgreementResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.MarketplaceOrdering.MarketplaceAgreementResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -147,7 +147,9 @@
       </Parameters>
       <Docs>
         <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of MarketplaceAgreementResources in the SubscriptionResource. </summary>
+        <summary>
+            Gets a collection of MarketplaceAgreementResources in the SubscriptionResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MarketplaceOrdering.Mocking.MockableMarketplaceOrderingSubscriptionResource.GetMarketplaceAgreements" /> instead.</description></item></summary>
         <returns> An object representing collection of MarketplaceAgreementResources and their operations over a MarketplaceAgreementResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -184,13 +186,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get marketplace terms.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.MarketplaceOrdering/offerTypes/{offerType}/publishers/{publisherId}/offers/{offerId}/plans/{planId}/agreements/current</description></item><item><term>Operation Id</term><description>MarketplaceAgreements_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.MarketplaceOrdering/offerTypes/{offerType}/publishers/{publisherId}/offers/{offerId}/plans/{planId}/agreements/current</description></item><item><term>Operation Id</term><description>MarketplaceAgreements_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MarketplaceOrdering.Mocking.MockableMarketplaceOrderingSubscriptionResource.GetMarketplaceAgreementTerm(Azure.ResourceManager.MarketplaceOrdering.Models.AgreementOfferType,System.String,System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="publisherId" />, <paramref name="offerId" /> or <paramref name="planId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="publisherId" />, <paramref name="offerId" /> or <paramref name="planId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="publisherId" />, <paramref name="offerId" /> or <paramref name="planId" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetMarketplaceAgreementTermAsync">
@@ -225,13 +227,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get marketplace terms.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.MarketplaceOrdering/offerTypes/{offerType}/publishers/{publisherId}/offers/{offerId}/plans/{planId}/agreements/current</description></item><item><term>Operation Id</term><description>MarketplaceAgreements_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.MarketplaceOrdering/offerTypes/{offerType}/publishers/{publisherId}/offers/{offerId}/plans/{planId}/agreements/current</description></item><item><term>Operation Id</term><description>MarketplaceAgreements_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MarketplaceOrdering.Mocking.MockableMarketplaceOrderingSubscriptionResource.GetMarketplaceAgreementTermAsync(Azure.ResourceManager.MarketplaceOrdering.Models.AgreementOfferType,System.String,System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="publisherId" />, <paramref name="offerId" /> or <paramref name="planId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="publisherId" />, <paramref name="offerId" /> or <paramref name="planId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="publisherId" />, <paramref name="offerId" /> or <paramref name="planId" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetMarketplaceAgreementTermResource">
@@ -259,7 +261,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.MarketplaceOrdering.MarketplaceAgreementTermResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.MarketplaceOrdering.MarketplaceAgreementTermResource.CreateResourceIdentifier(System.String,Azure.ResourceManager.MarketplaceOrdering.Models.AgreementOfferType,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.MarketplaceOrdering.MarketplaceAgreementTermResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MarketplaceOrdering.Mocking.MockableMarketplaceOrderingArmClient.GetMarketplaceAgreementTermResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.MarketplaceOrdering.MarketplaceAgreementTermResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -284,7 +286,9 @@
       </Parameters>
       <Docs>
         <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of MarketplaceAgreementTermResources in the SubscriptionResource. </summary>
+        <summary>
+            Gets a collection of MarketplaceAgreementTermResources in the SubscriptionResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MarketplaceOrdering.Mocking.MockableMarketplaceOrderingSubscriptionResource.GetMarketplaceAgreementTerms" /> instead.</description></item></summary>
         <returns> An object representing collection of MarketplaceAgreementTermResources and their operations over a MarketplaceAgreementTermResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>

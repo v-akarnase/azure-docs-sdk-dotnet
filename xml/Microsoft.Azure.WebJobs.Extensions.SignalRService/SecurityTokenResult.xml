@@ -13,6 +13,7 @@
     <AssemblyVersion>1.11.0.0</AssemblyVersion>
     <AssemblyVersion>1.11.1.0</AssemblyVersion>
     <AssemblyVersion>1.11.2.0</AssemblyVersion>
+    <AssemblyVersion>1.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -35,6 +36,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.SignalRService</AssemblyName>
         <AssemblyVersion>1.11.2.0</AssemblyVersion>
+        <AssemblyVersion>1.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.WebJobs.Extensions.SignalRService.SecurityTokenResult</ReturnType>
@@ -58,6 +60,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.SignalRService</AssemblyName>
         <AssemblyVersion>1.11.2.0</AssemblyVersion>
+        <AssemblyVersion>1.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.WebJobs.Extensions.SignalRService.SecurityTokenResult</ReturnType>
@@ -84,6 +87,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.SignalRService</AssemblyName>
         <AssemblyVersion>1.11.2.0</AssemblyVersion>
+        <AssemblyVersion>1.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -112,6 +116,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.SignalRService</AssemblyName>
         <AssemblyVersion>1.11.2.0</AssemblyVersion>
+        <AssemblyVersion>1.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Security.Claims.ClaimsPrincipal</ReturnType>
@@ -134,6 +139,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.SignalRService</AssemblyName>
         <AssemblyVersion>1.11.2.0</AssemblyVersion>
+        <AssemblyVersion>1.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -162,6 +168,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.SignalRService</AssemblyName>
         <AssemblyVersion>1.11.2.0</AssemblyVersion>
+        <AssemblyVersion>1.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.WebJobs.Extensions.SignalRService.SecurityTokenResult</ReturnType>

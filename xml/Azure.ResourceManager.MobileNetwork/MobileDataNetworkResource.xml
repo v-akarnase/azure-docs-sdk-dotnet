@@ -8,6 +8,7 @@
     <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -32,6 +33,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -49,6 +51,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.MobileNetwork.MobileDataNetworkResource&gt;</ReturnType>
@@ -81,6 +84,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.MobileNetwork.MobileDataNetworkResource&gt;&gt;</ReturnType>
@@ -113,6 +117,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -124,10 +129,10 @@
         <Parameter Name="dataNetworkName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="mobileNetworkName">To be added.</param>
-        <param name="dataNetworkName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="mobileNetworkName"> The mobileNetworkName. </param>
+        <param name="dataNetworkName"> The dataNetworkName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.MobileNetwork.MobileDataNetworkResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -143,6 +148,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileDataNetworkData</ReturnType>
@@ -164,6 +170,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -193,6 +200,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -222,6 +230,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.MobileNetwork.MobileDataNetworkResource&gt;</ReturnType>
@@ -248,6 +257,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.MobileNetwork.MobileDataNetworkResource&gt;&gt;</ReturnType>
@@ -274,6 +284,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -294,6 +305,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.MobileNetwork.MobileDataNetworkResource&gt;</ReturnType>
@@ -324,6 +336,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.MobileNetwork.MobileDataNetworkResource&gt;&gt;</ReturnType>
@@ -354,6 +367,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -373,6 +387,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.MobileNetwork.MobileDataNetworkResource&gt;</ReturnType>
@@ -403,6 +418,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.MobileNetwork.MobileDataNetworkResource&gt;&gt;</ReturnType>
@@ -433,6 +449,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.MobileNetwork.MobileDataNetworkResource&gt;</ReturnType>
@@ -463,6 +480,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.MobileNetwork.MobileDataNetworkResource&gt;&gt;</ReturnType>

@@ -45,7 +45,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates a Log Analytics QueryPack. Note: You cannot specify a different value for InstrumentationKey nor AppId in the Put operation.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/queryPacks</description></item><item><term>Operation Id</term><description>QueryPacks_CreateOrUpdateWithoutName</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/queryPacks</description></item><item><term>Operation Id</term><description>QueryPacks_CreateOrUpdateWithoutName</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsResourceGroupResource.CreateOrUpdateWithoutNameQueryPack(Azure.ResourceManager.OperationalInsights.LogAnalyticsQueryPackData,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -78,7 +78,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates a Log Analytics QueryPack. Note: You cannot specify a different value for InstrumentationKey nor AppId in the Put operation.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/queryPacks</description></item><item><term>Operation Id</term><description>QueryPacks_CreateOrUpdateWithoutName</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/queryPacks</description></item><item><term>Operation Id</term><description>QueryPacks_CreateOrUpdateWithoutName</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsResourceGroupResource.CreateOrUpdateWithoutNameQueryPack(Azure.ResourceManager.OperationalInsights.LogAnalyticsQueryPackData,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -109,7 +109,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets recently deleted workspaces in a resource group, available for recovery.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/deletedWorkspaces</description></item><item><term>Operation Id</term><description>DeletedWorkspaces_ListByResourceGroup</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/deletedWorkspaces</description></item><item><term>Operation Id</term><description>DeletedWorkspaces_ListByResourceGroup</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsResourceGroupResource.GetDeletedWorkspaces(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -138,7 +138,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets recently deleted workspaces in a subscription, available for recovery.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.OperationalInsights/deletedWorkspaces</description></item><item><term>Operation Id</term><description>DeletedWorkspaces_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.OperationalInsights/deletedWorkspaces</description></item><item><term>Operation Id</term><description>DeletedWorkspaces_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsSubscriptionResource.GetDeletedWorkspaces(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -167,7 +167,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets recently deleted workspaces in a resource group, available for recovery.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/deletedWorkspaces</description></item><item><term>Operation Id</term><description>DeletedWorkspaces_ListByResourceGroup</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/deletedWorkspaces</description></item><item><term>Operation Id</term><description>DeletedWorkspaces_ListByResourceGroup</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsResourceGroupResource.GetDeletedWorkspaces(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -196,7 +196,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets recently deleted workspaces in a subscription, available for recovery.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.OperationalInsights/deletedWorkspaces</description></item><item><term>Operation Id</term><description>DeletedWorkspaces_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.OperationalInsights/deletedWorkspaces</description></item><item><term>Operation Id</term><description>DeletedWorkspaces_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsSubscriptionResource.GetDeletedWorkspaces(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -227,13 +227,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a Log Analytics QueryPack.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/queryPacks/{queryPackName}</description></item><item><term>Operation Id</term><description>QueryPacks_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/queryPacks/{queryPackName}</description></item><item><term>Operation Id</term><description>QueryPacks_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsResourceGroupResource.GetLogAnalyticsQueryPack(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="queryPackName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="queryPackName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="queryPackName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetLogAnalyticsQueryPackAsync">
@@ -262,13 +262,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a Log Analytics QueryPack.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/queryPacks/{queryPackName}</description></item><item><term>Operation Id</term><description>QueryPacks_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/queryPacks/{queryPackName}</description></item><item><term>Operation Id</term><description>QueryPacks_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsResourceGroupResource.GetLogAnalyticsQueryPackAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="queryPackName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="queryPackName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="queryPackName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetLogAnalyticsQueryPackResource">
@@ -296,7 +296,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.OperationalInsights.LogAnalyticsQueryPackResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.OperationalInsights.LogAnalyticsQueryPackResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.OperationalInsights.LogAnalyticsQueryPackResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsArmClient.GetLogAnalyticsQueryPackResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.OperationalInsights.LogAnalyticsQueryPackResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -321,7 +321,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of LogAnalyticsQueryPackResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of LogAnalyticsQueryPackResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsResourceGroupResource.GetLogAnalyticsQueryPacks" /> instead.</description></item></summary>
         <returns> An object representing collection of LogAnalyticsQueryPackResources and their operations over a LogAnalyticsQueryPackResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -350,7 +352,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a list of all Log Analytics QueryPacks within a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.OperationalInsights/queryPacks</description></item><item><term>Operation Id</term><description>QueryPacks_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.OperationalInsights/queryPacks</description></item><item><term>Operation Id</term><description>QueryPacks_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsSubscriptionResource.GetLogAnalyticsQueryPacks(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.OperationalInsights.LogAnalyticsQueryPackResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -379,7 +381,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a list of all Log Analytics QueryPacks within a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.OperationalInsights/queryPacks</description></item><item><term>Operation Id</term><description>QueryPacks_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.OperationalInsights/queryPacks</description></item><item><term>Operation Id</term><description>QueryPacks_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsSubscriptionResource.GetLogAnalyticsQueryPacks(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.OperationalInsights.LogAnalyticsQueryPackResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -409,7 +411,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.OperationalInsights.LogAnalyticsQueryResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.OperationalInsights.LogAnalyticsQueryResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.OperationalInsights.LogAnalyticsQueryResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsArmClient.GetLogAnalyticsQueryResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.OperationalInsights.LogAnalyticsQueryResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -440,13 +442,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a Log Analytics cluster instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsResourceGroupResource.GetOperationalInsightsCluster(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="clusterName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="clusterName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="clusterName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetOperationalInsightsClusterAsync">
@@ -475,13 +477,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a Log Analytics cluster instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsResourceGroupResource.GetOperationalInsightsClusterAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="clusterName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="clusterName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="clusterName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetOperationalInsightsClusterResource">
@@ -509,7 +511,7 @@
         <summary>
             Gets an object representing an <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsClusterResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.OperationalInsights.OperationalInsightsClusterResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsClusterResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsArmClient.GetOperationalInsightsClusterResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsClusterResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -534,7 +536,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of OperationalInsightsClusterResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of OperationalInsightsClusterResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsResourceGroupResource.GetOperationalInsightsClusters" /> instead.</description></item></summary>
         <returns> An object representing collection of OperationalInsightsClusterResources and their operations over a OperationalInsightsClusterResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -563,7 +567,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the Log Analytics clusters in a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.OperationalInsights/clusters</description></item><item><term>Operation Id</term><description>Clusters_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.OperationalInsights/clusters</description></item><item><term>Operation Id</term><description>Clusters_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsSubscriptionResource.GetOperationalInsightsClusters(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsClusterResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -592,7 +596,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the Log Analytics clusters in a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.OperationalInsights/clusters</description></item><item><term>Operation Id</term><description>Clusters_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.OperationalInsights/clusters</description></item><item><term>Operation Id</term><description>Clusters_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsSubscriptionResource.GetOperationalInsightsClusters(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsClusterResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -622,7 +626,7 @@
         <summary>
             Gets an object representing an <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsDataExportResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.OperationalInsights.OperationalInsightsDataExportResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsDataExportResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsArmClient.GetOperationalInsightsDataExportResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsDataExportResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -652,7 +656,7 @@
         <summary>
             Gets an object representing an <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsDataSourceResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.OperationalInsights.OperationalInsightsDataSourceResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsDataSourceResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsArmClient.GetOperationalInsightsDataSourceResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsDataSourceResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -682,7 +686,7 @@
         <summary>
             Gets an object representing an <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsLinkedServiceResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.OperationalInsights.OperationalInsightsLinkedServiceResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsLinkedServiceResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsArmClient.GetOperationalInsightsLinkedServiceResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsLinkedServiceResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -712,7 +716,7 @@
         <summary>
             Gets an object representing an <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsLinkedStorageAccountsResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.OperationalInsights.OperationalInsightsLinkedStorageAccountsResource.CreateResourceIdentifier(System.String,System.String,System.String,Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsDataSourceType)" /> to create an <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsLinkedStorageAccountsResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsArmClient.GetOperationalInsightsLinkedStorageAccountsResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsLinkedStorageAccountsResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -742,7 +746,7 @@
         <summary>
             Gets an object representing an <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsSavedSearchResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.OperationalInsights.OperationalInsightsSavedSearchResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsSavedSearchResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsArmClient.GetOperationalInsightsSavedSearchResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsSavedSearchResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -772,7 +776,7 @@
         <summary>
             Gets an object representing an <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsTableResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.OperationalInsights.OperationalInsightsTableResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsTableResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsArmClient.GetOperationalInsightsTableResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsTableResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -803,13 +807,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a workspace instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsResourceGroupResource.GetOperationalInsightsWorkspace(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="workspaceName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="workspaceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="workspaceName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetOperationalInsightsWorkspaceAsync">
@@ -838,13 +842,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a workspace instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsResourceGroupResource.GetOperationalInsightsWorkspaceAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="workspaceName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="workspaceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="workspaceName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetOperationalInsightsWorkspaceResource">
@@ -872,7 +876,7 @@
         <summary>
             Gets an object representing an <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsArmClient.GetOperationalInsightsWorkspaceResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -897,7 +901,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of OperationalInsightsWorkspaceResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of OperationalInsightsWorkspaceResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsResourceGroupResource.GetOperationalInsightsWorkspaces" /> instead.</description></item></summary>
         <returns> An object representing collection of OperationalInsightsWorkspaceResources and their operations over a OperationalInsightsWorkspaceResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -926,7 +932,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the workspaces in a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.OperationalInsights/workspaces</description></item><item><term>Operation Id</term><description>Workspaces_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.OperationalInsights/workspaces</description></item><item><term>Operation Id</term><description>Workspaces_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsSubscriptionResource.GetOperationalInsightsWorkspaces(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -955,7 +961,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the workspaces in a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.OperationalInsights/workspaces</description></item><item><term>Operation Id</term><description>Workspaces_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.OperationalInsights/workspaces</description></item><item><term>Operation Id</term><description>Workspaces_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsSubscriptionResource.GetOperationalInsightsWorkspaces(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -985,7 +991,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.OperationalInsights.StorageInsightResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.OperationalInsights.StorageInsightResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.OperationalInsights.StorageInsightResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.OperationalInsights.Mocking.MockableOperationalInsightsArmClient.GetStorageInsightResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.OperationalInsights.StorageInsightResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>

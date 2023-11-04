@@ -12,6 +12,7 @@
     <AssemblyVersion>15.3.0.0</AssemblyVersion>
     <AssemblyVersion>15.4.0.0</AssemblyVersion>
     <AssemblyVersion>16.0.0.0</AssemblyVersion>
+    <AssemblyVersion>16.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -36,6 +37,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -55,6 +57,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="coordinationCommandLine" Type="System.String" />
@@ -79,6 +82,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Batch.ResourceFile&gt;</ReturnType>
@@ -107,6 +111,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -129,6 +134,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>

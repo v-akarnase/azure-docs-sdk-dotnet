@@ -129,9 +129,9 @@
         <Parameter Name="serviceName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="serviceName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="serviceName"> The serviceName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.AppPlatform.AppPlatformServiceResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -381,10 +381,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/apiPortals/{apiPortalName}</description></item><item><term>Operation Id</term><description>ApiPortals_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="apiPortalName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="apiPortalName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="apiPortalName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetAppPlatformApiPortalAsync">
@@ -414,10 +414,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/apiPortals/{apiPortalName}</description></item><item><term>Operation Id</term><description>ApiPortals_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="apiPortalName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="apiPortalName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="apiPortalName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetAppPlatformApiPortals">
@@ -471,10 +471,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/apps/{appName}</description></item><item><term>Operation Id</term><description>Apps_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="appName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="appName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="appName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetAppPlatformAppAsync">
@@ -506,10 +506,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/apps/{appName}</description></item><item><term>Operation Id</term><description>Apps_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="appName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="appName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="appName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetAppPlatformApps">
@@ -561,10 +561,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/buildServices/{buildServiceName}</description></item><item><term>Operation Id</term><description>BuildService_GetBuildService</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="buildServiceName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="buildServiceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="buildServiceName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetAppPlatformBuildServiceAsync">
@@ -594,10 +594,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/buildServices/{buildServiceName}</description></item><item><term>Operation Id</term><description>BuildService_GetBuildService</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="buildServiceName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="buildServiceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="buildServiceName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetAppPlatformBuildServices">
@@ -649,10 +649,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/certificates/{certificateName}</description></item><item><term>Operation Id</term><description>Certificates_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="certificateName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="certificateName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="certificateName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetAppPlatformCertificateAsync">
@@ -682,10 +682,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/certificates/{certificateName}</description></item><item><term>Operation Id</term><description>Certificates_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="certificateName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="certificateName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="certificateName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetAppPlatformCertificates">
@@ -759,10 +759,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/configurationServices/{configurationServiceName}</description></item><item><term>Operation Id</term><description>ConfigurationServices_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="configurationServiceName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="configurationServiceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="configurationServiceName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetAppPlatformConfigurationServiceAsync">
@@ -792,10 +792,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/configurationServices/{configurationServiceName}</description></item><item><term>Operation Id</term><description>ConfigurationServices_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="configurationServiceName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="configurationServiceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="configurationServiceName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetAppPlatformConfigurationServices">
@@ -847,10 +847,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/gateways/{gatewayName}</description></item><item><term>Operation Id</term><description>Gateways_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="gatewayName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="gatewayName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="gatewayName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetAppPlatformGatewayAsync">
@@ -880,10 +880,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/gateways/{gatewayName}</description></item><item><term>Operation Id</term><description>Gateways_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="gatewayName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="gatewayName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="gatewayName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetAppPlatformGateways">
@@ -979,10 +979,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/serviceRegistries/{serviceRegistryName}</description></item><item><term>Operation Id</term><description>ServiceRegistries_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="serviceRegistryName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="serviceRegistryName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="serviceRegistryName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetAppPlatformServiceRegistryAsync">
@@ -1012,10 +1012,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/serviceRegistries/{serviceRegistryName}</description></item><item><term>Operation Id</term><description>ServiceRegistries_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="serviceRegistryName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="serviceRegistryName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="serviceRegistryName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetAppPlatformStorage">
@@ -1045,10 +1045,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/storages/{storageName}</description></item><item><term>Operation Id</term><description>Storages_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="storageName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="storageName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="storageName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetAppPlatformStorageAsync">
@@ -1078,10 +1078,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/storages/{storageName}</description></item><item><term>Operation Id</term><description>Storages_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="storageName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="storageName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="storageName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetAppPlatformStorages">

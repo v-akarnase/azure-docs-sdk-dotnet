@@ -62,9 +62,9 @@
         <Parameter Name="serviceName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="location">To be added.</param>
-        <param name="serviceName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="location"> The location. </param>
+        <param name="serviceName"> The serviceName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.ApiManagement.ApiManagementDeletedServiceResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

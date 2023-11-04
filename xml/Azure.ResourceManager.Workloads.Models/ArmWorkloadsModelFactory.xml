@@ -766,7 +766,7 @@
         <param name="configuration">
             Defines if the SAP system is being created using Azure Center for SAP solutions (ACSS) or if an existing SAP system is being registered with ACSS
             Please note <see cref="T:Azure.ResourceManager.Workloads.Models.SapConfiguration" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
-            The available derived classes include <see cref="T:Azure.ResourceManager.Workloads.Models.DeploymentConfiguration" />, <see cref="T:Azure.ResourceManager.Workloads.Models.DeploymentWithOSConfiguration" /> and <see cref="M:Azure.ResourceManager.Workloads.Models.ArmWorkloadsModelFactory.DiscoveryConfiguration(Azure.Core.ResourceIdentifier,System.String,System.Nullable{Azure.Core.AzureLocation})" />.
+            The available derived classes include <see cref="T:Azure.ResourceManager.Workloads.Models.DeploymentConfiguration" />, <see cref="T:Azure.ResourceManager.Workloads.Models.DeploymentWithOSConfiguration" /> and <see cref="T:Azure.ResourceManager.Workloads.Models.DiscoveryConfiguration" />.
             </param>
         <param name="managedResourceGroupName"> Managed resource group configuration. </param>
         <param name="status"> Defines the SAP Instance status. </param>

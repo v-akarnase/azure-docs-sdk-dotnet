@@ -23,6 +23,11 @@
     <AssemblyVersion>5.12.0.0</AssemblyVersion>
     <AssemblyVersion>5.13.0.0</AssemblyVersion>
     <AssemblyVersion>5.13.3.0</AssemblyVersion>
+    <AssemblyVersion>5.14.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus.Grpc</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.Azure.WebJobs.ServiceBus.ServiceBusMessageActions</BaseTypeName>
@@ -45,6 +50,11 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus</AssemblyName>
         <AssemblyVersion>5.13.3.0</AssemblyVersion>
+        <AssemblyVersion>5.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus.Grpc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -67,12 +77,17 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus</AssemblyName>
         <AssemblyVersion>5.13.3.0</AssemblyVersion>
+        <AssemblyVersion>5.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus.Grpc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.BinaryData&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="cancellationToken">An optional <see cref="T:System.Threading.CancellationToken" /> instance to signal the request to cancel the operation.</param>
@@ -97,6 +112,11 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus</AssemblyName>
         <AssemblyVersion>5.13.3.0</AssemblyVersion>
+        <AssemblyVersion>5.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus.Grpc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -124,12 +144,17 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus</AssemblyName>
         <AssemblyVersion>5.13.3.0</AssemblyVersion>
+        <AssemblyVersion>5.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus.Grpc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="cancellationToken">An optional <see cref="T:System.Threading.CancellationToken" /> instance to signal the request to cancel the operation.</param>
@@ -163,6 +188,11 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus</AssemblyName>
         <AssemblyVersion>5.13.3.0</AssemblyVersion>
+        <AssemblyVersion>5.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus.Grpc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -185,13 +215,18 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus</AssemblyName>
         <AssemblyVersion>5.13.3.0</AssemblyVersion>
+        <AssemblyVersion>5.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus.Grpc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="sessionState" Type="System.BinaryData" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        <Parameter Name="sessionState" Type="System.BinaryData" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="sessionState">A <see cref="T:System.BinaryData" /> of session state</param>

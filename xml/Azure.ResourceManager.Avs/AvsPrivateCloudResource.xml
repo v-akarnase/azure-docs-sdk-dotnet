@@ -129,9 +129,9 @@
         <Parameter Name="privateCloudName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="privateCloudName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="privateCloudName"> The privateCloudName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Avs.AvsPrivateCloudResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -354,10 +354,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/cloudLinks/{cloudLinkName}</description></item><item><term>Operation Id</term><description>CloudLinks_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="cloudLinkName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="cloudLinkName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="cloudLinkName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetAvsCloudLinkAsync">
@@ -387,10 +387,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/cloudLinks/{cloudLinkName}</description></item><item><term>Operation Id</term><description>CloudLinks_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="cloudLinkName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="cloudLinkName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="cloudLinkName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetAvsCloudLinks">
@@ -442,10 +442,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/addons/{addonName}</description></item><item><term>Operation Id</term><description>Addons_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="addonName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="addonName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="addonName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetAvsPrivateCloudAddonAsync">
@@ -475,10 +475,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/addons/{addonName}</description></item><item><term>Operation Id</term><description>Addons_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="addonName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="addonName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="addonName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetAvsPrivateCloudAddons">
@@ -530,10 +530,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="clusterName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="clusterName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="clusterName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetAvsPrivateCloudClusterAsync">
@@ -563,10 +563,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="clusterName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="clusterName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="clusterName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetAvsPrivateCloudClusters">
@@ -618,10 +618,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/authorizations/{authorizationName}</description></item><item><term>Operation Id</term><description>Authorizations_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="authorizationName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="authorizationName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="authorizationName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetExpressRouteAuthorizationAsync">
@@ -651,10 +651,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/authorizations/{authorizationName}</description></item><item><term>Operation Id</term><description>Authorizations_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="authorizationName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="authorizationName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="authorizationName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetExpressRouteAuthorizations">
@@ -706,10 +706,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/globalReachConnections/{globalReachConnectionName}</description></item><item><term>Operation Id</term><description>GlobalReachConnections_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="globalReachConnectionName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="globalReachConnectionName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="globalReachConnectionName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetGlobalReachConnectionAsync">
@@ -739,10 +739,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/globalReachConnections/{globalReachConnectionName}</description></item><item><term>Operation Id</term><description>GlobalReachConnections_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="globalReachConnectionName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="globalReachConnectionName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="globalReachConnectionName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetGlobalReachConnections">
@@ -794,10 +794,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/hcxEnterpriseSites/{hcxEnterpriseSiteName}</description></item><item><term>Operation Id</term><description>HcxEnterpriseSites_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="hcxEnterpriseSiteName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="hcxEnterpriseSiteName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="hcxEnterpriseSiteName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetHcxEnterpriseSiteAsync">
@@ -827,10 +827,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/hcxEnterpriseSites/{hcxEnterpriseSiteName}</description></item><item><term>Operation Id</term><description>HcxEnterpriseSites_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="hcxEnterpriseSiteName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="hcxEnterpriseSiteName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="hcxEnterpriseSiteName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetHcxEnterpriseSites">
@@ -882,10 +882,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/scriptExecutions/{scriptExecutionName}</description></item><item><term>Operation Id</term><description>ScriptExecutions_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="scriptExecutionName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="scriptExecutionName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="scriptExecutionName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetScriptExecutionAsync">
@@ -915,10 +915,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/scriptExecutions/{scriptExecutionName}</description></item><item><term>Operation Id</term><description>ScriptExecutions_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="scriptExecutionName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="scriptExecutionName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="scriptExecutionName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetScriptExecutions">
@@ -970,10 +970,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/scriptPackages/{scriptPackageName}</description></item><item><term>Operation Id</term><description>ScriptPackages_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="scriptPackageName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="scriptPackageName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="scriptPackageName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetScriptPackageAsync">
@@ -1003,10 +1003,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/scriptPackages/{scriptPackageName}</description></item><item><term>Operation Id</term><description>ScriptPackages_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="scriptPackageName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="scriptPackageName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="scriptPackageName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetScriptPackages">
@@ -1116,10 +1116,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/dhcpConfigurations/{dhcpId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetDhcp</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="dhcpId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="dhcpId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="dhcpId" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetWorkloadNetworkDhcpAsync">
@@ -1149,10 +1149,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/dhcpConfigurations/{dhcpId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetDhcp</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="dhcpId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="dhcpId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="dhcpId" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetWorkloadNetworkDhcps">
@@ -1204,10 +1204,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/dnsServices/{dnsServiceId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetDnsService</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="dnsServiceId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="dnsServiceId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="dnsServiceId" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetWorkloadNetworkDnsServiceAsync">
@@ -1237,10 +1237,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/dnsServices/{dnsServiceId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetDnsService</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="dnsServiceId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="dnsServiceId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="dnsServiceId" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetWorkloadNetworkDnsServices">
@@ -1292,10 +1292,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/dnsZones/{dnsZoneId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetDnsZone</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="dnsZoneId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="dnsZoneId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="dnsZoneId" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetWorkloadNetworkDnsZoneAsync">
@@ -1325,10 +1325,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/dnsZones/{dnsZoneId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetDnsZone</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="dnsZoneId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="dnsZoneId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="dnsZoneId" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetWorkloadNetworkDnsZones">
@@ -1380,10 +1380,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/gateways/{gatewayId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetGateway</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="gatewayId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="gatewayId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="gatewayId" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetWorkloadNetworkGatewayAsync">
@@ -1413,10 +1413,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/gateways/{gatewayId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetGateway</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="gatewayId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="gatewayId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="gatewayId" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetWorkloadNetworkGateways">
@@ -1468,10 +1468,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/portMirroringProfiles/{portMirroringId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetPortMirroring</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="portMirroringId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="portMirroringId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="portMirroringId" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetWorkloadNetworkPortMirroringProfileAsync">
@@ -1501,10 +1501,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/portMirroringProfiles/{portMirroringId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetPortMirroring</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="portMirroringId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="portMirroringId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="portMirroringId" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetWorkloadNetworkPortMirroringProfiles">
@@ -1556,10 +1556,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/publicIPs/{publicIPId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetPublicIP</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="publicIPId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="publicIPId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="publicIPId" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetWorkloadNetworkPublicIPAsync">
@@ -1589,10 +1589,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/publicIPs/{publicIPId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetPublicIP</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="publicIPId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="publicIPId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="publicIPId" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetWorkloadNetworkPublicIPs">
@@ -1666,10 +1666,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/segments/{segmentId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetSegment</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="segmentId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="segmentId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="segmentId" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetWorkloadNetworkSegmentAsync">
@@ -1699,10 +1699,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/segments/{segmentId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetSegment</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="segmentId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="segmentId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="segmentId" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetWorkloadNetworkSegments">
@@ -1754,10 +1754,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/virtualMachines/{virtualMachineId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetVirtualMachine</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="virtualMachineId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="virtualMachineId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="virtualMachineId" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetWorkloadNetworkVirtualMachineAsync">
@@ -1787,10 +1787,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/virtualMachines/{virtualMachineId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetVirtualMachine</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="virtualMachineId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="virtualMachineId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="virtualMachineId" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetWorkloadNetworkVirtualMachines">
@@ -1842,10 +1842,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/vmGroups/{vmGroupId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetVMGroup</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="vmGroupId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="vmGroupId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="vmGroupId" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetWorkloadNetworkVmGroupAsync">
@@ -1875,10 +1875,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AVS/privateClouds/{privateCloudName}/workloadNetworks/default/vmGroups/{vmGroupId}</description></item><item><term>Operation Id</term><description>WorkloadNetworks_GetVMGroup</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="vmGroupId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="vmGroupId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="vmGroupId" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetWorkloadNetworkVmGroups">

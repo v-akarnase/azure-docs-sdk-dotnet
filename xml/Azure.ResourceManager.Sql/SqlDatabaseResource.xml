@@ -264,10 +264,10 @@
         <Parameter Name="databaseName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="serverName">To be added.</param>
-        <param name="databaseName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="serverName"> The serverName. </param>
+        <param name="databaseName"> The databaseName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Sql.SqlDatabaseResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -1902,10 +1902,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/databases/{databaseName}/advisors/{advisorName}</description></item><item><term>Operation Id</term><description>DatabaseAdvisors_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="advisorName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="advisorName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="advisorName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSqlDatabaseAdvisorAsync">
@@ -1935,10 +1935,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/databases/{databaseName}/advisors/{advisorName}</description></item><item><term>Operation Id</term><description>DatabaseAdvisors_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="advisorName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="advisorName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="advisorName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSqlDatabaseAdvisors">
@@ -2092,10 +2092,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/databases/{databaseName}/schemas/{schemaName}</description></item><item><term>Operation Id</term><description>DatabaseSchemas_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="schemaName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="schemaName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="schemaName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSqlDatabaseSchemaAsync">
@@ -2125,10 +2125,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/databases/{databaseName}/schemas/{schemaName}</description></item><item><term>Operation Id</term><description>DatabaseSchemas_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="schemaName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="schemaName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="schemaName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSqlDatabaseSchemas">
@@ -2420,10 +2420,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/databases/{databaseName}/replicationLinks/{linkId}</description></item><item><term>Operation Id</term><description>ReplicationLinks_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="linkId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="linkId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="linkId" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSqlServerDatabaseReplicationLinkAsync">
@@ -2453,10 +2453,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/databases/{databaseName}/replicationLinks/{linkId}</description></item><item><term>Operation Id</term><description>ReplicationLinks_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="linkId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="linkId" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="linkId" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSqlServerDatabaseReplicationLinks">
@@ -2508,10 +2508,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/databases/{databaseName}/restorePoints/{restorePointName}</description></item><item><term>Operation Id</term><description>RestorePoints_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="restorePointName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="restorePointName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="restorePointName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSqlServerDatabaseRestorePointAsync">
@@ -2541,10 +2541,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/databases/{databaseName}/restorePoints/{restorePointName}</description></item><item><term>Operation Id</term><description>RestorePoints_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="restorePointName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="restorePointName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="restorePointName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSqlServerDatabaseRestorePoints">
@@ -2650,10 +2650,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/databases/{databaseName}/syncGroups/{syncGroupName}</description></item><item><term>Operation Id</term><description>SyncGroups_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="syncGroupName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="syncGroupName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="syncGroupName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSyncGroupAsync">
@@ -2683,10 +2683,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/databases/{databaseName}/syncGroups/{syncGroupName}</description></item><item><term>Operation Id</term><description>SyncGroups_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="syncGroupName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="syncGroupName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="syncGroupName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSyncGroups">
@@ -2738,10 +2738,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/databases/{databaseName}/workloadGroups/{workloadGroupName}</description></item><item><term>Operation Id</term><description>WorkloadGroups_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="workloadGroupName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="workloadGroupName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="workloadGroupName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetWorkloadGroupAsync">
@@ -2771,10 +2771,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/databases/{databaseName}/workloadGroups/{workloadGroupName}</description></item><item><term>Operation Id</term><description>WorkloadGroups_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="workloadGroupName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="workloadGroupName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="workloadGroupName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetWorkloadGroups">

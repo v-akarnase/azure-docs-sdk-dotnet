@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudAgentPoolResource</ReturnType>
@@ -41,7 +43,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudAgentPoolResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.NetworkCloud.NetworkCloudAgentPoolResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudAgentPoolResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudArmClient.GetNetworkCloudAgentPoolResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudAgentPoolResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -56,6 +58,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudBareMetalMachineResource&gt;</ReturnType>
@@ -71,13 +74,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided bare metal machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/bareMetalMachines/{bareMetalMachineName}</description></item><item><term>Operation Id</term><description>BareMetalMachines_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/bareMetalMachines/{bareMetalMachineName}</description></item><item><term>Operation Id</term><description>BareMetalMachines_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudBareMetalMachine(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="bareMetalMachineName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="bareMetalMachineName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="bareMetalMachineName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetNetworkCloudBareMetalMachineAsync">
@@ -90,6 +93,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudBareMetalMachineResource&gt;&gt;</ReturnType>
@@ -105,13 +109,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided bare metal machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/bareMetalMachines/{bareMetalMachineName}</description></item><item><term>Operation Id</term><description>BareMetalMachines_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/bareMetalMachines/{bareMetalMachineName}</description></item><item><term>Operation Id</term><description>BareMetalMachines_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudBareMetalMachineAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="bareMetalMachineName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="bareMetalMachineName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="bareMetalMachineName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetNetworkCloudBareMetalMachineKeySetResource">
@@ -124,6 +128,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudBareMetalMachineKeySetResource</ReturnType>
@@ -138,7 +143,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudBareMetalMachineKeySetResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.NetworkCloud.NetworkCloudBareMetalMachineKeySetResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudBareMetalMachineKeySetResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudArmClient.GetNetworkCloudBareMetalMachineKeySetResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudBareMetalMachineKeySetResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -153,6 +158,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudBareMetalMachineResource</ReturnType>
@@ -167,7 +173,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudBareMetalMachineResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.NetworkCloud.NetworkCloudBareMetalMachineResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudBareMetalMachineResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudArmClient.GetNetworkCloudBareMetalMachineResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudBareMetalMachineResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -182,6 +188,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudBareMetalMachineCollection</ReturnType>
@@ -191,7 +198,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of NetworkCloudBareMetalMachineResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of NetworkCloudBareMetalMachineResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudBareMetalMachines" /> instead.</description></item></summary>
         <returns> An object representing collection of NetworkCloudBareMetalMachineResources and their operations over a NetworkCloudBareMetalMachineResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -206,6 +215,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudBareMetalMachineResource&gt;</ReturnType>
@@ -219,7 +229,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a list of bare metal machines in the provided subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/bareMetalMachines</description></item><item><term>Operation Id</term><description>BareMetalMachines_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/bareMetalMachines</description></item><item><term>Operation Id</term><description>BareMetalMachines_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudSubscriptionResource.GetNetworkCloudBareMetalMachines(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudBareMetalMachineResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -234,6 +244,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudBareMetalMachineResource&gt;</ReturnType>
@@ -247,7 +258,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a list of bare metal machines in the provided subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/bareMetalMachines</description></item><item><term>Operation Id</term><description>BareMetalMachines_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/bareMetalMachines</description></item><item><term>Operation Id</term><description>BareMetalMachines_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudSubscriptionResource.GetNetworkCloudBareMetalMachines(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudBareMetalMachineResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -262,6 +273,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudBmcKeySetResource</ReturnType>
@@ -276,7 +288,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudBmcKeySetResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.NetworkCloud.NetworkCloudBmcKeySetResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudBmcKeySetResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudArmClient.GetNetworkCloudBmcKeySetResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudBmcKeySetResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -291,6 +303,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudCloudServicesNetworkResource&gt;</ReturnType>
@@ -306,13 +319,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided cloud services network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/cloudServicesNetworks/{cloudServicesNetworkName}</description></item><item><term>Operation Id</term><description>CloudServicesNetworks_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/cloudServicesNetworks/{cloudServicesNetworkName}</description></item><item><term>Operation Id</term><description>CloudServicesNetworks_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudCloudServicesNetwork(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="cloudServicesNetworkName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="cloudServicesNetworkName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="cloudServicesNetworkName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetNetworkCloudCloudServicesNetworkAsync">
@@ -325,6 +338,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudCloudServicesNetworkResource&gt;&gt;</ReturnType>
@@ -340,13 +354,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided cloud services network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/cloudServicesNetworks/{cloudServicesNetworkName}</description></item><item><term>Operation Id</term><description>CloudServicesNetworks_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/cloudServicesNetworks/{cloudServicesNetworkName}</description></item><item><term>Operation Id</term><description>CloudServicesNetworks_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudCloudServicesNetworkAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="cloudServicesNetworkName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="cloudServicesNetworkName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="cloudServicesNetworkName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetNetworkCloudCloudServicesNetworkResource">
@@ -359,6 +373,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudCloudServicesNetworkResource</ReturnType>
@@ -373,7 +388,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudCloudServicesNetworkResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.NetworkCloud.NetworkCloudCloudServicesNetworkResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudCloudServicesNetworkResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudArmClient.GetNetworkCloudCloudServicesNetworkResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudCloudServicesNetworkResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -388,6 +403,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudCloudServicesNetworkCollection</ReturnType>
@@ -397,7 +413,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of NetworkCloudCloudServicesNetworkResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of NetworkCloudCloudServicesNetworkResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudCloudServicesNetworks" /> instead.</description></item></summary>
         <returns> An object representing collection of NetworkCloudCloudServicesNetworkResources and their operations over a NetworkCloudCloudServicesNetworkResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -412,6 +430,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudCloudServicesNetworkResource&gt;</ReturnType>
@@ -425,7 +444,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a list of cloud services networks in the provided subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/cloudServicesNetworks</description></item><item><term>Operation Id</term><description>CloudServicesNetworks_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/cloudServicesNetworks</description></item><item><term>Operation Id</term><description>CloudServicesNetworks_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudSubscriptionResource.GetNetworkCloudCloudServicesNetworks(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudCloudServicesNetworkResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -440,6 +459,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudCloudServicesNetworkResource&gt;</ReturnType>
@@ -453,7 +473,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a list of cloud services networks in the provided subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/cloudServicesNetworks</description></item><item><term>Operation Id</term><description>CloudServicesNetworks_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/cloudServicesNetworks</description></item><item><term>Operation Id</term><description>CloudServicesNetworks_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudSubscriptionResource.GetNetworkCloudCloudServicesNetworks(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudCloudServicesNetworkResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -468,6 +488,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource&gt;</ReturnType>
@@ -483,13 +504,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudCluster(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="clusterName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="clusterName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="clusterName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetNetworkCloudClusterAsync">
@@ -502,6 +523,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource&gt;&gt;</ReturnType>
@@ -517,13 +539,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudClusterAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="clusterName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="clusterName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="clusterName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetNetworkCloudClusterManager">
@@ -536,6 +558,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudClusterManagerResource&gt;</ReturnType>
@@ -551,13 +574,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the properties of the provided cluster manager.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusterManagers/{clusterManagerName}</description></item><item><term>Operation Id</term><description>ClusterManagers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusterManagers/{clusterManagerName}</description></item><item><term>Operation Id</term><description>ClusterManagers_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudClusterManager(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="clusterManagerName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="clusterManagerName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="clusterManagerName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetNetworkCloudClusterManagerAsync">
@@ -570,6 +593,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudClusterManagerResource&gt;&gt;</ReturnType>
@@ -585,13 +609,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the properties of the provided cluster manager.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusterManagers/{clusterManagerName}</description></item><item><term>Operation Id</term><description>ClusterManagers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/clusterManagers/{clusterManagerName}</description></item><item><term>Operation Id</term><description>ClusterManagers_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudClusterManagerAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="clusterManagerName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="clusterManagerName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="clusterManagerName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetNetworkCloudClusterManagerResource">
@@ -604,6 +628,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudClusterManagerResource</ReturnType>
@@ -618,7 +643,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterManagerResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterManagerResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterManagerResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudArmClient.GetNetworkCloudClusterManagerResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterManagerResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -633,6 +658,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudClusterManagerCollection</ReturnType>
@@ -642,7 +668,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of NetworkCloudClusterManagerResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of NetworkCloudClusterManagerResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudClusterManagers" /> instead.</description></item></summary>
         <returns> An object representing collection of NetworkCloudClusterManagerResources and their operations over a NetworkCloudClusterManagerResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -657,6 +685,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudClusterManagerResource&gt;</ReturnType>
@@ -670,7 +699,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a list of cluster managers in the provided subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/clusterManagers</description></item><item><term>Operation Id</term><description>ClusterManagers_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/clusterManagers</description></item><item><term>Operation Id</term><description>ClusterManagers_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudSubscriptionResource.GetNetworkCloudClusterManagers(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterManagerResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -685,6 +714,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudClusterManagerResource&gt;</ReturnType>
@@ -698,7 +728,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a list of cluster managers in the provided subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/clusterManagers</description></item><item><term>Operation Id</term><description>ClusterManagers_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/clusterManagers</description></item><item><term>Operation Id</term><description>ClusterManagers_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudSubscriptionResource.GetNetworkCloudClusterManagers(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterManagerResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -713,6 +743,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource</ReturnType>
@@ -727,7 +758,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudArmClient.GetNetworkCloudClusterMetricsConfigurationResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterMetricsConfigurationResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -742,6 +773,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource</ReturnType>
@@ -756,7 +788,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudArmClient.GetNetworkCloudClusterResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -771,6 +803,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudClusterCollection</ReturnType>
@@ -780,7 +813,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of NetworkCloudClusterResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of NetworkCloudClusterResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudClusters" /> instead.</description></item></summary>
         <returns> An object representing collection of NetworkCloudClusterResources and their operations over a NetworkCloudClusterResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -795,6 +830,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource&gt;</ReturnType>
@@ -808,7 +844,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a list of clusters in the provided subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/clusters</description></item><item><term>Operation Id</term><description>Clusters_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/clusters</description></item><item><term>Operation Id</term><description>Clusters_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudSubscriptionResource.GetNetworkCloudClusters(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -823,6 +859,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource&gt;</ReturnType>
@@ -836,7 +873,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a list of clusters in the provided subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/clusters</description></item><item><term>Operation Id</term><description>Clusters_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/clusters</description></item><item><term>Operation Id</term><description>Clusters_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudSubscriptionResource.GetNetworkCloudClusters(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudClusterResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -851,6 +888,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudKubernetesClusterResource&gt;</ReturnType>
@@ -866,13 +904,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided the Kubernetes cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/kubernetesClusters/{kubernetesClusterName}</description></item><item><term>Operation Id</term><description>KubernetesClusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/kubernetesClusters/{kubernetesClusterName}</description></item><item><term>Operation Id</term><description>KubernetesClusters_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudKubernetesCluster(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="kubernetesClusterName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="kubernetesClusterName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="kubernetesClusterName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetNetworkCloudKubernetesClusterAsync">
@@ -885,6 +923,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudKubernetesClusterResource&gt;&gt;</ReturnType>
@@ -900,13 +939,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided the Kubernetes cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/kubernetesClusters/{kubernetesClusterName}</description></item><item><term>Operation Id</term><description>KubernetesClusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/kubernetesClusters/{kubernetesClusterName}</description></item><item><term>Operation Id</term><description>KubernetesClusters_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudKubernetesClusterAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="kubernetesClusterName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="kubernetesClusterName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="kubernetesClusterName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetNetworkCloudKubernetesClusterResource">
@@ -919,6 +958,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudKubernetesClusterResource</ReturnType>
@@ -933,7 +973,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudKubernetesClusterResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.NetworkCloud.NetworkCloudKubernetesClusterResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudKubernetesClusterResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudArmClient.GetNetworkCloudKubernetesClusterResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudKubernetesClusterResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -948,6 +988,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudKubernetesClusterCollection</ReturnType>
@@ -957,7 +998,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of NetworkCloudKubernetesClusterResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of NetworkCloudKubernetesClusterResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudKubernetesClusters" /> instead.</description></item></summary>
         <returns> An object representing collection of NetworkCloudKubernetesClusterResources and their operations over a NetworkCloudKubernetesClusterResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -972,6 +1015,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudKubernetesClusterResource&gt;</ReturnType>
@@ -985,7 +1029,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a list of Kubernetes clusters in the provided subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/kubernetesClusters</description></item><item><term>Operation Id</term><description>KubernetesClusters_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/kubernetesClusters</description></item><item><term>Operation Id</term><description>KubernetesClusters_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudSubscriptionResource.GetNetworkCloudKubernetesClusters(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudKubernetesClusterResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1000,6 +1044,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudKubernetesClusterResource&gt;</ReturnType>
@@ -1013,7 +1058,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a list of Kubernetes clusters in the provided subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/kubernetesClusters</description></item><item><term>Operation Id</term><description>KubernetesClusters_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/kubernetesClusters</description></item><item><term>Operation Id</term><description>KubernetesClusters_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudSubscriptionResource.GetNetworkCloudKubernetesClusters(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudKubernetesClusterResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1028,6 +1073,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudL2NetworkResource&gt;</ReturnType>
@@ -1043,13 +1089,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided layer 2 (L2) network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/l2Networks/{l2NetworkName}</description></item><item><term>Operation Id</term><description>L2Networks_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/l2Networks/{l2NetworkName}</description></item><item><term>Operation Id</term><description>L2Networks_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudL2Network(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="l2NetworkName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="l2NetworkName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="l2NetworkName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetNetworkCloudL2NetworkAsync">
@@ -1062,6 +1108,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudL2NetworkResource&gt;&gt;</ReturnType>
@@ -1077,13 +1124,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided layer 2 (L2) network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/l2Networks/{l2NetworkName}</description></item><item><term>Operation Id</term><description>L2Networks_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/l2Networks/{l2NetworkName}</description></item><item><term>Operation Id</term><description>L2Networks_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudL2NetworkAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="l2NetworkName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="l2NetworkName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="l2NetworkName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetNetworkCloudL2NetworkResource">
@@ -1096,6 +1143,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudL2NetworkResource</ReturnType>
@@ -1110,7 +1158,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudL2NetworkResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.NetworkCloud.NetworkCloudL2NetworkResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudL2NetworkResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudArmClient.GetNetworkCloudL2NetworkResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudL2NetworkResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1125,6 +1173,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudL2NetworkCollection</ReturnType>
@@ -1134,7 +1183,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of NetworkCloudL2NetworkResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of NetworkCloudL2NetworkResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudL2Networks" /> instead.</description></item></summary>
         <returns> An object representing collection of NetworkCloudL2NetworkResources and their operations over a NetworkCloudL2NetworkResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1149,6 +1200,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudL2NetworkResource&gt;</ReturnType>
@@ -1162,7 +1214,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a list of layer 2 (L2) networks in the provided subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/l2Networks</description></item><item><term>Operation Id</term><description>L2Networks_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/l2Networks</description></item><item><term>Operation Id</term><description>L2Networks_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudSubscriptionResource.GetNetworkCloudL2Networks(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudL2NetworkResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1177,6 +1229,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudL2NetworkResource&gt;</ReturnType>
@@ -1190,7 +1243,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a list of layer 2 (L2) networks in the provided subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/l2Networks</description></item><item><term>Operation Id</term><description>L2Networks_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/l2Networks</description></item><item><term>Operation Id</term><description>L2Networks_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudSubscriptionResource.GetNetworkCloudL2Networks(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudL2NetworkResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1205,6 +1258,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudL3NetworkResource&gt;</ReturnType>
@@ -1220,13 +1274,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided layer 3 (L3) network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/l3Networks/{l3NetworkName}</description></item><item><term>Operation Id</term><description>L3Networks_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/l3Networks/{l3NetworkName}</description></item><item><term>Operation Id</term><description>L3Networks_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudL3Network(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="l3NetworkName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="l3NetworkName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="l3NetworkName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetNetworkCloudL3NetworkAsync">
@@ -1239,6 +1293,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudL3NetworkResource&gt;&gt;</ReturnType>
@@ -1254,13 +1309,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided layer 3 (L3) network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/l3Networks/{l3NetworkName}</description></item><item><term>Operation Id</term><description>L3Networks_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/l3Networks/{l3NetworkName}</description></item><item><term>Operation Id</term><description>L3Networks_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudL3NetworkAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="l3NetworkName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="l3NetworkName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="l3NetworkName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetNetworkCloudL3NetworkResource">
@@ -1273,6 +1328,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudL3NetworkResource</ReturnType>
@@ -1287,7 +1343,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudL3NetworkResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.NetworkCloud.NetworkCloudL3NetworkResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudL3NetworkResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudArmClient.GetNetworkCloudL3NetworkResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudL3NetworkResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1302,6 +1358,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudL3NetworkCollection</ReturnType>
@@ -1311,7 +1368,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of NetworkCloudL3NetworkResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of NetworkCloudL3NetworkResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudL3Networks" /> instead.</description></item></summary>
         <returns> An object representing collection of NetworkCloudL3NetworkResources and their operations over a NetworkCloudL3NetworkResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1326,6 +1385,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudL3NetworkResource&gt;</ReturnType>
@@ -1339,7 +1399,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a list of layer 3 (L3) networks in the provided subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/l3Networks</description></item><item><term>Operation Id</term><description>L3Networks_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/l3Networks</description></item><item><term>Operation Id</term><description>L3Networks_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudSubscriptionResource.GetNetworkCloudL3Networks(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudL3NetworkResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1354,6 +1414,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudL3NetworkResource&gt;</ReturnType>
@@ -1367,7 +1428,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a list of layer 3 (L3) networks in the provided subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/l3Networks</description></item><item><term>Operation Id</term><description>L3Networks_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/l3Networks</description></item><item><term>Operation Id</term><description>L3Networks_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudSubscriptionResource.GetNetworkCloudL3Networks(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudL3NetworkResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1382,6 +1443,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudRackResource&gt;</ReturnType>
@@ -1397,13 +1459,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided rack.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/racks/{rackName}</description></item><item><term>Operation Id</term><description>Racks_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/racks/{rackName}</description></item><item><term>Operation Id</term><description>Racks_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudRack(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="rackName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="rackName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="rackName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetNetworkCloudRackAsync">
@@ -1416,6 +1478,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudRackResource&gt;&gt;</ReturnType>
@@ -1431,13 +1494,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided rack.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/racks/{rackName}</description></item><item><term>Operation Id</term><description>Racks_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/racks/{rackName}</description></item><item><term>Operation Id</term><description>Racks_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudRackAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="rackName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="rackName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="rackName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetNetworkCloudRackResource">
@@ -1450,6 +1513,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudRackResource</ReturnType>
@@ -1464,7 +1528,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudRackResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.NetworkCloud.NetworkCloudRackResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudRackResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudArmClient.GetNetworkCloudRackResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudRackResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1479,6 +1543,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudRackCollection</ReturnType>
@@ -1488,7 +1553,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of NetworkCloudRackResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of NetworkCloudRackResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudRacks" /> instead.</description></item></summary>
         <returns> An object representing collection of NetworkCloudRackResources and their operations over a NetworkCloudRackResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1503,6 +1570,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudRackResource&gt;</ReturnType>
@@ -1516,7 +1584,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a list of racks in the provided subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/racks</description></item><item><term>Operation Id</term><description>Racks_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/racks</description></item><item><term>Operation Id</term><description>Racks_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudSubscriptionResource.GetNetworkCloudRacks(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudRackResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1531,6 +1599,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudRackResource&gt;</ReturnType>
@@ -1544,7 +1613,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a list of racks in the provided subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/racks</description></item><item><term>Operation Id</term><description>Racks_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/racks</description></item><item><term>Operation Id</term><description>Racks_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudSubscriptionResource.GetNetworkCloudRacks(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudRackResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1559,6 +1628,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudRackSkuResource&gt;</ReturnType>
@@ -1574,13 +1644,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the properties of the provided rack SKU.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/rackSkus/{rackSkuName}</description></item><item><term>Operation Id</term><description>RackSkus_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/rackSkus/{rackSkuName}</description></item><item><term>Operation Id</term><description>RackSkus_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudSubscriptionResource.GetNetworkCloudRackSku(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="rackSkuName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="rackSkuName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="rackSkuName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetNetworkCloudRackSkuAsync">
@@ -1593,6 +1663,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudRackSkuResource&gt;&gt;</ReturnType>
@@ -1608,13 +1679,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the properties of the provided rack SKU.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/rackSkus/{rackSkuName}</description></item><item><term>Operation Id</term><description>RackSkus_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/rackSkus/{rackSkuName}</description></item><item><term>Operation Id</term><description>RackSkus_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudSubscriptionResource.GetNetworkCloudRackSkuAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="rackSkuName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="rackSkuName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="rackSkuName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetNetworkCloudRackSkuResource">
@@ -1627,6 +1698,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudRackSkuResource</ReturnType>
@@ -1641,7 +1713,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudRackSkuResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.NetworkCloud.NetworkCloudRackSkuResource.CreateResourceIdentifier(System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudRackSkuResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudArmClient.GetNetworkCloudRackSkuResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudRackSkuResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1656,6 +1728,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudRackSkuCollection</ReturnType>
@@ -1665,7 +1738,9 @@
       </Parameters>
       <Docs>
         <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of NetworkCloudRackSkuResources in the SubscriptionResource. </summary>
+        <summary>
+            Gets a collection of NetworkCloudRackSkuResources in the SubscriptionResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudSubscriptionResource.GetNetworkCloudRackSkus" /> instead.</description></item></summary>
         <returns> An object representing collection of NetworkCloudRackSkuResources and their operations over a NetworkCloudRackSkuResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1680,6 +1755,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudStorageApplianceResource&gt;</ReturnType>
@@ -1695,13 +1771,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided storage appliance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/storageAppliances/{storageApplianceName}</description></item><item><term>Operation Id</term><description>StorageAppliances_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/storageAppliances/{storageApplianceName}</description></item><item><term>Operation Id</term><description>StorageAppliances_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudStorageAppliance(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="storageApplianceName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="storageApplianceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="storageApplianceName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetNetworkCloudStorageApplianceAsync">
@@ -1714,6 +1790,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudStorageApplianceResource&gt;&gt;</ReturnType>
@@ -1729,13 +1806,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided storage appliance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/storageAppliances/{storageApplianceName}</description></item><item><term>Operation Id</term><description>StorageAppliances_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/storageAppliances/{storageApplianceName}</description></item><item><term>Operation Id</term><description>StorageAppliances_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudStorageApplianceAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="storageApplianceName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="storageApplianceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="storageApplianceName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetNetworkCloudStorageApplianceResource">
@@ -1748,6 +1825,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudStorageApplianceResource</ReturnType>
@@ -1762,7 +1840,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudStorageApplianceResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.NetworkCloud.NetworkCloudStorageApplianceResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudStorageApplianceResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudArmClient.GetNetworkCloudStorageApplianceResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudStorageApplianceResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1777,6 +1855,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudStorageApplianceCollection</ReturnType>
@@ -1786,7 +1865,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of NetworkCloudStorageApplianceResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of NetworkCloudStorageApplianceResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudStorageAppliances" /> instead.</description></item></summary>
         <returns> An object representing collection of NetworkCloudStorageApplianceResources and their operations over a NetworkCloudStorageApplianceResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1801,6 +1882,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudStorageApplianceResource&gt;</ReturnType>
@@ -1814,7 +1896,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a list of storage appliances in the provided subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/storageAppliances</description></item><item><term>Operation Id</term><description>StorageAppliances_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/storageAppliances</description></item><item><term>Operation Id</term><description>StorageAppliances_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudSubscriptionResource.GetNetworkCloudStorageAppliances(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudStorageApplianceResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1829,6 +1911,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudStorageApplianceResource&gt;</ReturnType>
@@ -1842,7 +1925,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a list of storage appliances in the provided subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/storageAppliances</description></item><item><term>Operation Id</term><description>StorageAppliances_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/storageAppliances</description></item><item><term>Operation Id</term><description>StorageAppliances_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudSubscriptionResource.GetNetworkCloudStorageAppliances(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudStorageApplianceResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1857,6 +1940,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource&gt;</ReturnType>
@@ -1872,13 +1956,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided trunked network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/trunkedNetworks/{trunkedNetworkName}</description></item><item><term>Operation Id</term><description>TrunkedNetworks_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/trunkedNetworks/{trunkedNetworkName}</description></item><item><term>Operation Id</term><description>TrunkedNetworks_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudTrunkedNetwork(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="trunkedNetworkName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="trunkedNetworkName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="trunkedNetworkName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetNetworkCloudTrunkedNetworkAsync">
@@ -1891,6 +1975,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource&gt;&gt;</ReturnType>
@@ -1906,13 +1991,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided trunked network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/trunkedNetworks/{trunkedNetworkName}</description></item><item><term>Operation Id</term><description>TrunkedNetworks_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/trunkedNetworks/{trunkedNetworkName}</description></item><item><term>Operation Id</term><description>TrunkedNetworks_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudTrunkedNetworkAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="trunkedNetworkName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="trunkedNetworkName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="trunkedNetworkName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetNetworkCloudTrunkedNetworkResource">
@@ -1925,6 +2010,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource</ReturnType>
@@ -1939,7 +2025,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudArmClient.GetNetworkCloudTrunkedNetworkResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1954,6 +2040,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkCollection</ReturnType>
@@ -1963,7 +2050,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of NetworkCloudTrunkedNetworkResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of NetworkCloudTrunkedNetworkResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudTrunkedNetworks" /> instead.</description></item></summary>
         <returns> An object representing collection of NetworkCloudTrunkedNetworkResources and their operations over a NetworkCloudTrunkedNetworkResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1978,6 +2067,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource&gt;</ReturnType>
@@ -1991,7 +2081,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a list of trunked networks in the provided subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/trunkedNetworks</description></item><item><term>Operation Id</term><description>TrunkedNetworks_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/trunkedNetworks</description></item><item><term>Operation Id</term><description>TrunkedNetworks_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudSubscriptionResource.GetNetworkCloudTrunkedNetworks(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2006,6 +2096,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource&gt;</ReturnType>
@@ -2019,7 +2110,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a list of trunked networks in the provided subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/trunkedNetworks</description></item><item><term>Operation Id</term><description>TrunkedNetworks_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/trunkedNetworks</description></item><item><term>Operation Id</term><description>TrunkedNetworks_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudSubscriptionResource.GetNetworkCloudTrunkedNetworks(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudTrunkedNetworkResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2034,6 +2125,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource&gt;</ReturnType>
@@ -2049,13 +2141,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided virtual machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudVirtualMachine(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="virtualMachineName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="virtualMachineName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="virtualMachineName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetNetworkCloudVirtualMachineAsync">
@@ -2068,6 +2160,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource&gt;&gt;</ReturnType>
@@ -2083,13 +2176,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided virtual machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudVirtualMachineAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="virtualMachineName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="virtualMachineName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="virtualMachineName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetNetworkCloudVirtualMachineConsoleResource">
@@ -2102,6 +2195,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineConsoleResource</ReturnType>
@@ -2116,7 +2210,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineConsoleResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineConsoleResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineConsoleResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudArmClient.GetNetworkCloudVirtualMachineConsoleResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineConsoleResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2131,6 +2225,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource</ReturnType>
@@ -2145,7 +2240,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudArmClient.GetNetworkCloudVirtualMachineResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2160,6 +2255,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineCollection</ReturnType>
@@ -2169,7 +2265,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of NetworkCloudVirtualMachineResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of NetworkCloudVirtualMachineResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudVirtualMachines" /> instead.</description></item></summary>
         <returns> An object representing collection of NetworkCloudVirtualMachineResources and their operations over a NetworkCloudVirtualMachineResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2184,6 +2282,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource&gt;</ReturnType>
@@ -2197,7 +2296,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a list of virtual machines in the provided subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/virtualMachines</description></item><item><term>Operation Id</term><description>VirtualMachines_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/virtualMachines</description></item><item><term>Operation Id</term><description>VirtualMachines_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudSubscriptionResource.GetNetworkCloudVirtualMachines(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2212,6 +2311,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource&gt;</ReturnType>
@@ -2225,7 +2325,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a list of virtual machines in the provided subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/virtualMachines</description></item><item><term>Operation Id</term><description>VirtualMachines_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/virtualMachines</description></item><item><term>Operation Id</term><description>VirtualMachines_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudSubscriptionResource.GetNetworkCloudVirtualMachines(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVirtualMachineResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2240,6 +2340,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudVolumeResource&gt;</ReturnType>
@@ -2255,13 +2356,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided volume.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/volumes/{volumeName}</description></item><item><term>Operation Id</term><description>Volumes_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/volumes/{volumeName}</description></item><item><term>Operation Id</term><description>Volumes_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudVolume(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="volumeName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="volumeName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="volumeName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetNetworkCloudVolumeAsync">
@@ -2274,6 +2375,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudVolumeResource&gt;&gt;</ReturnType>
@@ -2289,13 +2391,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of the provided volume.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/volumes/{volumeName}</description></item><item><term>Operation Id</term><description>Volumes_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetworkCloud/volumes/{volumeName}</description></item><item><term>Operation Id</term><description>Volumes_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudVolumeAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="volumeName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="volumeName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="volumeName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetNetworkCloudVolumeResource">
@@ -2308,6 +2410,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudVolumeResource</ReturnType>
@@ -2322,7 +2425,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVolumeResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.NetworkCloud.NetworkCloudVolumeResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVolumeResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudArmClient.GetNetworkCloudVolumeResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVolumeResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2337,6 +2440,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetworkCloud.NetworkCloudVolumeCollection</ReturnType>
@@ -2346,7 +2450,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of NetworkCloudVolumeResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of NetworkCloudVolumeResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudResourceGroupResource.GetNetworkCloudVolumes" /> instead.</description></item></summary>
         <returns> An object representing collection of NetworkCloudVolumeResources and their operations over a NetworkCloudVolumeResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2361,6 +2467,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudVolumeResource&gt;</ReturnType>
@@ -2374,7 +2481,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a list of volumes in the provided subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/volumes</description></item><item><term>Operation Id</term><description>Volumes_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/volumes</description></item><item><term>Operation Id</term><description>Volumes_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudSubscriptionResource.GetNetworkCloudVolumes(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVolumeResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2389,6 +2496,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetworkCloud</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.NetworkCloud.NetworkCloudVolumeResource&gt;</ReturnType>
@@ -2402,7 +2510,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a list of volumes in the provided subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/volumes</description></item><item><term>Operation Id</term><description>Volumes_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetworkCloud/volumes</description></item><item><term>Operation Id</term><description>Volumes_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetworkCloud.Mocking.MockableNetworkCloudSubscriptionResource.GetNetworkCloudVolumes(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.NetworkCloud.NetworkCloudVolumeResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>

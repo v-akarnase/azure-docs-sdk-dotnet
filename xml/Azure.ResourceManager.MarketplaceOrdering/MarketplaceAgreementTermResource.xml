@@ -64,11 +64,11 @@
         <Parameter Name="planId" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="offerType">To be added.</param>
-        <param name="publisherId">To be added.</param>
-        <param name="offerId">To be added.</param>
-        <param name="planId">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="offerType"> The offerType. </param>
+        <param name="publisherId"> The publisherId. </param>
+        <param name="offerId"> The offerId. </param>
+        <param name="planId"> The planId. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.MarketplaceOrdering.MarketplaceAgreementTermResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

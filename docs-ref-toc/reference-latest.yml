@@ -12,6 +12,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.alertsmanagement-readme.md
         children:
         - Azure.ResourceManager.AlertsManagement
+        - Azure.ResourceManager.AlertsManagement.Mocking
         - Azure.ResourceManager.AlertsManagement.Models
   - name: Analysis
     href: ~/api/overview/azure/latest/analysis.md
@@ -23,6 +24,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.analysis-readme.md
         children:
         - Azure.ResourceManager.Analysis
+        - Azure.ResourceManager.Analysis.Mocking
         - Azure.ResourceManager.Analysis.Models
   - name: API Management
     href: ~/api/overview/azure/latest/api-management.md
@@ -34,6 +36,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.apimanagement-readme.md
         children:
         - Azure.ResourceManager.ApiManagement
+        - Azure.ResourceManager.ApiManagement.Mocking
         - Azure.ResourceManager.ApiManagement.Models
   - name: App Configuration
     href: ~/api/overview/azure/latest/app-configuration.md
@@ -69,6 +72,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.appplatform-readme.md
         children:
         - Azure.ResourceManager.AppPlatform
+        - Azure.ResourceManager.AppPlatform.Mocking
         - Azure.ResourceManager.AppPlatform.Models
   - name: App Service
     href: ~/api/overview/azure/latest/app-service.md
@@ -80,6 +84,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.appservice-readme.md
         children:
         - Azure.ResourceManager.AppService
+        - Azure.ResourceManager.AppService.Mocking
         - Azure.ResourceManager.AppService.Models
   - name: Attestation
     href: ~/api/overview/azure/latest/attestation.md
@@ -99,6 +104,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.authorization-readme.md
         children:
         - Azure.ResourceManager.Authorization
+        - Azure.ResourceManager.Authorization.Mocking
         - Azure.ResourceManager.Authorization.Models
       - name: Management - Authorization (deprecated)
         children:
@@ -114,6 +120,11 @@
       - Microsoft.Azure.CognitiveServices.Search.AutoSuggest
       - Microsoft.Azure.CognitiveServices.Search.AutoSuggest.Models
       landingPageType: Service
+    - name: Auto Suggest
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.AutoSuggest
+      - Microsoft.Azure.CognitiveServices.Search.AutoSuggest.Models
+      landingPageType: Service
   - name: Automanage
     href: ~/api/overview/azure/latest/automanage.md
     landingPageType: Service
@@ -124,6 +135,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.automanage-readme.md
         children:
         - Azure.ResourceManager.Automanage
+        - Azure.ResourceManager.Automanage.Mocking
         - Azure.ResourceManager.Automanage.Models
   - name: Automation
     href: ~/api/overview/azure/latest/automation.md
@@ -135,6 +147,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.automation-readme.md
         children:
         - Azure.ResourceManager.Automation
+        - Azure.ResourceManager.Automation.Mocking
         - Azure.ResourceManager.Automation.Models
       - name: Management - Automation (deprecated)
         children:
@@ -152,6 +165,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.avs-readme.md
         children:
         - Azure.ResourceManager.Avs
+        - Azure.ResourceManager.Avs.Mocking
         - Azure.ResourceManager.Avs.Models
   - name: Batch
     href: ~/api/overview/azure/latest/batch.md
@@ -181,6 +195,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.batch-readme.md
         children:
         - Azure.ResourceManager.Batch
+        - Azure.ResourceManager.Batch.Mocking
         - Azure.ResourceManager.Batch.Models
   - name: Billing
     href: ~/api/overview/azure/latest/billing.md
@@ -192,6 +207,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.billing-readme.md
         children:
         - Azure.ResourceManager.Billing
+        - Azure.ResourceManager.Billing.Mocking
         - Azure.ResourceManager.Billing.Models
   - name: Bot Service
     href: ~/api/overview/azure/latest/bot-service.md
@@ -203,6 +219,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.botservice-readme.md
         children:
         - Azure.ResourceManager.BotService
+        - Azure.ResourceManager.BotService.Mocking
         - Azure.ResourceManager.BotService.Models
   - name: Change Analysis
     href: ~/api/overview/azure/latest/change-analysis.md
@@ -214,6 +231,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.changeanalysis-readme.md
         children:
         - Azure.ResourceManager.ChangeAnalysis
+        - Azure.ResourceManager.ChangeAnalysis.Mocking
         - Azure.ResourceManager.ChangeAnalysis.Models
   - name: Cognitive Services
     href: ~/api/overview/azure/latest/cognitive-services.md
@@ -263,6 +281,11 @@
       href: ~/api/overview/azure/latest/ai.translation.document-readme.md
       children:
       - Azure.AI.Translation.Document
+    - name: Text Translation
+      children:
+      - Azure.AI.Translation.Text
+      - Microsoft.Extensions.Azure
+      landingPageType: Service
     - name: Health Insights Cancer Profiling
       children:
       - Azure.Health.Insights.CancerProfiling
@@ -348,10 +371,55 @@
       - Microsoft.Azure.CognitiveServices.Search.WebSearch
       - Microsoft.Azure.CognitiveServices.Search.WebSearch.Models
       landingPageType: Service
+    - name: Custom Image Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.CustomImageSearch
+      - Microsoft.Azure.CognitiveServices.Search.CustomImageSearch.Models
+      landingPageType: Service
+    - name: Custom Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.CustomSearch
+      - Microsoft.Azure.CognitiveServices.Search.CustomSearch.Models
+      landingPageType: Service
+    - name: Entity Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.EntitySearch
+      - Microsoft.Azure.CognitiveServices.Search.EntitySearch.Models
+      landingPageType: Service
+    - name: Image Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.ImageSearch
+      - Microsoft.Azure.CognitiveServices.Search.ImageSearch.Models
+      landingPageType: Service
+    - name: News Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.NewsSearch
+      - Microsoft.Azure.CognitiveServices.Search.NewsSearch.Models
+      landingPageType: Service
+    - name: Video Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.VideoSearch
+      - Microsoft.Azure.CognitiveServices.Search.VideoSearch.Models
+      landingPageType: Service
+    - name: Visual Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.VisualSearch
+      - Microsoft.Azure.CognitiveServices.Search.VisualSearch.Models
+      landingPageType: Service
+    - name: Web Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.WebSearch
+      - Microsoft.Azure.CognitiveServices.Search.WebSearch.Models
+      landingPageType: Service
     - name: Computer Vision
       children:
       - Microsoft.Azure.CognitiveServices.Vision.ComputerVision
       - Microsoft.Azure.CognitiveServices.Vision.ComputerVision.Models
+      landingPageType: Service
+    - name: Vision Content Moderator
+      children:
+      - Microsoft.Azure.CognitiveServices.ContentModerator
+      - Microsoft.Azure.CognitiveServices.ContentModerator.Models
       landingPageType: Service
     - name: Custom Vision Prediction
       children:
@@ -401,6 +469,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.cognitiveservices-readme.md
         children:
         - Azure.ResourceManager.CognitiveServices
+        - Azure.ResourceManager.CognitiveServices.Mocking
         - Azure.ResourceManager.CognitiveServices.Models
   - name: Communication
     href: ~/api/overview/azure/latest/communication.md
@@ -463,6 +532,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.compute-readme.md
         children:
         - Azure.ResourceManager.Compute
+        - Azure.ResourceManager.Compute.Mocking
         - Azure.ResourceManager.Compute.Models
   - name: Confidential Ledger
     href: ~/api/overview/azure/latest/confidential-ledger.md
@@ -479,6 +549,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.confidentialledger-readme.md
         children:
         - Azure.ResourceManager.ConfidentialLedger
+        - Azure.ResourceManager.ConfidentialLedger.Mocking
         - Azure.ResourceManager.ConfidentialLedger.Models
   - name: Confluent
     href: ~/api/overview/azure/latest/confluent.md
@@ -490,6 +561,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.confluent-readme.md
         children:
         - Azure.ResourceManager.Confluent
+        - Azure.ResourceManager.Confluent.Mocking
         - Azure.ResourceManager.Confluent.Models
   - name: Consumption
     href: ~/api/overview/azure/latest/consumption.md
@@ -501,6 +573,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.consumption-readme.md
         children:
         - Azure.ResourceManager.Consumption
+        - Azure.ResourceManager.Consumption.Mocking
         - Azure.ResourceManager.Consumption.Models
   - name: Container Apps
     href: ~/api/overview/azure/latest/container-apps.md
@@ -512,6 +585,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.appcontainers-readme.md
         children:
         - Azure.ResourceManager.AppContainers
+        - Azure.ResourceManager.AppContainers.Mocking
         - Azure.ResourceManager.AppContainers.Models
   - name: Container Instances
     href: ~/api/overview/azure/latest/container-instances.md
@@ -523,6 +597,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.containerinstance-readme.md
         children:
         - Azure.ResourceManager.ContainerInstance
+        - Azure.ResourceManager.ContainerInstance.Mocking
         - Azure.ResourceManager.ContainerInstance.Models
   - name: Container Registry
     href: ~/api/overview/azure/latest/container-registry.md
@@ -538,6 +613,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.containerregistry-readme.md
         children:
         - Azure.ResourceManager.ContainerRegistry
+        - Azure.ResourceManager.ContainerRegistry.Mocking
         - Azure.ResourceManager.ContainerRegistry.Models
   - name: Container Service
     href: ~/api/overview/azure/latest/container-service.md
@@ -549,6 +625,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.containerservice-readme.md
         children:
         - Azure.ResourceManager.ContainerService
+        - Azure.ResourceManager.ContainerService.Mocking
         - Azure.ResourceManager.ContainerService.Models
   - name: Content Delivery Network
     href: ~/api/overview/azure/latest/content-delivery-network.md
@@ -560,6 +637,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.cdn-readme.md
         children:
         - Azure.ResourceManager.Cdn
+        - Azure.ResourceManager.Cdn.Mocking
         - Azure.ResourceManager.Cdn.Models
   - name: Cosmos DB
     href: ~/api/overview/azure/latest/cosmos-db.md
@@ -588,6 +666,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.cosmosdb-readme.md
         children:
         - Azure.ResourceManager.CosmosDB
+        - Azure.ResourceManager.CosmosDB.Mocking
         - Azure.ResourceManager.CosmosDB.Models
   - name: Cosmos DB for PostgreSQL
     href: ~/api/overview/azure/latest/cosmos-db-for-postgresql.md
@@ -599,6 +678,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.cosmosdbforpostgresql-readme.md
         children:
         - Azure.ResourceManager.CosmosDBForPostgreSql
+        - Azure.ResourceManager.CosmosDBForPostgreSql.Mocking
         - Azure.ResourceManager.CosmosDBForPostgreSql.Models
   - name: Cost Management
     href: ~/api/overview/azure/latest/cost-management.md
@@ -610,6 +690,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.costmanagement-readme.md
         children:
         - Azure.ResourceManager.CostManagement
+        - Azure.ResourceManager.CostManagement.Mocking
         - Azure.ResourceManager.CostManagement.Models
   - name: Data Box
     href: ~/api/overview/azure/latest/data-box.md
@@ -621,6 +702,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.databox-readme.md
         children:
         - Azure.ResourceManager.DataBox
+        - Azure.ResourceManager.DataBox.Mocking
         - Azure.ResourceManager.DataBox.Models
   - name: Data Box Edge
     href: ~/api/overview/azure/latest/data-box-edge.md
@@ -632,6 +714,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.databoxedge-readme.md
         children:
         - Azure.ResourceManager.DataBoxEdge
+        - Azure.ResourceManager.DataBoxEdge.Mocking
         - Azure.ResourceManager.DataBoxEdge.Models
   - name: Data Factory
     href: ~/api/overview/azure/latest/data-factory.md
@@ -670,6 +753,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.datalakestore-readme.md
         children:
         - Azure.ResourceManager.DataLakeStore
+        - Azure.ResourceManager.DataLakeStore.Mocking
         - Azure.ResourceManager.DataLakeStore.Models
   - name: Data Protection
     href: ~/api/overview/azure/latest/data-protection.md
@@ -681,6 +765,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.dataprotectionbackup-readme.md
         children:
         - Azure.ResourceManager.DataProtectionBackup
+        - Azure.ResourceManager.DataProtectionBackup.Mocking
         - Azure.ResourceManager.DataProtectionBackup.Models
   - name: Data Share
     href: ~/api/overview/azure/latest/data-share.md
@@ -692,6 +777,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.datashare-readme.md
         children:
         - Azure.ResourceManager.DataShare
+        - Azure.ResourceManager.DataShare.Mocking
         - Azure.ResourceManager.DataShare.Models
   - name: Desktop Virtualization
     href: ~/api/overview/azure/latest/desktop-virtualization.md
@@ -719,6 +805,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.devcenter-readme.md
         children:
         - Azure.ResourceManager.DevCenter
+        - Azure.ResourceManager.DevCenter.Mocking
         - Azure.ResourceManager.DevCenter.Models
   - name: DevTest Labs
     href: ~/api/overview/azure/latest/devtest-labs.md
@@ -730,6 +817,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.devtestlabs-readme.md
         children:
         - Azure.ResourceManager.DevTestLabs
+        - Azure.ResourceManager.DevTestLabs.Mocking
         - Azure.ResourceManager.DevTestLabs.Models
   - name: DNS
     href: ~/api/overview/azure/latest/dns.md
@@ -741,6 +829,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.dns-readme.md
         children:
         - Azure.ResourceManager.Dns
+        - Azure.ResourceManager.Dns.Mocking
         - Azure.ResourceManager.Dns.Models
   - name: DNS Resolver
     href: ~/api/overview/azure/latest/dns-resolver.md
@@ -752,6 +841,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.dnsresolver-readme.md
         children:
         - Azure.ResourceManager.DnsResolver
+        - Azure.ResourceManager.DnsResolver.Mocking
         - Azure.ResourceManager.DnsResolver.Models
   - name: Dynatrace
     href: ~/api/overview/azure/latest/dynatrace.md
@@ -763,6 +853,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.dynatrace-readme.md
         children:
         - Azure.ResourceManager.Dynatrace
+        - Azure.ResourceManager.Dynatrace.Mocking
         - Azure.ResourceManager.Dynatrace.Models
   - name: Edge Order
     href: ~/api/overview/azure/latest/edge-order.md
@@ -774,6 +865,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.edgeorder-readme.md
         children:
         - Azure.ResourceManager.EdgeOrder
+        - Azure.ResourceManager.EdgeOrder.Mocking
         - Azure.ResourceManager.EdgeOrder.Models
   - name: Event Grid
     href: ~/api/overview/azure/latest/event-grid.md
@@ -792,6 +884,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.eventgrid-readme.md
         children:
         - Azure.ResourceManager.EventGrid
+        - Azure.ResourceManager.EventGrid.Mocking
         - Azure.ResourceManager.EventGrid.Models
   - name: Event Hubs
     href: ~/api/overview/azure/latest/event-hubs.md
@@ -817,6 +910,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.eventhubs-readme.md
         children:
         - Azure.ResourceManager.EventHubs
+        - Azure.ResourceManager.EventHubs.Mocking
         - Azure.ResourceManager.EventHubs.Models
   - name: Extended Location
     href: ~/api/overview/azure/latest/extended-location.md
@@ -828,6 +922,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.extendedlocations-readme.md
         children:
         - Azure.ResourceManager.ExtendedLocations
+        - Azure.ResourceManager.ExtendedLocations.Mocking
         - Azure.ResourceManager.ExtendedLocations.Models
   - name: FarmBeats
     landingPageType: Service
@@ -847,6 +942,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.fluidrelay-readme.md
         children:
         - Azure.ResourceManager.FluidRelay
+        - Azure.ResourceManager.FluidRelay.Mocking
         - Azure.ResourceManager.FluidRelay.Models
   - name: Front Door
     href: ~/api/overview/azure/latest/front-door.md
@@ -858,6 +954,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.frontdoor-readme.md
         children:
         - Azure.ResourceManager.FrontDoor
+        - Azure.ResourceManager.FrontDoor.Mocking
         - Azure.ResourceManager.FrontDoor.Models
   - name: Grafana
     href: ~/api/overview/azure/latest/grafana.md
@@ -869,6 +966,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.grafana-readme.md
         children:
         - Azure.ResourceManager.Grafana
+        - Azure.ResourceManager.Grafana.Mocking
         - Azure.ResourceManager.Grafana.Models
   - name: Graph Services
     href: ~/api/overview/azure/latest/graph-services.md
@@ -880,6 +978,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.graphservices-readme.md
         children:
         - Azure.ResourceManager.GraphServices
+        - Azure.ResourceManager.GraphServices.Mocking
         - Azure.ResourceManager.GraphServices.Models
   - name: Guest Configuration
     href: ~/api/overview/azure/latest/guest-configuration.md
@@ -891,6 +990,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.guestconfiguration-readme.md
         children:
         - Azure.ResourceManager.GuestConfiguration
+        - Azure.ResourceManager.GuestConfiguration.Mocking
         - Azure.ResourceManager.GuestConfiguration.Models
   - name: HDInsight
     href: ~/api/overview/azure/latest/hdinsight.md
@@ -902,6 +1002,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.hdinsight-readme.md
         children:
         - Azure.ResourceManager.HDInsight
+        - Azure.ResourceManager.HDInsight.Mocking
         - Azure.ResourceManager.HDInsight.Models
   - name: Health Bot
     href: ~/api/overview/azure/latest/health-bot.md
@@ -913,6 +1014,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.healthbot-readme.md
         children:
         - Azure.ResourceManager.HealthBot
+        - Azure.ResourceManager.HealthBot.Mocking
         - Azure.ResourceManager.HealthBot.Models
   - name: Healthcare APIs
     href: ~/api/overview/azure/latest/healthcare-apis.md
@@ -924,6 +1026,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.healthcareapis-readme.md
         children:
         - Azure.ResourceManager.HealthcareApis
+        - Azure.ResourceManager.HealthcareApis.Mocking
         - Azure.ResourceManager.HealthcareApis.Models
   - name: IoT
     href: ~/api/overview/azure/latest/iot.md
@@ -937,6 +1040,7 @@
       href: ~/api/overview/azure/latest/iot.deviceupdate-readme.md
       children:
       - Azure.IoT.DeviceUpdate
+      - Microsoft.Extensions.Azure
     - name: Microsoft.Azure.Devices
       children:
       - Microsoft.Azure.Devices
@@ -1021,21 +1125,25 @@
         href: ~/api/overview/azure/latest/resourcemanager.deviceprovisioningservices-readme.md
         children:
         - Azure.ResourceManager.DeviceProvisioningServices
+        - Azure.ResourceManager.DeviceProvisioningServices.Mocking
         - Azure.ResourceManager.DeviceProvisioningServices.Models
       - name: Resource Management - Digital Twins
         href: ~/api/overview/azure/latest/resourcemanager.digitaltwins-readme.md
         children:
         - Azure.ResourceManager.DigitalTwins
+        - Azure.ResourceManager.DigitalTwins.Mocking
         - Azure.ResourceManager.DigitalTwins.Models
       - name: Resource Management - IoT Central
         href: ~/api/overview/azure/latest/resourcemanager.iotcentral-readme.md
         children:
         - Azure.ResourceManager.IotCentral
+        - Azure.ResourceManager.IotCentral.Mocking
         - Azure.ResourceManager.IotCentral.Models
       - name: Resource Management - IoT Hub
         href: ~/api/overview/azure/latest/resourcemanager.iothub-readme.md
         children:
         - Azure.ResourceManager.IotHub
+        - Azure.ResourceManager.IotHub.Mocking
         - Azure.ResourceManager.IotHub.Models
   - name: Key Vault
     href: ~/api/overview/azure/latest/key-vault.md
@@ -1067,6 +1175,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.keyvault-readme.md
         children:
         - Azure.ResourceManager.KeyVault
+        - Azure.ResourceManager.KeyVault.Mocking
         - Azure.ResourceManager.KeyVault.Models
   - name: Kubernetes Configuration
     href: ~/api/overview/azure/latest/kubernetes-configuration.md
@@ -1078,6 +1187,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.kubernetesconfiguration-readme.md
         children:
         - Azure.ResourceManager.KubernetesConfiguration
+        - Azure.ResourceManager.KubernetesConfiguration.Mocking
         - Azure.ResourceManager.KubernetesConfiguration.Models
   - name: Kusto
     href: ~/api/overview/azure/latest/kusto.md
@@ -1089,6 +1199,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.kusto-readme.md
         children:
         - Azure.ResourceManager.Kusto
+        - Azure.ResourceManager.Kusto.Mocking
         - Azure.ResourceManager.Kusto.Models
   - name: Lab Services
     href: ~/api/overview/azure/latest/lab-services.md
@@ -1100,6 +1211,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.labservices-readme.md
         children:
         - Azure.ResourceManager.LabServices
+        - Azure.ResourceManager.LabServices.Mocking
         - Azure.ResourceManager.LabServices.Models
   - name: Load Testing
     href: ~/api/overview/azure/latest/load-testing.md
@@ -1116,6 +1228,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.loadtesting-readme.md
         children:
         - Azure.ResourceManager.LoadTesting
+        - Azure.ResourceManager.LoadTesting.Mocking
         - Azure.ResourceManager.LoadTesting.Models
   - name: Logic Apps
     href: ~/api/overview/azure/latest/logic-apps.md
@@ -1127,6 +1240,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.logic-readme.md
         children:
         - Azure.ResourceManager.Logic
+        - Azure.ResourceManager.Logic.Mocking
         - Azure.ResourceManager.Logic.Models
   - name: Machine Learning
     href: ~/api/overview/azure/latest/machine-learning.md
@@ -1138,6 +1252,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.machinelearning-readme.md
         children:
         - Azure.ResourceManager.MachineLearning
+        - Azure.ResourceManager.MachineLearning.Mocking
         - Azure.ResourceManager.MachineLearning.Models
   - name: Maintenance
     href: ~/api/overview/azure/latest/maintenance.md
@@ -1149,6 +1264,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.maintenance-readme.md
         children:
         - Azure.ResourceManager.Maintenance
+        - Azure.ResourceManager.Maintenance.Mocking
         - Azure.ResourceManager.Maintenance.Models
   - name: Managed Network Fabric
     href: ~/api/overview/azure/latest/managed-network-fabric.md
@@ -1160,6 +1276,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.managednetworkfabric-readme.md
         children:
         - Azure.ResourceManager.ManagedNetworkFabric
+        - Azure.ResourceManager.ManagedNetworkFabric.Mocking
         - Azure.ResourceManager.ManagedNetworkFabric.Models
   - name: Managed Service Identity
     href: ~/api/overview/azure/latest/managed-service-identity.md
@@ -1171,6 +1288,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.managedserviceidentities-readme.md
         children:
         - Azure.ResourceManager.ManagedServiceIdentities
+        - Azure.ResourceManager.ManagedServiceIdentities.Mocking
         - Azure.ResourceManager.ManagedServiceIdentities.Models
   - name: Managed Services
     href: ~/api/overview/azure/latest/managed-services.md
@@ -1182,6 +1300,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.managedservices-readme.md
         children:
         - Azure.ResourceManager.ManagedServices
+        - Azure.ResourceManager.ManagedServices.Mocking
         - Azure.ResourceManager.ManagedServices.Models
   - name: Maps
     href: ~/api/overview/azure/latest/maps.md
@@ -1193,6 +1312,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.maps-readme.md
         children:
         - Azure.ResourceManager.Maps
+        - Azure.ResourceManager.Maps.Mocking
         - Azure.ResourceManager.Maps.Models
   - name: Marketplace
     href: ~/api/overview/azure/latest/marketplace.md
@@ -1204,6 +1324,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.marketplace-readme.md
         children:
         - Azure.ResourceManager.Marketplace
+        - Azure.ResourceManager.Marketplace.Mocking
         - Azure.ResourceManager.Marketplace.Models
   - name: Marketplace Ordering
     href: ~/api/overview/azure/latest/marketplace-ordering.md
@@ -1215,6 +1336,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.marketplaceordering-readme.md
         children:
         - Azure.ResourceManager.MarketplaceOrdering
+        - Azure.ResourceManager.MarketplaceOrdering.Mocking
         - Azure.ResourceManager.MarketplaceOrdering.Models
   - name: Media
     href: ~/api/overview/azure/latest/media.md
@@ -1226,6 +1348,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.media-readme.md
         children:
         - Azure.ResourceManager.Media
+        - Azure.ResourceManager.Media.Mocking
         - Azure.ResourceManager.Media.Models
   - name: Metrics Advisor
     href: ~/api/overview/azure/latest/metrics-advisor.md
@@ -1255,6 +1378,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.mixedreality-readme.md
         children:
         - Azure.ResourceManager.MixedReality
+        - Azure.ResourceManager.MixedReality.Mocking
         - Azure.ResourceManager.MixedReality.Models
   - name: Mobile Network
     href: ~/api/overview/azure/latest/mobile-network.md
@@ -1266,6 +1390,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.mobilenetwork-readme.md
         children:
         - Azure.ResourceManager.MobileNetwork
+        - Azure.ResourceManager.MobileNetwork.Mocking
         - Azure.ResourceManager.MobileNetwork.Models
   - name: Mobile Services
     href: ~/api/overview/azure/latest/mobile-services.md
@@ -1309,11 +1434,13 @@
         href: ~/api/overview/azure/latest/resourcemanager.monitor-readme.md
         children:
         - Azure.ResourceManager.Monitor
+        - Azure.ResourceManager.Monitor.Mocking
         - Azure.ResourceManager.Monitor.Models
       - name: Resource Management - Log Analytics
         href: ~/api/overview/azure/latest/resourcemanager.operationalinsights-readme.md
         children:
         - Azure.ResourceManager.OperationalInsights
+        - Azure.ResourceManager.OperationalInsights.Mocking
         - Azure.ResourceManager.OperationalInsights.Models
   - name: MySQL
     href: ~/api/overview/azure/latest/mysql.md
@@ -1326,7 +1453,9 @@
         children:
         - Azure.ResourceManager.MySql
         - Azure.ResourceManager.MySql.FlexibleServers
+        - Azure.ResourceManager.MySql.FlexibleServers.Mocking
         - Azure.ResourceManager.MySql.FlexibleServers.Models
+        - Azure.ResourceManager.MySql.Mocking
         - Azure.ResourceManager.MySql.Models
   - name: NetApp Files
     href: ~/api/overview/azure/latest/netapp-files.md
@@ -1338,6 +1467,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.netapp-readme.md
         children:
         - Azure.ResourceManager.NetApp
+        - Azure.ResourceManager.NetApp.Mocking
         - Azure.ResourceManager.NetApp.Models
   - name: Network
     href: ~/api/overview/azure/latest/network.md
@@ -1349,6 +1479,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.network-readme.md
         children:
         - Azure.ResourceManager.Network
+        - Azure.ResourceManager.Network.Mocking
         - Azure.ResourceManager.Network.Models
       - name: Management - Network (deprecated)
         children:
@@ -1365,6 +1496,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.newrelicobservability-readme.md
         children:
         - Azure.ResourceManager.NewRelicObservability
+        - Azure.ResourceManager.NewRelicObservability.Mocking
         - Azure.ResourceManager.NewRelicObservability.Models
   - name: Notification Hubs
     href: ~/api/overview/azure/latest/notification-hubs.md
@@ -1382,6 +1514,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.notificationhubs-readme.md
         children:
         - Azure.ResourceManager.NotificationHubs
+        - Azure.ResourceManager.NotificationHubs.Mocking
         - Azure.ResourceManager.NotificationHubs.Models
   - name: Operator Nexus - Network Cloud
     href: ~/api/overview/azure/latest/operator-nexus---network-cloud.md
@@ -1393,6 +1526,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.networkcloud-readme.md
         children:
         - Azure.ResourceManager.NetworkCloud
+        - Azure.ResourceManager.NetworkCloud.Mocking
         - Azure.ResourceManager.NetworkCloud.Models
   - name: Orbital
     href: ~/api/overview/azure/latest/orbital.md
@@ -1404,6 +1538,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.orbital-readme.md
         children:
         - Azure.ResourceManager.Orbital
+        - Azure.ResourceManager.Orbital.Mocking
         - Azure.ResourceManager.Orbital.Models
   - name: Palo Alto Networks
     href: ~/api/overview/azure/latest/palo-alto-networks.md
@@ -1415,6 +1550,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.paloaltonetworks.ngfw-readme.md
         children:
         - Azure.ResourceManager.PaloAltoNetworks.Ngfw
+        - Azure.ResourceManager.PaloAltoNetworks.Ngfw.Mocking
         - Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models
   - name: Peering
     href: ~/api/overview/azure/latest/peering.md
@@ -1426,6 +1562,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.peering-readme.md
         children:
         - Azure.ResourceManager.Peering
+        - Azure.ResourceManager.Peering.Mocking
         - Azure.ResourceManager.Peering.Models
   - name: Policy Insights
     href: ~/api/overview/azure/latest/policy-insights.md
@@ -1437,6 +1574,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.policyinsights-readme.md
         children:
         - Azure.ResourceManager.PolicyInsights
+        - Azure.ResourceManager.PolicyInsights.Mocking
         - Azure.ResourceManager.PolicyInsights.Models
       - name: Management - Policy Insights (deprecated)
         children:
@@ -1454,7 +1592,9 @@
         children:
         - Azure.ResourceManager.PostgreSql
         - Azure.ResourceManager.PostgreSql.FlexibleServers
+        - Azure.ResourceManager.PostgreSql.FlexibleServers.Mocking
         - Azure.ResourceManager.PostgreSql.FlexibleServers.Models
+        - Azure.ResourceManager.PostgreSql.Mocking
         - Azure.ResourceManager.PostgreSql.Models
   - name: Private DNS
     href: ~/api/overview/azure/latest/private-dns.md
@@ -1466,6 +1606,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.privatedns-readme.md
         children:
         - Azure.ResourceManager.PrivateDns
+        - Azure.ResourceManager.PrivateDns.Mocking
         - Azure.ResourceManager.PrivateDns.Models
   - name: Provider Hub
     href: ~/api/overview/azure/latest/provider-hub.md
@@ -1477,11 +1618,27 @@
         href: ~/api/overview/azure/latest/resourcemanager.providerhub-readme.md
         children:
         - Azure.ResourceManager.ProviderHub
+        - Azure.ResourceManager.ProviderHub.Mocking
         - Azure.ResourceManager.ProviderHub.Models
   - name: Purview
     href: ~/api/overview/azure/latest/purview.md
     landingPageType: Service
     items:
+    - name: Purview Account
+      children:
+      - Azure.Analytics.Purview.Account
+      - Microsoft.Extensions.Azure
+      landingPageType: Service
+    - name: Purview Catalog
+      children:
+      - Azure.Analytics.Purview.Catalog
+      - Microsoft.Extensions.Azure
+      landingPageType: Service
+    - name: Purview Scanning
+      children:
+      - Azure.Analytics.Purview.Scanning
+      - Microsoft.Extensions.Azure
+      landingPageType: Service
     - name: Purview Sharing
       children:
       - Azure.Analytics.Purview.Sharing
@@ -1509,6 +1666,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.qumulo-readme.md
         children:
         - Azure.ResourceManager.Qumulo
+        - Azure.ResourceManager.Qumulo.Mocking
         - Azure.ResourceManager.Qumulo.Models
   - name: Quota
     href: ~/api/overview/azure/latest/quota.md
@@ -1520,6 +1678,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.quota-readme.md
         children:
         - Azure.ResourceManager.Quota
+        - Azure.ResourceManager.Quota.Mocking
         - Azure.ResourceManager.Quota.Models
   - name: Recovery Services
     href: ~/api/overview/azure/latest/recovery-services.md
@@ -1531,16 +1690,19 @@
         href: ~/api/overview/azure/latest/resourcemanager.recoveryservices-readme.md
         children:
         - Azure.ResourceManager.RecoveryServices
+        - Azure.ResourceManager.RecoveryServices.Mocking
         - Azure.ResourceManager.RecoveryServices.Models
       - name: Resource Management - Backup
         href: ~/api/overview/azure/latest/resourcemanager.recoveryservicesbackup-readme.md
         children:
         - Azure.ResourceManager.RecoveryServicesBackup
+        - Azure.ResourceManager.RecoveryServicesBackup.Mocking
         - Azure.ResourceManager.RecoveryServicesBackup.Models
       - name: Resource Management - Site Recovery
         href: ~/api/overview/azure/latest/resourcemanager.recoveryservicessiterecovery-readme.md
         children:
         - Azure.ResourceManager.RecoveryServicesSiteRecovery
+        - Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking
         - Azure.ResourceManager.RecoveryServicesSiteRecovery.Models
   - name: Redis
     href: ~/api/overview/azure/latest/redis.md
@@ -1557,6 +1719,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.redisenterprise-readme.md
         children:
         - Azure.ResourceManager.RedisEnterprise
+        - Azure.ResourceManager.RedisEnterprise.Mocking
         - Azure.ResourceManager.RedisEnterprise.Models
   - name: Relay
     href: ~/api/overview/azure/latest/relay.md
@@ -1572,6 +1735,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.relay-readme.md
         children:
         - Azure.ResourceManager.Relay
+        - Azure.ResourceManager.Relay.Mocking
         - Azure.ResourceManager.Relay.Models
   - name: Reservations
     href: ~/api/overview/azure/latest/reservations.md
@@ -1583,6 +1747,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.reservations-readme.md
         children:
         - Azure.ResourceManager.Reservations
+        - Azure.ResourceManager.Reservations.Mocking
         - Azure.ResourceManager.Reservations.Models
   - name: Resource Graph
     href: ~/api/overview/azure/latest/resource-graph.md
@@ -1594,6 +1759,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.resourcegraph-readme.md
         children:
         - Azure.ResourceManager.ResourceGraph
+        - Azure.ResourceManager.ResourceGraph.Mocking
         - Azure.ResourceManager.ResourceGraph.Models
   - name: Resource Health
     href: ~/api/overview/azure/latest/resource-health.md
@@ -1605,6 +1771,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.resourcehealth-readme.md
         children:
         - Azure.ResourceManager.ResourceHealth
+        - Azure.ResourceManager.ResourceHealth.Mocking
         - Azure.ResourceManager.ResourceHealth.Models
   - name: Resource Manager
     href: ~/api/overview/azure/latest/resource-manager.md
@@ -1638,6 +1805,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.resourcemover-readme.md
         children:
         - Azure.ResourceManager.ResourceMover
+        - Azure.ResourceManager.ResourceMover.Mocking
         - Azure.ResourceManager.ResourceMover.Models
   - name: Schema Registry
     href: ~/api/overview/azure/latest/schema-registry.md
@@ -1678,6 +1846,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.search-readme.md
         children:
         - Azure.ResourceManager.Search
+        - Azure.ResourceManager.Search.Mocking
         - Azure.ResourceManager.Search.Models
   - name: Security
     href: ~/api/overview/azure/latest/security.md
@@ -1700,6 +1869,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.securityinsights-readme.md
         children:
         - Azure.ResourceManager.SecurityInsights
+        - Azure.ResourceManager.SecurityInsights.Mocking
         - Azure.ResourceManager.SecurityInsights.Models
   - name: Self Help
     href: ~/api/overview/azure/latest/self-help.md
@@ -1711,6 +1881,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.selfhelp-readme.md
         children:
         - Azure.ResourceManager.SelfHelp
+        - Azure.ResourceManager.SelfHelp.Mocking
         - Azure.ResourceManager.SelfHelp.Models
   - name: Service Bus
     href: ~/api/overview/azure/latest/service-bus.md
@@ -1728,6 +1899,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.servicebus-readme.md
         children:
         - Azure.ResourceManager.ServiceBus
+        - Azure.ResourceManager.ServiceBus.Mocking
         - Azure.ResourceManager.ServiceBus.Models
   - name: Service Fabric
     href: ~/api/overview/azure/latest/service-fabric.md
@@ -1739,11 +1911,13 @@
         href: ~/api/overview/azure/latest/resourcemanager.servicefabric-readme.md
         children:
         - Azure.ResourceManager.ServiceFabric
+        - Azure.ResourceManager.ServiceFabric.Mocking
         - Azure.ResourceManager.ServiceFabric.Models
       - name: Resource Management - Service Fabric Managed Clusters
         href: ~/api/overview/azure/latest/resourcemanager.servicefabricmanagedclusters-readme.md
         children:
         - Azure.ResourceManager.ServiceFabricManagedClusters
+        - Azure.ResourceManager.ServiceFabricManagedClusters.Mocking
         - Azure.ResourceManager.ServiceFabricManagedClusters.Models
   - name: Service Linker
     href: ~/api/overview/azure/latest/service-linker.md
@@ -1755,7 +1929,20 @@
         href: ~/api/overview/azure/latest/resourcemanager.servicelinker-readme.md
         children:
         - Azure.ResourceManager.ServiceLinker
+        - Azure.ResourceManager.ServiceLinker.Mocking
         - Azure.ResourceManager.ServiceLinker.Models
+  - name: Service Networking
+    href: ~/api/overview/azure/latest/service-networking.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Service Networking
+        href: ~/api/overview/azure/latest/resourcemanager.servicenetworking-readme.md
+        children:
+        - Azure.ResourceManager.ServiceNetworking
+        - Azure.ResourceManager.ServiceNetworking.Mocking
+        - Azure.ResourceManager.ServiceNetworking.Models
   - name: SignalR
     href: ~/api/overview/azure/latest/signalr.md
     landingPageType: Service
@@ -1766,6 +1953,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.signalr-readme.md
         children:
         - Azure.ResourceManager.SignalR
+        - Azure.ResourceManager.SignalR.Mocking
         - Azure.ResourceManager.SignalR.Models
   - name: SQL
     href: ~/api/overview/azure/latest/sql.md
@@ -1777,6 +1965,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.sql-readme.md
         children:
         - Azure.ResourceManager.Sql
+        - Azure.ResourceManager.Sql.Mocking
         - Azure.ResourceManager.Sql.Models
   - name: SQL Virtual Machine
     href: ~/api/overview/azure/latest/sql-virtual-machine.md
@@ -1788,6 +1977,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.sqlvirtualmachine-readme.md
         children:
         - Azure.ResourceManager.SqlVirtualMachine
+        - Azure.ResourceManager.SqlVirtualMachine.Mocking
         - Azure.ResourceManager.SqlVirtualMachine.Models
   - name: Stack HCI
     href: ~/api/overview/azure/latest/stack-hci.md
@@ -1799,6 +1989,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.hci-readme.md
         children:
         - Azure.ResourceManager.Hci
+        - Azure.ResourceManager.Hci.Mocking
         - Azure.ResourceManager.Hci.Models
   - name: Storage
     href: ~/api/overview/azure/latest/storage.md
@@ -1871,21 +2062,25 @@
         href: ~/api/overview/azure/latest/resourcemanager.storagecache-readme.md
         children:
         - Azure.ResourceManager.StorageCache
+        - Azure.ResourceManager.StorageCache.Mocking
         - Azure.ResourceManager.StorageCache.Models
       - name: Resource Management - Storage Mover
         href: ~/api/overview/azure/latest/resourcemanager.storagemover-readme.md
         children:
         - Azure.ResourceManager.StorageMover
+        - Azure.ResourceManager.StorageMover.Mocking
         - Azure.ResourceManager.StorageMover.Models
       - name: Resource Management - Storage Pool
         href: ~/api/overview/azure/latest/resourcemanager.storagepool-readme.md
         children:
         - Azure.ResourceManager.StoragePool
+        - Azure.ResourceManager.StoragePool.Mocking
         - Azure.ResourceManager.StoragePool.Models
       - name: Resource Management - Storage Sync
         href: ~/api/overview/azure/latest/resourcemanager.storagesync-readme.md
         children:
         - Azure.ResourceManager.StorageSync
+        - Azure.ResourceManager.StorageSync.Mocking
         - Azure.ResourceManager.StorageSync.Models
       - name: Management - Data Lake Store (deprecated)
         children:
@@ -1902,6 +2097,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.streamanalytics-readme.md
         children:
         - Azure.ResourceManager.StreamAnalytics
+        - Azure.ResourceManager.StreamAnalytics.Mocking
         - Azure.ResourceManager.StreamAnalytics.Models
   - name: Subscriptions
     href: ~/api/overview/azure/latest/subscriptions.md
@@ -1913,6 +2109,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.subscription-readme.md
         children:
         - Azure.ResourceManager.Subscription
+        - Azure.ResourceManager.Subscription.Mocking
         - Azure.ResourceManager.Subscription.Models
   - name: Support
     href: ~/api/overview/azure/latest/support.md
@@ -1924,17 +2121,24 @@
         href: ~/api/overview/azure/latest/resourcemanager.support-readme.md
         children:
         - Azure.ResourceManager.Support
+        - Azure.ResourceManager.Support.Mocking
         - Azure.ResourceManager.Support.Models
   - name: Synapse
     href: ~/api/overview/azure/latest/synapse.md
     landingPageType: Service
     items:
+    - name: Synapse - AccessControl
+      children:
+      - Azure.Analytics.Synapse.AccessControl
+      - Microsoft.Extensions.Azure
+      landingPageType: Service
     - name: Management
       items:
       - name: Resource Management - Synapse
         href: ~/api/overview/azure/latest/resourcemanager.synapse-readme.md
         children:
         - Azure.ResourceManager.Synapse
+        - Azure.ResourceManager.Synapse.Mocking
         - Azure.ResourceManager.Synapse.Models
   - name: Tables
     href: ~/api/overview/azure/latest/tables.md
@@ -1965,6 +2169,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.trafficmanager-readme.md
         children:
         - Azure.ResourceManager.TrafficManager
+        - Azure.ResourceManager.TrafficManager.Mocking
         - Azure.ResourceManager.TrafficManager.Models
   - name: Voice Services
     href: ~/api/overview/azure/latest/voice-services.md
@@ -1976,6 +2181,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.voiceservices-readme.md
         children:
         - Azure.ResourceManager.VoiceServices
+        - Azure.ResourceManager.VoiceServices.Mocking
         - Azure.ResourceManager.VoiceServices.Models
   - name: Web PubSub
     href: ~/api/overview/azure/latest/web-pubsub.md
@@ -2002,6 +2208,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.webpubsub-readme.md
         children:
         - Azure.ResourceManager.WebPubSub
+        - Azure.ResourceManager.WebPubSub.Mocking
         - Azure.ResourceManager.WebPubSub.Models
   - name: Workloads
     href: ~/api/overview/azure/latest/workloads.md
@@ -2013,6 +2220,7 @@
         href: ~/api/overview/azure/latest/resourcemanager.workloads-readme.md
         children:
         - Azure.ResourceManager.Workloads
+        - Azure.ResourceManager.Workloads.Mocking
         - Azure.ResourceManager.Workloads.Models
   - name: Other
     landingPageType: Service

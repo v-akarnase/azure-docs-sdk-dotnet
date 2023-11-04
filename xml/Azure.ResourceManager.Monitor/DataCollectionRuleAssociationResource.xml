@@ -63,8 +63,8 @@
         <Parameter Name="associationName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="resourceUri">To be added.</param>
-        <param name="associationName">To be added.</param>
+        <param name="resourceUri"> The resourceUri. </param>
+        <param name="associationName"> The associationName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Monitor.DataCollectionRuleAssociationResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

@@ -62,10 +62,10 @@
         <Parameter Name="trustedIdProviderName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="accountName">To be added.</param>
-        <param name="trustedIdProviderName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="accountName"> The accountName. </param>
+        <param name="trustedIdProviderName"> The trustedIdProviderName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.DataLakeStore.DataLakeStoreTrustedIdProviderResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

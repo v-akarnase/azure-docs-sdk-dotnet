@@ -66,11 +66,11 @@
         <Parameter Name="ruleCollectionName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="networkManagerName">To be added.</param>
-        <param name="configurationName">To be added.</param>
-        <param name="ruleCollectionName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="networkManagerName"> The networkManagerName. </param>
+        <param name="configurationName"> The configurationName. </param>
+        <param name="ruleCollectionName"> The ruleCollectionName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Network.AdminRuleGroupResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -243,10 +243,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/securityAdminConfigurations/{configurationName}/ruleCollections/{ruleCollectionName}/rules/{ruleName}</description></item><item><term>Operation Id</term><description>AdminRules_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="ruleName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="ruleName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="ruleName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetBaseAdminRuleAsync">
@@ -276,10 +276,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkManagers/{networkManagerName}/securityAdminConfigurations/{configurationName}/ruleCollections/{ruleCollectionName}/rules/{ruleName}</description></item><item><term>Operation Id</term><description>AdminRules_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="ruleName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="ruleName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="ruleName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetBaseAdminRules">

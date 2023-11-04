@@ -64,11 +64,11 @@
         <Parameter Name="triggerName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="accountName">To be added.</param>
-        <param name="shareSubscriptionName">To be added.</param>
-        <param name="triggerName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="accountName"> The accountName. </param>
+        <param name="shareSubscriptionName"> The shareSubscriptionName. </param>
+        <param name="triggerName"> The triggerName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.DataShare.DataShareTriggerResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -277,7 +277,7 @@
         <param name="data"> Trigger details. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Create a Trigger 
+            Create a Trigger
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shareSubscriptions/{shareSubscriptionName}/triggers/{triggerName}</description></item><item><term>Operation Id</term><description>Triggers_Create</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -311,7 +311,7 @@
         <param name="data"> Trigger details. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Create a Trigger 
+            Create a Trigger
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shareSubscriptions/{shareSubscriptionName}/triggers/{triggerName}</description></item><item><term>Operation Id</term><description>Triggers_Create</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

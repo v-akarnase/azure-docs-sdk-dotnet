@@ -8,6 +8,7 @@
     <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -32,6 +33,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -49,6 +51,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneResource&gt;</ReturnType>
@@ -81,6 +84,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneResource&gt;&gt;</ReturnType>
@@ -113,6 +117,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.MobileNetwork.Models.AsyncOperationStatus&gt;</ReturnType>
@@ -146,6 +151,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.MobileNetwork.Models.AsyncOperationStatus&gt;&gt;</ReturnType>
@@ -179,6 +185,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -189,9 +196,9 @@
         <Parameter Name="packetCoreControlPlaneName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="packetCoreControlPlaneName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="packetCoreControlPlaneName"> The packetCoreControlPlaneName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -207,6 +214,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneData</ReturnType>
@@ -228,6 +236,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -257,6 +266,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -286,6 +296,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneResource&gt;</ReturnType>
@@ -312,6 +323,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneResource&gt;&gt;</ReturnType>
@@ -338,6 +350,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.MobileNetwork.MobileNetworkDiagnosticsPackageResource&gt;</ReturnType>
@@ -354,10 +367,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MobileNetwork/packetCoreControlPlanes/{packetCoreControlPlaneName}/diagnosticsPackages/{diagnosticsPackageName}</description></item><item><term>Operation Id</term><description>DiagnosticsPackages_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="diagnosticsPackageName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="diagnosticsPackageName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="diagnosticsPackageName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetMobileNetworkDiagnosticsPackageAsync">
@@ -370,6 +383,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.MobileNetwork.MobileNetworkDiagnosticsPackageResource&gt;&gt;</ReturnType>
@@ -386,10 +400,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MobileNetwork/packetCoreControlPlanes/{packetCoreControlPlaneName}/diagnosticsPackages/{diagnosticsPackageName}</description></item><item><term>Operation Id</term><description>DiagnosticsPackages_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="diagnosticsPackageName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="diagnosticsPackageName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="diagnosticsPackageName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetMobileNetworkDiagnosticsPackages">
@@ -402,6 +416,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkDiagnosticsPackageCollection</ReturnType>
@@ -423,6 +438,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.MobileNetwork.MobileNetworkPacketCaptureResource&gt;</ReturnType>
@@ -439,10 +455,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MobileNetwork/packetCoreControlPlanes/{packetCoreControlPlaneName}/packetCaptures/{packetCaptureName}</description></item><item><term>Operation Id</term><description>PacketCaptures_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="packetCaptureName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="packetCaptureName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="packetCaptureName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetMobileNetworkPacketCaptureAsync">
@@ -455,6 +471,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.MobileNetwork.MobileNetworkPacketCaptureResource&gt;&gt;</ReturnType>
@@ -471,10 +488,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MobileNetwork/packetCoreControlPlanes/{packetCoreControlPlaneName}/packetCaptures/{packetCaptureName}</description></item><item><term>Operation Id</term><description>PacketCaptures_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="packetCaptureName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="packetCaptureName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="packetCaptureName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetMobileNetworkPacketCaptures">
@@ -487,6 +504,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkPacketCaptureCollection</ReturnType>
@@ -508,6 +526,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.MobileNetwork.PacketCoreDataPlaneResource&gt;</ReturnType>
@@ -524,10 +543,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MobileNetwork/packetCoreControlPlanes/{packetCoreControlPlaneName}/packetCoreDataPlanes/{packetCoreDataPlaneName}</description></item><item><term>Operation Id</term><description>PacketCoreDataPlanes_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="packetCoreDataPlaneName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="packetCoreDataPlaneName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="packetCoreDataPlaneName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetPacketCoreDataPlaneAsync">
@@ -540,6 +559,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.MobileNetwork.PacketCoreDataPlaneResource&gt;&gt;</ReturnType>
@@ -556,10 +576,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MobileNetwork/packetCoreControlPlanes/{packetCoreControlPlaneName}/packetCoreDataPlanes/{packetCoreDataPlaneName}</description></item><item><term>Operation Id</term><description>PacketCoreDataPlanes_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="packetCoreDataPlaneName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="packetCoreDataPlaneName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="packetCoreDataPlaneName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetPacketCoreDataPlanes">
@@ -572,6 +592,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.PacketCoreDataPlaneCollection</ReturnType>
@@ -593,6 +614,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -613,6 +635,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.MobileNetwork.Models.AsyncOperationStatus&gt;</ReturnType>
@@ -642,6 +665,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.MobileNetwork.Models.AsyncOperationStatus&gt;&gt;</ReturnType>
@@ -671,6 +695,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneResource&gt;</ReturnType>
@@ -701,6 +726,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneResource&gt;&gt;</ReturnType>
@@ -731,6 +757,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -750,6 +777,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.MobileNetwork.Models.AsyncOperationStatus&gt;</ReturnType>
@@ -779,6 +807,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.MobileNetwork.Models.AsyncOperationStatus&gt;&gt;</ReturnType>
@@ -808,6 +837,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneResource&gt;</ReturnType>
@@ -838,6 +868,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneResource&gt;&gt;</ReturnType>
@@ -868,6 +899,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneResource&gt;</ReturnType>
@@ -898,6 +930,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneResource&gt;&gt;</ReturnType>

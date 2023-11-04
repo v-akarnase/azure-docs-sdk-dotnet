@@ -120,20 +120,32 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="blocklistName" /> is an empty string, and was expected to be non-empty. </exception>
         <example>
-This sample shows how to call AddBlockItems with required parameters.
+This sample shows how to call AddBlockItems.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-var addBlockItemsOptions = new AddBlockItemsOptions(new TextBlockItemInfo[] 
+AddBlockItemsOptions addBlockItemsOptions = new AddBlockItemsOptions(new TextBlockItemInfo[]
 {
     new TextBlockItemInfo("<text>")
+});
+Response<AddBlockItemsResult> response = client.AddBlockItems("<blocklistName>", addBlockItemsOptions);
+]]></code>
+This sample shows how to call AddBlockItems with all parameters.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+AddBlockItemsOptions addBlockItemsOptions = new AddBlockItemsOptions(new TextBlockItemInfo[]
 {
-        Description = "<Description>",
+    new TextBlockItemInfo("<text>")
+    {
+        Description = "<description>",
     }
 });
-var result = client.AddBlockItems("<blocklistName>", addBlockItemsOptions);
+Response<AddBlockItemsResult> response = client.AddBlockItems("<blocklistName>", addBlockItemsOptions);
 ]]></code></example>
       </Docs>
     </Member>
@@ -175,22 +187,45 @@ var result = client.AddBlockItems("<blocklistName>", addBlockItemsOptions);
           <paramref name="blocklistName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call AddBlockItems with required parameters and request content and parse the result.
+This sample shows how to call AddBlockItems and parse the result.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-var data = new {
-    blockItems = new[] {
-        new {
+using RequestContent content = RequestContent.Create(new
+{
+    blockItems = new object[]
+    {
+        new
+        {
+            text = "<text>",
+        }
+    },
+});
+Response response = client.AddBlockItems("<blocklistName>", content);
+
+JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+Console.WriteLine(result.ToString());
+]]></code>
+This sample shows how to call AddBlockItems with all parameters and request content and parse the result.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+using RequestContent content = RequestContent.Create(new
+{
+    blockItems = new object[]
+    {
+        new
+        {
             description = "<description>",
             text = "<text>",
         }
     },
-};
-
-Response response = client.AddBlockItems("<blocklistName>", RequestContent.Create(data), new RequestContext());
+});
+Response response = client.AddBlockItems("<blocklistName>", content);
 
 JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
 Console.WriteLine(result.GetProperty("value")[0].GetProperty("blockItemId").ToString());
@@ -230,20 +265,32 @@ Console.WriteLine(result.GetProperty("value")[0].GetProperty("text").ToString())
         <exception cref="T:System.ArgumentException">
           <paramref name="blocklistName" /> is an empty string, and was expected to be non-empty. </exception>
         <example>
-This sample shows how to call AddBlockItemsAsync with required parameters.
+This sample shows how to call AddBlockItemsAsync.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-var addBlockItemsOptions = new AddBlockItemsOptions(new TextBlockItemInfo[] 
+AddBlockItemsOptions addBlockItemsOptions = new AddBlockItemsOptions(new TextBlockItemInfo[]
 {
     new TextBlockItemInfo("<text>")
+});
+Response<AddBlockItemsResult> response = await client.AddBlockItemsAsync("<blocklistName>", addBlockItemsOptions);
+]]></code>
+This sample shows how to call AddBlockItemsAsync with all parameters.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+AddBlockItemsOptions addBlockItemsOptions = new AddBlockItemsOptions(new TextBlockItemInfo[]
 {
-        Description = "<Description>",
+    new TextBlockItemInfo("<text>")
+    {
+        Description = "<description>",
     }
 });
-var result = await client.AddBlockItemsAsync("<blocklistName>", addBlockItemsOptions);
+Response<AddBlockItemsResult> response = await client.AddBlockItemsAsync("<blocklistName>", addBlockItemsOptions);
 ]]></code></example>
       </Docs>
     </Member>
@@ -285,22 +332,45 @@ var result = await client.AddBlockItemsAsync("<blocklistName>", addBlockItemsOpt
           <paramref name="blocklistName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call AddBlockItemsAsync with required parameters and request content and parse the result.
+This sample shows how to call AddBlockItemsAsync and parse the result.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-var data = new {
-    blockItems = new[] {
-        new {
+using RequestContent content = RequestContent.Create(new
+{
+    blockItems = new object[]
+    {
+        new
+        {
+            text = "<text>",
+        }
+    },
+});
+Response response = await client.AddBlockItemsAsync("<blocklistName>", content);
+
+JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+Console.WriteLine(result.ToString());
+]]></code>
+This sample shows how to call AddBlockItemsAsync with all parameters and request content and parse the result.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+using RequestContent content = RequestContent.Create(new
+{
+    blockItems = new object[]
+    {
+        new
+        {
             description = "<description>",
             text = "<text>",
         }
     },
-};
-
-Response response = await client.AddBlockItemsAsync("<blocklistName>", RequestContent.Create(data), new RequestContext());
+});
+Response response = await client.AddBlockItemsAsync("<blocklistName>", content);
 
 JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
 Console.WriteLine(result.GetProperty("value")[0].GetProperty("blockItemId").ToString());
@@ -336,24 +406,30 @@ Console.WriteLine(result.GetProperty("value")[0].GetProperty("text").ToString())
         <exception cref="T:System.ArgumentNullException">
           <paramref name="body" /> is null. </exception>
         <example>
-This sample shows how to call AnalyzeImage with required parameters.
+This sample shows how to call AnalyzeImage.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-var body = new AnalyzeImageOptions(new ImageData()
+AnalyzeImageOptions body = new AnalyzeImageOptions(new ContentSafetyImageData());
+Response<AnalyzeImageResult> response = client.AnalyzeImage(body);
+]]></code>
+This sample shows how to call AnalyzeImage with all parameters.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+AnalyzeImageOptions body = new AnalyzeImageOptions(new ContentSafetyImageData
 {
-    Content = BinaryData.FromString("<your binary data content>"),
+    Content = BinaryData.FromObjectAsJson(new object()),
     BlobUrl = new Uri("http://localhost:3000"),
 })
 {
-    Categories = 
-{
-        ImageCategory.Hate
-    },
+    Categories = { ImageCategory.Hate },
 };
-var result = client.AnalyzeImage(body);
+Response<AnalyzeImageResult> response = client.AnalyzeImage(body);
 ]]></code></example>
       </Docs>
     </Member>
@@ -391,38 +467,40 @@ var result = client.AnalyzeImage(body);
           <paramref name="content" /> is null. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call AnalyzeImage with required request content, and how to parse the result.
+This sample shows how to call AnalyzeImage and parse the result.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-var data = new {
-    image = new {},
-};
-
-Response response = client.AnalyzeImage(RequestContent.Create(data));
+using RequestContent content = RequestContent.Create(new
+{
+    image = new object(),
+});
+Response response = client.AnalyzeImage(content);
 
 JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
 Console.WriteLine(result.ToString());
 ]]></code>
-This sample shows how to call AnalyzeImage with all request content, and how to parse the result.
+This sample shows how to call AnalyzeImage with all request content and parse the result.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-var data = new {
-    image = new {
-        content = new {},
+using RequestContent content = RequestContent.Create(new
+{
+    image = new
+    {
+        content = new object(),
         blobUrl = "http://localhost:3000",
     },
-    categories = new[] {
+    categories = new object[]
+    {
         "Hate"
     },
-};
-
-Response response = client.AnalyzeImage(RequestContent.Create(data), new RequestContext());
+});
+Response response = client.AnalyzeImage(content);
 
 JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
 Console.WriteLine(result.GetProperty("hateResult").GetProperty("category").ToString());
@@ -463,24 +541,30 @@ Console.WriteLine(result.GetProperty("violenceResult").GetProperty("severity").T
         <exception cref="T:System.ArgumentNullException">
           <paramref name="body" /> is null. </exception>
         <example>
-This sample shows how to call AnalyzeImageAsync with required parameters.
+This sample shows how to call AnalyzeImageAsync.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-var body = new AnalyzeImageOptions(new ImageData()
+AnalyzeImageOptions body = new AnalyzeImageOptions(new ContentSafetyImageData());
+Response<AnalyzeImageResult> response = await client.AnalyzeImageAsync(body);
+]]></code>
+This sample shows how to call AnalyzeImageAsync with all parameters.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+AnalyzeImageOptions body = new AnalyzeImageOptions(new ContentSafetyImageData
 {
-    Content = BinaryData.FromString("<your binary data content>"),
+    Content = BinaryData.FromObjectAsJson(new object()),
     BlobUrl = new Uri("http://localhost:3000"),
 })
 {
-    Categories = 
-{
-        ImageCategory.Hate
-    },
+    Categories = { ImageCategory.Hate },
 };
-var result = await client.AnalyzeImageAsync(body);
+Response<AnalyzeImageResult> response = await client.AnalyzeImageAsync(body);
 ]]></code></example>
       </Docs>
     </Member>
@@ -518,38 +602,40 @@ var result = await client.AnalyzeImageAsync(body);
           <paramref name="content" /> is null. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call AnalyzeImageAsync with required request content, and how to parse the result.
+This sample shows how to call AnalyzeImageAsync and parse the result.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-var data = new {
-    image = new {},
-};
-
-Response response = await client.AnalyzeImageAsync(RequestContent.Create(data));
+using RequestContent content = RequestContent.Create(new
+{
+    image = new object(),
+});
+Response response = await client.AnalyzeImageAsync(content);
 
 JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
 Console.WriteLine(result.ToString());
 ]]></code>
-This sample shows how to call AnalyzeImageAsync with all request content, and how to parse the result.
+This sample shows how to call AnalyzeImageAsync with all request content and parse the result.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-var data = new {
-    image = new {
-        content = new {},
+using RequestContent content = RequestContent.Create(new
+{
+    image = new
+    {
+        content = new object(),
         blobUrl = "http://localhost:3000",
     },
-    categories = new[] {
+    categories = new object[]
+    {
         "Hate"
     },
-};
-
-Response response = await client.AnalyzeImageAsync(RequestContent.Create(data), new RequestContext());
+});
+Response response = await client.AnalyzeImageAsync(content);
 
 JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
 Console.WriteLine(result.GetProperty("hateResult").GetProperty("category").ToString());
@@ -590,25 +676,28 @@ Console.WriteLine(result.GetProperty("violenceResult").GetProperty("severity").T
         <exception cref="T:System.ArgumentNullException">
           <paramref name="body" /> is null. </exception>
         <example>
-This sample shows how to call AnalyzeText with required parameters.
+This sample shows how to call AnalyzeText.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-var body = new AnalyzeTextOptions("<text>")
+AnalyzeTextOptions body = new AnalyzeTextOptions("<text>");
+Response<AnalyzeTextResult> response = client.AnalyzeText(body);
+]]></code>
+This sample shows how to call AnalyzeText with all parameters.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+AnalyzeTextOptions body = new AnalyzeTextOptions("<text>")
 {
-    Categories = 
-{
-        TextCategory.Hate
-    },
-    BlocklistNames = 
-{
-        "<null>"
-    },
+    Categories = { TextCategory.Hate },
+    BlocklistNames = { "<blocklistNames>" },
     BreakByBlocklists = true,
 };
-var result = client.AnalyzeText(body);
+Response<AnalyzeTextResult> response = client.AnalyzeText(body);
 ]]></code></example>
       </Docs>
     </Member>
@@ -646,39 +735,41 @@ var result = client.AnalyzeText(body);
           <paramref name="content" /> is null. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call AnalyzeText with required request content, and how to parse the result.
+This sample shows how to call AnalyzeText and parse the result.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-var data = new {
+using RequestContent content = RequestContent.Create(new
+{
     text = "<text>",
-};
-
-Response response = client.AnalyzeText(RequestContent.Create(data));
+});
+Response response = client.AnalyzeText(content);
 
 JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
 Console.WriteLine(result.ToString());
 ]]></code>
-This sample shows how to call AnalyzeText with all request content, and how to parse the result.
+This sample shows how to call AnalyzeText with all request content and parse the result.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-var data = new {
+using RequestContent content = RequestContent.Create(new
+{
     text = "<text>",
-    categories = new[] {
+    categories = new object[]
+    {
         "Hate"
     },
-    blocklistNames = new[] {
-        "<String>"
+    blocklistNames = new object[]
+    {
+        "<blocklistNames>"
     },
     breakByBlocklists = true,
-};
-
-Response response = client.AnalyzeText(RequestContent.Create(data), new RequestContext());
+});
+Response response = client.AnalyzeText(content);
 
 JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
 Console.WriteLine(result.GetProperty("blocklistsMatchResults")[0].GetProperty("blocklistName").ToString());
@@ -724,25 +815,28 @@ Console.WriteLine(result.GetProperty("violenceResult").GetProperty("severity").T
         <exception cref="T:System.ArgumentNullException">
           <paramref name="body" /> is null. </exception>
         <example>
-This sample shows how to call AnalyzeTextAsync with required parameters.
+This sample shows how to call AnalyzeTextAsync.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-var body = new AnalyzeTextOptions("<text>")
+AnalyzeTextOptions body = new AnalyzeTextOptions("<text>");
+Response<AnalyzeTextResult> response = await client.AnalyzeTextAsync(body);
+]]></code>
+This sample shows how to call AnalyzeTextAsync with all parameters.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+AnalyzeTextOptions body = new AnalyzeTextOptions("<text>")
 {
-    Categories = 
-{
-        TextCategory.Hate
-    },
-    BlocklistNames = 
-{
-        "<null>"
-    },
+    Categories = { TextCategory.Hate },
+    BlocklistNames = { "<blocklistNames>" },
     BreakByBlocklists = true,
 };
-var result = await client.AnalyzeTextAsync(body);
+Response<AnalyzeTextResult> response = await client.AnalyzeTextAsync(body);
 ]]></code></example>
       </Docs>
     </Member>
@@ -780,39 +874,41 @@ var result = await client.AnalyzeTextAsync(body);
           <paramref name="content" /> is null. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call AnalyzeTextAsync with required request content, and how to parse the result.
+This sample shows how to call AnalyzeTextAsync and parse the result.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-var data = new {
+using RequestContent content = RequestContent.Create(new
+{
     text = "<text>",
-};
-
-Response response = await client.AnalyzeTextAsync(RequestContent.Create(data));
+});
+Response response = await client.AnalyzeTextAsync(content);
 
 JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
 Console.WriteLine(result.ToString());
 ]]></code>
-This sample shows how to call AnalyzeTextAsync with all request content, and how to parse the result.
+This sample shows how to call AnalyzeTextAsync with all request content and parse the result.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-var data = new {
+using RequestContent content = RequestContent.Create(new
+{
     text = "<text>",
-    categories = new[] {
+    categories = new object[]
+    {
         "Hate"
     },
-    blocklistNames = new[] {
-        "<String>"
+    blocklistNames = new object[]
+    {
+        "<blocklistNames>"
     },
     breakByBlocklists = true,
-};
-
-Response response = await client.AnalyzeTextAsync(RequestContent.Create(data), new RequestContext());
+});
+Response response = await client.AnalyzeTextAsync(content);
 
 JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
 Console.WriteLine(result.GetProperty("blocklistsMatchResults")[0].GetProperty("blocklistName").ToString());
@@ -867,33 +963,33 @@ Console.WriteLine(result.GetProperty("violenceResult").GetProperty("severity").T
           <paramref name="blocklistName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call CreateOrUpdateTextBlocklist with required parameters and request content, and how to parse the result.
+This sample shows how to call CreateOrUpdateTextBlocklist and parse the result.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-var data = new {
+using RequestContent content = RequestContent.Create(new
+{
     blocklistName = "<blocklistName>",
-};
-
-Response response = client.CreateOrUpdateTextBlocklist("<blocklistName>", RequestContent.Create(data));
+});
+Response response = client.CreateOrUpdateTextBlocklist("<blocklistName>", content);
 
 JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
 Console.WriteLine(result.GetProperty("blocklistName").ToString());
 ]]></code>
-This sample shows how to call CreateOrUpdateTextBlocklist with all parameters and request content, and how to parse the result.
+This sample shows how to call CreateOrUpdateTextBlocklist with all parameters and request content and parse the result.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-var data = new {
+using RequestContent content = RequestContent.Create(new
+{
     blocklistName = "<blocklistName>",
     description = "<description>",
-};
-
-Response response = client.CreateOrUpdateTextBlocklist("<blocklistName>", RequestContent.Create(data), new RequestContext());
+});
+Response response = client.CreateOrUpdateTextBlocklist("<blocklistName>", content);
 
 JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
 Console.WriteLine(result.GetProperty("blocklistName").ToString());
@@ -937,33 +1033,33 @@ Console.WriteLine(result.GetProperty("description").ToString());
           <paramref name="blocklistName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call CreateOrUpdateTextBlocklistAsync with required parameters and request content, and how to parse the result.
+This sample shows how to call CreateOrUpdateTextBlocklistAsync and parse the result.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-var data = new {
+using RequestContent content = RequestContent.Create(new
+{
     blocklistName = "<blocklistName>",
-};
-
-Response response = await client.CreateOrUpdateTextBlocklistAsync("<blocklistName>", RequestContent.Create(data));
+});
+Response response = await client.CreateOrUpdateTextBlocklistAsync("<blocklistName>", content);
 
 JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
 Console.WriteLine(result.GetProperty("blocklistName").ToString());
 ]]></code>
-This sample shows how to call CreateOrUpdateTextBlocklistAsync with all parameters and request content, and how to parse the result.
+This sample shows how to call CreateOrUpdateTextBlocklistAsync with all parameters and request content and parse the result.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-var data = new {
+using RequestContent content = RequestContent.Create(new
+{
     blocklistName = "<blocklistName>",
     description = "<description>",
-};
-
-Response response = await client.CreateOrUpdateTextBlocklistAsync("<blocklistName>", RequestContent.Create(data), new RequestContext());
+});
+Response response = await client.CreateOrUpdateTextBlocklistAsync("<blocklistName>", content);
 
 JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
 Console.WriteLine(result.GetProperty("blocklistName").ToString());
@@ -1005,13 +1101,24 @@ Console.WriteLine(result.GetProperty("description").ToString());
           <paramref name="blocklistName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call DeleteTextBlocklist with required parameters.
+This sample shows how to call DeleteTextBlocklist.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-Response response = client.DeleteTextBlocklist("<blocklistName>", new RequestContext());
+Response response = client.DeleteTextBlocklist("<blocklistName>");
+
+Console.WriteLine(response.Status);
+]]></code>
+This sample shows how to call DeleteTextBlocklist with all parameters.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+Response response = client.DeleteTextBlocklist("<blocklistName>");
+
 Console.WriteLine(response.Status);
 ]]></code></example>
       </Docs>
@@ -1050,13 +1157,24 @@ Console.WriteLine(response.Status);
           <paramref name="blocklistName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call DeleteTextBlocklistAsync with required parameters.
+This sample shows how to call DeleteTextBlocklistAsync.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-Response response = await client.DeleteTextBlocklistAsync("<blocklistName>", new RequestContext());
+Response response = await client.DeleteTextBlocklistAsync("<blocklistName>");
+
+Console.WriteLine(response.Status);
+]]></code>
+This sample shows how to call DeleteTextBlocklistAsync with all parameters.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+Response response = await client.DeleteTextBlocklistAsync("<blocklistName>");
+
 Console.WriteLine(response.Status);
 ]]></code></example>
       </Docs>
@@ -1097,13 +1215,24 @@ Console.WriteLine(response.Status);
           <paramref name="blocklistName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call GetTextBlocklist with required parameters and parse the result.
+This sample shows how to call GetTextBlocklist and parse the result.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-Response response = client.GetTextBlocklist("<blocklistName>", new RequestContext());
+Response response = client.GetTextBlocklist("<blocklistName>", null);
+
+JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+Console.WriteLine(result.GetProperty("blocklistName").ToString());
+]]></code>
+This sample shows how to call GetTextBlocklist with all parameters and parse the result.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+Response response = client.GetTextBlocklist("<blocklistName>", null);
 
 JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
 Console.WriteLine(result.GetProperty("blocklistName").ToString());
@@ -1140,13 +1269,21 @@ Console.WriteLine(result.GetProperty("description").ToString());
         <exception cref="T:System.ArgumentException">
           <paramref name="blocklistName" /> is an empty string, and was expected to be non-empty. </exception>
         <example>
-This sample shows how to call GetTextBlocklist with required parameters.
+This sample shows how to call GetTextBlocklist.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-var result = client.GetTextBlocklist("<blocklistName>");
+Response<TextBlocklist> response = client.GetTextBlocklist("<blocklistName>");
+]]></code>
+This sample shows how to call GetTextBlocklist with all parameters.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+Response<TextBlocklist> response = client.GetTextBlocklist("<blocklistName>");
 ]]></code></example>
       </Docs>
     </Member>
@@ -1186,13 +1323,24 @@ var result = client.GetTextBlocklist("<blocklistName>");
           <paramref name="blocklistName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call GetTextBlocklistAsync with required parameters and parse the result.
+This sample shows how to call GetTextBlocklistAsync and parse the result.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-Response response = await client.GetTextBlocklistAsync("<blocklistName>", new RequestContext());
+Response response = await client.GetTextBlocklistAsync("<blocklistName>", null);
+
+JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+Console.WriteLine(result.GetProperty("blocklistName").ToString());
+]]></code>
+This sample shows how to call GetTextBlocklistAsync with all parameters and parse the result.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+Response response = await client.GetTextBlocklistAsync("<blocklistName>", null);
 
 JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
 Console.WriteLine(result.GetProperty("blocklistName").ToString());
@@ -1229,13 +1377,21 @@ Console.WriteLine(result.GetProperty("description").ToString());
         <exception cref="T:System.ArgumentException">
           <paramref name="blocklistName" /> is an empty string, and was expected to be non-empty. </exception>
         <example>
-This sample shows how to call GetTextBlocklistAsync with required parameters.
+This sample shows how to call GetTextBlocklistAsync.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-var result = await client.GetTextBlocklistAsync("<blocklistName>");
+Response<TextBlocklist> response = await client.GetTextBlocklistAsync("<blocklistName>");
+]]></code>
+This sample shows how to call GetTextBlocklistAsync with all parameters.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+Response<TextBlocklist> response = await client.GetTextBlocklistAsync("<blocklistName>");
 ]]></code></example>
       </Docs>
     </Member>
@@ -1277,13 +1433,25 @@ var result = await client.GetTextBlocklistAsync("<blocklistName>");
           <paramref name="blocklistName" /> or <paramref name="blockItemId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call GetTextBlocklistItem with required parameters and parse the result.
+This sample shows how to call GetTextBlocklistItem and parse the result.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-Response response = client.GetTextBlocklistItem("<blocklistName>", "<blockItemId>", new RequestContext());
+Response response = client.GetTextBlocklistItem("<blocklistName>", "<blockItemId>", null);
+
+JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+Console.WriteLine(result.GetProperty("blockItemId").ToString());
+Console.WriteLine(result.GetProperty("text").ToString());
+]]></code>
+This sample shows how to call GetTextBlocklistItem with all parameters and parse the result.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+Response response = client.GetTextBlocklistItem("<blocklistName>", "<blockItemId>", null);
 
 JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
 Console.WriteLine(result.GetProperty("blockItemId").ToString());
@@ -1323,13 +1491,21 @@ Console.WriteLine(result.GetProperty("text").ToString());
         <exception cref="T:System.ArgumentException">
           <paramref name="blocklistName" /> or <paramref name="blockItemId" /> is an empty string, and was expected to be non-empty. </exception>
         <example>
-This sample shows how to call GetTextBlocklistItem with required parameters.
+This sample shows how to call GetTextBlocklistItem.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-var result = client.GetTextBlocklistItem("<blocklistName>", "<blockItemId>");
+Response<TextBlockItem> response = client.GetTextBlocklistItem("<blocklistName>", "<blockItemId>");
+]]></code>
+This sample shows how to call GetTextBlocklistItem with all parameters.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+Response<TextBlockItem> response = client.GetTextBlocklistItem("<blocklistName>", "<blockItemId>");
 ]]></code></example>
       </Docs>
     </Member>
@@ -1371,13 +1547,25 @@ var result = client.GetTextBlocklistItem("<blocklistName>", "<blockItemId>");
           <paramref name="blocklistName" /> or <paramref name="blockItemId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call GetTextBlocklistItemAsync with required parameters and parse the result.
+This sample shows how to call GetTextBlocklistItemAsync and parse the result.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-Response response = await client.GetTextBlocklistItemAsync("<blocklistName>", "<blockItemId>", new RequestContext());
+Response response = await client.GetTextBlocklistItemAsync("<blocklistName>", "<blockItemId>", null);
+
+JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+Console.WriteLine(result.GetProperty("blockItemId").ToString());
+Console.WriteLine(result.GetProperty("text").ToString());
+]]></code>
+This sample shows how to call GetTextBlocklistItemAsync with all parameters and parse the result.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+Response response = await client.GetTextBlocklistItemAsync("<blocklistName>", "<blockItemId>", null);
 
 JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
 Console.WriteLine(result.GetProperty("blockItemId").ToString());
@@ -1417,13 +1605,21 @@ Console.WriteLine(result.GetProperty("text").ToString());
         <exception cref="T:System.ArgumentException">
           <paramref name="blocklistName" /> or <paramref name="blockItemId" /> is an empty string, and was expected to be non-empty. </exception>
         <example>
-This sample shows how to call GetTextBlocklistItemAsync with required parameters.
+This sample shows how to call GetTextBlocklistItemAsync.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-var result = await client.GetTextBlocklistItemAsync("<blocklistName>", "<blockItemId>");
+Response<TextBlockItem> response = await client.GetTextBlocklistItemAsync("<blocklistName>", "<blockItemId>");
+]]></code>
+This sample shows how to call GetTextBlocklistItemAsync with all parameters.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+Response<TextBlockItem> response = await client.GetTextBlocklistItemAsync("<blocklistName>", "<blockItemId>");
 ]]></code></example>
       </Docs>
     </Member>
@@ -1469,13 +1665,26 @@ var result = await client.GetTextBlocklistItemAsync("<blocklistName>", "<blockIt
           <paramref name="blocklistName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call GetTextBlocklistItems with required parameters and parse the result.
+This sample shows how to call GetTextBlocklistItems and parse the result.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-foreach (var item in client.GetTextBlocklistItems("<blocklistName>", 1234, 1234, 1234, new RequestContext()))
+foreach (BinaryData item in client.GetTextBlocklistItems("<blocklistName>", null, null, null, null))
+{
+    JsonElement result = JsonDocument.Parse(item.ToStream()).RootElement;
+    Console.WriteLine(result.GetProperty("blockItemId").ToString());
+    Console.WriteLine(result.GetProperty("text").ToString());
+}
+]]></code>
+This sample shows how to call GetTextBlocklistItems with all parameters and parse the result.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+foreach (BinaryData item in client.GetTextBlocklistItems("<blocklistName>", 1234, 1234, 1234, null))
 {
     JsonElement result = JsonDocument.Parse(item.ToStream()).RootElement;
     Console.WriteLine(result.GetProperty("blockItemId").ToString());
@@ -1520,13 +1729,23 @@ foreach (var item in client.GetTextBlocklistItems("<blocklistName>", 1234, 1234,
         <exception cref="T:System.ArgumentException">
           <paramref name="blocklistName" /> is an empty string, and was expected to be non-empty. </exception>
         <example>
-This sample shows how to call GetTextBlocklistItems with required parameters.
+This sample shows how to call GetTextBlocklistItems.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-foreach (var item in client.GetTextBlocklistItems("<blocklistName>", 1234, 1234, 1234))
+foreach (TextBlockItem item in client.GetTextBlocklistItems("<blocklistName>"))
+{
+}
+]]></code>
+This sample shows how to call GetTextBlocklistItems with all parameters.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+foreach (TextBlockItem item in client.GetTextBlocklistItems("<blocklistName>", maxCount: 1234, skip: 1234, maxpagesize: 1234))
 {
 }
 ]]></code></example>
@@ -1574,13 +1793,26 @@ foreach (var item in client.GetTextBlocklistItems("<blocklistName>", 1234, 1234,
           <paramref name="blocklistName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call GetTextBlocklistItemsAsync with required parameters and parse the result.
+This sample shows how to call GetTextBlocklistItemsAsync and parse the result.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-await foreach (var item in client.GetTextBlocklistItemsAsync("<blocklistName>", 1234, 1234, 1234, new RequestContext()))
+await foreach (BinaryData item in client.GetTextBlocklistItemsAsync("<blocklistName>", null, null, null, null))
+{
+    JsonElement result = JsonDocument.Parse(item.ToStream()).RootElement;
+    Console.WriteLine(result.GetProperty("blockItemId").ToString());
+    Console.WriteLine(result.GetProperty("text").ToString());
+}
+]]></code>
+This sample shows how to call GetTextBlocklistItemsAsync with all parameters and parse the result.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+await foreach (BinaryData item in client.GetTextBlocklistItemsAsync("<blocklistName>", 1234, 1234, 1234, null))
 {
     JsonElement result = JsonDocument.Parse(item.ToStream()).RootElement;
     Console.WriteLine(result.GetProperty("blockItemId").ToString());
@@ -1625,13 +1857,23 @@ await foreach (var item in client.GetTextBlocklistItemsAsync("<blocklistName>", 
         <exception cref="T:System.ArgumentException">
           <paramref name="blocklistName" /> is an empty string, and was expected to be non-empty. </exception>
         <example>
-This sample shows how to call GetTextBlocklistItemsAsync with required parameters.
+This sample shows how to call GetTextBlocklistItemsAsync.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-await foreach (var item in client.GetTextBlocklistItemsAsync("<blocklistName>", 1234, 1234, 1234))
+await foreach (TextBlockItem item in client.GetTextBlocklistItemsAsync("<blocklistName>"))
+{
+}
+]]></code>
+This sample shows how to call GetTextBlocklistItemsAsync with all parameters.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+await foreach (TextBlockItem item in client.GetTextBlocklistItemsAsync("<blocklistName>", maxCount: 1234, skip: 1234, maxpagesize: 1234))
 {
 }
 ]]></code></example>
@@ -1667,13 +1909,25 @@ await foreach (var item in client.GetTextBlocklistItemsAsync("<blocklistName>", 
         <remarks>To be added.</remarks>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call GetTextBlocklists with required parameters and parse the result.
+This sample shows how to call GetTextBlocklists and parse the result.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-foreach (var item in client.GetTextBlocklists(new RequestContext()))
+foreach (BinaryData item in client.GetTextBlocklists(null))
+{
+    JsonElement result = JsonDocument.Parse(item.ToStream()).RootElement;
+    Console.WriteLine(result.GetProperty("blocklistName").ToString());
+}
+]]></code>
+This sample shows how to call GetTextBlocklists with all parameters and parse the result.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+foreach (BinaryData item in client.GetTextBlocklists(null))
 {
     JsonElement result = JsonDocument.Parse(item.ToStream()).RootElement;
     Console.WriteLine(result.GetProperty("blocklistName").ToString());
@@ -1707,11 +1961,21 @@ foreach (var item in client.GetTextBlocklists(new RequestContext()))
         <example>
 This sample shows how to call GetTextBlocklists.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-foreach (var item in client.GetTextBlocklists())
+foreach (TextBlocklist item in client.GetTextBlocklists())
+{
+}
+]]></code>
+This sample shows how to call GetTextBlocklists with all parameters.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+foreach (TextBlocklist item in client.GetTextBlocklists())
 {
 }
 ]]></code></example>
@@ -1747,13 +2011,25 @@ foreach (var item in client.GetTextBlocklists())
         <remarks>To be added.</remarks>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call GetTextBlocklistsAsync with required parameters and parse the result.
+This sample shows how to call GetTextBlocklistsAsync and parse the result.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-await foreach (var item in client.GetTextBlocklistsAsync(new RequestContext()))
+await foreach (BinaryData item in client.GetTextBlocklistsAsync(null))
+{
+    JsonElement result = JsonDocument.Parse(item.ToStream()).RootElement;
+    Console.WriteLine(result.GetProperty("blocklistName").ToString());
+}
+]]></code>
+This sample shows how to call GetTextBlocklistsAsync with all parameters and parse the result.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+await foreach (BinaryData item in client.GetTextBlocklistsAsync(null))
 {
     JsonElement result = JsonDocument.Parse(item.ToStream()).RootElement;
     Console.WriteLine(result.GetProperty("blocklistName").ToString());
@@ -1787,11 +2063,21 @@ await foreach (var item in client.GetTextBlocklistsAsync(new RequestContext()))
         <example>
 This sample shows how to call GetTextBlocklistsAsync.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-await foreach (var item in client.GetTextBlocklistsAsync())
+await foreach (TextBlocklist item in client.GetTextBlocklistsAsync())
+{
+}
+]]></code>
+This sample shows how to call GetTextBlocklistsAsync with all parameters.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+await foreach (TextBlocklist item in client.GetTextBlocklistsAsync())
 {
 }
 ]]></code></example>
@@ -1848,17 +2134,23 @@ await foreach (var item in client.GetTextBlocklistsAsync())
         <exception cref="T:System.ArgumentException">
           <paramref name="blocklistName" /> is an empty string, and was expected to be non-empty. </exception>
         <example>
-This sample shows how to call RemoveBlockItems with required parameters.
+This sample shows how to call RemoveBlockItems.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-var removeBlockItemsOptions = new RemoveBlockItemsOptions(new string[] 
-{
-    "<null>"
-});
-var result = client.RemoveBlockItems("<blocklistName>", removeBlockItemsOptions);
+RemoveBlockItemsOptions removeBlockItemsOptions = new RemoveBlockItemsOptions(new string[] { "<blockItemIds>" });
+Response response = client.RemoveBlockItems("<blocklistName>", removeBlockItemsOptions);
+]]></code>
+This sample shows how to call RemoveBlockItems with all parameters.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+RemoveBlockItemsOptions removeBlockItemsOptions = new RemoveBlockItemsOptions(new string[] { "<blockItemIds>" });
+Response response = client.RemoveBlockItems("<blocklistName>", removeBlockItemsOptions);
 ]]></code></example>
       </Docs>
     </Member>
@@ -1900,19 +2192,38 @@ var result = client.RemoveBlockItems("<blocklistName>", removeBlockItemsOptions)
           <paramref name="blocklistName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call RemoveBlockItems with required parameters and request content.
+This sample shows how to call RemoveBlockItems.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-var data = new {
-    blockItemIds = new[] {
-        "<String>"
+using RequestContent content = RequestContent.Create(new
+{
+    blockItemIds = new object[]
+    {
+        "<blockItemIds>"
     },
-};
+});
+Response response = client.RemoveBlockItems("<blocklistName>", content);
 
-Response response = client.RemoveBlockItems("<blocklistName>", RequestContent.Create(data), new RequestContext());
+Console.WriteLine(response.Status);
+]]></code>
+This sample shows how to call RemoveBlockItems with all parameters and request content.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+using RequestContent content = RequestContent.Create(new
+{
+    blockItemIds = new object[]
+    {
+        "<blockItemIds>"
+    },
+});
+Response response = client.RemoveBlockItems("<blocklistName>", content);
+
 Console.WriteLine(response.Status);
 ]]></code></example>
       </Docs>
@@ -1948,17 +2259,23 @@ Console.WriteLine(response.Status);
         <exception cref="T:System.ArgumentException">
           <paramref name="blocklistName" /> is an empty string, and was expected to be non-empty. </exception>
         <example>
-This sample shows how to call RemoveBlockItemsAsync with required parameters.
+This sample shows how to call RemoveBlockItemsAsync.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-var removeBlockItemsOptions = new RemoveBlockItemsOptions(new string[] 
-{
-    "<null>"
-});
-var result = await client.RemoveBlockItemsAsync("<blocklistName>", removeBlockItemsOptions);
+RemoveBlockItemsOptions removeBlockItemsOptions = new RemoveBlockItemsOptions(new string[] { "<blockItemIds>" });
+Response response = await client.RemoveBlockItemsAsync("<blocklistName>", removeBlockItemsOptions);
+]]></code>
+This sample shows how to call RemoveBlockItemsAsync with all parameters.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+RemoveBlockItemsOptions removeBlockItemsOptions = new RemoveBlockItemsOptions(new string[] { "<blockItemIds>" });
+Response response = await client.RemoveBlockItemsAsync("<blocklistName>", removeBlockItemsOptions);
 ]]></code></example>
       </Docs>
     </Member>
@@ -2000,19 +2317,38 @@ var result = await client.RemoveBlockItemsAsync("<blocklistName>", removeBlockIt
           <paramref name="blocklistName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call RemoveBlockItemsAsync with required parameters and request content.
+This sample shows how to call RemoveBlockItemsAsync.
 <code><![CDATA[
-var credential = new AzureKeyCredential("<key>");
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new ContentSafetyClient(endpoint, credential);
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
 
-var data = new {
-    blockItemIds = new[] {
-        "<String>"
+using RequestContent content = RequestContent.Create(new
+{
+    blockItemIds = new object[]
+    {
+        "<blockItemIds>"
     },
-};
+});
+Response response = await client.RemoveBlockItemsAsync("<blocklistName>", content);
 
-Response response = await client.RemoveBlockItemsAsync("<blocklistName>", RequestContent.Create(data), new RequestContext());
+Console.WriteLine(response.Status);
+]]></code>
+This sample shows how to call RemoveBlockItemsAsync with all parameters and request content.
+<code><![CDATA[
+Uri endpoint = new Uri("<https://my-service.azure.com>");
+AzureKeyCredential credential = new AzureKeyCredential("<key>");
+ContentSafetyClient client = new ContentSafetyClient(endpoint, credential);
+
+using RequestContent content = RequestContent.Create(new
+{
+    blockItemIds = new object[]
+    {
+        "<blockItemIds>"
+    },
+});
+Response response = await client.RemoveBlockItemsAsync("<blocklistName>", content);
+
 Console.WriteLine(response.Status);
 ]]></code></example>
       </Docs>

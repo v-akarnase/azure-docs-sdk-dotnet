@@ -10,6 +10,7 @@
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
     <AssemblyVersion>1.3.0.0</AssemblyVersion>
+    <AssemblyVersion>1.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -29,6 +30,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -46,6 +48,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="connectionString" Type="System.String" />
@@ -70,6 +73,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="connectionString" Type="System.String" />
@@ -96,6 +100,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="endpoint" Type="System.Uri" />
@@ -120,6 +125,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="endpoint" Type="System.Uri" />
@@ -144,6 +150,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="endpoint" Type="System.Uri" />
@@ -170,6 +177,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="endpoint" Type="System.Uri" />
@@ -196,6 +204,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -209,7 +218,11 @@
         <param name="group"> Target group name, which length should be greater than 0 and less than 1025. </param>
         <param name="connectionId"> Target connection Id. </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
-        <summary> Add a connection to the target group. </summary>
+        <summary>
+            [Protocol Method] Add a connection to the target group.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
         <returns> The response returned from the service. </returns>
         <remarks>
             Schema for <c>Response Error</c>:
@@ -230,11 +243,20 @@
           <paramref name="group" /> or <paramref name="connectionId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call AddConnectionToGroup with required parameters.
+This sample shows how to call AddConnectionToGroup.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
 Response response = client.AddConnectionToGroup("<group>", "<connectionId>");
+
+Console.WriteLine(response.Status);
+]]></code>
+This sample shows how to call AddConnectionToGroup with all parameters.
+<code><![CDATA[
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
+
+Response response = client.AddConnectionToGroup("<group>", "<connectionId>");
+
 Console.WriteLine(response.Status);
 ]]></code></example>
       </Docs>
@@ -249,6 +271,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -262,7 +285,11 @@ Console.WriteLine(response.Status);
         <param name="group"> Target group name, which length should be greater than 0 and less than 1025. </param>
         <param name="connectionId"> Target connection Id. </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
-        <summary> Add a connection to the target group. </summary>
+        <summary>
+            [Protocol Method] Add a connection to the target group.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
         <returns> The response returned from the service. </returns>
         <remarks>
             Schema for <c>Response Error</c>:
@@ -283,11 +310,20 @@ Console.WriteLine(response.Status);
           <paramref name="group" /> or <paramref name="connectionId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call AddConnectionToGroupAsync with required parameters.
+This sample shows how to call AddConnectionToGroupAsync.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
 Response response = await client.AddConnectionToGroupAsync("<group>", "<connectionId>");
+
+Console.WriteLine(response.Status);
+]]></code>
+This sample shows how to call AddConnectionToGroupAsync with all parameters.
+<code><![CDATA[
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
+
+Response response = await client.AddConnectionToGroupAsync("<group>", "<connectionId>");
+
 Console.WriteLine(response.Status);
 ]]></code></example>
       </Docs>
@@ -302,6 +338,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -344,6 +381,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -386,6 +424,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;System.Boolean&gt;</ReturnType>
@@ -416,6 +455,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Boolean&gt;&gt;</ReturnType>
@@ -446,6 +486,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -459,7 +500,11 @@ Console.WriteLine(response.Status);
         <param name="excluded"> Exclude these connectionIds when closing the connections in the hub. </param>
         <param name="reason"> The reason closing the client connection. </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
-        <summary> Close the connections in the hub. </summary>
+        <summary>
+            [Protocol Method] Close the connections in the hub.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
         <returns> The response returned from the service. </returns>
         <remarks>
             Schema for <c>Response Error</c>:
@@ -478,16 +523,18 @@ Console.WriteLine(response.Status);
         <example>
 This sample shows how to call CloseAllConnections.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
 Response response = client.CloseAllConnections();
+
 Console.WriteLine(response.Status);
 ]]></code>
 This sample shows how to call CloseAllConnections with all parameters.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
-Response response = client.CloseAllConnections(new String[]{"<excluded>"}, "<reason>");
+Response response = client.CloseAllConnections(excluded: new string[] { "<excluded>" }, reason: "<reason>");
+
 Console.WriteLine(response.Status);
 ]]></code></example>
       </Docs>
@@ -502,6 +549,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -515,7 +563,11 @@ Console.WriteLine(response.Status);
         <param name="excluded"> Exclude these connectionIds when closing the connections in the hub. </param>
         <param name="reason"> The reason closing the client connection. </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
-        <summary> Close the connections in the hub. </summary>
+        <summary>
+            [Protocol Method] Close the connections in the hub.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
         <returns> The response returned from the service. </returns>
         <remarks>
             Schema for <c>Response Error</c>:
@@ -534,16 +586,18 @@ Console.WriteLine(response.Status);
         <example>
 This sample shows how to call CloseAllConnectionsAsync.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
 Response response = await client.CloseAllConnectionsAsync();
+
 Console.WriteLine(response.Status);
 ]]></code>
 This sample shows how to call CloseAllConnectionsAsync with all parameters.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
-Response response = await client.CloseAllConnectionsAsync(new String[]{"<excluded>"}, "<reason>");
+Response response = await client.CloseAllConnectionsAsync(excluded: new string[] { "<excluded>" }, reason: "<reason>");
+
 Console.WriteLine(response.Status);
 ]]></code></example>
       </Docs>
@@ -558,6 +612,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -571,7 +626,11 @@ Console.WriteLine(response.Status);
         <param name="connectionId"> Target connection Id. </param>
         <param name="reason"> The reason closing the client connection. </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
-        <summary> Close the client connection. </summary>
+        <summary>
+            [Protocol Method] Close the client connection.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
         <returns> The response returned from the service. </returns>
         <remarks>
             Schema for <c>Response Error</c>:
@@ -592,18 +651,20 @@ Console.WriteLine(response.Status);
           <paramref name="connectionId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call CloseConnection with required parameters.
+This sample shows how to call CloseConnection.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
 Response response = client.CloseConnection("<connectionId>");
+
 Console.WriteLine(response.Status);
 ]]></code>
 This sample shows how to call CloseConnection with all parameters.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
-Response response = client.CloseConnection("<connectionId>", "<reason>");
+Response response = client.CloseConnection("<connectionId>", reason: "<reason>");
+
 Console.WriteLine(response.Status);
 ]]></code></example>
       </Docs>
@@ -618,6 +679,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -631,7 +693,11 @@ Console.WriteLine(response.Status);
         <param name="connectionId"> Target connection Id. </param>
         <param name="reason"> The reason closing the client connection. </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
-        <summary> Close the client connection. </summary>
+        <summary>
+            [Protocol Method] Close the client connection.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
         <returns> The response returned from the service. </returns>
         <remarks>
             Schema for <c>Response Error</c>:
@@ -652,18 +718,20 @@ Console.WriteLine(response.Status);
           <paramref name="connectionId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call CloseConnectionAsync with required parameters.
+This sample shows how to call CloseConnectionAsync.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
 Response response = await client.CloseConnectionAsync("<connectionId>");
+
 Console.WriteLine(response.Status);
 ]]></code>
 This sample shows how to call CloseConnectionAsync with all parameters.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
-Response response = await client.CloseConnectionAsync("<connectionId>", "<reason>");
+Response response = await client.CloseConnectionAsync("<connectionId>", reason: "<reason>");
+
 Console.WriteLine(response.Status);
 ]]></code></example>
       </Docs>
@@ -678,6 +746,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -693,7 +762,11 @@ Console.WriteLine(response.Status);
         <param name="excluded"> Exclude these connectionIds when closing the connections in the group. </param>
         <param name="reason"> The reason closing the client connection. </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
-        <summary> Close connections in the specific group. </summary>
+        <summary>
+            [Protocol Method] Close connections in the specific group.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
         <returns> The response returned from the service. </returns>
         <remarks>
             Schema for <c>Response Error</c>:
@@ -714,18 +787,20 @@ Console.WriteLine(response.Status);
           <paramref name="group" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call CloseGroupConnections with required parameters.
+This sample shows how to call CloseGroupConnections.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
 Response response = client.CloseGroupConnections("<group>");
+
 Console.WriteLine(response.Status);
 ]]></code>
 This sample shows how to call CloseGroupConnections with all parameters.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
-Response response = client.CloseGroupConnections("<group>", new String[]{"<excluded>"}, "<reason>");
+Response response = client.CloseGroupConnections("<group>", excluded: new string[] { "<excluded>" }, reason: "<reason>");
+
 Console.WriteLine(response.Status);
 ]]></code></example>
       </Docs>
@@ -740,6 +815,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -755,7 +831,11 @@ Console.WriteLine(response.Status);
         <param name="excluded"> Exclude these connectionIds when closing the connections in the group. </param>
         <param name="reason"> The reason closing the client connection. </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
-        <summary> Close connections in the specific group. </summary>
+        <summary>
+            [Protocol Method] Close connections in the specific group.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
         <returns> The response returned from the service. </returns>
         <remarks>
             Schema for <c>Response Error</c>:
@@ -776,18 +856,20 @@ Console.WriteLine(response.Status);
           <paramref name="group" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call CloseGroupConnectionsAsync with required parameters.
+This sample shows how to call CloseGroupConnectionsAsync.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
 Response response = await client.CloseGroupConnectionsAsync("<group>");
+
 Console.WriteLine(response.Status);
 ]]></code>
 This sample shows how to call CloseGroupConnectionsAsync with all parameters.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
-Response response = await client.CloseGroupConnectionsAsync("<group>", new String[]{"<excluded>"}, "<reason>");
+Response response = await client.CloseGroupConnectionsAsync("<group>", excluded: new string[] { "<excluded>" }, reason: "<reason>");
+
 Console.WriteLine(response.Status);
 ]]></code></example>
       </Docs>
@@ -802,6 +884,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -817,7 +900,11 @@ Console.WriteLine(response.Status);
         <param name="excluded"> Exclude these connectionIds when closing the connections for the user. </param>
         <param name="reason"> The reason closing the client connection. </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
-        <summary> Close connections for the specific user. </summary>
+        <summary>
+            [Protocol Method] Close connections for the specific user.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
         <returns> The response returned from the service. </returns>
         <remarks>
             Schema for <c>Response Error</c>:
@@ -838,18 +925,20 @@ Console.WriteLine(response.Status);
           <paramref name="userId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call CloseUserConnections with required parameters.
+This sample shows how to call CloseUserConnections.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
 Response response = client.CloseUserConnections("<userId>");
+
 Console.WriteLine(response.Status);
 ]]></code>
 This sample shows how to call CloseUserConnections with all parameters.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
-Response response = client.CloseUserConnections("<userId>", new String[]{"<excluded>"}, "<reason>");
+Response response = client.CloseUserConnections("<userId>", excluded: new string[] { "<excluded>" }, reason: "<reason>");
+
 Console.WriteLine(response.Status);
 ]]></code></example>
       </Docs>
@@ -864,6 +953,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -879,7 +969,11 @@ Console.WriteLine(response.Status);
         <param name="excluded"> Exclude these connectionIds when closing the connections for the user. </param>
         <param name="reason"> The reason closing the client connection. </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
-        <summary> Close connections for the specific user. </summary>
+        <summary>
+            [Protocol Method] Close connections for the specific user.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
         <returns> The response returned from the service. </returns>
         <remarks>
             Schema for <c>Response Error</c>:
@@ -900,18 +994,20 @@ Console.WriteLine(response.Status);
           <paramref name="userId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call CloseUserConnectionsAsync with required parameters.
+This sample shows how to call CloseUserConnectionsAsync.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
 Response response = await client.CloseUserConnectionsAsync("<userId>");
+
 Console.WriteLine(response.Status);
 ]]></code>
 This sample shows how to call CloseUserConnectionsAsync with all parameters.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
-Response response = await client.CloseUserConnectionsAsync("<userId>", new String[]{"<excluded>"}, "<reason>");
+Response response = await client.CloseUserConnectionsAsync("<userId>", excluded: new string[] { "<excluded>" }, reason: "<reason>");
+
 Console.WriteLine(response.Status);
 ]]></code></example>
       </Docs>
@@ -926,6 +1022,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;System.Boolean&gt;</ReturnType>
@@ -952,6 +1049,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Boolean&gt;&gt;</ReturnType>
@@ -978,6 +1076,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -1000,6 +1099,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -1032,6 +1132,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -1064,6 +1165,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -1098,6 +1200,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -1132,6 +1235,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Uri&gt;</ReturnType>
@@ -1164,6 +1268,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Uri&gt;</ReturnType>
@@ -1196,6 +1301,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Uri&gt;</ReturnType>
@@ -1230,6 +1336,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Uri&gt;</ReturnType>
@@ -1264,6 +1371,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -1294,6 +1402,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -1324,6 +1433,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;System.Boolean&gt;</ReturnType>
@@ -1350,6 +1460,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Boolean&gt;&gt;</ReturnType>
@@ -1376,6 +1487,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1398,6 +1510,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Pipeline.HttpPipeline</ReturnType>
@@ -1418,6 +1531,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -1429,7 +1543,11 @@ Console.WriteLine(response.Status);
       <Docs>
         <param name="connectionId"> Target connection Id. </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
-        <summary> Remove a connection from all groups. </summary>
+        <summary>
+            [Protocol Method] Remove a connection from all groups.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
         <returns> The response returned from the service. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1438,11 +1556,20 @@ Console.WriteLine(response.Status);
           <paramref name="connectionId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call RemoveConnectionFromAllGroups with required parameters.
+This sample shows how to call RemoveConnectionFromAllGroups.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
 Response response = client.RemoveConnectionFromAllGroups("<connectionId>");
+
+Console.WriteLine(response.Status);
+]]></code>
+This sample shows how to call RemoveConnectionFromAllGroups with all parameters.
+<code><![CDATA[
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
+
+Response response = client.RemoveConnectionFromAllGroups("<connectionId>");
+
 Console.WriteLine(response.Status);
 ]]></code></example>
       </Docs>
@@ -1457,6 +1584,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -1468,7 +1596,11 @@ Console.WriteLine(response.Status);
       <Docs>
         <param name="connectionId"> Target connection Id. </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
-        <summary> Remove a connection from all groups. </summary>
+        <summary>
+            [Protocol Method] Remove a connection from all groups.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
         <returns> The response returned from the service. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1477,11 +1609,20 @@ Console.WriteLine(response.Status);
           <paramref name="connectionId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call RemoveConnectionFromAllGroupsAsync with required parameters.
+This sample shows how to call RemoveConnectionFromAllGroupsAsync.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
 Response response = await client.RemoveConnectionFromAllGroupsAsync("<connectionId>");
+
+Console.WriteLine(response.Status);
+]]></code>
+This sample shows how to call RemoveConnectionFromAllGroupsAsync with all parameters.
+<code><![CDATA[
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
+
+Response response = await client.RemoveConnectionFromAllGroupsAsync("<connectionId>");
+
 Console.WriteLine(response.Status);
 ]]></code></example>
       </Docs>
@@ -1496,6 +1637,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -1509,7 +1651,11 @@ Console.WriteLine(response.Status);
         <param name="group"> Target group name, which length should be greater than 0 and less than 1025. </param>
         <param name="connectionId"> Target connection Id. </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
-        <summary> Remove a connection from the target group. </summary>
+        <summary>
+            [Protocol Method] Remove a connection from the target group.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
         <returns> The response returned from the service. </returns>
         <remarks>
             Schema for <c>Response Error</c>:
@@ -1530,11 +1676,20 @@ Console.WriteLine(response.Status);
           <paramref name="group" /> or <paramref name="connectionId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call RemoveConnectionFromGroup with required parameters.
+This sample shows how to call RemoveConnectionFromGroup.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
 Response response = client.RemoveConnectionFromGroup("<group>", "<connectionId>");
+
+Console.WriteLine(response.Status);
+]]></code>
+This sample shows how to call RemoveConnectionFromGroup with all parameters.
+<code><![CDATA[
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
+
+Response response = client.RemoveConnectionFromGroup("<group>", "<connectionId>");
+
 Console.WriteLine(response.Status);
 ]]></code></example>
       </Docs>
@@ -1549,6 +1704,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -1562,7 +1718,11 @@ Console.WriteLine(response.Status);
         <param name="group"> Target group name, which length should be greater than 0 and less than 1025. </param>
         <param name="connectionId"> Target connection Id. </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
-        <summary> Remove a connection from the target group. </summary>
+        <summary>
+            [Protocol Method] Remove a connection from the target group.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
         <returns> The response returned from the service. </returns>
         <remarks>
             Schema for <c>Response Error</c>:
@@ -1583,11 +1743,20 @@ Console.WriteLine(response.Status);
           <paramref name="group" /> or <paramref name="connectionId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call RemoveConnectionFromGroupAsync with required parameters.
+This sample shows how to call RemoveConnectionFromGroupAsync.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
 Response response = await client.RemoveConnectionFromGroupAsync("<group>", "<connectionId>");
+
+Console.WriteLine(response.Status);
+]]></code>
+This sample shows how to call RemoveConnectionFromGroupAsync with all parameters.
+<code><![CDATA[
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
+
+Response response = await client.RemoveConnectionFromGroupAsync("<group>", "<connectionId>");
+
 Console.WriteLine(response.Status);
 ]]></code></example>
       </Docs>
@@ -1602,6 +1771,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -1613,7 +1783,11 @@ Console.WriteLine(response.Status);
       <Docs>
         <param name="userId"> Target user Id. </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
-        <summary> Remove a user from all groups. </summary>
+        <summary>
+            [Protocol Method] Remove a user from all groups.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
         <returns> The response returned from the service. </returns>
         <remarks>
             Schema for <c>Response Error</c>:
@@ -1634,11 +1808,20 @@ Console.WriteLine(response.Status);
           <paramref name="userId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call RemoveUserFromAllGroups with required parameters.
+This sample shows how to call RemoveUserFromAllGroups.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
 Response response = client.RemoveUserFromAllGroups("<userId>");
+
+Console.WriteLine(response.Status);
+]]></code>
+This sample shows how to call RemoveUserFromAllGroups with all parameters.
+<code><![CDATA[
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
+
+Response response = client.RemoveUserFromAllGroups("<userId>");
+
 Console.WriteLine(response.Status);
 ]]></code></example>
       </Docs>
@@ -1653,6 +1836,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -1664,7 +1848,11 @@ Console.WriteLine(response.Status);
       <Docs>
         <param name="userId"> Target user Id. </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
-        <summary> Remove a user from all groups. </summary>
+        <summary>
+            [Protocol Method] Remove a user from all groups.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
         <returns> The response returned from the service. </returns>
         <remarks>
             Schema for <c>Response Error</c>:
@@ -1685,11 +1873,20 @@ Console.WriteLine(response.Status);
           <paramref name="userId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call RemoveUserFromAllGroupsAsync with required parameters.
+This sample shows how to call RemoveUserFromAllGroupsAsync.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
 Response response = await client.RemoveUserFromAllGroupsAsync("<userId>");
+
+Console.WriteLine(response.Status);
+]]></code>
+This sample shows how to call RemoveUserFromAllGroupsAsync with all parameters.
+<code><![CDATA[
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
+
+Response response = await client.RemoveUserFromAllGroupsAsync("<userId>");
+
 Console.WriteLine(response.Status);
 ]]></code></example>
       </Docs>
@@ -1704,6 +1901,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -1746,6 +1944,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -1788,6 +1987,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -1818,6 +2018,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -1848,6 +2049,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -1874,6 +2076,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -1938,6 +2141,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -1950,34 +2154,38 @@ Console.WriteLine(response.Status);
         <Parameter Name="context" Type="Azure.RequestContext" />
       </Parameters>
       <Docs>
-        <param name="content"> The content to send as the body of the request. Details of the request body schema are in the Remarks section below. </param>
+        <param name="content"> The content to send as the body of the request. </param>
         <param name="contentType"> Upload file type. Allowed values: "application/json" | "application/octet-stream" | "text/plain". </param>
         <param name="excluded"> Excluded connection Ids. </param>
         <param name="filter"> Following OData filter syntax to filter out the subscribers receiving the messages. </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
-        <summary> Broadcast content inside request body to all the connected client connections. </summary>
+        <summary>
+            [Protocol Method] Broadcast content inside request body to all the connected client connections.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
         <returns> The response returned from the service. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="content" /> is null. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call SendToAll with required parameters and request content.
+This sample shows how to call SendToAll.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
-var data = File.OpenRead("<filePath>");
+using RequestContent content = RequestContent.Create(File.OpenRead("<filePath>"));
+Response response = client.SendToAll(content, new ContentType("application/json"));
 
-Response response = client.SendToAll(RequestContent.Create(data), ContentType.ApplicationOctetStream);
 Console.WriteLine(response.Status);
 ]]></code>
 This sample shows how to call SendToAll with all parameters and request content.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
-var data = File.OpenRead("<filePath>");
+using RequestContent content = RequestContent.Create(File.OpenRead("<filePath>"));
+Response response = client.SendToAll(content, new ContentType("application/json"), excluded: new string[] { "<excluded>" }, filter: "<filter>");
 
-Response response = client.SendToAll(RequestContent.Create(data), ContentType.ApplicationOctetStream, new String[]{"<excluded>"}, "<filter>");
 Console.WriteLine(response.Status);
 ]]></code></example>
       </Docs>
@@ -1992,6 +2200,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -2018,6 +2227,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -2082,6 +2292,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -2094,34 +2305,38 @@ Console.WriteLine(response.Status);
         <Parameter Name="context" Type="Azure.RequestContext" />
       </Parameters>
       <Docs>
-        <param name="content"> The content to send as the body of the request. Details of the request body schema are in the Remarks section below. </param>
+        <param name="content"> The content to send as the body of the request. </param>
         <param name="contentType"> Upload file type. Allowed values: "application/json" | "application/octet-stream" | "text/plain". </param>
         <param name="excluded"> Excluded connection Ids. </param>
         <param name="filter"> Following OData filter syntax to filter out the subscribers receiving the messages. </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
-        <summary> Broadcast content inside request body to all the connected client connections. </summary>
+        <summary>
+            [Protocol Method] Broadcast content inside request body to all the connected client connections.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
         <returns> The response returned from the service. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="content" /> is null. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call SendToAllAsync with required parameters and request content.
+This sample shows how to call SendToAllAsync.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
-var data = File.OpenRead("<filePath>");
+using RequestContent content = RequestContent.Create(File.OpenRead("<filePath>"));
+Response response = await client.SendToAllAsync(content, new ContentType("application/json"));
 
-Response response = await client.SendToAllAsync(RequestContent.Create(data), ContentType.ApplicationOctetStream);
 Console.WriteLine(response.Status);
 ]]></code>
 This sample shows how to call SendToAllAsync with all parameters and request content.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
-var data = File.OpenRead("<filePath>");
+using RequestContent content = RequestContent.Create(File.OpenRead("<filePath>"));
+Response response = await client.SendToAllAsync(content, new ContentType("application/json"), excluded: new string[] { "<excluded>" }, filter: "<filter>");
 
-Response response = await client.SendToAllAsync(RequestContent.Create(data), ContentType.ApplicationOctetStream, new String[]{"<excluded>"}, "<filter>");
 Console.WriteLine(response.Status);
 ]]></code></example>
       </Docs>
@@ -2136,6 +2351,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -2166,6 +2382,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -2178,10 +2395,14 @@ Console.WriteLine(response.Status);
       </Parameters>
       <Docs>
         <param name="connectionId"> The connection Id. </param>
-        <param name="content"> The content to send as the body of the request. Details of the request body schema are in the Remarks section below. </param>
+        <param name="content"> The content to send as the body of the request. </param>
         <param name="contentType"> Upload file type. Allowed values: "application/json" | "application/octet-stream" | "text/plain". </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
-        <summary> Send content inside request body to the specific connection. </summary>
+        <summary>
+            [Protocol Method] Send content inside request body to the specific connection.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
         <returns> The response returned from the service. </returns>
         <remarks>
             Schema for <c>Response Error</c>:
@@ -2202,13 +2423,22 @@ Console.WriteLine(response.Status);
           <paramref name="connectionId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call SendToConnection with required parameters and request content.
+This sample shows how to call SendToConnection.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
-var data = File.OpenRead("<filePath>");
+using RequestContent content = RequestContent.Create(File.OpenRead("<filePath>"));
+Response response = client.SendToConnection("<connectionId>", content, new ContentType("application/json"));
 
-Response response = client.SendToConnection("<connectionId>", RequestContent.Create(data), ContentType.ApplicationOctetStream);
+Console.WriteLine(response.Status);
+]]></code>
+This sample shows how to call SendToConnection with all parameters and request content.
+<code><![CDATA[
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
+
+using RequestContent content = RequestContent.Create(File.OpenRead("<filePath>"));
+Response response = client.SendToConnection("<connectionId>", content, new ContentType("application/json"));
+
 Console.WriteLine(response.Status);
 ]]></code></example>
       </Docs>
@@ -2223,6 +2453,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -2253,6 +2484,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -2265,10 +2497,14 @@ Console.WriteLine(response.Status);
       </Parameters>
       <Docs>
         <param name="connectionId"> The connection Id. </param>
-        <param name="content"> The content to send as the body of the request. Details of the request body schema are in the Remarks section below. </param>
+        <param name="content"> The content to send as the body of the request. </param>
         <param name="contentType"> Upload file type. Allowed values: "application/json" | "application/octet-stream" | "text/plain". </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
-        <summary> Send content inside request body to the specific connection. </summary>
+        <summary>
+            [Protocol Method] Send content inside request body to the specific connection.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
         <returns> The response returned from the service. </returns>
         <remarks>
             Schema for <c>Response Error</c>:
@@ -2289,13 +2525,22 @@ Console.WriteLine(response.Status);
           <paramref name="connectionId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call SendToConnectionAsync with required parameters and request content.
+This sample shows how to call SendToConnectionAsync.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
-var data = File.OpenRead("<filePath>");
+using RequestContent content = RequestContent.Create(File.OpenRead("<filePath>"));
+Response response = await client.SendToConnectionAsync("<connectionId>", content, new ContentType("application/json"));
 
-Response response = await client.SendToConnectionAsync("<connectionId>", RequestContent.Create(data), ContentType.ApplicationOctetStream);
+Console.WriteLine(response.Status);
+]]></code>
+This sample shows how to call SendToConnectionAsync with all parameters and request content.
+<code><![CDATA[
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
+
+using RequestContent content = RequestContent.Create(File.OpenRead("<filePath>"));
+Response response = await client.SendToConnectionAsync("<connectionId>", content, new ContentType("application/json"));
+
 Console.WriteLine(response.Status);
 ]]></code></example>
       </Docs>
@@ -2310,6 +2555,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -2340,6 +2586,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -2408,6 +2655,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -2422,12 +2670,16 @@ Console.WriteLine(response.Status);
       </Parameters>
       <Docs>
         <param name="group"> Target group name, which length should be greater than 0 and less than 1025. </param>
-        <param name="content"> The content to send as the body of the request. Details of the request body schema are in the Remarks section below. </param>
+        <param name="content"> The content to send as the body of the request. </param>
         <param name="contentType"> Upload file type. Allowed values: "application/json" | "application/octet-stream" | "text/plain". </param>
         <param name="excluded"> Excluded connection Ids. </param>
         <param name="filter"> Following OData filter syntax to filter out the subscribers receiving the messages. </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
-        <summary> Send content inside request body to a group of connections. </summary>
+        <summary>
+            [Protocol Method] Send content inside request body to a group of connections.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
         <returns> The response returned from the service. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2436,22 +2688,22 @@ Console.WriteLine(response.Status);
           <paramref name="group" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call SendToGroup with required parameters and request content.
+This sample shows how to call SendToGroup.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
-var data = File.OpenRead("<filePath>");
+using RequestContent content = RequestContent.Create(File.OpenRead("<filePath>"));
+Response response = client.SendToGroup("<group>", content, new ContentType("application/json"));
 
-Response response = client.SendToGroup("<group>", RequestContent.Create(data), ContentType.ApplicationOctetStream);
 Console.WriteLine(response.Status);
 ]]></code>
 This sample shows how to call SendToGroup with all parameters and request content.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
-var data = File.OpenRead("<filePath>");
+using RequestContent content = RequestContent.Create(File.OpenRead("<filePath>"));
+Response response = client.SendToGroup("<group>", content, new ContentType("application/json"), excluded: new string[] { "<excluded>" }, filter: "<filter>");
 
-Response response = client.SendToGroup("<group>", RequestContent.Create(data), ContentType.ApplicationOctetStream, new String[]{"<excluded>"}, "<filter>");
 Console.WriteLine(response.Status);
 ]]></code></example>
       </Docs>
@@ -2466,6 +2718,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -2496,6 +2749,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -2564,6 +2818,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -2578,12 +2833,16 @@ Console.WriteLine(response.Status);
       </Parameters>
       <Docs>
         <param name="group"> Target group name, which length should be greater than 0 and less than 1025. </param>
-        <param name="content"> The content to send as the body of the request. Details of the request body schema are in the Remarks section below. </param>
+        <param name="content"> The content to send as the body of the request. </param>
         <param name="contentType"> Upload file type. Allowed values: "application/json" | "application/octet-stream" | "text/plain". </param>
         <param name="excluded"> Excluded connection Ids. </param>
         <param name="filter"> Following OData filter syntax to filter out the subscribers receiving the messages. </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
-        <summary> Send content inside request body to a group of connections. </summary>
+        <summary>
+            [Protocol Method] Send content inside request body to a group of connections.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
         <returns> The response returned from the service. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2592,22 +2851,22 @@ Console.WriteLine(response.Status);
           <paramref name="group" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call SendToGroupAsync with required parameters and request content.
+This sample shows how to call SendToGroupAsync.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
-var data = File.OpenRead("<filePath>");
+using RequestContent content = RequestContent.Create(File.OpenRead("<filePath>"));
+Response response = await client.SendToGroupAsync("<group>", content, new ContentType("application/json"));
 
-Response response = await client.SendToGroupAsync("<group>", RequestContent.Create(data), ContentType.ApplicationOctetStream);
 Console.WriteLine(response.Status);
 ]]></code>
 This sample shows how to call SendToGroupAsync with all parameters and request content.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
-var data = File.OpenRead("<filePath>");
+using RequestContent content = RequestContent.Create(File.OpenRead("<filePath>"));
+Response response = await client.SendToGroupAsync("<group>", content, new ContentType("application/json"), excluded: new string[] { "<excluded>" }, filter: "<filter>");
 
-Response response = await client.SendToGroupAsync("<group>", RequestContent.Create(data), ContentType.ApplicationOctetStream, new String[]{"<excluded>"}, "<filter>");
 Console.WriteLine(response.Status);
 ]]></code></example>
       </Docs>
@@ -2622,6 +2881,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -2652,6 +2912,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -2709,6 +2970,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -2722,11 +2984,15 @@ Console.WriteLine(response.Status);
       </Parameters>
       <Docs>
         <param name="userId"> The user Id. </param>
-        <param name="content"> The content to send as the body of the request. Details of the request body schema are in the Remarks section below. </param>
+        <param name="content"> The content to send as the body of the request. </param>
         <param name="contentType"> Upload file type. Allowed values: "application/json" | "application/octet-stream" | "text/plain". </param>
         <param name="filter"> Following OData filter syntax to filter out the subscribers receiving the messages. </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
-        <summary> Send content inside request body to the specific user. </summary>
+        <summary>
+            [Protocol Method] Send content inside request body to the specific user.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
         <returns> The response returned from the service. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2735,22 +3001,22 @@ Console.WriteLine(response.Status);
           <paramref name="userId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call SendToUser with required parameters and request content.
+This sample shows how to call SendToUser.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
-var data = File.OpenRead("<filePath>");
+using RequestContent content = RequestContent.Create(File.OpenRead("<filePath>"));
+Response response = client.SendToUser("<userId>", content, new ContentType("application/json"));
 
-Response response = client.SendToUser("<userId>", RequestContent.Create(data), ContentType.ApplicationOctetStream);
 Console.WriteLine(response.Status);
 ]]></code>
 This sample shows how to call SendToUser with all parameters and request content.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
-var data = File.OpenRead("<filePath>");
+using RequestContent content = RequestContent.Create(File.OpenRead("<filePath>"));
+Response response = client.SendToUser("<userId>", content, new ContentType("application/json"), filter: "<filter>");
 
-Response response = client.SendToUser("<userId>", RequestContent.Create(data), ContentType.ApplicationOctetStream, "<filter>");
 Console.WriteLine(response.Status);
 ]]></code></example>
       </Docs>
@@ -2765,6 +3031,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -2795,6 +3062,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -2852,6 +3120,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -2865,11 +3134,15 @@ Console.WriteLine(response.Status);
       </Parameters>
       <Docs>
         <param name="userId"> The user Id. </param>
-        <param name="content"> The content to send as the body of the request. Details of the request body schema are in the Remarks section below. </param>
+        <param name="content"> The content to send as the body of the request. </param>
         <param name="contentType"> Upload file type. Allowed values: "application/json" | "application/octet-stream" | "text/plain". </param>
         <param name="filter"> Following OData filter syntax to filter out the subscribers receiving the messages. </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
-        <summary> Send content inside request body to the specific user. </summary>
+        <summary>
+            [Protocol Method] Send content inside request body to the specific user.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item></list></summary>
         <returns> The response returned from the service. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2878,22 +3151,22 @@ Console.WriteLine(response.Status);
           <paramref name="userId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call SendToUserAsync with required parameters and request content.
+This sample shows how to call SendToUserAsync.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
-var data = File.OpenRead("<filePath>");
+using RequestContent content = RequestContent.Create(File.OpenRead("<filePath>"));
+Response response = await client.SendToUserAsync("<userId>", content, new ContentType("application/json"));
 
-Response response = await client.SendToUserAsync("<userId>", RequestContent.Create(data), ContentType.ApplicationOctetStream);
 Console.WriteLine(response.Status);
 ]]></code>
 This sample shows how to call SendToUserAsync with all parameters and request content.
 <code><![CDATA[
-var client = new WebPubSubServiceClient("<https://my-service.azure.com>", "<hub>");
+WebPubSubServiceClient client = new WebPubSubServiceClient("<Endpoint>", "<Hub>");
 
-var data = File.OpenRead("<filePath>");
+using RequestContent content = RequestContent.Create(File.OpenRead("<filePath>"));
+Response response = await client.SendToUserAsync("<userId>", content, new ContentType("application/json"), filter: "<filter>");
 
-Response response = await client.SendToUserAsync("<userId>", RequestContent.Create(data), ContentType.ApplicationOctetStream, "<filter>");
 Console.WriteLine(response.Status);
 ]]></code></example>
       </Docs>
@@ -2908,6 +3181,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;System.Boolean&gt;</ReturnType>
@@ -2934,6 +3208,7 @@ Console.WriteLine(response.Status);
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.WebPubSub</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Boolean&gt;&gt;</ReturnType>

@@ -8,6 +8,7 @@
     <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -28,6 +29,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.Models.AsyncOperationStatus</ReturnType>
@@ -68,6 +70,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileAttachedDataNetworkData</ReturnType>
@@ -125,6 +128,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileDataNetworkData</ReturnType>
@@ -163,6 +167,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.Models.MobileNetworkCertificateProvisioning</ReturnType>
@@ -189,6 +194,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkData</ReturnType>
@@ -229,6 +235,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkDiagnosticsPackageData</ReturnType>
@@ -265,6 +272,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.Models.MobileNetworkHttpsServerCertificate</ReturnType>
@@ -291,6 +299,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.Models.MobileNetworkInstallation</ReturnType>
@@ -323,6 +332,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -375,6 +385,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkPacketCaptureData</ReturnType>
@@ -423,6 +434,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.Models.MobileNetworkPlatformConfiguration</ReturnType>
@@ -457,6 +469,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkServiceData</ReturnType>
@@ -499,6 +512,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkSimData</ReturnType>
@@ -553,6 +567,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkSimGroupData</ReturnType>
@@ -595,6 +610,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkSimPolicyData</ReturnType>
@@ -643,6 +659,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkSiteData</ReturnType>
@@ -681,6 +698,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkSliceData</ReturnType>
@@ -721,6 +739,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -791,6 +810,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneData</ReturnType>
@@ -861,6 +881,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneVersionData</ReturnType>
@@ -895,6 +916,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -939,6 +961,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.PacketCoreDataPlaneData</ReturnType>

@@ -43,7 +43,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all the available Skus and information related to them.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataBoxEdge/availableSkus</description></item><item><term>Operation Id</term><description>AvailableSkus_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataBoxEdge/availableSkus</description></item><item><term>Operation Id</term><description>AvailableSkus_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataBoxEdge.Mocking.MockableDataBoxEdgeSubscriptionResource.GetAvailableSkus(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.DataBoxEdge.Models.AvailableDataBoxEdgeSku" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -72,7 +72,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all the available Skus and information related to them.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataBoxEdge/availableSkus</description></item><item><term>Operation Id</term><description>AvailableSkus_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataBoxEdge/availableSkus</description></item><item><term>Operation Id</term><description>AvailableSkus_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataBoxEdge.Mocking.MockableDataBoxEdgeSubscriptionResource.GetAvailableSkus(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.DataBoxEdge.Models.AvailableDataBoxEdgeSku" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -102,7 +102,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataBoxEdge.BandwidthScheduleResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataBoxEdge.BandwidthScheduleResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataBoxEdge.BandwidthScheduleResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataBoxEdge.Mocking.MockableDataBoxEdgeArmClient.GetBandwidthScheduleResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataBoxEdge.BandwidthScheduleResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -132,7 +132,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeAlertResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeAlertResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeAlertResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataBoxEdge.Mocking.MockableDataBoxEdgeArmClient.GetDataBoxEdgeAlertResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeAlertResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -163,13 +163,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the properties of the Data Box Edge/Data Box Gateway device.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBoxEdge/dataBoxEdgeDevices/{deviceName}</description></item><item><term>Operation Id</term><description>Devices_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBoxEdge/dataBoxEdgeDevices/{deviceName}</description></item><item><term>Operation Id</term><description>Devices_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataBoxEdge.Mocking.MockableDataBoxEdgeResourceGroupResource.GetDataBoxEdgeDevice(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="deviceName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="deviceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="deviceName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetDataBoxEdgeDeviceAsync">
@@ -198,13 +198,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the properties of the Data Box Edge/Data Box Gateway device.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBoxEdge/dataBoxEdgeDevices/{deviceName}</description></item><item><term>Operation Id</term><description>Devices_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBoxEdge/dataBoxEdgeDevices/{deviceName}</description></item><item><term>Operation Id</term><description>Devices_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataBoxEdge.Mocking.MockableDataBoxEdgeResourceGroupResource.GetDataBoxEdgeDeviceAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="deviceName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="deviceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="deviceName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetDataBoxEdgeDeviceResource">
@@ -232,7 +232,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeDeviceResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeDeviceResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeDeviceResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataBoxEdge.Mocking.MockableDataBoxEdgeArmClient.GetDataBoxEdgeDeviceResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeDeviceResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -257,7 +257,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of DataBoxEdgeDeviceResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of DataBoxEdgeDeviceResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataBoxEdge.Mocking.MockableDataBoxEdgeResourceGroupResource.GetDataBoxEdgeDevices" /> instead.</description></item></summary>
         <returns> An object representing collection of DataBoxEdgeDeviceResources and their operations over a DataBoxEdgeDeviceResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -288,7 +290,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets all the Data Box Edge/Data Box Gateway devices in a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataBoxEdge/dataBoxEdgeDevices</description></item><item><term>Operation Id</term><description>Devices_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataBoxEdge/dataBoxEdgeDevices</description></item><item><term>Operation Id</term><description>Devices_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataBoxEdge.Mocking.MockableDataBoxEdgeSubscriptionResource.GetDataBoxEdgeDevices(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeDeviceResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -319,7 +321,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets all the Data Box Edge/Data Box Gateway devices in a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataBoxEdge/dataBoxEdgeDevices</description></item><item><term>Operation Id</term><description>Devices_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataBoxEdge/dataBoxEdgeDevices</description></item><item><term>Operation Id</term><description>Devices_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataBoxEdge.Mocking.MockableDataBoxEdgeSubscriptionResource.GetDataBoxEdgeDevices(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeDeviceResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -349,7 +351,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeJobResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeJobResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeJobResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataBoxEdge.Mocking.MockableDataBoxEdgeArmClient.GetDataBoxEdgeJobResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeJobResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -379,7 +381,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeOrderResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeOrderResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeOrderResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataBoxEdge.Mocking.MockableDataBoxEdgeArmClient.GetDataBoxEdgeOrderResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeOrderResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -409,7 +411,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeRoleAddonResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeRoleAddonResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeRoleAddonResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataBoxEdge.Mocking.MockableDataBoxEdgeArmClient.GetDataBoxEdgeRoleAddonResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeRoleAddonResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -439,7 +441,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeRoleResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeRoleResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeRoleResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataBoxEdge.Mocking.MockableDataBoxEdgeArmClient.GetDataBoxEdgeRoleResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeRoleResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -469,7 +471,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeShareResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeShareResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeShareResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataBoxEdge.Mocking.MockableDataBoxEdgeArmClient.GetDataBoxEdgeShareResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeShareResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -499,7 +501,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeStorageAccountCredentialResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeStorageAccountCredentialResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeStorageAccountCredentialResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataBoxEdge.Mocking.MockableDataBoxEdgeArmClient.GetDataBoxEdgeStorageAccountCredentialResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeStorageAccountCredentialResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -529,7 +531,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeStorageAccountResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeStorageAccountResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeStorageAccountResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataBoxEdge.Mocking.MockableDataBoxEdgeArmClient.GetDataBoxEdgeStorageAccountResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeStorageAccountResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -559,7 +561,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeStorageContainerResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeStorageContainerResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeStorageContainerResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataBoxEdge.Mocking.MockableDataBoxEdgeArmClient.GetDataBoxEdgeStorageContainerResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeStorageContainerResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -589,7 +591,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeTriggerResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeTriggerResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeTriggerResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataBoxEdge.Mocking.MockableDataBoxEdgeArmClient.GetDataBoxEdgeTriggerResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeTriggerResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -619,7 +621,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeUserResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeUserResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeUserResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataBoxEdge.Mocking.MockableDataBoxEdgeArmClient.GetDataBoxEdgeUserResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataBoxEdge.DataBoxEdgeUserResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -649,7 +651,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataBoxEdge.DiagnosticProactiveLogCollectionSettingResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataBoxEdge.DiagnosticProactiveLogCollectionSettingResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataBoxEdge.DiagnosticProactiveLogCollectionSettingResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataBoxEdge.Mocking.MockableDataBoxEdgeArmClient.GetDiagnosticProactiveLogCollectionSettingResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataBoxEdge.DiagnosticProactiveLogCollectionSettingResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -679,7 +681,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataBoxEdge.DiagnosticRemoteSupportSettingResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataBoxEdge.DiagnosticRemoteSupportSettingResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataBoxEdge.DiagnosticRemoteSupportSettingResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataBoxEdge.Mocking.MockableDataBoxEdgeArmClient.GetDiagnosticRemoteSupportSettingResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataBoxEdge.DiagnosticRemoteSupportSettingResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -709,7 +711,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataBoxEdge.MonitoringMetricConfigurationResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataBoxEdge.MonitoringMetricConfigurationResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataBoxEdge.MonitoringMetricConfigurationResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataBoxEdge.Mocking.MockableDataBoxEdgeArmClient.GetMonitoringMetricConfigurationResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataBoxEdge.MonitoringMetricConfigurationResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>

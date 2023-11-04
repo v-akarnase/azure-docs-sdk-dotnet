@@ -63,10 +63,10 @@
         <Parameter Name="iscsiTargetName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="diskPoolName">To be added.</param>
-        <param name="iscsiTargetName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="diskPoolName"> The diskPoolName. </param>
+        <param name="iscsiTargetName"> The iscsiTargetName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.StoragePool.DiskPoolIscsiTargetResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

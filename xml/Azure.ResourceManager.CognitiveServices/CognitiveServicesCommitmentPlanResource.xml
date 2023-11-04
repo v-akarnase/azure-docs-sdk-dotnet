@@ -9,6 +9,7 @@
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
     <AssemblyVersion>1.2.1.0</AssemblyVersion>
     <AssemblyVersion>1.3.0.0</AssemblyVersion>
+    <AssemblyVersion>1.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -33,6 +34,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CognitiveServices</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -50,6 +52,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CognitiveServices</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.CognitiveServices.CognitiveServicesCommitmentPlanResource&gt;</ReturnType>
@@ -82,6 +85,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CognitiveServices</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.CognitiveServices.CognitiveServicesCommitmentPlanResource&gt;&gt;</ReturnType>
@@ -114,6 +118,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CognitiveServices</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -124,9 +129,9 @@
         <Parameter Name="commitmentPlanName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="commitmentPlanName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="commitmentPlanName"> The commitmentPlanName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.CognitiveServices.CognitiveServicesCommitmentPlanResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -142,6 +147,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CognitiveServices</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CognitiveServices.CommitmentPlanData</ReturnType>
@@ -163,6 +169,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CognitiveServices</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -176,7 +183,7 @@
           <see cref="F:Azure.WaitUntil.Completed" /> if the method should wait to return until the long-running operation has completed on the service; <see cref="F:Azure.WaitUntil.Started" /> if it should return after starting the operation. For more information on long-running operations, please see <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/LongRunningOperations.md"> Azure.Core Long-Running Operation samples</see>. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Deletes a Cognitive Services commitment plan from the resource group. 
+            Deletes a Cognitive Services commitment plan from the resource group.
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CognitiveServices/commitmentPlans/{commitmentPlanName}</description></item><item><term>Operation Id</term><description>CommitmentPlans_DeletePlan</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -192,6 +199,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CognitiveServices</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -205,7 +213,7 @@
           <see cref="F:Azure.WaitUntil.Completed" /> if the method should wait to return until the long-running operation has completed on the service; <see cref="F:Azure.WaitUntil.Started" /> if it should return after starting the operation. For more information on long-running operations, please see <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/LongRunningOperations.md"> Azure.Core Long-Running Operation samples</see>. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Deletes a Cognitive Services commitment plan from the resource group. 
+            Deletes a Cognitive Services commitment plan from the resource group.
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CognitiveServices/commitmentPlans/{commitmentPlanName}</description></item><item><term>Operation Id</term><description>CommitmentPlans_DeletePlan</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -221,6 +229,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CognitiveServices</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.CognitiveServices.CognitiveServicesCommitmentPlanResource&gt;</ReturnType>
@@ -247,6 +256,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CognitiveServices</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.CognitiveServices.CognitiveServicesCommitmentPlanResource&gt;&gt;</ReturnType>
@@ -273,6 +283,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CognitiveServices</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.CognitiveServices.CommitmentPlanAccountAssociationResource&gt;</ReturnType>
@@ -289,10 +300,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CognitiveServices/commitmentPlans/{commitmentPlanName}/accountAssociations/{commitmentPlanAssociationName}</description></item><item><term>Operation Id</term><description>CommitmentPlans_GetAssociation</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="commitmentPlanAssociationName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="commitmentPlanAssociationName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="commitmentPlanAssociationName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetCommitmentPlanAccountAssociationAsync">
@@ -305,6 +316,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CognitiveServices</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.CognitiveServices.CommitmentPlanAccountAssociationResource&gt;&gt;</ReturnType>
@@ -321,10 +333,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CognitiveServices/commitmentPlans/{commitmentPlanName}/accountAssociations/{commitmentPlanAssociationName}</description></item><item><term>Operation Id</term><description>CommitmentPlans_GetAssociation</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="commitmentPlanAssociationName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="commitmentPlanAssociationName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="commitmentPlanAssociationName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetCommitmentPlanAccountAssociations">
@@ -337,6 +349,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CognitiveServices</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CognitiveServices.CommitmentPlanAccountAssociationCollection</ReturnType>
@@ -358,6 +371,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CognitiveServices</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -378,6 +392,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CognitiveServices</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.CognitiveServices.CognitiveServicesCommitmentPlanResource&gt;</ReturnType>
@@ -408,6 +423,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CognitiveServices</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.CognitiveServices.CognitiveServicesCommitmentPlanResource&gt;&gt;</ReturnType>
@@ -438,6 +454,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CognitiveServices</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -457,6 +474,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CognitiveServices</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.CognitiveServices.CognitiveServicesCommitmentPlanResource&gt;</ReturnType>
@@ -487,6 +505,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CognitiveServices</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.CognitiveServices.CognitiveServicesCommitmentPlanResource&gt;&gt;</ReturnType>
@@ -517,6 +536,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CognitiveServices</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.CognitiveServices.CognitiveServicesCommitmentPlanResource&gt;</ReturnType>
@@ -550,6 +570,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CognitiveServices</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.CognitiveServices.CognitiveServicesCommitmentPlanResource&gt;&gt;</ReturnType>

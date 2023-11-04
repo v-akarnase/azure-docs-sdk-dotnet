@@ -13,6 +13,7 @@
     <AssemblyVersion>1.3.0.0</AssemblyVersion>
     <AssemblyVersion>1.4.0.0</AssemblyVersion>
     <AssemblyVersion>1.5.0.0</AssemblyVersion>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -37,6 +38,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -54,6 +56,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Kusto.Models.KustoDatabasePrincipal&gt;</ReturnType>
@@ -84,6 +87,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Kusto.Models.KustoDatabasePrincipal&gt;</ReturnType>
@@ -114,6 +118,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Kusto.Models.KustoNameAvailabilityResult&gt;</ReturnType>
@@ -144,6 +149,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Kusto.Models.KustoNameAvailabilityResult&gt;&gt;</ReturnType>
@@ -174,6 +180,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Kusto.Models.KustoNameAvailabilityResult&gt;</ReturnType>
@@ -204,6 +211,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Kusto.Models.KustoNameAvailabilityResult&gt;&gt;</ReturnType>
@@ -234,6 +242,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Kusto.Models.KustoNameAvailabilityResult&gt;</ReturnType>
@@ -264,6 +273,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Kusto.Models.KustoNameAvailabilityResult&gt;&gt;</ReturnType>
@@ -294,6 +304,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -305,10 +316,10 @@
         <Parameter Name="databaseName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="clusterName">To be added.</param>
-        <param name="databaseName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="clusterName"> The clusterName. </param>
+        <param name="databaseName"> The databaseName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Kusto.KustoDatabaseResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -324,6 +335,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Kusto.KustoDatabaseData</ReturnType>
@@ -345,6 +357,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -374,6 +387,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -403,6 +417,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Kusto.KustoDatabaseResource&gt;</ReturnType>
@@ -429,6 +444,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Kusto.KustoDatabaseResource&gt;&gt;</ReturnType>
@@ -455,6 +471,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Kusto.KustoDatabasePrincipalAssignmentResource&gt;</ReturnType>
@@ -471,10 +488,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/principalAssignments/{principalAssignmentName}</description></item><item><term>Operation Id</term><description>DatabasePrincipalAssignments_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="principalAssignmentName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="principalAssignmentName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="principalAssignmentName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetKustoDatabasePrincipalAssignmentAsync">
@@ -487,6 +504,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Kusto.KustoDatabasePrincipalAssignmentResource&gt;&gt;</ReturnType>
@@ -503,10 +521,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/principalAssignments/{principalAssignmentName}</description></item><item><term>Operation Id</term><description>DatabasePrincipalAssignments_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="principalAssignmentName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="principalAssignmentName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="principalAssignmentName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetKustoDatabasePrincipalAssignments">
@@ -519,6 +537,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Kusto.KustoDatabasePrincipalAssignmentCollection</ReturnType>
@@ -540,6 +559,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Kusto.KustoDataConnectionResource&gt;</ReturnType>
@@ -556,10 +576,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/dataConnections/{dataConnectionName}</description></item><item><term>Operation Id</term><description>DataConnections_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="dataConnectionName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="dataConnectionName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="dataConnectionName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetKustoDataConnectionAsync">
@@ -572,6 +592,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Kusto.KustoDataConnectionResource&gt;&gt;</ReturnType>
@@ -588,10 +609,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/dataConnections/{dataConnectionName}</description></item><item><term>Operation Id</term><description>DataConnections_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="dataConnectionName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="dataConnectionName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="dataConnectionName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetKustoDataConnections">
@@ -604,6 +625,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Kusto.KustoDataConnectionCollection</ReturnType>
@@ -625,6 +647,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Kusto.KustoScriptResource&gt;</ReturnType>
@@ -641,10 +664,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/scripts/{scriptName}</description></item><item><term>Operation Id</term><description>Scripts_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="scriptName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="scriptName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="scriptName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetKustoScriptAsync">
@@ -657,6 +680,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Kusto.KustoScriptResource&gt;&gt;</ReturnType>
@@ -673,10 +697,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/scripts/{scriptName}</description></item><item><term>Operation Id</term><description>Scripts_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="scriptName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="scriptName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="scriptName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetKustoScripts">
@@ -689,6 +713,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Kusto.KustoScriptCollection</ReturnType>
@@ -710,6 +735,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Kusto.Models.KustoDatabasePrincipal&gt;</ReturnType>
@@ -736,6 +762,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Kusto.Models.KustoDatabasePrincipal&gt;</ReturnType>
@@ -762,6 +789,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -782,6 +810,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Kusto.Models.DatabaseInviteFollowerResult&gt;</ReturnType>
@@ -812,6 +841,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Kusto.Models.DatabaseInviteFollowerResult&gt;&gt;</ReturnType>
@@ -842,6 +872,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Kusto.Models.KustoDatabasePrincipal&gt;</ReturnType>
@@ -872,6 +903,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Kusto.Models.KustoDatabasePrincipal&gt;</ReturnType>
@@ -902,6 +934,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -921,6 +954,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Kusto.KustoDatabaseResource&gt;</ReturnType>
@@ -954,6 +988,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Kusto.KustoDatabaseResource&gt;</ReturnType>
@@ -989,6 +1024,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Kusto.KustoDatabaseResource&gt;&gt;</ReturnType>
@@ -1022,6 +1058,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Kusto.KustoDatabaseResource&gt;&gt;</ReturnType>
@@ -1057,6 +1094,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Kusto.Models.DataConnectionValidationResults&gt;</ReturnType>
@@ -1090,6 +1128,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Kusto.Models.DataConnectionValidationResults&gt;&gt;</ReturnType>

@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NewRelicObservability.Models.NewRelicAccountResourceData</ReturnType>
@@ -65,6 +67,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NewRelicObservability.Models.NewRelicMetricsStatusResult</ReturnType>
@@ -89,6 +92,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResourceData</ReturnType>
@@ -147,6 +151,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NewRelicObservability.Models.NewRelicObservabilityAppServiceInfo</ReturnType>
@@ -175,6 +180,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NewRelicObservability.NewRelicObservabilityTagRuleData</ReturnType>
@@ -211,6 +217,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NewRelicObservability.Models.NewRelicObservabilityVmExtensionPayload</ReturnType>
@@ -235,6 +242,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NewRelicObservability.Models.NewRelicObservabilityVmInfo</ReturnType>
@@ -263,6 +271,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NewRelicObservability.Models.NewRelicOrganizationResourceData</ReturnType>
@@ -299,6 +308,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NewRelicObservability.Models.NewRelicPlanData</ReturnType>
@@ -335,6 +345,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NewRelicObservability.Models.NewRelicResourceMonitorResult</ReturnType>

@@ -123,8 +123,8 @@
         <Parameter Name="alertId" Type="System.Guid" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="alertId">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="alertId"> The alertId. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.AlertsManagement.ServiceAlertResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

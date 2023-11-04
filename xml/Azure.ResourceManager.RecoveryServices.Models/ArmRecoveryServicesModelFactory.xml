@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesNameAvailabilityResult</ReturnType>
@@ -55,6 +57,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesPrivateEndpointConnection</ReturnType>
@@ -85,6 +88,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesPrivateEndpointConnectionVaultProperties</ReturnType>
@@ -119,6 +123,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.RecoveryServicesPrivateLinkResourceData</ReturnType>
@@ -155,6 +160,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesPrivateLinkServiceConnectionState</ReturnType>
@@ -183,6 +189,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesSecuritySettings</ReturnType>
@@ -211,6 +218,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.RecoveryServicesVaultData</ReturnType>
@@ -253,6 +261,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.RecoveryServicesVaultExtendedInfoData</ReturnType>
@@ -293,6 +302,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesVaultPatch</ReturnType>
@@ -335,6 +345,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.RecoveryServicesVaultProperties</ReturnType>
@@ -387,6 +398,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.ReplicationJobSummary</ReturnType>
@@ -415,6 +427,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.ReplicationUsage</ReturnType>
@@ -449,6 +462,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.ResourceCertificateAndAadDetails</ReturnType>
@@ -501,6 +515,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.ResourceCertificateAndAcsDetails</ReturnType>
@@ -545,6 +560,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.ResourceCertificateDetails</ReturnType>
@@ -585,6 +601,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.VaultCertificateResult</ReturnType>
@@ -603,8 +620,8 @@
         <param name="systemData"> The systemData. </param>
         <param name="properties">
             Certificate details representing the Vault credentials.
-            Please note <see cref="M:Azure.ResourceManager.RecoveryServices.Models.ArmRecoveryServicesModelFactory.ResourceCertificateDetails(System.String,System.Byte[],System.String,System.String,System.Nullable{System.Int64},System.String,System.BinaryData,System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset})" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
-            The available derived classes include <see cref="M:Azure.ResourceManager.RecoveryServices.Models.ArmRecoveryServicesModelFactory.ResourceCertificateAndAcsDetails(System.Byte[],System.String,System.String,System.Nullable{System.Int64},System.String,System.BinaryData,System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.String,System.String,System.String)" /> and <see cref="M:Azure.ResourceManager.RecoveryServices.Models.ArmRecoveryServicesModelFactory.ResourceCertificateAndAadDetails(System.Byte[],System.String,System.String,System.Nullable{System.Int64},System.String,System.BinaryData,System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.String,System.Guid,System.String,System.String,System.String,Azure.Core.ResourceIdentifier,System.String)" />.
+            Please note <see cref="T:Azure.ResourceManager.RecoveryServices.Models.ResourceCertificateDetails" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.RecoveryServices.Models.ResourceCertificateAndAcsDetails" /> and <see cref="T:Azure.ResourceManager.RecoveryServices.Models.ResourceCertificateAndAadDetails" />.
             </param>
         <summary> Initializes a new instance of VaultCertificateResult. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.RecoveryServices.Models.VaultCertificateResult" /> instance for mocking. </returns>
@@ -621,6 +638,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.VaultMonitoringSummary</ReturnType>
@@ -655,6 +673,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.VaultPropertiesMoveDetails</ReturnType>
@@ -687,6 +706,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.VaultPropertiesRedundancySettings</ReturnType>
@@ -713,6 +733,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.VaultUpgradeDetails</ReturnType>
@@ -753,6 +774,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.VaultUsage</ReturnType>
@@ -787,6 +809,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServices.Models.VaultUsageNameInfo</ReturnType>

@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -31,6 +32,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -48,6 +50,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterProjectResource&gt;</ReturnType>
@@ -80,6 +83,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterProjectResource&gt;&gt;</ReturnType>
@@ -112,6 +116,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -122,9 +127,9 @@
         <Parameter Name="projectName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="projectName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="projectName"> The projectName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.DevCenter.DevCenterProjectResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -140,6 +145,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevCenter.DevCenterProjectData</ReturnType>
@@ -161,6 +167,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -190,6 +197,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -219,6 +227,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterProjectResource&gt;</ReturnType>
@@ -245,6 +254,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevCenter.AllowedEnvironmentTypeResource&gt;</ReturnType>
@@ -261,10 +271,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/projects/{projectName}/allowedEnvironmentTypes/{environmentTypeName}</description></item><item><term>Operation Id</term><description>ProjectAllowedEnvironmentTypes_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="environmentTypeName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="environmentTypeName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="environmentTypeName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetAllowedEnvironmentTypeAsync">
@@ -277,6 +287,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevCenter.AllowedEnvironmentTypeResource&gt;&gt;</ReturnType>
@@ -293,10 +304,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/projects/{projectName}/allowedEnvironmentTypes/{environmentTypeName}</description></item><item><term>Operation Id</term><description>ProjectAllowedEnvironmentTypes_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="environmentTypeName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="environmentTypeName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="environmentTypeName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetAllowedEnvironmentTypes">
@@ -309,6 +320,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevCenter.AllowedEnvironmentTypeCollection</ReturnType>
@@ -330,6 +342,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterProjectResource&gt;&gt;</ReturnType>
@@ -356,6 +369,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterPoolResource&gt;</ReturnType>
@@ -372,10 +386,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/projects/{projectName}/pools/{poolName}</description></item><item><term>Operation Id</term><description>Pools_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="poolName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="poolName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="poolName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetDevCenterPoolAsync">
@@ -388,6 +402,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterPoolResource&gt;&gt;</ReturnType>
@@ -404,10 +419,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/projects/{projectName}/pools/{poolName}</description></item><item><term>Operation Id</term><description>Pools_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="poolName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="poolName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="poolName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetDevCenterPools">
@@ -420,6 +435,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevCenter.DevCenterPoolCollection</ReturnType>
@@ -441,6 +457,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterProjectEnvironmentResource&gt;</ReturnType>
@@ -457,10 +474,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/projects/{projectName}/environmentTypes/{environmentTypeName}</description></item><item><term>Operation Id</term><description>ProjectEnvironmentTypes_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="environmentTypeName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="environmentTypeName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="environmentTypeName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetDevCenterProjectEnvironmentAsync">
@@ -473,6 +490,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterProjectEnvironmentResource&gt;&gt;</ReturnType>
@@ -489,10 +507,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/projects/{projectName}/environmentTypes/{environmentTypeName}</description></item><item><term>Operation Id</term><description>ProjectEnvironmentTypes_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="environmentTypeName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="environmentTypeName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="environmentTypeName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetDevCenterProjectEnvironments">
@@ -505,6 +523,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevCenter.DevCenterProjectEnvironmentCollection</ReturnType>
@@ -526,6 +545,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevCenter.ProjectAttachedNetworkConnectionResource&gt;</ReturnType>
@@ -542,10 +562,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/projects/{projectName}/attachednetworks/{attachedNetworkConnectionName}</description></item><item><term>Operation Id</term><description>AttachedNetworks_GetByProject</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="attachedNetworkConnectionName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="attachedNetworkConnectionName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="attachedNetworkConnectionName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetProjectAttachedNetworkConnectionAsync">
@@ -558,6 +578,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevCenter.ProjectAttachedNetworkConnectionResource&gt;&gt;</ReturnType>
@@ -574,10 +595,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/projects/{projectName}/attachednetworks/{attachedNetworkConnectionName}</description></item><item><term>Operation Id</term><description>AttachedNetworks_GetByProject</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="attachedNetworkConnectionName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="attachedNetworkConnectionName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="attachedNetworkConnectionName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetProjectAttachedNetworkConnections">
@@ -590,6 +611,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevCenter.ProjectAttachedNetworkConnectionCollection</ReturnType>
@@ -611,6 +633,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevCenter.ProjectDevBoxDefinitionResource&gt;</ReturnType>
@@ -627,10 +650,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/projects/{projectName}/devboxdefinitions/{devBoxDefinitionName}</description></item><item><term>Operation Id</term><description>DevBoxDefinitions_GetByProject</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="devBoxDefinitionName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="devBoxDefinitionName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="devBoxDefinitionName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetProjectDevBoxDefinitionAsync">
@@ -643,6 +666,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevCenter.ProjectDevBoxDefinitionResource&gt;&gt;</ReturnType>
@@ -659,10 +683,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/projects/{projectName}/devboxdefinitions/{devBoxDefinitionName}</description></item><item><term>Operation Id</term><description>DevBoxDefinitions_GetByProject</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="devBoxDefinitionName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="devBoxDefinitionName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="devBoxDefinitionName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetProjectDevBoxDefinitions">
@@ -675,6 +699,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevCenter.ProjectDevBoxDefinitionCollection</ReturnType>
@@ -696,6 +721,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -716,6 +742,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterProjectResource&gt;</ReturnType>
@@ -746,6 +773,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterProjectResource&gt;&gt;</ReturnType>
@@ -776,6 +804,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -795,6 +824,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterProjectResource&gt;</ReturnType>
@@ -825,6 +855,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterProjectResource&gt;&gt;</ReturnType>
@@ -855,6 +886,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.DevCenter.DevCenterProjectResource&gt;</ReturnType>
@@ -888,6 +920,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.DevCenter.DevCenterProjectResource&gt;&gt;</ReturnType>

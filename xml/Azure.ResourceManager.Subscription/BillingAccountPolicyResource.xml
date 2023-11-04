@@ -60,7 +60,7 @@
         <Parameter Name="billingAccountId" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="billingAccountId">To be added.</param>
+        <param name="billingAccountId"> The billingAccountId. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Subscription.BillingAccountPolicyResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

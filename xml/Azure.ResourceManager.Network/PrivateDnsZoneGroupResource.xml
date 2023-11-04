@@ -69,10 +69,10 @@
         <Parameter Name="privateDnsZoneGroupName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="privateEndpointName">To be added.</param>
-        <param name="privateDnsZoneGroupName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="privateEndpointName"> The privateEndpointName. </param>
+        <param name="privateDnsZoneGroupName"> The privateDnsZoneGroupName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Network.PrivateDnsZoneGroupResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

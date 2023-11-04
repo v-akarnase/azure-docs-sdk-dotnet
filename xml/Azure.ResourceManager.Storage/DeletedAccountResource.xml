@@ -63,9 +63,9 @@
         <Parameter Name="deletedAccountName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="location">To be added.</param>
-        <param name="deletedAccountName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="location"> The location. </param>
+        <param name="deletedAccountName"> The deletedAccountName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Storage.DeletedAccountResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

@@ -17,6 +17,7 @@
     <AssemblyVersion>1.6.3.0</AssemblyVersion>
     <AssemblyVersion>1.7.0.0</AssemblyVersion>
     <AssemblyVersion>1.7.1.0</AssemblyVersion>
+    <AssemblyVersion>1.8.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -39,6 +40,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Azure</AssemblyName>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;TClient,TOptions&gt;</ReturnType>
@@ -77,6 +79,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Azure</AssemblyName>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;TClient,TOptions&gt;</ReturnType>
@@ -115,6 +118,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Azure</AssemblyName>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;TClient,TOptions&gt;</ReturnType>
@@ -153,6 +157,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Azure</AssemblyName>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;TClient,TOptions&gt;</ReturnType>
@@ -191,6 +196,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Azure</AssemblyName>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;TClient,TOptions&gt;</ReturnType>
@@ -229,6 +235,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Azure</AssemblyName>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;TClient,TOptions&gt;</ReturnType>
@@ -267,6 +274,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Azure</AssemblyName>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;TClient,TOptions&gt;</ReturnType>

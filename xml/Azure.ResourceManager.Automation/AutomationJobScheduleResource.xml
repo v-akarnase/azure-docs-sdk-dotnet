@@ -63,10 +63,10 @@
         <Parameter Name="jobScheduleId" Type="System.Guid" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="automationAccountName">To be added.</param>
-        <param name="jobScheduleId">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="automationAccountName"> The automationAccountName. </param>
+        <param name="jobScheduleId"> The jobScheduleId. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Automation.AutomationJobScheduleResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

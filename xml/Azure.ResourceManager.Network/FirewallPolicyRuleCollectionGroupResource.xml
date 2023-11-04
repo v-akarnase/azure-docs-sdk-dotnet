@@ -69,10 +69,10 @@
         <Parameter Name="ruleCollectionGroupName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="firewallPolicyName">To be added.</param>
-        <param name="ruleCollectionGroupName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="firewallPolicyName"> The firewallPolicyName. </param>
+        <param name="ruleCollectionGroupName"> The ruleCollectionGroupName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Network.FirewallPolicyRuleCollectionGroupResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

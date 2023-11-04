@@ -8,6 +8,7 @@
     <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.ReplicationProviderSpecificSettings</BaseTypeName>
@@ -28,6 +29,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -48,6 +50,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.InMageRcmAgentUpgradeBlockingErrorDetails&gt;</ReturnType>
@@ -68,6 +71,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -88,6 +92,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.MobilityAgentUpgradeState&gt;</ReturnType>
@@ -108,6 +113,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Double&gt;</ReturnType>
@@ -128,6 +134,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.InMageRcmDiscoveredProtectedVmDetails</ReturnType>
@@ -148,6 +155,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -168,6 +176,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -188,6 +197,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -208,6 +218,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -228,6 +239,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
@@ -248,6 +260,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.VmReplicationProgressHealth&gt;</ReturnType>
@@ -268,6 +281,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -288,6 +302,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
@@ -308,6 +323,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -328,6 +344,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -348,6 +365,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -368,6 +386,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.InMageRcmLastAgentUpgradeErrorDetails&gt;</ReturnType>
@@ -388,6 +407,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -408,6 +428,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -428,6 +449,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -448,6 +470,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -468,6 +491,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
@@ -488,6 +512,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -508,6 +533,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.InMageRcmMobilityAgentDetails</ReturnType>
@@ -528,6 +554,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -548,6 +575,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -568,6 +596,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Net.IPAddress</ReturnType>
@@ -588,6 +617,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -608,6 +638,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
@@ -628,6 +659,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -648,6 +680,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.InMageRcmProtectedDiskDetails&gt;</ReturnType>
@@ -668,6 +701,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
@@ -688,6 +722,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.VmReplicationProgressHealth&gt;</ReturnType>
@@ -708,6 +743,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -728,6 +764,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -748,6 +785,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.SiteRecoveryResyncState&gt;</ReturnType>
@@ -768,6 +806,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
@@ -788,6 +827,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -808,6 +848,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -828,6 +869,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -848,6 +890,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -868,6 +911,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -888,6 +932,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -908,6 +953,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -928,6 +974,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -948,6 +995,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -968,6 +1016,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -988,6 +1037,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1008,6 +1058,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1028,6 +1079,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -1048,6 +1100,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.InMageRcmNicDetails&gt;</ReturnType>

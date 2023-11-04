@@ -17,6 +17,7 @@
     <AssemblyVersion>5.5.0.0</AssemblyVersion>
     <AssemblyVersion>6.0.0.0</AssemblyVersion>
     <AssemblyVersion>6.0.1.0</AssemblyVersion>
+    <AssemblyVersion>6.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Attribute</BaseTypeName>
@@ -49,6 +50,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.EventHubs</AssemblyName>
         <AssemblyVersion>6.0.1.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="eventHubName" Type="System.String" />
@@ -71,6 +73,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.EventHubs</AssemblyName>
         <AssemblyVersion>6.0.1.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -93,6 +96,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.EventHubs</AssemblyName>
         <AssemblyVersion>6.0.1.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -115,6 +119,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.EventHubs</AssemblyName>
         <AssemblyVersion>6.0.1.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

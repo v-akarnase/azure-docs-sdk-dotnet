@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
     <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -31,6 +32,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -48,6 +50,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -61,12 +64,12 @@
         <Parameter Name="skuName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="clusterName">To be added.</param>
-        <param name="publisherName">To be added.</param>
-        <param name="offerName">To be added.</param>
-        <param name="skuName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="clusterName"> The clusterName. </param>
+        <param name="publisherName"> The publisherName. </param>
+        <param name="offerName"> The offerName. </param>
+        <param name="skuName"> The skuName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Hci.HciSkuResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -82,6 +85,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Hci.HciSkuData</ReturnType>
@@ -103,6 +107,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Hci.HciSkuResource&gt;</ReturnType>
@@ -131,6 +136,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Hci.HciSkuResource&gt;&gt;</ReturnType>
@@ -159,6 +165,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -179,6 +186,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>

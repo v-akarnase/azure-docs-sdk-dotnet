@@ -9,6 +9,7 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -33,6 +34,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="location" Type="Azure.Core.AzureLocation" />
@@ -53,6 +55,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
@@ -73,6 +76,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
@@ -93,6 +97,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
@@ -113,6 +118,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
@@ -133,6 +139,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -153,6 +160,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
@@ -173,6 +181,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -193,6 +202,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Hci.Models.HciClusterDesiredProperties</ReturnType>
@@ -213,6 +223,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -233,6 +244,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -253,6 +265,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
@@ -273,6 +286,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Hci.Models.HciProvisioningState&gt;</ReturnType>
@@ -293,6 +307,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -313,6 +328,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Hci.Models.HciClusterReportedProperties</ReturnType>
@@ -333,6 +349,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -353,6 +370,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -373,6 +391,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Hci.Models.SoftwareAssuranceProperties</ReturnType>
@@ -393,6 +412,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Hci.Models.HciClusterStatus&gt;</ReturnType>
@@ -413,6 +433,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
@@ -433,6 +454,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Single&gt;</ReturnType>
@@ -453,6 +475,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Hci.Models.HciManagedServiceIdentityType&gt;</ReturnType>
@@ -473,6 +496,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Hci</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,Azure.ResourceManager.Models.UserAssignedIdentity&gt;</ReturnType>

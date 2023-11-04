@@ -63,10 +63,10 @@
         <Parameter Name="availabilityGroupListenerName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="sqlVmGroupName">To be added.</param>
-        <param name="availabilityGroupListenerName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="sqlVmGroupName"> The sqlVmGroupName. </param>
+        <param name="availabilityGroupListenerName"> The availabilityGroupListenerName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.SqlVirtualMachine.AvailabilityGroupListenerResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

@@ -151,19 +151,19 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="MonitoredResource">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Elastic.Models.MonitoredResource MonitoredResource (string id = default, Azure.ResourceManager.Elastic.Models.SendingLog? sendingLogs = default, string reasonForLogsStatus = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.Elastic.Models.MonitoredResource MonitoredResource(string id, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Elastic.Models.SendingLog&gt; sendingLogs, string reasonForLogsStatus) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Elastic.Models.ArmElasticModelFactory.MonitoredResource(System.String,System.Nullable{Azure.ResourceManager.Elastic.Models.SendingLog},System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function MonitoredResource (Optional id As String = Nothing, Optional sendingLogs As Nullable(Of SendingLog) = Nothing, Optional reasonForLogsStatus As String = Nothing) As MonitoredResource" />
-      <MemberSignature Language="F#" Value="static member MonitoredResource : string * Nullable&lt;Azure.ResourceManager.Elastic.Models.SendingLog&gt; * string -&gt; Azure.ResourceManager.Elastic.Models.MonitoredResource" Usage="Azure.ResourceManager.Elastic.Models.ArmElasticModelFactory.MonitoredResource (id, sendingLogs, reasonForLogsStatus)" />
+    <Member MemberName="MonitoredResourceContent">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Elastic.Models.MonitoredResourceContent MonitoredResourceContent (string id = default, Azure.ResourceManager.Elastic.Models.SendingLog? sendingLogs = default, string reasonForLogsStatus = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.Elastic.Models.MonitoredResourceContent MonitoredResourceContent(string id, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Elastic.Models.SendingLog&gt; sendingLogs, string reasonForLogsStatus) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Elastic.Models.ArmElasticModelFactory.MonitoredResourceContent(System.String,System.Nullable{Azure.ResourceManager.Elastic.Models.SendingLog},System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function MonitoredResourceContent (Optional id As String = Nothing, Optional sendingLogs As Nullable(Of SendingLog) = Nothing, Optional reasonForLogsStatus As String = Nothing) As MonitoredResourceContent" />
+      <MemberSignature Language="F#" Value="static member MonitoredResourceContent : string * Nullable&lt;Azure.ResourceManager.Elastic.Models.SendingLog&gt; * string -&gt; Azure.ResourceManager.Elastic.Models.MonitoredResourceContent" Usage="Azure.ResourceManager.Elastic.Models.ArmElasticModelFactory.MonitoredResourceContent (id, sendingLogs, reasonForLogsStatus)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Elastic</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Elastic.Models.MonitoredResource</ReturnType>
+        <ReturnType>Azure.ResourceManager.Elastic.Models.MonitoredResourceContent</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="id" Type="System.String" />
@@ -174,8 +174,8 @@
         <param name="id"> The ARM id of the resource. </param>
         <param name="sendingLogs"> Flag indicating the status of the resource for sending logs operation to Elastic. </param>
         <param name="reasonForLogsStatus"> Reason for why the resource is sending logs (or why it is not sending). </param>
-        <summary> Initializes a new instance of MonitoredResource. </summary>
-        <returns> A new <see cref="T:Azure.ResourceManager.Elastic.Models.MonitoredResource" /> instance for mocking. </returns>
+        <summary> Initializes a new instance of MonitoredResourceContent. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.Elastic.Models.MonitoredResourceContent" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

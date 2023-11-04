@@ -19,6 +19,11 @@
     <AssemblyVersion>5.12.0.0</AssemblyVersion>
     <AssemblyVersion>5.13.0.0</AssemblyVersion>
     <AssemblyVersion>5.13.3.0</AssemblyVersion>
+    <AssemblyVersion>5.14.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus.Grpc</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -40,6 +45,11 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus</AssemblyName>
         <AssemblyVersion>5.13.3.0</AssemblyVersion>
+        <AssemblyVersion>5.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus.Grpc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -62,14 +72,19 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus</AssemblyName>
         <AssemblyVersion>5.13.3.0</AssemblyVersion>
+        <AssemblyVersion>5.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus.Grpc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.Messaging.ServiceBus.ServiceBusReceivedMessage&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="maxMessages" Type="System.Int32" />
-        <Parameter Name="fromSequenceNumber" Type="System.Nullable&lt;System.Int64&gt;" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        <Parameter Name="maxMessages" Type="System.Int32" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="fromSequenceNumber" Type="System.Nullable&lt;System.Int64&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="maxMessages">The maximum number of messages that will be fetched.</param>
@@ -96,13 +111,18 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus</AssemblyName>
         <AssemblyVersion>5.13.3.0</AssemblyVersion>
+        <AssemblyVersion>5.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus.Grpc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.Messaging.ServiceBus.ServiceBusReceivedMessage&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="sequenceNumbers" Type="System.Collections.Generic.IEnumerable&lt;System.Int64&gt;" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        <Parameter Name="sequenceNumbers" Type="System.Collections.Generic.IEnumerable&lt;System.Int64&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="cancellationToken">An optional <see cref="T:System.Threading.CancellationToken" /> instance to signal the request to cancel the operation.</param>
@@ -132,14 +152,19 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus</AssemblyName>
         <AssemblyVersion>5.13.3.0</AssemblyVersion>
+        <AssemblyVersion>5.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus.Grpc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.Messaging.ServiceBus.ServiceBusReceivedMessage&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="maxMessages" Type="System.Int32" />
-        <Parameter Name="maxWaitTime" Type="System.Nullable&lt;System.TimeSpan&gt;" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        <Parameter Name="maxMessages" Type="System.Int32" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="maxWaitTime" Type="System.Nullable&lt;System.TimeSpan&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="maxMessages">The maximum number of messages that will be received.</param>

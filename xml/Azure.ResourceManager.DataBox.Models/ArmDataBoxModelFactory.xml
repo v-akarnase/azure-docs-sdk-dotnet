@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
     <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.AddressValidationResult</ReturnType>
@@ -55,6 +57,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.ApplianceNetworkConfiguration</ReturnType>
@@ -81,6 +84,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.CreateOrderLimitForSubscriptionValidationResult</ReturnType>
@@ -107,6 +111,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.CustomerDiskJobSecrets</ReturnType>
@@ -137,6 +142,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataBoxAccountCopyLogDetails</ReturnType>
@@ -165,6 +171,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataBoxAccountCredentialDetails</ReturnType>
@@ -195,6 +202,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataBoxBasicJobDetails</ReturnType>
@@ -233,7 +241,7 @@
         <param name="copyLogDetails">
             List of copy log details.
             Please note <see cref="T:Azure.ResourceManager.DataBox.Models.CopyLogDetails" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
-            The available derived classes include <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataBoxAccountCopyLogDetails(System.String,System.String,System.String)" />, <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataBoxCustomerDiskCopyLogDetails(System.String,System.String,System.String)" />, <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataBoxDiskCopyLogDetails(System.String,System.String,System.String)" /> and <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataBoxHeavyAccountCopyLogDetails(System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})" />.
+            The available derived classes include <see cref="T:Azure.ResourceManager.DataBox.Models.DataBoxAccountCopyLogDetails" />, <see cref="T:Azure.ResourceManager.DataBox.Models.DataBoxCustomerDiskCopyLogDetails" />, <see cref="T:Azure.ResourceManager.DataBox.Models.DataBoxDiskCopyLogDetails" /> and <see cref="T:Azure.ResourceManager.DataBox.Models.DataBoxHeavyAccountCopyLogDetails" />.
             </param>
         <param name="reverseShipmentLabelSasKey"> Shared access key to download the return shipment label. </param>
         <param name="chainOfCustodySasKey"> Shared access key to download the chain of custody logs. </param>
@@ -244,8 +252,8 @@
         <param name="lastMitigationActionOnJob"> Last mitigation action performed on the job. </param>
         <param name="dataCenterAddress">
             Datacenter address to ship to, for the given sku and storage location.
-            Please note <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataCenterAddressResult(System.Collections.Generic.IEnumerable{System.String},System.Nullable{Azure.Core.AzureLocation})" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
-            The available derived classes include <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataCenterAddressInstructionResult(System.Collections.Generic.IEnumerable{System.String},System.Nullable{Azure.Core.AzureLocation},System.String)" /> and <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataCenterAddressLocationResult(System.Collections.Generic.IEnumerable{System.String},System.Nullable{Azure.Core.AzureLocation},System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)" />.
+            Please note <see cref="T:Azure.ResourceManager.DataBox.Models.DataCenterAddressResult" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.DataBox.Models.DataCenterAddressInstructionResult" /> and <see cref="T:Azure.ResourceManager.DataBox.Models.DataCenterAddressLocationResult" />.
             </param>
         <param name="dataCenterCode"> DataCenter code. </param>
         <summary> Initializes a new instance of DataBoxBasicJobDetails. </summary>
@@ -263,6 +271,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataBoxCopyProgress</ReturnType>
@@ -302,7 +311,7 @@
         <param name="directoriesErroredOut"> To indicate directories errored out in the job. </param>
         <param name="invalidDirectoriesProcessed"> To indicate directories renamed. </param>
         <param name="isEnumerationInProgress">
-            To indicate if enumeration of data is in progress. 
+            To indicate if enumeration of data is in progress.
             Until this is true, the TotalBytesToProcess may not be valid.
             </param>
         <param name="error"> Error, if any, in the stage. </param>
@@ -322,6 +331,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataBoxCustomerDiskCopyLogDetails</ReturnType>
@@ -350,6 +360,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataBoxCustomerDiskCopyProgress</ReturnType>
@@ -391,7 +402,7 @@
         <param name="directoriesErroredOut"> To indicate directories errored out in the job. </param>
         <param name="invalidDirectoriesProcessed"> To indicate directories renamed. </param>
         <param name="isEnumerationInProgress">
-            To indicate if enumeration of data is in progress. 
+            To indicate if enumeration of data is in progress.
             Until this is true, the TotalBytesToProcess may not be valid.
             </param>
         <param name="error"> Error, if any, in the stage. </param>
@@ -413,6 +424,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataBoxCustomerDiskJobDetails</ReturnType>
@@ -457,7 +469,7 @@
         <param name="copyLogDetails">
             List of copy log details.
             Please note <see cref="T:Azure.ResourceManager.DataBox.Models.CopyLogDetails" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
-            The available derived classes include <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataBoxAccountCopyLogDetails(System.String,System.String,System.String)" />, <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataBoxCustomerDiskCopyLogDetails(System.String,System.String,System.String)" />, <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataBoxDiskCopyLogDetails(System.String,System.String,System.String)" /> and <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataBoxHeavyAccountCopyLogDetails(System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})" />.
+            The available derived classes include <see cref="T:Azure.ResourceManager.DataBox.Models.DataBoxAccountCopyLogDetails" />, <see cref="T:Azure.ResourceManager.DataBox.Models.DataBoxCustomerDiskCopyLogDetails" />, <see cref="T:Azure.ResourceManager.DataBox.Models.DataBoxDiskCopyLogDetails" /> and <see cref="T:Azure.ResourceManager.DataBox.Models.DataBoxHeavyAccountCopyLogDetails" />.
             </param>
         <param name="reverseShipmentLabelSasKey"> Shared access key to download the return shipment label. </param>
         <param name="chainOfCustodySasKey"> Shared access key to download the chain of custody logs. </param>
@@ -468,8 +480,8 @@
         <param name="lastMitigationActionOnJob"> Last mitigation action performed on the job. </param>
         <param name="dataCenterAddress">
             Datacenter address to ship to, for the given sku and storage location.
-            Please note <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataCenterAddressResult(System.Collections.Generic.IEnumerable{System.String},System.Nullable{Azure.Core.AzureLocation})" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
-            The available derived classes include <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataCenterAddressInstructionResult(System.Collections.Generic.IEnumerable{System.String},System.Nullable{Azure.Core.AzureLocation},System.String)" /> and <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataCenterAddressLocationResult(System.Collections.Generic.IEnumerable{System.String},System.Nullable{Azure.Core.AzureLocation},System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)" />.
+            Please note <see cref="T:Azure.ResourceManager.DataBox.Models.DataCenterAddressResult" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.DataBox.Models.DataCenterAddressInstructionResult" /> and <see cref="T:Azure.ResourceManager.DataBox.Models.DataCenterAddressLocationResult" />.
             </param>
         <param name="dataCenterCode"> DataCenter code. </param>
         <param name="importDiskDetails"> Contains the map of disk serial number to the disk details for import jobs. </param>
@@ -493,6 +505,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataBoxDiskCopyLogDetails</ReturnType>
@@ -521,6 +534,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataBoxDiskCopyProgress</ReturnType>
@@ -555,6 +569,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataBoxDiskGranularCopyLogDetails</ReturnType>
@@ -585,6 +600,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataBoxDiskGranularCopyProgress</ReturnType>
@@ -626,7 +642,7 @@
         <param name="directoriesErroredOut"> To indicate directories errored out in the job. </param>
         <param name="invalidDirectoriesProcessed"> To indicate directories renamed. </param>
         <param name="isEnumerationInProgress">
-            To indicate if enumeration of data is in progress. 
+            To indicate if enumeration of data is in progress.
             Until this is true, the TotalBytesToProcess may not be valid.
             </param>
         <param name="error"> Error, if any, in the stage. </param>
@@ -648,6 +664,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataBoxDiskJobDetails</ReturnType>
@@ -692,7 +709,7 @@
         <param name="copyLogDetails">
             List of copy log details.
             Please note <see cref="T:Azure.ResourceManager.DataBox.Models.CopyLogDetails" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
-            The available derived classes include <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataBoxAccountCopyLogDetails(System.String,System.String,System.String)" />, <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataBoxCustomerDiskCopyLogDetails(System.String,System.String,System.String)" />, <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataBoxDiskCopyLogDetails(System.String,System.String,System.String)" /> and <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataBoxHeavyAccountCopyLogDetails(System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})" />.
+            The available derived classes include <see cref="T:Azure.ResourceManager.DataBox.Models.DataBoxAccountCopyLogDetails" />, <see cref="T:Azure.ResourceManager.DataBox.Models.DataBoxCustomerDiskCopyLogDetails" />, <see cref="T:Azure.ResourceManager.DataBox.Models.DataBoxDiskCopyLogDetails" /> and <see cref="T:Azure.ResourceManager.DataBox.Models.DataBoxHeavyAccountCopyLogDetails" />.
             </param>
         <param name="reverseShipmentLabelSasKey"> Shared access key to download the return shipment label. </param>
         <param name="chainOfCustodySasKey"> Shared access key to download the chain of custody logs. </param>
@@ -703,8 +720,8 @@
         <param name="lastMitigationActionOnJob"> Last mitigation action performed on the job. </param>
         <param name="dataCenterAddress">
             Datacenter address to ship to, for the given sku and storage location.
-            Please note <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataCenterAddressResult(System.Collections.Generic.IEnumerable{System.String},System.Nullable{Azure.Core.AzureLocation})" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
-            The available derived classes include <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataCenterAddressInstructionResult(System.Collections.Generic.IEnumerable{System.String},System.Nullable{Azure.Core.AzureLocation},System.String)" /> and <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataCenterAddressLocationResult(System.Collections.Generic.IEnumerable{System.String},System.Nullable{Azure.Core.AzureLocation},System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)" />.
+            Please note <see cref="T:Azure.ResourceManager.DataBox.Models.DataCenterAddressResult" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.DataBox.Models.DataCenterAddressInstructionResult" /> and <see cref="T:Azure.ResourceManager.DataBox.Models.DataCenterAddressLocationResult" />.
             </param>
         <param name="dataCenterCode"> DataCenter code. </param>
         <param name="preferredDisks"> User preference on what size disks are needed for the job. The map is from the disk size in TB to the count. Eg. {2,5} means 5 disks of 2 TB size. Key is string but will be checked against an int. </param>
@@ -728,6 +745,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataBoxDiskJobSecrets</ReturnType>
@@ -760,6 +778,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataBoxDiskSecret</ReturnType>
@@ -786,6 +805,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataBoxHeavyAccountCopyLogDetails</ReturnType>
@@ -814,6 +834,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataBoxHeavyJobDetails</ReturnType>
@@ -854,7 +875,7 @@
         <param name="copyLogDetails">
             List of copy log details.
             Please note <see cref="T:Azure.ResourceManager.DataBox.Models.CopyLogDetails" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
-            The available derived classes include <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataBoxAccountCopyLogDetails(System.String,System.String,System.String)" />, <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataBoxCustomerDiskCopyLogDetails(System.String,System.String,System.String)" />, <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataBoxDiskCopyLogDetails(System.String,System.String,System.String)" /> and <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataBoxHeavyAccountCopyLogDetails(System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})" />.
+            The available derived classes include <see cref="T:Azure.ResourceManager.DataBox.Models.DataBoxAccountCopyLogDetails" />, <see cref="T:Azure.ResourceManager.DataBox.Models.DataBoxCustomerDiskCopyLogDetails" />, <see cref="T:Azure.ResourceManager.DataBox.Models.DataBoxDiskCopyLogDetails" /> and <see cref="T:Azure.ResourceManager.DataBox.Models.DataBoxHeavyAccountCopyLogDetails" />.
             </param>
         <param name="reverseShipmentLabelSasKey"> Shared access key to download the return shipment label. </param>
         <param name="chainOfCustodySasKey"> Shared access key to download the chain of custody logs. </param>
@@ -865,8 +886,8 @@
         <param name="lastMitigationActionOnJob"> Last mitigation action performed on the job. </param>
         <param name="dataCenterAddress">
             Datacenter address to ship to, for the given sku and storage location.
-            Please note <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataCenterAddressResult(System.Collections.Generic.IEnumerable{System.String},System.Nullable{Azure.Core.AzureLocation})" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
-            The available derived classes include <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataCenterAddressInstructionResult(System.Collections.Generic.IEnumerable{System.String},System.Nullable{Azure.Core.AzureLocation},System.String)" /> and <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataCenterAddressLocationResult(System.Collections.Generic.IEnumerable{System.String},System.Nullable{Azure.Core.AzureLocation},System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)" />.
+            Please note <see cref="T:Azure.ResourceManager.DataBox.Models.DataCenterAddressResult" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.DataBox.Models.DataCenterAddressInstructionResult" /> and <see cref="T:Azure.ResourceManager.DataBox.Models.DataCenterAddressLocationResult" />.
             </param>
         <param name="dataCenterCode"> DataCenter code. </param>
         <param name="copyProgress"> Copy progress per account. </param>
@@ -886,6 +907,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataBoxHeavyJobSecrets</ReturnType>
@@ -914,6 +936,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataBoxHeavySecret</ReturnType>
@@ -946,6 +969,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.DataBoxJobData</ReturnType>
@@ -994,8 +1018,8 @@
         <param name="error"> Top level error for the job. </param>
         <param name="details">
             Details of a job run. This field will only be sent for expand details filter.
-            Please note <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataBoxBasicJobDetails(System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.DataBoxJobStage},Azure.ResourceManager.DataBox.Models.DataBoxContactDetails,Azure.ResourceManager.DataBox.Models.DataBoxShippingAddress,Azure.ResourceManager.DataBox.Models.PackageShippingDetails,Azure.ResourceManager.DataBox.Models.PackageShippingDetails,System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.DataImportDetails},System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.DataExportDetails},Azure.ResourceManager.DataBox.Models.DataBoxOrderPreferences,Azure.ResourceManager.DataBox.Models.ReverseShippingDetails,System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.CopyLogDetails},System.String,System.String,Azure.ResourceManager.DataBox.Models.DeviceErasureDetails,Azure.ResourceManager.DataBox.Models.DataBoxKeyEncryptionKey,System.Nullable{System.Int32},System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.CustomerResolutionCode},Azure.ResourceManager.DataBox.Models.LastMitigationActionOnJob,Azure.ResourceManager.DataBox.Models.DataCenterAddressResult,System.Nullable{Azure.ResourceManager.DataBox.Models.DataCenterCode})" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
-            The available derived classes include <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataBoxJobDetails(System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.DataBoxJobStage},Azure.ResourceManager.DataBox.Models.DataBoxContactDetails,Azure.ResourceManager.DataBox.Models.DataBoxShippingAddress,Azure.ResourceManager.DataBox.Models.PackageShippingDetails,Azure.ResourceManager.DataBox.Models.PackageShippingDetails,System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.DataImportDetails},System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.DataExportDetails},Azure.ResourceManager.DataBox.Models.DataBoxOrderPreferences,Azure.ResourceManager.DataBox.Models.ReverseShippingDetails,System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.CopyLogDetails},System.String,System.String,Azure.ResourceManager.DataBox.Models.DeviceErasureDetails,Azure.ResourceManager.DataBox.Models.DataBoxKeyEncryptionKey,System.Nullable{System.Int32},System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.CustomerResolutionCode},Azure.ResourceManager.DataBox.Models.LastMitigationActionOnJob,Azure.ResourceManager.DataBox.Models.DataCenterAddressResult,System.Nullable{Azure.ResourceManager.DataBox.Models.DataCenterCode},System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.DataBoxCopyProgress},System.String)" />, <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataBoxCustomerDiskJobDetails(System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.DataBoxJobStage},Azure.ResourceManager.DataBox.Models.DataBoxContactDetails,Azure.ResourceManager.DataBox.Models.DataBoxShippingAddress,Azure.ResourceManager.DataBox.Models.PackageShippingDetails,Azure.ResourceManager.DataBox.Models.PackageShippingDetails,System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.DataImportDetails},System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.DataExportDetails},Azure.ResourceManager.DataBox.Models.DataBoxOrderPreferences,Azure.ResourceManager.DataBox.Models.ReverseShippingDetails,System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.CopyLogDetails},System.String,System.String,Azure.ResourceManager.DataBox.Models.DeviceErasureDetails,Azure.ResourceManager.DataBox.Models.DataBoxKeyEncryptionKey,System.Nullable{System.Int32},System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.CustomerResolutionCode},Azure.ResourceManager.DataBox.Models.LastMitigationActionOnJob,Azure.ResourceManager.DataBox.Models.DataCenterAddressResult,System.Nullable{Azure.ResourceManager.DataBox.Models.DataCenterCode},System.Collections.Generic.IDictionary{System.String,Azure.ResourceManager.DataBox.Models.ImportDiskDetails},System.Collections.Generic.IReadOnlyDictionary{System.String,Azure.ResourceManager.DataBox.Models.ExportDiskDetails},System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.DataBoxCustomerDiskCopyProgress},Azure.ResourceManager.DataBox.Models.PackageCarrierInfo,Azure.ResourceManager.DataBox.Models.PackageCarrierDetails,System.Nullable{System.Boolean})" />, <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataBoxDiskJobDetails(System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.DataBoxJobStage},Azure.ResourceManager.DataBox.Models.DataBoxContactDetails,Azure.ResourceManager.DataBox.Models.DataBoxShippingAddress,Azure.ResourceManager.DataBox.Models.PackageShippingDetails,Azure.ResourceManager.DataBox.Models.PackageShippingDetails,System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.DataImportDetails},System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.DataExportDetails},Azure.ResourceManager.DataBox.Models.DataBoxOrderPreferences,Azure.ResourceManager.DataBox.Models.ReverseShippingDetails,System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.CopyLogDetails},System.String,System.String,Azure.ResourceManager.DataBox.Models.DeviceErasureDetails,Azure.ResourceManager.DataBox.Models.DataBoxKeyEncryptionKey,System.Nullable{System.Int32},System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.CustomerResolutionCode},Azure.ResourceManager.DataBox.Models.LastMitigationActionOnJob,Azure.ResourceManager.DataBox.Models.DataCenterAddressResult,System.Nullable{Azure.ResourceManager.DataBox.Models.DataCenterCode},System.Collections.Generic.IDictionary{System.String,System.Int32},System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.DataBoxDiskCopyProgress},System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.DataBoxDiskGranularCopyProgress},System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.DataBoxDiskGranularCopyLogDetails},System.Collections.Generic.IReadOnlyDictionary{System.String,System.Int32},System.String)" /> and <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataBoxHeavyJobDetails(System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.DataBoxJobStage},Azure.ResourceManager.DataBox.Models.DataBoxContactDetails,Azure.ResourceManager.DataBox.Models.DataBoxShippingAddress,Azure.ResourceManager.DataBox.Models.PackageShippingDetails,Azure.ResourceManager.DataBox.Models.PackageShippingDetails,System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.DataImportDetails},System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.DataExportDetails},Azure.ResourceManager.DataBox.Models.DataBoxOrderPreferences,Azure.ResourceManager.DataBox.Models.ReverseShippingDetails,System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.CopyLogDetails},System.String,System.String,Azure.ResourceManager.DataBox.Models.DeviceErasureDetails,Azure.ResourceManager.DataBox.Models.DataBoxKeyEncryptionKey,System.Nullable{System.Int32},System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.CustomerResolutionCode},Azure.ResourceManager.DataBox.Models.LastMitigationActionOnJob,Azure.ResourceManager.DataBox.Models.DataCenterAddressResult,System.Nullable{Azure.ResourceManager.DataBox.Models.DataCenterCode},System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.DataBoxCopyProgress},System.String)" />.
+            Please note <see cref="T:Azure.ResourceManager.DataBox.Models.DataBoxBasicJobDetails" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.DataBox.Models.DataBoxJobDetails" />, <see cref="T:Azure.ResourceManager.DataBox.Models.DataBoxCustomerDiskJobDetails" />, <see cref="T:Azure.ResourceManager.DataBox.Models.DataBoxDiskJobDetails" /> and <see cref="T:Azure.ResourceManager.DataBox.Models.DataBoxHeavyJobDetails" />.
             </param>
         <param name="cancellationReason"> Reason for cancellation. </param>
         <param name="deliveryType"> Delivery type of Job. </param>
@@ -1018,6 +1042,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataBoxJobDetails</ReturnType>
@@ -1058,7 +1083,7 @@
         <param name="copyLogDetails">
             List of copy log details.
             Please note <see cref="T:Azure.ResourceManager.DataBox.Models.CopyLogDetails" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
-            The available derived classes include <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataBoxAccountCopyLogDetails(System.String,System.String,System.String)" />, <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataBoxCustomerDiskCopyLogDetails(System.String,System.String,System.String)" />, <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataBoxDiskCopyLogDetails(System.String,System.String,System.String)" /> and <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataBoxHeavyAccountCopyLogDetails(System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})" />.
+            The available derived classes include <see cref="T:Azure.ResourceManager.DataBox.Models.DataBoxAccountCopyLogDetails" />, <see cref="T:Azure.ResourceManager.DataBox.Models.DataBoxCustomerDiskCopyLogDetails" />, <see cref="T:Azure.ResourceManager.DataBox.Models.DataBoxDiskCopyLogDetails" /> and <see cref="T:Azure.ResourceManager.DataBox.Models.DataBoxHeavyAccountCopyLogDetails" />.
             </param>
         <param name="reverseShipmentLabelSasKey"> Shared access key to download the return shipment label. </param>
         <param name="chainOfCustodySasKey"> Shared access key to download the chain of custody logs. </param>
@@ -1069,8 +1094,8 @@
         <param name="lastMitigationActionOnJob"> Last mitigation action performed on the job. </param>
         <param name="dataCenterAddress">
             Datacenter address to ship to, for the given sku and storage location.
-            Please note <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataCenterAddressResult(System.Collections.Generic.IEnumerable{System.String},System.Nullable{Azure.Core.AzureLocation})" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
-            The available derived classes include <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataCenterAddressInstructionResult(System.Collections.Generic.IEnumerable{System.String},System.Nullable{Azure.Core.AzureLocation},System.String)" /> and <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataCenterAddressLocationResult(System.Collections.Generic.IEnumerable{System.String},System.Nullable{Azure.Core.AzureLocation},System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)" />.
+            Please note <see cref="T:Azure.ResourceManager.DataBox.Models.DataCenterAddressResult" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.DataBox.Models.DataCenterAddressInstructionResult" /> and <see cref="T:Azure.ResourceManager.DataBox.Models.DataCenterAddressLocationResult" />.
             </param>
         <param name="dataCenterCode"> DataCenter code. </param>
         <param name="copyProgress"> Copy progress per storage account. </param>
@@ -1090,6 +1115,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataboxJobSecrets</ReturnType>
@@ -1118,6 +1144,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataBoxJobStage</ReturnType>
@@ -1150,6 +1177,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataBoxSecret</ReturnType>
@@ -1182,6 +1210,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataBoxShipmentPickUpResult</ReturnType>
@@ -1208,6 +1237,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataBoxSkuCapacity</ReturnType>
@@ -1234,6 +1264,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataBoxSkuCost</ReturnType>
@@ -1262,6 +1293,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataBoxSkuInformation</ReturnType>
@@ -1304,6 +1336,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataBoxValidationInputResult</ReturnType>
@@ -1328,6 +1361,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataBoxValidationResult</ReturnType>
@@ -1340,8 +1374,8 @@
         <param name="status"> Overall validation status. </param>
         <param name="individualResponseDetails">
             List of response details contain validationType and its response as key and value respectively.
-            Please note <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataBoxValidationInputResult(Azure.ResponseError)" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
-            The available derived classes include <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.CreateOrderLimitForSubscriptionValidationResult(Azure.ResponseError,System.Nullable{Azure.ResourceManager.DataBox.Models.DataBoxValidationStatus})" />, <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataTransferDetailsValidationResult(Azure.ResponseError,System.Nullable{Azure.ResourceManager.DataBox.Models.DataBoxValidationStatus})" />, <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.PreferencesValidationResult(Azure.ResponseError,System.Nullable{Azure.ResourceManager.DataBox.Models.DataBoxValidationStatus})" />, <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.SkuAvailabilityValidationResult(Azure.ResponseError,System.Nullable{Azure.ResourceManager.DataBox.Models.DataBoxValidationStatus})" />, <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.SubscriptionIsAllowedToCreateJobValidationResult(Azure.ResponseError,System.Nullable{Azure.ResourceManager.DataBox.Models.DataBoxValidationStatus})" /> and <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.AddressValidationResult(Azure.ResponseError,System.Nullable{Azure.ResourceManager.DataBox.Models.AddressValidationStatus},System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.DataBoxShippingAddress})" />.
+            Please note <see cref="T:Azure.ResourceManager.DataBox.Models.DataBoxValidationInputResult" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.DataBox.Models.CreateOrderLimitForSubscriptionValidationResult" />, <see cref="T:Azure.ResourceManager.DataBox.Models.DataTransferDetailsValidationResult" />, <see cref="T:Azure.ResourceManager.DataBox.Models.PreferencesValidationResult" />, <see cref="T:Azure.ResourceManager.DataBox.Models.SkuAvailabilityValidationResult" />, <see cref="T:Azure.ResourceManager.DataBox.Models.SubscriptionIsAllowedToCreateJobValidationResult" /> and <see cref="T:Azure.ResourceManager.DataBox.Models.AddressValidationResult" />.
             </param>
         <summary> Initializes a new instance of DataBoxValidationResult. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DataBox.Models.DataBoxValidationResult" /> instance for mocking. </returns>
@@ -1358,6 +1392,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataCenterAccessSecurityCode</ReturnType>
@@ -1384,6 +1419,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataCenterAddressInstructionResult</ReturnType>
@@ -1412,6 +1448,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataCenterAddressLocationResult</ReturnType>
@@ -1464,6 +1501,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataCenterAddressResult</ReturnType>
@@ -1490,6 +1528,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataLocationToServiceLocationMap</ReturnType>
@@ -1516,6 +1555,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DataTransferDetailsValidationResult</ReturnType>
@@ -1542,6 +1582,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.DeviceErasureDetails</ReturnType>
@@ -1568,6 +1609,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.ExportDiskDetails</ReturnType>
@@ -1596,6 +1638,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.GranularCopyProgress</ReturnType>
@@ -1635,7 +1678,7 @@
         <param name="directoriesErroredOut"> To indicate directories errored out in the job. </param>
         <param name="invalidDirectoriesProcessed"> To indicate directories renamed. </param>
         <param name="isEnumerationInProgress">
-            To indicate if enumeration of data is in progress. 
+            To indicate if enumeration of data is in progress.
             Until this is true, the TotalBytesToProcess may not be valid.
             </param>
         <param name="error"> Error, if any, in the stage. </param>
@@ -1655,6 +1698,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.ImportDiskDetails</ReturnType>
@@ -1685,6 +1729,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.JobSecrets</ReturnType>
@@ -1711,6 +1756,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.LastMitigationActionOnJob</ReturnType>
@@ -1742,6 +1788,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.PackageShippingDetails</ReturnType>
@@ -1770,6 +1817,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.PreferencesValidationResult</ReturnType>
@@ -1796,6 +1844,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.RegionConfigurationResult</ReturnType>
@@ -1810,8 +1859,8 @@
         <param name="transportAvailabilityDetails"> Transport options available for given sku in a region. </param>
         <param name="dataCenterAddressResponse">
             Datacenter address for given sku in a region.
-            Please note <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataCenterAddressResult(System.Collections.Generic.IEnumerable{System.String},System.Nullable{Azure.Core.AzureLocation})" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
-            The available derived classes include <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataCenterAddressInstructionResult(System.Collections.Generic.IEnumerable{System.String},System.Nullable{Azure.Core.AzureLocation},System.String)" /> and <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataCenterAddressLocationResult(System.Collections.Generic.IEnumerable{System.String},System.Nullable{Azure.Core.AzureLocation},System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)" />.
+            Please note <see cref="T:Azure.ResourceManager.DataBox.Models.DataCenterAddressResult" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.DataBox.Models.DataCenterAddressInstructionResult" /> and <see cref="T:Azure.ResourceManager.DataBox.Models.DataCenterAddressLocationResult" />.
             </param>
         <summary> Initializes a new instance of RegionConfigurationResult. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DataBox.Models.RegionConfigurationResult" /> instance for mocking. </returns>
@@ -1828,6 +1877,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.ReverseShippingDetails</ReturnType>
@@ -1859,6 +1909,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.ShareCredentialDetails</ReturnType>
@@ -1891,6 +1942,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.SkuAvailabilityValidationResult</ReturnType>
@@ -1917,6 +1969,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.SubscriptionIsAllowedToCreateJobValidationResult</ReturnType>
@@ -1943,6 +1996,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.TransportAvailabilityDetails</ReturnType>
@@ -1967,6 +2021,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.TransportPreferences</ReturnType>
@@ -1993,6 +2048,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.Models.UnencryptedCredentials</ReturnType>
@@ -2005,8 +2061,8 @@
         <param name="jobName"> Name of the job. </param>
         <param name="jobSecrets">
             Secrets related to this job.
-            Please note <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.JobSecrets(Azure.ResourceManager.DataBox.Models.DataCenterAccessSecurityCode,Azure.ResponseError)" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
-            The available derived classes include <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataboxJobSecrets(Azure.ResourceManager.DataBox.Models.DataCenterAccessSecurityCode,Azure.ResponseError,System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.DataBoxSecret})" />, <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.CustomerDiskJobSecrets(Azure.ResourceManager.DataBox.Models.DataCenterAccessSecurityCode,Azure.ResponseError,System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.DataBoxDiskSecret},System.String)" />, <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataBoxDiskJobSecrets(Azure.ResourceManager.DataBox.Models.DataCenterAccessSecurityCode,Azure.ResponseError,System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.DataBoxDiskSecret},System.String,System.Nullable{System.Boolean})" /> and <see cref="M:Azure.ResourceManager.DataBox.Models.ArmDataBoxModelFactory.DataBoxHeavyJobSecrets(Azure.ResourceManager.DataBox.Models.DataCenterAccessSecurityCode,Azure.ResponseError,System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataBox.Models.DataBoxHeavySecret})" />.
+            Please note <see cref="T:Azure.ResourceManager.DataBox.Models.JobSecrets" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.DataBox.Models.DataboxJobSecrets" />, <see cref="T:Azure.ResourceManager.DataBox.Models.CustomerDiskJobSecrets" />, <see cref="T:Azure.ResourceManager.DataBox.Models.DataBoxDiskJobSecrets" /> and <see cref="T:Azure.ResourceManager.DataBox.Models.DataBoxHeavyJobSecrets" />.
             </param>
         <summary> Initializes a new instance of UnencryptedCredentials. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.DataBox.Models.UnencryptedCredentials" /> instance for mocking. </returns>

@@ -8,6 +8,7 @@
     <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -32,6 +33,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -49,6 +51,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -63,13 +66,13 @@
         <Parameter Name="recoveryPointId" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="vaultName">To be added.</param>
-        <param name="fabricName">To be added.</param>
-        <param name="containerName">To be added.</param>
-        <param name="protectedItemName">To be added.</param>
-        <param name="recoveryPointId">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="vaultName"> The vaultName. </param>
+        <param name="fabricName"> The fabricName. </param>
+        <param name="containerName"> The containerName. </param>
+        <param name="protectedItemName"> The protectedItemName. </param>
+        <param name="recoveryPointId"> The recoveryPointId. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.RecoveryServicesBackup.BackupRecoveryPointResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -85,6 +88,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.BackupRecoveryPointData</ReturnType>
@@ -106,6 +110,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RecoveryServicesBackup.BackupRecoveryPointResource&gt;</ReturnType>
@@ -133,6 +138,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesBackup.BackupRecoveryPointResource&gt;&gt;</ReturnType>
@@ -160,6 +166,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -180,6 +187,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -213,6 +221,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -246,6 +255,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -278,6 +288,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -310,6 +321,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -329,6 +341,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -356,6 +369,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -383,6 +397,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -417,6 +432,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>

@@ -64,11 +64,11 @@
         <Parameter Name="dataSetMappingName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="accountName">To be added.</param>
-        <param name="shareSubscriptionName">To be added.</param>
-        <param name="dataSetMappingName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="accountName"> The accountName. </param>
+        <param name="shareSubscriptionName"> The shareSubscriptionName. </param>
+        <param name="dataSetMappingName"> The dataSetMappingName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.DataShare.ShareDataSetMappingResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -277,7 +277,7 @@
         <param name="data"> Destination data set configuration details. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Create a DataSetMapping 
+            Create a DataSetMapping
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shareSubscriptions/{shareSubscriptionName}/dataSetMappings/{dataSetMappingName}</description></item><item><term>Operation Id</term><description>DataSetMappings_Create</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -311,7 +311,7 @@
         <param name="data"> Destination data set configuration details. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Create a DataSetMapping 
+            Create a DataSetMapping
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shareSubscriptions/{shareSubscriptionName}/dataSetMappings/{dataSetMappingName}</description></item><item><term>Operation Id</term><description>DataSetMappings_Create</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

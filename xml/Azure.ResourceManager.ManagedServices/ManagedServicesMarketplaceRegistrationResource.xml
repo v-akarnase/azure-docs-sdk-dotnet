@@ -61,8 +61,8 @@
         <Parameter Name="marketplaceIdentifier" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="scope">To be added.</param>
-        <param name="marketplaceIdentifier">To be added.</param>
+        <param name="scope"> The scope. </param>
+        <param name="marketplaceIdentifier"> The marketplaceIdentifier. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.ManagedServices.ManagedServicesMarketplaceRegistrationResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

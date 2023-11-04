@@ -23,16 +23,21 @@
     <AssemblyVersion>5.12.0.0</AssemblyVersion>
     <AssemblyVersion>5.13.0.0</AssemblyVersion>
     <AssemblyVersion>5.13.3.0</AssemblyVersion>
+    <AssemblyVersion>5.14.0.0</AssemblyVersion>
   </AssemblyInfo>
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.WebJobs.ServiceBus</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
   </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus.Grpc</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Attribute</BaseTypeName>
   </Base>
   <Interfaces>
-    <Interface>
+    <Interface FrameworkAlternate="azure-dotnet-preview">
       <InterfaceName>Microsoft.Azure.WebJobs.IConnectionProvider</InterfaceName>
     </Interface>
   </Interfaces>
@@ -74,13 +79,18 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus</AssemblyName>
         <AssemblyVersion>5.13.3.0</AssemblyVersion>
+        <AssemblyVersion>5.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.ServiceBus</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus.Grpc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <Parameters>
-        <Parameter Name="queueName" Type="System.String" />
+        <Parameter Name="queueName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="queueName">The name of the queue to which to bind.</param>
@@ -100,14 +110,19 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus</AssemblyName>
         <AssemblyVersion>5.13.3.0</AssemblyVersion>
+        <AssemblyVersion>5.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.ServiceBus</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus.Grpc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <Parameters>
-        <Parameter Name="topicName" Type="System.String" />
-        <Parameter Name="subscriptionName" Type="System.String" />
+        <Parameter Name="topicName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="subscriptionName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="topicName">The name of the topic to bind to.</param>
@@ -128,6 +143,11 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus</AssemblyName>
         <AssemblyVersion>5.13.3.0</AssemblyVersion>
+        <AssemblyVersion>5.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus.Grpc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -153,10 +173,15 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus</AssemblyName>
         <AssemblyVersion>5.13.3.0</AssemblyVersion>
+        <AssemblyVersion>5.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.ServiceBus</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus.Grpc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -179,6 +204,11 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus</AssemblyName>
         <AssemblyVersion>5.13.3.0</AssemblyVersion>
+        <AssemblyVersion>5.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus.Grpc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -201,10 +231,15 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus</AssemblyName>
         <AssemblyVersion>5.13.3.0</AssemblyVersion>
+        <AssemblyVersion>5.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.ServiceBus</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus.Grpc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -227,10 +262,15 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus</AssemblyName>
         <AssemblyVersion>5.13.3.0</AssemblyVersion>
+        <AssemblyVersion>5.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.ServiceBus</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus.Grpc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -253,10 +293,15 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus</AssemblyName>
         <AssemblyVersion>5.13.3.0</AssemblyVersion>
+        <AssemblyVersion>5.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.ServiceBus</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.WebJobs.Extensions.ServiceBus.Grpc</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

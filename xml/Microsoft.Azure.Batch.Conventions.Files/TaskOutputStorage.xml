@@ -8,6 +8,7 @@
     <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
     <AssemblyVersion>3.5.1.0</AssemblyVersion>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
+    <AssemblyVersion>4.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -36,6 +37,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="jobOutputContainerUri" Type="System.Uri" />
@@ -64,6 +66,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="blobClient" Type="Azure.Storage.Blobs.BlobServiceClient" />
@@ -92,6 +95,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Conventions.Files.OutputFileReference</ReturnType>
@@ -121,6 +125,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -147,6 +152,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Batch.Conventions.Files.OutputFileReference&gt;</ReturnType>
@@ -174,6 +180,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -211,6 +218,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -247,6 +255,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -283,6 +292,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Batch.Conventions.Files.ITrackedSaveOperation&gt;</ReturnType>
@@ -326,6 +336,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Batch.Conventions.Files.ITrackedSaveOperation&gt;</ReturnType>

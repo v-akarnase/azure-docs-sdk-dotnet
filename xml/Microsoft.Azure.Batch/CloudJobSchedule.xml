@@ -12,6 +12,7 @@
     <AssemblyVersion>15.3.0.0</AssemblyVersion>
     <AssemblyVersion>15.4.0.0</AssemblyVersion>
     <AssemblyVersion>16.0.0.0</AssemblyVersion>
+    <AssemblyVersion>16.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -40,6 +41,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -59,6 +61,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -86,6 +89,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -116,6 +120,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -151,6 +156,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -189,6 +195,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
@@ -214,6 +221,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Batch.BatchClientBehavior&gt;</ReturnType>
@@ -240,6 +248,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -270,6 +279,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -302,6 +312,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -330,6 +341,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -361,6 +373,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -383,6 +396,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -411,6 +425,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -441,6 +456,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -463,6 +479,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.JobScheduleExecutionInformation</ReturnType>
@@ -485,6 +502,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -507,6 +525,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.JobSpecification</ReturnType>
@@ -530,6 +549,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
@@ -552,6 +572,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.IPagedEnumerable&lt;Microsoft.Azure.Batch.CloudJob&gt;</ReturnType>
@@ -581,6 +602,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Batch.MetadataItem&gt;</ReturnType>
@@ -603,6 +625,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Microsoft.Azure.Batch.Common.JobScheduleState&gt;</ReturnType>
@@ -628,6 +651,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
@@ -656,6 +680,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -686,6 +711,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -716,6 +742,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Schedule</ReturnType>
@@ -738,6 +765,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Microsoft.Azure.Batch.Common.JobScheduleState&gt;</ReturnType>
@@ -760,6 +788,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
@@ -782,6 +811,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.JobScheduleStatistics</ReturnType>
@@ -809,6 +839,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -839,6 +870,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -871,6 +903,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

@@ -56,29 +56,29 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public FarmBeatsClient (Azure.Core.TokenCredential credential, Uri endpoint, Azure.Verticals.AgriFood.Farming.FarmBeatsClientOptions options);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.Core.TokenCredential credential, class System.Uri endpoint, class Azure.Verticals.AgriFood.Farming.FarmBeatsClientOptions options) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Verticals.AgriFood.Farming.FarmBeatsClient.#ctor(Azure.Core.TokenCredential,System.Uri,Azure.Verticals.AgriFood.Farming.FarmBeatsClientOptions)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (credential As TokenCredential, endpoint As Uri, options As FarmBeatsClientOptions)" />
-      <MemberSignature Language="F#" Value="new Azure.Verticals.AgriFood.Farming.FarmBeatsClient : Azure.Core.TokenCredential * Uri * Azure.Verticals.AgriFood.Farming.FarmBeatsClientOptions -&gt; Azure.Verticals.AgriFood.Farming.FarmBeatsClient" Usage="new Azure.Verticals.AgriFood.Farming.FarmBeatsClient (credential, endpoint, options)" />
+      <MemberSignature Language="C#" Value="public FarmBeatsClient (Uri endpoint, Azure.Core.TokenCredential credential, Azure.Verticals.AgriFood.Farming.FarmBeatsClientOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri endpoint, class Azure.Core.TokenCredential credential, class Azure.Verticals.AgriFood.Farming.FarmBeatsClientOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Verticals.AgriFood.Farming.FarmBeatsClient.#ctor(System.Uri,Azure.Core.TokenCredential,Azure.Verticals.AgriFood.Farming.FarmBeatsClientOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (endpoint As Uri, credential As TokenCredential, options As FarmBeatsClientOptions)" />
+      <MemberSignature Language="F#" Value="new Azure.Verticals.AgriFood.Farming.FarmBeatsClient : Uri * Azure.Core.TokenCredential * Azure.Verticals.AgriFood.Farming.FarmBeatsClientOptions -&gt; Azure.Verticals.AgriFood.Farming.FarmBeatsClient" Usage="new Azure.Verticals.AgriFood.Farming.FarmBeatsClient (endpoint, credential, options)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Verticals.AgriFood.Farming</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="credential" Type="Azure.Core.TokenCredential" />
         <Parameter Name="endpoint" Type="System.Uri" />
+        <Parameter Name="credential" Type="Azure.Core.TokenCredential" />
         <Parameter Name="options" Type="Azure.Verticals.AgriFood.Farming.FarmBeatsClientOptions" />
       </Parameters>
       <Docs>
-        <param name="credential"> A credential used to authenticate to an Azure Service. </param>
         <param name="endpoint"> server parameter. </param>
+        <param name="credential"> A credential used to authenticate to an Azure Service. </param>
         <param name="options"> The options for configuring the client. </param>
         <summary> Initializes a new instance of FarmBeatsClient. </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
-          <paramref name="credential" /> or <paramref name="endpoint" /> is null. </exception>
+          <paramref name="endpoint" /> or <paramref name="credential" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetApplicationDataClient">

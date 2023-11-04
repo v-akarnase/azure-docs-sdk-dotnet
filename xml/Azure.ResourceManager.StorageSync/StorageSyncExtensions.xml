@@ -48,7 +48,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check the give namespace name availability.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageSync/locations/{locationName}/checkNameAvailability</description></item><item><term>Operation Id</term><description>StorageSyncServices_CheckNameAvailability</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageSync/locations/{locationName}/checkNameAvailability</description></item><item><term>Operation Id</term><description>StorageSyncServices_CheckNameAvailability</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageSync.Mocking.MockableStorageSyncSubscriptionResource.CheckStorageSyncNameAvailability(System.String,Azure.ResourceManager.StorageSync.Models.StorageSyncNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -85,7 +85,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check the give namespace name availability.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageSync/locations/{locationName}/checkNameAvailability</description></item><item><term>Operation Id</term><description>StorageSyncServices_CheckNameAvailability</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageSync/locations/{locationName}/checkNameAvailability</description></item><item><term>Operation Id</term><description>StorageSyncServices_CheckNameAvailability</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageSync.Mocking.MockableStorageSyncSubscriptionResource.CheckStorageSyncNameAvailability(System.String,Azure.ResourceManager.StorageSync.Models.StorageSyncNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -119,7 +119,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.StorageSync.CloudEndpointResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.StorageSync.CloudEndpointResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.StorageSync.CloudEndpointResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageSync.Mocking.MockableStorageSyncArmClient.GetCloudEndpointResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.StorageSync.CloudEndpointResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -149,7 +149,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.StorageSync.StorageSyncGroupResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.StorageSync.StorageSyncGroupResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.StorageSync.StorageSyncGroupResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageSync.Mocking.MockableStorageSyncArmClient.GetStorageSyncGroupResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.StorageSync.StorageSyncGroupResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -179,7 +179,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.StorageSync.StorageSyncPrivateEndpointConnectionResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.StorageSync.StorageSyncPrivateEndpointConnectionResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.StorageSync.StorageSyncPrivateEndpointConnectionResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageSync.Mocking.MockableStorageSyncArmClient.GetStorageSyncPrivateEndpointConnectionResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.StorageSync.StorageSyncPrivateEndpointConnectionResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -209,7 +209,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.StorageSync.StorageSyncRegisteredServerResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.StorageSync.StorageSyncRegisteredServerResource.CreateResourceIdentifier(System.String,System.String,System.String,System.Guid)" /> to create a <see cref="T:Azure.ResourceManager.StorageSync.StorageSyncRegisteredServerResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageSync.Mocking.MockableStorageSyncArmClient.GetStorageSyncRegisteredServerResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.StorageSync.StorageSyncRegisteredServerResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -239,7 +239,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.StorageSync.StorageSyncServerEndpointResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.StorageSync.StorageSyncServerEndpointResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.StorageSync.StorageSyncServerEndpointResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageSync.Mocking.MockableStorageSyncArmClient.GetStorageSyncServerEndpointResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.StorageSync.StorageSyncServerEndpointResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -270,13 +270,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a given StorageSyncService.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StorageSync/storageSyncServices/{storageSyncServiceName}</description></item><item><term>Operation Id</term><description>StorageSyncServices_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StorageSync/storageSyncServices/{storageSyncServiceName}</description></item><item><term>Operation Id</term><description>StorageSyncServices_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageSync.Mocking.MockableStorageSyncResourceGroupResource.GetStorageSyncService(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="storageSyncServiceName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="storageSyncServiceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="storageSyncServiceName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetStorageSyncServiceAsync">
@@ -305,13 +305,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a given StorageSyncService.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StorageSync/storageSyncServices/{storageSyncServiceName}</description></item><item><term>Operation Id</term><description>StorageSyncServices_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StorageSync/storageSyncServices/{storageSyncServiceName}</description></item><item><term>Operation Id</term><description>StorageSyncServices_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageSync.Mocking.MockableStorageSyncResourceGroupResource.GetStorageSyncServiceAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="storageSyncServiceName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="storageSyncServiceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="storageSyncServiceName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetStorageSyncServiceResource">
@@ -339,7 +339,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.StorageSync.StorageSyncServiceResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.StorageSync.StorageSyncServiceResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.StorageSync.StorageSyncServiceResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageSync.Mocking.MockableStorageSyncArmClient.GetStorageSyncServiceResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.StorageSync.StorageSyncServiceResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -364,7 +364,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of StorageSyncServiceResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of StorageSyncServiceResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageSync.Mocking.MockableStorageSyncResourceGroupResource.GetStorageSyncServices" /> instead.</description></item></summary>
         <returns> An object representing collection of StorageSyncServiceResources and their operations over a StorageSyncServiceResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -393,7 +395,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a StorageSyncService list by subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageSync/storageSyncServices</description></item><item><term>Operation Id</term><description>StorageSyncServices_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageSync/storageSyncServices</description></item><item><term>Operation Id</term><description>StorageSyncServices_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageSync.Mocking.MockableStorageSyncSubscriptionResource.GetStorageSyncServices(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.StorageSync.StorageSyncServiceResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -422,7 +424,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a StorageSyncService list by subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageSync/storageSyncServices</description></item><item><term>Operation Id</term><description>StorageSyncServices_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageSync/storageSyncServices</description></item><item><term>Operation Id</term><description>StorageSyncServices_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageSync.Mocking.MockableStorageSyncSubscriptionResource.GetStorageSyncServices(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.StorageSync.StorageSyncServiceResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -452,7 +454,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.StorageSync.StorageSyncWorkflowResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.StorageSync.StorageSyncWorkflowResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.StorageSync.StorageSyncWorkflowResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageSync.Mocking.MockableStorageSyncArmClient.GetStorageSyncWorkflowResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.StorageSync.StorageSyncWorkflowResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>

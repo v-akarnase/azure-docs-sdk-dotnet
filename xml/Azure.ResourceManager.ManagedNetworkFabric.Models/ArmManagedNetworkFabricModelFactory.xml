@@ -8,6 +8,7 @@
     <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -28,6 +29,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.Models.BfdConfiguration</ReturnType>
@@ -56,6 +58,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.Models.BgpConfiguration</ReturnType>
@@ -100,6 +103,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.Models.DeviceUpdateCommonPostActionResult</ReturnType>
@@ -130,6 +134,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.Models.ExternalNetworkOptionAProperties</ReturnType>
@@ -174,6 +179,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.Models.ExternalNetworkPatchOptionAProperties</ReturnType>
@@ -218,6 +224,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.Models.InternalNetworkBgpConfiguration</ReturnType>
@@ -262,6 +269,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.Models.NeighborAddress</ReturnType>
@@ -288,6 +296,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.NetworkDeviceData</ReturnType>
@@ -346,6 +355,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.NetworkDeviceInterfaceData</ReturnType>
@@ -392,6 +402,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.NetworkDeviceSkuData</ReturnType>
@@ -434,6 +445,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -494,6 +506,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricAccessControlListData</ReturnType>
@@ -548,6 +561,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricControllerData</ReturnType>
@@ -610,6 +624,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.Models.NetworkFabricControllerServices</ReturnType>
@@ -636,6 +651,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricData</ReturnType>
@@ -706,6 +722,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.Models.NetworkFabricErrorResult</ReturnType>
@@ -730,6 +747,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricExternalNetworkData</ReturnType>
@@ -784,6 +802,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricInternalNetworkData</ReturnType>
@@ -850,6 +869,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricInternetGatewayData</ReturnType>
@@ -900,6 +920,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricInternetGatewayData</ReturnType>
@@ -948,6 +969,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricInternetGatewayRuleData</ReturnType>
@@ -990,6 +1012,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricIPCommunityData</ReturnType>
@@ -1034,6 +1057,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricIPExtendedCommunityData</ReturnType>
@@ -1078,6 +1102,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricIPPrefixData</ReturnType>
@@ -1122,6 +1147,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricL2IsolationDomainData</ReturnType>
@@ -1170,6 +1196,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricL3IsolationDomainData</ReturnType>
@@ -1222,6 +1249,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricNeighborGroupData</ReturnType>
@@ -1266,6 +1294,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1322,6 +1351,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyData</ReturnType>
@@ -1372,6 +1402,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricSkuData</ReturnType>
@@ -1414,6 +1445,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.NetworkPacketBrokerData</ReturnType>
@@ -1460,6 +1492,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.NetworkRackData</ReturnType>
@@ -1504,6 +1537,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.NetworkTapData</ReturnType>
@@ -1554,6 +1588,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.NetworkTapRuleData</ReturnType>
@@ -1610,6 +1645,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.NetworkToNetworkInterconnectData</ReturnType>
@@ -1666,6 +1702,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.Models.NetworkToNetworkInterconnectOptionBLayer3Configuration</ReturnType>
@@ -1702,6 +1739,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.Models.NetworkToNetworkInterconnectPatch</ReturnType>
@@ -1746,6 +1784,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.Models.OptionBLayer3Configuration</ReturnType>
@@ -1782,6 +1821,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.Models.StateUpdateCommonPostActionResult</ReturnType>
@@ -1808,6 +1848,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.Models.TerminalServerConfiguration</ReturnType>
@@ -1846,6 +1887,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.Models.ValidateConfigurationResult</ReturnType>
@@ -1874,6 +1916,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.Models.VpnConfigurationProperties</ReturnType>

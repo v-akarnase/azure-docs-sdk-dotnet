@@ -63,10 +63,10 @@
         <Parameter Name="fluidRelayContainerName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroup">To be added.</param>
-        <param name="fluidRelayServerName">To be added.</param>
-        <param name="fluidRelayContainerName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroup"> The resourceGroup. </param>
+        <param name="fluidRelayServerName"> The fluidRelayServerName. </param>
+        <param name="fluidRelayContainerName"> The fluidRelayContainerName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.FluidRelay.FluidRelayContainerResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

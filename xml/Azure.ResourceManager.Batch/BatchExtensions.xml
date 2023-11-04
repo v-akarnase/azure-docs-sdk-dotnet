@@ -10,6 +10,7 @@
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.1.0</AssemblyVersion>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <AssemblyVersion>1.3.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -30,6 +31,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Batch.Models.BatchNameAvailabilityResult&gt;</ReturnType>
@@ -47,7 +49,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks whether the Batch account name is available in the specified region.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Batch/locations/{locationName}/checkNameAvailability</description></item><item><term>Operation Id</term><description>Location_CheckNameAvailability</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Batch/locations/{locationName}/checkNameAvailability</description></item><item><term>Operation Id</term><description>Location_CheckNameAvailability</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Batch.Mocking.MockableBatchSubscriptionResource.CheckBatchNameAvailability(Azure.Core.AzureLocation,Azure.ResourceManager.Batch.Models.BatchNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -64,6 +66,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Batch.Models.BatchNameAvailabilityResult&gt;&gt;</ReturnType>
@@ -81,7 +84,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks whether the Batch account name is available in the specified region.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Batch/locations/{locationName}/checkNameAvailability</description></item><item><term>Operation Id</term><description>Location_CheckNameAvailability</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Batch/locations/{locationName}/checkNameAvailability</description></item><item><term>Operation Id</term><description>Location_CheckNameAvailability</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Batch.Mocking.MockableBatchSubscriptionResource.CheckBatchNameAvailability(Azure.Core.AzureLocation,Azure.ResourceManager.Batch.Models.BatchNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -98,6 +101,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountResource&gt;</ReturnType>
@@ -113,13 +117,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified Batch account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}</description></item><item><term>Operation Id</term><description>BatchAccount_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}</description></item><item><term>Operation Id</term><description>BatchAccount_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Batch.Mocking.MockableBatchResourceGroupResource.GetBatchAccount(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="accountName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="accountName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="accountName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetBatchAccountAsync">
@@ -132,6 +136,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountResource&gt;&gt;</ReturnType>
@@ -147,13 +152,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified Batch account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}</description></item><item><term>Operation Id</term><description>BatchAccount_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}</description></item><item><term>Operation Id</term><description>BatchAccount_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Batch.Mocking.MockableBatchResourceGroupResource.GetBatchAccountAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="accountName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="accountName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="accountName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetBatchAccountCertificateResource">
@@ -166,6 +171,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Batch.BatchAccountCertificateResource</ReturnType>
@@ -180,7 +186,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Batch.BatchAccountCertificateResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Batch.BatchAccountCertificateResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Batch.BatchAccountCertificateResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Batch.Mocking.MockableBatchArmClient.GetBatchAccountCertificateResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Batch.BatchAccountCertificateResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -195,6 +201,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Batch.BatchAccountDetectorResource</ReturnType>
@@ -209,7 +216,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Batch.BatchAccountDetectorResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Batch.BatchAccountDetectorResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Batch.BatchAccountDetectorResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Batch.Mocking.MockableBatchArmClient.GetBatchAccountDetectorResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Batch.BatchAccountDetectorResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -224,6 +231,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Batch.BatchAccountPoolResource</ReturnType>
@@ -238,7 +246,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Batch.BatchAccountPoolResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Batch.BatchAccountPoolResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Batch.BatchAccountPoolResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Batch.Mocking.MockableBatchArmClient.GetBatchAccountPoolResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Batch.BatchAccountPoolResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -253,6 +261,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Batch.BatchAccountResource</ReturnType>
@@ -267,7 +276,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Batch.BatchAccountResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Batch.Mocking.MockableBatchArmClient.GetBatchAccountResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -282,6 +291,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Batch.BatchAccountCollection</ReturnType>
@@ -291,7 +301,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of BatchAccountResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of BatchAccountResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Batch.Mocking.MockableBatchResourceGroupResource.GetBatchAccounts" /> instead.</description></item></summary>
         <returns> An object representing collection of BatchAccountResources and their operations over a BatchAccountResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -306,6 +318,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Batch.BatchAccountResource&gt;</ReturnType>
@@ -319,7 +332,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the Batch accounts associated with the subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Batch/batchAccounts</description></item><item><term>Operation Id</term><description>BatchAccount_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Batch/batchAccounts</description></item><item><term>Operation Id</term><description>BatchAccount_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Batch.Mocking.MockableBatchSubscriptionResource.GetBatchAccounts(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -334,6 +347,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Batch.BatchAccountResource&gt;</ReturnType>
@@ -347,7 +361,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the Batch accounts associated with the subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Batch/batchAccounts</description></item><item><term>Operation Id</term><description>BatchAccount_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Batch/batchAccounts</description></item><item><term>Operation Id</term><description>BatchAccount_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Batch.Mocking.MockableBatchSubscriptionResource.GetBatchAccounts(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -362,6 +376,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Batch.BatchApplicationPackageResource</ReturnType>
@@ -376,7 +391,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Batch.BatchApplicationPackageResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Batch.BatchApplicationPackageResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Batch.BatchApplicationPackageResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Batch.Mocking.MockableBatchArmClient.GetBatchApplicationPackageResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Batch.BatchApplicationPackageResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -391,6 +406,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Batch.BatchApplicationResource</ReturnType>
@@ -405,7 +421,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Batch.BatchApplicationResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Batch.BatchApplicationResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Batch.BatchApplicationResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Batch.Mocking.MockableBatchArmClient.GetBatchApplicationResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Batch.BatchApplicationResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -420,6 +436,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Batch.BatchPrivateEndpointConnectionResource</ReturnType>
@@ -434,7 +451,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Batch.BatchPrivateEndpointConnectionResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Batch.BatchPrivateEndpointConnectionResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Batch.BatchPrivateEndpointConnectionResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Batch.Mocking.MockableBatchArmClient.GetBatchPrivateEndpointConnectionResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Batch.BatchPrivateEndpointConnectionResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -449,6 +466,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Batch.BatchPrivateLinkResource</ReturnType>
@@ -463,7 +481,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Batch.BatchPrivateLinkResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Batch.BatchPrivateLinkResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Batch.BatchPrivateLinkResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Batch.Mocking.MockableBatchArmClient.GetBatchPrivateLinkResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Batch.BatchPrivateLinkResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -478,6 +496,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Batch.Models.BatchLocationQuota&gt;</ReturnType>
@@ -493,7 +512,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the Batch service quotas for the specified subscription at the given location.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Batch/locations/{locationName}/quotas</description></item><item><term>Operation Id</term><description>Location_GetQuotas</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Batch/locations/{locationName}/quotas</description></item><item><term>Operation Id</term><description>Location_GetQuotas</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Batch.Mocking.MockableBatchSubscriptionResource.GetBatchQuotas(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -508,6 +527,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Batch.Models.BatchLocationQuota&gt;&gt;</ReturnType>
@@ -523,7 +543,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the Batch service quotas for the specified subscription at the given location.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Batch/locations/{locationName}/quotas</description></item><item><term>Operation Id</term><description>Location_GetQuotas</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Batch/locations/{locationName}/quotas</description></item><item><term>Operation Id</term><description>Location_GetQuotas</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Batch.Mocking.MockableBatchSubscriptionResource.GetBatchQuotas(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -538,6 +558,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Batch.Models.BatchSupportedSku&gt;</ReturnType>
@@ -557,7 +578,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the list of Batch supported Cloud Service VM sizes available at the given location.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Batch/locations/{locationName}/cloudServiceSkus</description></item><item><term>Operation Id</term><description>Location_ListSupportedCloudServiceSkus</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Batch/locations/{locationName}/cloudServiceSkus</description></item><item><term>Operation Id</term><description>Location_ListSupportedCloudServiceSkus</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Batch.Mocking.MockableBatchSubscriptionResource.GetBatchSupportedCloudServiceSkus(Azure.Core.AzureLocation,System.Nullable{System.Int32},System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Batch.Models.BatchSupportedSku" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -572,6 +593,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Batch.Models.BatchSupportedSku&gt;</ReturnType>
@@ -591,7 +613,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the list of Batch supported Cloud Service VM sizes available at the given location.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Batch/locations/{locationName}/cloudServiceSkus</description></item><item><term>Operation Id</term><description>Location_ListSupportedCloudServiceSkus</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Batch/locations/{locationName}/cloudServiceSkus</description></item><item><term>Operation Id</term><description>Location_ListSupportedCloudServiceSkus</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Batch.Mocking.MockableBatchSubscriptionResource.GetBatchSupportedCloudServiceSkus(Azure.Core.AzureLocation,System.Nullable{System.Int32},System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Batch.Models.BatchSupportedSku" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -606,6 +628,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Batch.Models.BatchSupportedSku&gt;</ReturnType>
@@ -625,7 +648,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the list of Batch supported Virtual Machine VM sizes available at the given location.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Batch/locations/{locationName}/virtualMachineSkus</description></item><item><term>Operation Id</term><description>Location_ListSupportedVirtualMachineSkus</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Batch/locations/{locationName}/virtualMachineSkus</description></item><item><term>Operation Id</term><description>Location_ListSupportedVirtualMachineSkus</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Batch.Mocking.MockableBatchSubscriptionResource.GetBatchSupportedVirtualMachineSkus(Azure.Core.AzureLocation,System.Nullable{System.Int32},System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Batch.Models.BatchSupportedSku" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -640,6 +663,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Batch.Models.BatchSupportedSku&gt;</ReturnType>
@@ -659,7 +683,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the list of Batch supported Virtual Machine VM sizes available at the given location.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Batch/locations/{locationName}/virtualMachineSkus</description></item><item><term>Operation Id</term><description>Location_ListSupportedVirtualMachineSkus</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Batch/locations/{locationName}/virtualMachineSkus</description></item><item><term>Operation Id</term><description>Location_ListSupportedVirtualMachineSkus</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Batch.Mocking.MockableBatchSubscriptionResource.GetBatchSupportedVirtualMachineSkus(Azure.Core.AzureLocation,System.Nullable{System.Int32},System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Batch.Models.BatchSupportedSku" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>

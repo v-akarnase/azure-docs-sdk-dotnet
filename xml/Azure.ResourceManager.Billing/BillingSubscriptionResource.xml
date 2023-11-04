@@ -61,8 +61,8 @@
         <Parameter Name="billingSubscriptionName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="billingAccountName">To be added.</param>
-        <param name="billingSubscriptionName">To be added.</param>
+        <param name="billingAccountName"> The billingAccountName. </param>
+        <param name="billingSubscriptionName"> The billingSubscriptionName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Billing.BillingSubscriptionResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

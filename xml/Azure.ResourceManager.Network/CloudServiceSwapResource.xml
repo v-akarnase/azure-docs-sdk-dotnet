@@ -64,9 +64,9 @@
         <Parameter Name="resourceName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="groupName">To be added.</param>
-        <param name="resourceName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="groupName"> The groupName. </param>
+        <param name="resourceName"> The resourceName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Network.CloudServiceSwapResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

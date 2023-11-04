@@ -20,6 +20,7 @@
     <AssemblyVersion>12.7.1.0</AssemblyVersion>
     <AssemblyVersion>12.8.0.0</AssemblyVersion>
     <AssemblyVersion>12.8.1.0</AssemblyVersion>
+    <AssemblyVersion>12.8.2.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -39,6 +40,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.8.1.0</AssemblyVersion>
+        <AssemblyVersion>12.8.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -56,6 +58,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.8.1.0</AssemblyVersion>
+        <AssemblyVersion>12.8.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.Data.Tables.Models.TableCorsRule&gt;</ReturnType>
@@ -76,6 +79,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.8.1.0</AssemblyVersion>
+        <AssemblyVersion>12.8.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Data.Tables.Models.TableMetrics</ReturnType>
@@ -96,6 +100,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.8.1.0</AssemblyVersion>
+        <AssemblyVersion>12.8.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Data.Tables.Models.TableAnalyticsLoggingSettings</ReturnType>
@@ -116,6 +121,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Data.Tables</AssemblyName>
         <AssemblyVersion>12.8.1.0</AssemblyVersion>
+        <AssemblyVersion>12.8.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Data.Tables.Models.TableMetrics</ReturnType>
