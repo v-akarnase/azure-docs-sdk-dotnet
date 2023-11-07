@@ -65,11 +65,11 @@
         <Parameter Name="transparentDataEncryptionName" Type="Azure.ResourceManager.Synapse.Models.SynapseTransparentDataEncryptionName" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="workspaceName">To be added.</param>
-        <param name="sqlPoolName">To be added.</param>
-        <param name="transparentDataEncryptionName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="workspaceName"> The workspaceName. </param>
+        <param name="sqlPoolName"> The sqlPoolName. </param>
+        <param name="transparentDataEncryptionName"> The transparentDataEncryptionName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Synapse.SynapseTransparentDataEncryptionResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

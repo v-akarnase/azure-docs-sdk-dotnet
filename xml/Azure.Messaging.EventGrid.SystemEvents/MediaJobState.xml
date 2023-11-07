@@ -27,6 +27,7 @@
     <AssemblyVersion>4.17.0.0</AssemblyVersion>
     <AssemblyVersion>4.18.0.0</AssemblyVersion>
     <AssemblyVersion>4.20.0.0</AssemblyVersion>
+    <AssemblyVersion>4.21.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -46,6 +47,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.20.0.0</AssemblyVersion>
+        <AssemblyVersion>4.21.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaJobState</ReturnType>
@@ -65,6 +67,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.20.0.0</AssemblyVersion>
+        <AssemblyVersion>4.21.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaJobState</ReturnType>
@@ -84,6 +87,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.20.0.0</AssemblyVersion>
+        <AssemblyVersion>4.21.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaJobState</ReturnType>
@@ -103,6 +107,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.20.0.0</AssemblyVersion>
+        <AssemblyVersion>4.21.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaJobState</ReturnType>
@@ -122,6 +127,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.20.0.0</AssemblyVersion>
+        <AssemblyVersion>4.21.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaJobState</ReturnType>
@@ -141,6 +147,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.20.0.0</AssemblyVersion>
+        <AssemblyVersion>4.21.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaJobState</ReturnType>
@@ -160,6 +167,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.20.0.0</AssemblyVersion>
+        <AssemblyVersion>4.21.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaJobState</ReturnType>

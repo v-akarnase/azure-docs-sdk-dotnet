@@ -61,8 +61,8 @@
         <Parameter Name="groundStationName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="groundStationName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="groundStationName"> The groundStationName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Orbital.AvailableGroundStationResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

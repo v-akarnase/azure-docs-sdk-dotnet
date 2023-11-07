@@ -46,7 +46,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check the availability of a resource name. This is needed for resources where name is globally unique, such as a CDN endpoint.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Cdn/checkNameAvailability</description></item><item><term>Operation Id</term><description>CheckNameAvailability</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Cdn/checkNameAvailability</description></item><item><term>Operation Id</term><description>CheckNameAvailability</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnTenantResource.CheckCdnNameAvailability(Azure.ResourceManager.Cdn.Models.CdnNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -79,7 +79,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check the availability of a resource name. This is needed for resources where name is globally unique, such as a CDN endpoint.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Cdn/checkNameAvailability</description></item><item><term>Operation Id</term><description>CheckNameAvailability</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Cdn/checkNameAvailability</description></item><item><term>Operation Id</term><description>CheckNameAvailability</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnTenantResource.CheckCdnNameAvailability(Azure.ResourceManager.Cdn.Models.CdnNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -112,7 +112,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check the availability of a resource name. This is needed for resources where name is globally unique, such as a CDN endpoint.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cdn/checkNameAvailability</description></item><item><term>Operation Id</term><description>CheckNameAvailabilityWithSubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cdn/checkNameAvailability</description></item><item><term>Operation Id</term><description>CheckNameAvailabilityWithSubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnSubscriptionResource.CheckCdnNameAvailabilityWithSubscription(Azure.ResourceManager.Cdn.Models.CdnNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -145,7 +145,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check the availability of a resource name. This is needed for resources where name is globally unique, such as a CDN endpoint.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cdn/checkNameAvailability</description></item><item><term>Operation Id</term><description>CheckNameAvailabilityWithSubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cdn/checkNameAvailability</description></item><item><term>Operation Id</term><description>CheckNameAvailabilityWithSubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnSubscriptionResource.CheckCdnNameAvailabilityWithSubscription(Azure.ResourceManager.Cdn.Models.CdnNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -178,7 +178,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check the availability of a resource name. This is needed for resources where name is globally unique, such as a afdx endpoint.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/checkEndpointNameAvailability</description></item><item><term>Operation Id</term><description>CheckEndpointNameAvailability</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/checkEndpointNameAvailability</description></item><item><term>Operation Id</term><description>CheckEndpointNameAvailability</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnResourceGroupResource.CheckEndpointNameAvailability(Azure.ResourceManager.Cdn.Models.EndpointNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -211,7 +211,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check the availability of a resource name. This is needed for resources where name is globally unique, such as a afdx endpoint.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/checkEndpointNameAvailability</description></item><item><term>Operation Id</term><description>CheckEndpointNameAvailability</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/checkEndpointNameAvailability</description></item><item><term>Operation Id</term><description>CheckEndpointNameAvailability</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnResourceGroupResource.CheckEndpointNameAvailability(Azure.ResourceManager.Cdn.Models.EndpointNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -243,7 +243,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Cdn.CdnCustomDomainResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Cdn.CdnCustomDomainResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Cdn.CdnCustomDomainResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnArmClient.GetCdnCustomDomainResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Cdn.CdnCustomDomainResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -273,7 +273,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Cdn.CdnEndpointResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Cdn.CdnEndpointResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Cdn.CdnEndpointResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnArmClient.GetCdnEndpointResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Cdn.CdnEndpointResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -303,7 +303,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Cdn.CdnOriginGroupResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Cdn.CdnOriginGroupResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Cdn.CdnOriginGroupResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnArmClient.GetCdnOriginGroupResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Cdn.CdnOriginGroupResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -333,7 +333,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Cdn.CdnOriginResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Cdn.CdnOriginResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Cdn.CdnOriginResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnArmClient.GetCdnOriginResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Cdn.CdnOriginResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -358,7 +358,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of CdnWebApplicationFirewallPolicyResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of CdnWebApplicationFirewallPolicyResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnResourceGroupResource.GetCdnWebApplicationFirewallPolicies" /> instead.</description></item></summary>
         <returns> An object representing collection of CdnWebApplicationFirewallPolicyResources and their operations over a CdnWebApplicationFirewallPolicyResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -389,13 +391,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Retrieve protection policy with specified name within a resource group.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/cdnWebApplicationFirewallPolicies/{policyName}</description></item><item><term>Operation Id</term><description>Policies_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/cdnWebApplicationFirewallPolicies/{policyName}</description></item><item><term>Operation Id</term><description>Policies_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnResourceGroupResource.GetCdnWebApplicationFirewallPolicy(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="policyName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="policyName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="policyName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetCdnWebApplicationFirewallPolicyAsync">
@@ -424,13 +426,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Retrieve protection policy with specified name within a resource group.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/cdnWebApplicationFirewallPolicies/{policyName}</description></item><item><term>Operation Id</term><description>Policies_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/cdnWebApplicationFirewallPolicies/{policyName}</description></item><item><term>Operation Id</term><description>Policies_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnResourceGroupResource.GetCdnWebApplicationFirewallPolicyAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="policyName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="policyName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="policyName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetCdnWebApplicationFirewallPolicyResource">
@@ -458,7 +460,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Cdn.CdnWebApplicationFirewallPolicyResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Cdn.CdnWebApplicationFirewallPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Cdn.CdnWebApplicationFirewallPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnArmClient.GetCdnWebApplicationFirewallPolicyResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Cdn.CdnWebApplicationFirewallPolicyResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -487,7 +489,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Edgenodes are the global Point of Presence (POP) locations used to deliver CDN content to end users.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Cdn/edgenodes</description></item><item><term>Operation Id</term><description>EdgeNodes_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Cdn/edgenodes</description></item><item><term>Operation Id</term><description>EdgeNodes_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnTenantResource.GetEdgeNodes(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Cdn.Models.EdgeNode" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -516,7 +518,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Edgenodes are the global Point of Presence (POP) locations used to deliver CDN content to end users.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Cdn/edgenodes</description></item><item><term>Operation Id</term><description>EdgeNodes_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Cdn/edgenodes</description></item><item><term>Operation Id</term><description>EdgeNodes_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnTenantResource.GetEdgeNodes(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Cdn.Models.EdgeNode" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -546,7 +548,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Cdn.FrontDoorCustomDomainResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Cdn.FrontDoorCustomDomainResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Cdn.FrontDoorCustomDomainResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnArmClient.GetFrontDoorCustomDomainResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Cdn.FrontDoorCustomDomainResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -576,7 +578,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Cdn.FrontDoorEndpointResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Cdn.FrontDoorEndpointResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Cdn.FrontDoorEndpointResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnArmClient.GetFrontDoorEndpointResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Cdn.FrontDoorEndpointResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -606,7 +608,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Cdn.FrontDoorOriginGroupResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Cdn.FrontDoorOriginGroupResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Cdn.FrontDoorOriginGroupResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnArmClient.GetFrontDoorOriginGroupResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Cdn.FrontDoorOriginGroupResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -636,7 +638,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Cdn.FrontDoorOriginResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Cdn.FrontDoorOriginResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Cdn.FrontDoorOriginResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnArmClient.GetFrontDoorOriginResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Cdn.FrontDoorOriginResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -666,7 +668,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Cdn.FrontDoorRouteResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Cdn.FrontDoorRouteResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Cdn.FrontDoorRouteResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnArmClient.GetFrontDoorRouteResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Cdn.FrontDoorRouteResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -696,7 +698,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Cdn.FrontDoorRuleResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Cdn.FrontDoorRuleResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Cdn.FrontDoorRuleResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnArmClient.GetFrontDoorRuleResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Cdn.FrontDoorRuleResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -726,7 +728,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Cdn.FrontDoorRuleSetResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Cdn.FrontDoorRuleSetResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Cdn.FrontDoorRuleSetResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnArmClient.GetFrontDoorRuleSetResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Cdn.FrontDoorRuleSetResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -756,7 +758,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Cdn.FrontDoorSecretResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Cdn.FrontDoorSecretResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Cdn.FrontDoorSecretResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnArmClient.GetFrontDoorSecretResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Cdn.FrontDoorSecretResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -786,7 +788,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Cdn.FrontDoorSecurityPolicyResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Cdn.FrontDoorSecurityPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Cdn.FrontDoorSecurityPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnArmClient.GetFrontDoorSecurityPolicyResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Cdn.FrontDoorSecurityPolicyResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -815,7 +817,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all available managed rule sets.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cdn/cdnWebApplicationFirewallManagedRuleSets</description></item><item><term>Operation Id</term><description>ManagedRuleSets_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cdn/cdnWebApplicationFirewallManagedRuleSets</description></item><item><term>Operation Id</term><description>ManagedRuleSets_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnSubscriptionResource.GetManagedRuleSets(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Cdn.Models.ManagedRuleSetDefinition" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -844,7 +846,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all available managed rule sets.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cdn/cdnWebApplicationFirewallManagedRuleSets</description></item><item><term>Operation Id</term><description>ManagedRuleSets_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cdn/cdnWebApplicationFirewallManagedRuleSets</description></item><item><term>Operation Id</term><description>ManagedRuleSets_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnSubscriptionResource.GetManagedRuleSets(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Cdn.Models.ManagedRuleSetDefinition" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -875,13 +877,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets an Azure Front Door Standard or Azure Front Door Premium or CDN profile with the specified profile name under the specified subscription and resource group.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}</description></item><item><term>Operation Id</term><description>Profiles_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}</description></item><item><term>Operation Id</term><description>Profiles_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnResourceGroupResource.GetProfile(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="profileName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="profileName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="profileName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetProfileAsync">
@@ -910,13 +912,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets an Azure Front Door Standard or Azure Front Door Premium or CDN profile with the specified profile name under the specified subscription and resource group.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}</description></item><item><term>Operation Id</term><description>Profiles_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}</description></item><item><term>Operation Id</term><description>Profiles_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnResourceGroupResource.GetProfileAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="profileName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="profileName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="profileName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetProfileResource">
@@ -944,7 +946,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.Cdn.ProfileResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.Cdn.ProfileResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.Cdn.ProfileResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnArmClient.GetProfileResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.Cdn.ProfileResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -969,7 +971,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of ProfileResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of ProfileResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnResourceGroupResource.GetProfiles" /> instead.</description></item></summary>
         <returns> An object representing collection of ProfileResources and their operations over a ProfileResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -998,7 +1002,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all of the Azure Front Door Standard, Azure Front Door Premium, and CDN profiles within an Azure subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cdn/profiles</description></item><item><term>Operation Id</term><description>Profiles_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cdn/profiles</description></item><item><term>Operation Id</term><description>Profiles_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnSubscriptionResource.GetProfiles(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Cdn.ProfileResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1027,7 +1031,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all of the Azure Front Door Standard, Azure Front Door Premium, and CDN profiles within an Azure subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cdn/profiles</description></item><item><term>Operation Id</term><description>Profiles_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cdn/profiles</description></item><item><term>Operation Id</term><description>Profiles_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnSubscriptionResource.GetProfiles(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Cdn.ProfileResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1056,7 +1060,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check the quota and actual usage of the CDN profiles under the given subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cdn/checkResourceUsage</description></item><item><term>Operation Id</term><description>ResourceUsage_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cdn/checkResourceUsage</description></item><item><term>Operation Id</term><description>ResourceUsage_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnSubscriptionResource.GetResourceUsages(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Cdn.Models.CdnUsage" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1085,7 +1089,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check the quota and actual usage of the CDN profiles under the given subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cdn/checkResourceUsage</description></item><item><term>Operation Id</term><description>ResourceUsage_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cdn/checkResourceUsage</description></item><item><term>Operation Id</term><description>ResourceUsage_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnSubscriptionResource.GetResourceUsages(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Cdn.Models.CdnUsage" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1116,7 +1120,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check if the probe path is a valid path and the file can be accessed. Probe path is the path to a file hosted on the origin server to help accelerate the delivery of dynamic content via the CDN endpoint. This path is relative to the origin path specified in the endpoint configuration.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cdn/validateProbe</description></item><item><term>Operation Id</term><description>ValidateProbe</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cdn/validateProbe</description></item><item><term>Operation Id</term><description>ValidateProbe</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnSubscriptionResource.ValidateProbe(Azure.ResourceManager.Cdn.Models.ValidateProbeContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1149,7 +1153,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check if the probe path is a valid path and the file can be accessed. Probe path is the path to a file hosted on the origin server to help accelerate the delivery of dynamic content via the CDN endpoint. This path is relative to the origin path specified in the endpoint configuration.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cdn/validateProbe</description></item><item><term>Operation Id</term><description>ValidateProbe</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cdn/validateProbe</description></item><item><term>Operation Id</term><description>ValidateProbe</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Cdn.Mocking.MockableCdnSubscriptionResource.ValidateProbe(Azure.ResourceManager.Cdn.Models.ValidateProbeContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

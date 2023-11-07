@@ -1,0 +1,95 @@
+<Type Name="StorageResourceCreationPreference" FullName="Azure.Storage.DataMovement.StorageResourceCreationPreference">
+  <TypeSignature Language="C#" Value="public enum StorageResourceCreationPreference" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed StorageResourceCreationPreference extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Storage.DataMovement.StorageResourceCreationPreference" />
+  <TypeSignature Language="VB.NET" Value="Public Enum StorageResourceCreationPreference" />
+  <TypeSignature Language="F#" Value="type StorageResourceCreationPreference = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Storage.DataMovement</AssemblyName>
+    <AssemblyVersion>12.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Defines how creating a transfer file resource should go
+            if the resource already exists or does not exist.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FailIfExists">
+      <MemberSignature Language="C#" Value="FailIfExists" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Storage.DataMovement.StorageResourceCreationPreference FailIfExists = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Storage.DataMovement.StorageResourceCreationPreference.FailIfExists" />
+      <MemberSignature Language="VB.NET" Value="FailIfExists" />
+      <MemberSignature Language="F#" Value="FailIfExists = 0" Usage="Azure.Storage.DataMovement.StorageResourceCreationPreference.FailIfExists" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.DataMovement</AssemblyName>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Storage.DataMovement.StorageResourceCreationPreference</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+             If the file/blob already exists in the destination path, a failure will be thrown.
+             All parallel downloads in progress will finish, but no further
+             files in the directory to download will continue.
+            
+             If ErrorHandlingOptions.ContinueOnFailure is enabled, then this will get overrided
+             and the transfer will complete regardless of failure.
+             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OverwriteIfExists">
+      <MemberSignature Language="C#" Value="OverwriteIfExists" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Storage.DataMovement.StorageResourceCreationPreference OverwriteIfExists = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Storage.DataMovement.StorageResourceCreationPreference.OverwriteIfExists" />
+      <MemberSignature Language="VB.NET" Value="OverwriteIfExists" />
+      <MemberSignature Language="F#" Value="OverwriteIfExists = 1" Usage="Azure.Storage.DataMovement.StorageResourceCreationPreference.OverwriteIfExists" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.DataMovement</AssemblyName>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Storage.DataMovement.StorageResourceCreationPreference</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Overwrites the file if it already exists. No error will be thrown.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SkipIfExists">
+      <MemberSignature Language="C#" Value="SkipIfExists" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Storage.DataMovement.StorageResourceCreationPreference SkipIfExists = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Storage.DataMovement.StorageResourceCreationPreference.SkipIfExists" />
+      <MemberSignature Language="VB.NET" Value="SkipIfExists" />
+      <MemberSignature Language="F#" Value="SkipIfExists = 2" Usage="Azure.Storage.DataMovement.StorageResourceCreationPreference.SkipIfExists" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.DataMovement</AssemblyName>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Storage.DataMovement.StorageResourceCreationPreference</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+             If the file/blob already exists in the destination path, no failure will be thrown.
+             The file will simply be skipped over and other parallel downloads in progress
+             will finish and the rest of the files in the directory to download will continue.
+            
+             If ErrorHandlingOptions.StopOnAnyFailures is set, the download will still be skipped.
+             </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

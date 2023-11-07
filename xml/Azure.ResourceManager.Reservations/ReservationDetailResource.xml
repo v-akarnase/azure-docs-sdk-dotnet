@@ -117,8 +117,8 @@
         <Parameter Name="reservationId" Type="System.Guid" />
       </Parameters>
       <Docs>
-        <param name="reservationOrderId">To be added.</param>
-        <param name="reservationId">To be added.</param>
+        <param name="reservationOrderId"> The reservationOrderId. </param>
+        <param name="reservationId"> The reservationId. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Reservations.ReservationDetailResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -230,9 +230,9 @@
         <param name="content"> Scopes to be checked for eligibility. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Check whether the scopes from request is valid for `Reservation`.
+             Check whether the scopes from request is valid for `Reservation`.
             
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Capacity/reservationOrders/{reservationOrderId}/reservations/{reservationId}/availableScopes</description></item><item><term>Operation Id</term><description>Reservation_AvailableScopes</description></item></list></summary>
+             <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Capacity/reservationOrders/{reservationOrderId}/reservations/{reservationId}/availableScopes</description></item><item><term>Operation Id</term><description>Reservation_AvailableScopes</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -265,9 +265,9 @@
         <param name="content"> Scopes to be checked for eligibility. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Check whether the scopes from request is valid for `Reservation`.
+             Check whether the scopes from request is valid for `Reservation`.
             
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Capacity/reservationOrders/{reservationOrderId}/reservations/{reservationId}/availableScopes</description></item><item><term>Operation Id</term><description>Reservation_AvailableScopes</description></item></list></summary>
+             <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Capacity/reservationOrders/{reservationOrderId}/reservations/{reservationId}/availableScopes</description></item><item><term>Operation Id</term><description>Reservation_AvailableScopes</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -336,9 +336,9 @@
       <Docs>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Restores a `Reservation` to the state it was before archiving.
+             Restores a `Reservation` to the state it was before archiving.
             
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Capacity/reservationOrders/{reservationOrderId}/reservations/{reservationId}/unarchive</description></item><item><term>Operation Id</term><description>Reservation_Unarchive</description></item></list></summary>
+             <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Capacity/reservationOrders/{reservationOrderId}/reservations/{reservationId}/unarchive</description></item><item><term>Operation Id</term><description>Reservation_Unarchive</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -364,9 +364,9 @@
       <Docs>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Restores a `Reservation` to the state it was before archiving.
+             Restores a `Reservation` to the state it was before archiving.
             
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Capacity/reservationOrders/{reservationOrderId}/reservations/{reservationId}/unarchive</description></item><item><term>Operation Id</term><description>Reservation_Unarchive</description></item></list></summary>
+             <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Capacity/reservationOrders/{reservationOrderId}/reservations/{reservationId}/unarchive</description></item><item><term>Operation Id</term><description>Reservation_Unarchive</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>

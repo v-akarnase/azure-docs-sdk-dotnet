@@ -63,10 +63,10 @@
         <Parameter Name="scheduleName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="labName">To be added.</param>
-        <param name="scheduleName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="labName"> The labName. </param>
+        <param name="scheduleName"> The scheduleName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.LabServices.LabServicesScheduleResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

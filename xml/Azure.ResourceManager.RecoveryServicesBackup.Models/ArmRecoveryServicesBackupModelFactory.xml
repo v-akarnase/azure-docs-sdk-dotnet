@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.BackupEngineData</ReturnType>
@@ -69,6 +71,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.BackupErrorDetail</ReturnType>
@@ -97,6 +100,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.BackupGenericProtectedItem</ReturnType>
@@ -155,6 +159,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.BackupJobData</ReturnType>
@@ -197,6 +202,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.BackupManagementUsage</ReturnType>
@@ -231,6 +237,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.BackupNameInfo</ReturnType>
@@ -257,6 +264,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.BackupPrivateEndpointConnectionData</ReturnType>
@@ -295,6 +303,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.BackupProtectedItemData</ReturnType>
@@ -318,8 +327,8 @@
         <param name="location"> The location. </param>
         <param name="properties">
             ProtectedItemResource properties
-            Please note <see cref="M:Azure.ResourceManager.RecoveryServicesBackup.Models.ArmRecoveryServicesBackupModelFactory.BackupGenericProtectedItem(System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupManagementType},System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupDataSourceType},System.String,Azure.Core.ResourceIdentifier,Azure.Core.ResourceIdentifier,System.Nullable{System.DateTimeOffset},System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupCreateMode},System.Nullable{System.DateTimeOffset},System.Nullable{System.Boolean},System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.Boolean},System.String,System.Nullable{System.Int32})" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
-            The available derived classes include <see cref="M:Azure.ResourceManager.RecoveryServicesBackup.Models.ArmRecoveryServicesBackupModelFactory.FileshareProtectedItem(System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupManagementType},System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupDataSourceType},System.String,Azure.Core.ResourceIdentifier,Azure.Core.ResourceIdentifier,System.Nullable{System.DateTimeOffset},System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupCreateMode},System.Nullable{System.DateTimeOffset},System.Nullable{System.Boolean},System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.Boolean},System.String,System.Nullable{System.Int32},System.String,System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupProtectionState},System.String,System.Nullable{System.DateTimeOffset},System.Collections.Generic.IDictionary{System.String,Azure.ResourceManager.RecoveryServicesBackup.Models.KpiResourceHealthDetails},Azure.ResourceManager.RecoveryServicesBackup.Models.FileshareProtectedItemExtendedInfo)" />, <see cref="M:Azure.ResourceManager.RecoveryServicesBackup.Models.ArmRecoveryServicesBackupModelFactory.IaasVmProtectedItem(System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupManagementType},System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupDataSourceType},System.String,Azure.Core.ResourceIdentifier,Azure.Core.ResourceIdentifier,System.Nullable{System.DateTimeOffset},System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupCreateMode},System.Nullable{System.DateTimeOffset},System.Nullable{System.Boolean},System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.Boolean},System.String,System.Nullable{System.Int32},System.String,Azure.Core.ResourceIdentifier,System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupProtectionState},System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.IaasVmProtectedItemHealthStatus},System.Collections.Generic.IEnumerable{Azure.ResourceManager.RecoveryServicesBackup.Models.IaasVmHealthDetails},System.Collections.Generic.IDictionary{System.String,Azure.ResourceManager.RecoveryServicesBackup.Models.KpiResourceHealthDetails},System.String,System.Nullable{System.DateTimeOffset},System.String,Azure.ResourceManager.RecoveryServicesBackup.Models.IaasVmProtectedItemExtendedInfo,Azure.ResourceManager.RecoveryServicesBackup.Models.IaasVmBackupExtendedProperties)" />, <see cref="M:Azure.ResourceManager.RecoveryServicesBackup.Models.ArmRecoveryServicesBackupModelFactory.VmWorkloadProtectedItem(System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupManagementType},System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupDataSourceType},System.String,Azure.Core.ResourceIdentifier,Azure.Core.ResourceIdentifier,System.Nullable{System.DateTimeOffset},System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupCreateMode},System.Nullable{System.DateTimeOffset},System.Nullable{System.Boolean},System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.Boolean},System.String,System.Nullable{System.Int32},System.String,System.String,System.String,System.String,System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupProtectionState},System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.LastBackupStatus},System.Nullable{System.DateTimeOffset},Azure.ResourceManager.RecoveryServicesBackup.Models.BackupErrorDetail,System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.VmWorkloadProtectedItemHealthStatus},Azure.ResourceManager.RecoveryServicesBackup.Models.VmWorkloadProtectedItemExtendedInfo,System.Collections.Generic.IDictionary{System.String,Azure.ResourceManager.RecoveryServicesBackup.Models.KpiResourceHealthDetails},System.Collections.Generic.IEnumerable{Azure.ResourceManager.RecoveryServicesBackup.Models.DistributedNodesInfo})" />, <see cref="M:Azure.ResourceManager.RecoveryServicesBackup.Models.ArmRecoveryServicesBackupModelFactory.VmWorkloadSapAseDatabaseProtectedItem(System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupManagementType},System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupDataSourceType},System.String,Azure.Core.ResourceIdentifier,Azure.Core.ResourceIdentifier,System.Nullable{System.DateTimeOffset},System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupCreateMode},System.Nullable{System.DateTimeOffset},System.Nullable{System.Boolean},System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.Boolean},System.String,System.Nullable{System.Int32},System.String,System.String,System.String,System.String,System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupProtectionState},System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.LastBackupStatus},System.Nullable{System.DateTimeOffset},Azure.ResourceManager.RecoveryServicesBackup.Models.BackupErrorDetail,System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.VmWorkloadProtectedItemHealthStatus},Azure.ResourceManager.RecoveryServicesBackup.Models.VmWorkloadProtectedItemExtendedInfo,System.Collections.Generic.IDictionary{System.String,Azure.ResourceManager.RecoveryServicesBackup.Models.KpiResourceHealthDetails},System.Collections.Generic.IEnumerable{Azure.ResourceManager.RecoveryServicesBackup.Models.DistributedNodesInfo})" />, <see cref="M:Azure.ResourceManager.RecoveryServicesBackup.Models.ArmRecoveryServicesBackupModelFactory.VmWorkloadSapHanaDBInstanceProtectedItem(System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupManagementType},System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupDataSourceType},System.String,Azure.Core.ResourceIdentifier,Azure.Core.ResourceIdentifier,System.Nullable{System.DateTimeOffset},System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupCreateMode},System.Nullable{System.DateTimeOffset},System.Nullable{System.Boolean},System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.Boolean},System.String,System.Nullable{System.Int32},System.String,System.String,System.String,System.String,System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupProtectionState},System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.LastBackupStatus},System.Nullable{System.DateTimeOffset},Azure.ResourceManager.RecoveryServicesBackup.Models.BackupErrorDetail,System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.VmWorkloadProtectedItemHealthStatus},Azure.ResourceManager.RecoveryServicesBackup.Models.VmWorkloadProtectedItemExtendedInfo,System.Collections.Generic.IDictionary{System.String,Azure.ResourceManager.RecoveryServicesBackup.Models.KpiResourceHealthDetails},System.Collections.Generic.IEnumerable{Azure.ResourceManager.RecoveryServicesBackup.Models.DistributedNodesInfo})" />, <see cref="M:Azure.ResourceManager.RecoveryServicesBackup.Models.ArmRecoveryServicesBackupModelFactory.VmWorkloadSapHanaDatabaseProtectedItem(System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupManagementType},System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupDataSourceType},System.String,Azure.Core.ResourceIdentifier,Azure.Core.ResourceIdentifier,System.Nullable{System.DateTimeOffset},System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupCreateMode},System.Nullable{System.DateTimeOffset},System.Nullable{System.Boolean},System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.Boolean},System.String,System.Nullable{System.Int32},System.String,System.String,System.String,System.String,System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupProtectionState},System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.LastBackupStatus},System.Nullable{System.DateTimeOffset},Azure.ResourceManager.RecoveryServicesBackup.Models.BackupErrorDetail,System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.VmWorkloadProtectedItemHealthStatus},Azure.ResourceManager.RecoveryServicesBackup.Models.VmWorkloadProtectedItemExtendedInfo,System.Collections.Generic.IDictionary{System.String,Azure.ResourceManager.RecoveryServicesBackup.Models.KpiResourceHealthDetails},System.Collections.Generic.IEnumerable{Azure.ResourceManager.RecoveryServicesBackup.Models.DistributedNodesInfo})" />, <see cref="M:Azure.ResourceManager.RecoveryServicesBackup.Models.ArmRecoveryServicesBackupModelFactory.VmWorkloadSqlDatabaseProtectedItem(System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupManagementType},System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupDataSourceType},System.String,Azure.Core.ResourceIdentifier,Azure.Core.ResourceIdentifier,System.Nullable{System.DateTimeOffset},System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupCreateMode},System.Nullable{System.DateTimeOffset},System.Nullable{System.Boolean},System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.Boolean},System.String,System.Nullable{System.Int32},System.String,System.String,System.String,System.String,System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupProtectionState},System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.LastBackupStatus},System.Nullable{System.DateTimeOffset},Azure.ResourceManager.RecoveryServicesBackup.Models.BackupErrorDetail,System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.VmWorkloadProtectedItemHealthStatus},Azure.ResourceManager.RecoveryServicesBackup.Models.VmWorkloadProtectedItemExtendedInfo,System.Collections.Generic.IDictionary{System.String,Azure.ResourceManager.RecoveryServicesBackup.Models.KpiResourceHealthDetails},System.Collections.Generic.IEnumerable{Azure.ResourceManager.RecoveryServicesBackup.Models.DistributedNodesInfo})" />, <see cref="M:Azure.ResourceManager.RecoveryServicesBackup.Models.ArmRecoveryServicesBackupModelFactory.DpmProtectedItem(System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupManagementType},System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupDataSourceType},System.String,Azure.Core.ResourceIdentifier,Azure.Core.ResourceIdentifier,System.Nullable{System.DateTimeOffset},System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupCreateMode},System.Nullable{System.DateTimeOffset},System.Nullable{System.Boolean},System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.Boolean},System.String,System.Nullable{System.Int32},System.String,System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.ProtectedItemState},Azure.ResourceManager.RecoveryServicesBackup.Models.DpmProtectedItemExtendedInfo)" />, <see cref="M:Azure.ResourceManager.RecoveryServicesBackup.Models.ArmRecoveryServicesBackupModelFactory.GenericProtectedItem(System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupManagementType},System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupDataSourceType},System.String,Azure.Core.ResourceIdentifier,Azure.Core.ResourceIdentifier,System.Nullable{System.DateTimeOffset},System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupCreateMode},System.Nullable{System.DateTimeOffset},System.Nullable{System.Boolean},System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.Boolean},System.String,System.Nullable{System.Int32},System.String,System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupProtectionState},System.Nullable{System.Int64},System.Collections.Generic.IDictionary{System.String,System.String},System.String)" />, <see cref="M:Azure.ResourceManager.RecoveryServicesBackup.Models.ArmRecoveryServicesBackupModelFactory.MabFileFolderProtectedItem(System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupManagementType},System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupDataSourceType},System.String,Azure.Core.ResourceIdentifier,Azure.Core.ResourceIdentifier,System.Nullable{System.DateTimeOffset},System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupCreateMode},System.Nullable{System.DateTimeOffset},System.Nullable{System.Boolean},System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.Boolean},System.String,System.Nullable{System.Int32},System.String,System.String,System.String,System.Nullable{System.DateTimeOffset},System.String,System.Nullable{System.Int64},Azure.ResourceManager.RecoveryServicesBackup.Models.MabFileFolderProtectedItemExtendedInfo)" />, <see cref="M:Azure.ResourceManager.RecoveryServicesBackup.Models.ArmRecoveryServicesBackupModelFactory.IaasClassicComputeVmProtectedItem(System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupManagementType},System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupDataSourceType},System.String,Azure.Core.ResourceIdentifier,Azure.Core.ResourceIdentifier,System.Nullable{System.DateTimeOffset},System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupCreateMode},System.Nullable{System.DateTimeOffset},System.Nullable{System.Boolean},System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.Boolean},System.String,System.Nullable{System.Int32},System.String,Azure.Core.ResourceIdentifier,System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupProtectionState},System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.IaasVmProtectedItemHealthStatus},System.Collections.Generic.IEnumerable{Azure.ResourceManager.RecoveryServicesBackup.Models.IaasVmHealthDetails},System.Collections.Generic.IDictionary{System.String,Azure.ResourceManager.RecoveryServicesBackup.Models.KpiResourceHealthDetails},System.String,System.Nullable{System.DateTimeOffset},System.String,Azure.ResourceManager.RecoveryServicesBackup.Models.IaasVmProtectedItemExtendedInfo,Azure.ResourceManager.RecoveryServicesBackup.Models.IaasVmBackupExtendedProperties)" />, <see cref="M:Azure.ResourceManager.RecoveryServicesBackup.Models.ArmRecoveryServicesBackupModelFactory.IaasComputeVmProtectedItem(System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupManagementType},System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupDataSourceType},System.String,Azure.Core.ResourceIdentifier,Azure.Core.ResourceIdentifier,System.Nullable{System.DateTimeOffset},System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupCreateMode},System.Nullable{System.DateTimeOffset},System.Nullable{System.Boolean},System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.Boolean},System.String,System.Nullable{System.Int32},System.String,Azure.Core.ResourceIdentifier,System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupProtectionState},System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.IaasVmProtectedItemHealthStatus},System.Collections.Generic.IEnumerable{Azure.ResourceManager.RecoveryServicesBackup.Models.IaasVmHealthDetails},System.Collections.Generic.IDictionary{System.String,Azure.ResourceManager.RecoveryServicesBackup.Models.KpiResourceHealthDetails},System.String,System.Nullable{System.DateTimeOffset},System.String,Azure.ResourceManager.RecoveryServicesBackup.Models.IaasVmProtectedItemExtendedInfo,Azure.ResourceManager.RecoveryServicesBackup.Models.IaasVmBackupExtendedProperties)" /> and <see cref="M:Azure.ResourceManager.RecoveryServicesBackup.Models.ArmRecoveryServicesBackupModelFactory.SqlProtectedItem(System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupManagementType},System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupDataSourceType},System.String,Azure.Core.ResourceIdentifier,Azure.Core.ResourceIdentifier,System.Nullable{System.DateTimeOffset},System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.BackupCreateMode},System.Nullable{System.DateTimeOffset},System.Nullable{System.Boolean},System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.Boolean},System.String,System.Nullable{System.Int32},System.String,System.Nullable{Azure.ResourceManager.RecoveryServicesBackup.Models.ProtectedItemState},Azure.ResourceManager.RecoveryServicesBackup.Models.SqlProtectedItemExtendedInfo)" />.
+            Please note <see cref="T:Azure.ResourceManager.RecoveryServicesBackup.Models.BackupGenericProtectedItem" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.RecoveryServicesBackup.Models.FileshareProtectedItem" />, <see cref="T:Azure.ResourceManager.RecoveryServicesBackup.Models.IaasVmProtectedItem" />, <see cref="T:Azure.ResourceManager.RecoveryServicesBackup.Models.VmWorkloadProtectedItem" />, <see cref="T:Azure.ResourceManager.RecoveryServicesBackup.Models.VmWorkloadSapAseDatabaseProtectedItem" />, <see cref="T:Azure.ResourceManager.RecoveryServicesBackup.Models.VmWorkloadSapHanaDBInstanceProtectedItem" />, <see cref="T:Azure.ResourceManager.RecoveryServicesBackup.Models.VmWorkloadSapHanaDatabaseProtectedItem" />, <see cref="T:Azure.ResourceManager.RecoveryServicesBackup.Models.VmWorkloadSqlDatabaseProtectedItem" />, <see cref="T:Azure.ResourceManager.RecoveryServicesBackup.Models.DpmProtectedItem" />, <see cref="T:Azure.ResourceManager.RecoveryServicesBackup.Models.GenericProtectedItem" />, <see cref="T:Azure.ResourceManager.RecoveryServicesBackup.Models.MabFileFolderProtectedItem" />, <see cref="T:Azure.ResourceManager.RecoveryServicesBackup.Models.IaasClassicComputeVmProtectedItem" />, <see cref="T:Azure.ResourceManager.RecoveryServicesBackup.Models.IaasComputeVmProtectedItem" /> and <see cref="T:Azure.ResourceManager.RecoveryServicesBackup.Models.SqlProtectedItem" />.
             </param>
         <param name="eTag"> Optional ETag. </param>
         <summary> Initializes a new instance of BackupProtectedItemData. </summary>
@@ -337,6 +346,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.BackupProtectionContainerData</ReturnType>
@@ -379,6 +389,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.BackupProtectionIntentData</ReturnType>
@@ -421,6 +432,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.BackupProtectionPolicyData</ReturnType>
@@ -463,6 +475,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.BackupRecoveryPointData</ReturnType>
@@ -505,6 +518,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.BackupResourceConfigData</ReturnType>
@@ -543,6 +557,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.BackupResourceEncryptionConfigExtendedCreateOrUpdateContent</ReturnType>
@@ -581,6 +596,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.BackupResourceEncryptionConfigExtendedData</ReturnType>
@@ -619,6 +635,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigData</ReturnType>
@@ -657,6 +674,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.BackupStatusResult</ReturnType>
@@ -697,6 +715,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.DpmProtectedItem</ReturnType>
@@ -761,6 +780,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.FileshareProtectedItem</ReturnType>
@@ -831,6 +851,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.FileshareProtectedItemExtendedInfo</ReturnType>
@@ -863,6 +884,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.GenericProtectedItem</ReturnType>
@@ -931,6 +953,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.IaasClassicComputeVmProtectedItem</ReturnType>
@@ -1011,6 +1034,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.IaasComputeVmProtectedItem</ReturnType>
@@ -1091,6 +1115,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.IaasVmErrorInfo</ReturnType>
@@ -1121,6 +1146,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.IaasVmHealthDetails</ReturnType>
@@ -1151,6 +1177,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.IaasVmProtectedItem</ReturnType>
@@ -1231,6 +1258,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.InquiryValidation</ReturnType>
@@ -1261,6 +1289,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.MabErrorInfo</ReturnType>
@@ -1287,6 +1316,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.MabFileFolderProtectedItem</ReturnType>
@@ -1357,6 +1387,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.PreValidateEnableBackupResult</ReturnType>
@@ -1394,6 +1425,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.ProtectableContainerResource</ReturnType>
@@ -1436,6 +1468,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.ProvisionIlrConnectionContent</ReturnType>
@@ -1478,6 +1511,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.ResourceGuardProxyData</ReturnType>
@@ -1516,6 +1550,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.ResourceHealthDetails</ReturnType>
@@ -1546,6 +1581,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.SqlProtectedItem</ReturnType>
@@ -1608,6 +1644,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.TokenInformation</ReturnType>
@@ -1636,6 +1673,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.TriggerBackupContent</ReturnType>
@@ -1678,6 +1716,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.TriggerRestoreContent</ReturnType>
@@ -1720,6 +1759,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.UnlockDeleteResult</ReturnType>
@@ -1744,6 +1784,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.VmResourceFeatureSupportResult</ReturnType>
@@ -1768,6 +1809,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.VmWorkloadProtectedItem</ReturnType>
@@ -1852,6 +1894,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.VmWorkloadSapAseDatabaseProtectedItem</ReturnType>
@@ -1936,6 +1979,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.VmWorkloadSapHanaDatabaseProtectedItem</ReturnType>
@@ -2020,6 +2064,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.VmWorkloadSapHanaDBInstanceProtectedItem</ReturnType>
@@ -2104,6 +2149,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.VmWorkloadSqlDatabaseProtectedItem</ReturnType>
@@ -2188,6 +2234,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.WorkloadItemResource</ReturnType>
@@ -2230,6 +2277,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.Models.WorkloadProtectableItemResource</ReturnType>

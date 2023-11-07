@@ -60,11 +60,34 @@
       <Docs>
         <summary>
             (Optional)
-            If set to true, then router will match workers to jobs even if they don't match label selectors.
-            Warning: You may get workers that are not qualified for the job they are matched with if you set this
-            variable to true. This flag is intended more for temporary usage.
+            If set to true, then router will match workers to jobs even if they
+            don't match label selectors.
+            Warning: You may get workers that are not
+            qualified for the job they are matched with if you set this
+            variable to true.
+            This flag is intended more for temporary usage.
             By default, set to false.
             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Kind">
+      <MemberSignature Language="C#" Value="public string Kind { get; protected set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Kind" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.DistributionMode.Kind" />
+      <MemberSignature Language="VB.NET" Value="Public Property Kind As String" />
+      <MemberSignature Language="F#" Value="member this.Kind : string with get, set" Usage="Azure.Communication.JobRouter.DistributionMode.Kind" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The type discriminator describing a sub-type of DistributionMode. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

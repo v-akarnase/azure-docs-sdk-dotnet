@@ -131,10 +131,10 @@
         <Parameter Name="agentPoolName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="registryName">To be added.</param>
-        <param name="agentPoolName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="registryName"> The registryName. </param>
+        <param name="agentPoolName"> The agentPoolName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.ContainerRegistry.ContainerRegistryAgentPoolResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

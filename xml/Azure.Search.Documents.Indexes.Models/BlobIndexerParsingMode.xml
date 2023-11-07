@@ -219,7 +219,7 @@
         <ReturnType>Azure.Search.Documents.Indexes.Models.BlobIndexerParsingMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Set to jsonArray to extract individual elements of a JSON array as separate documents in Azure Cognitive Search. </summary>
+        <summary> Set to jsonArray to extract individual elements of a JSON array as separate documents. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -240,7 +240,7 @@
         <ReturnType>Azure.Search.Documents.Indexes.Models.BlobIndexerParsingMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Set to jsonLines to extract individual JSON entities, separated by a new line, as separate documents in Azure Cognitive Search. </summary>
+        <summary> Set to jsonLines to extract individual JSON entities, separated by a new line, as separate documents. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

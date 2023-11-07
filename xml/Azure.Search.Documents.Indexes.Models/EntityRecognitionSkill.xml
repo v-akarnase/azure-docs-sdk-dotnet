@@ -17,7 +17,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> This skill is deprecated. Use the V3.EntityRecognitionSkill instead. </summary>
+    <summary> Text analytics entity recognition. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -33,6 +33,12 @@
         <AssemblyVersion>11.4.0.0</AssemblyVersion>
         <AssemblyVersion>11.5.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet-preview">
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <Parameters>
         <Parameter Name="inputs" Type="System.Collections.Generic.IEnumerable&lt;Azure.Search.Documents.Indexes.Models.InputFieldMappingEntry&gt;" />
         <Parameter Name="outputs" Type="System.Collections.Generic.IEnumerable&lt;Azure.Search.Documents.Indexes.Models.OutputFieldMappingEntry&gt;" />
@@ -107,7 +113,7 @@
         <ReturnType>System.Nullable&lt;Azure.Search.Documents.Indexes.Models.EntityRecognitionSkillLanguage&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> A value indicating which language code to use. Default is en. </summary>
+        <summary> A value indicating which language code to use. Default is `en`. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

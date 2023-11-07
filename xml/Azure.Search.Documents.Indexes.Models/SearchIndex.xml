@@ -181,7 +181,7 @@
         <ReturnType>Azure.Search.Documents.Indexes.Models.SearchResourceEncryptionKey</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> A description of an encryption key that you create in Azure Key Vault. This key is used to provide an additional level of encryption-at-rest for your data when you want full assurance that no one, not even Microsoft, can decrypt your data in Azure Cognitive Search. Once you have encrypted your data, it will always remain encrypted. Azure Cognitive Search will ignore attempts to set this property to null. You can change this property as needed if you want to rotate your encryption key; Your data will be unaffected. Encryption with customer-managed keys is not available for free search services, and is only available for paid services created on or after January 1, 2019. </summary>
+        <summary> A description of an encryption key that you create in Azure Key Vault. This key is used to provide an additional level of encryption-at-rest for your data when you want full assurance that no one, not even Microsoft, can decrypt your data. Once you have encrypted your data, it will always remain encrypted. The search service will ignore attempts to set this property to null. You can change this property as needed if you want to rotate your encryption key; Your data will be unaffected. Encryption with customer-managed keys is not available for free search services, and is only available for paid services created on or after January 1, 2019. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -301,28 +301,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="Normalizers">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.Search.Documents.Indexes.Models.LexicalNormalizer&gt; Normalizers { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Azure.Search.Documents.Indexes.Models.LexicalNormalizer&gt; Normalizers" />
-      <MemberSignature Language="DocId" Value="P:Azure.Search.Documents.Indexes.Models.SearchIndex.Normalizers" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Normalizers As IList(Of LexicalNormalizer)" />
-      <MemberSignature Language="F#" Value="member this.Normalizers : System.Collections.Generic.IList&lt;Azure.Search.Documents.Indexes.Models.LexicalNormalizer&gt;" Usage="Azure.Search.Documents.Indexes.Models.SearchIndex.Normalizers" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Search.Documents</AssemblyName>
-        <AssemblyVersion>11.5.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Collections.Generic.IList&lt;Azure.Search.Documents.Indexes.Models.LexicalNormalizer&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the normalizers for the index.
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="ScoringProfiles">
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.Search.Documents.Indexes.Models.ScoringProfile&gt; ScoringProfiles { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Azure.Search.Documents.Indexes.Models.ScoringProfile&gt; ScoringProfiles" />
@@ -346,19 +324,19 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SemanticSettings">
-      <MemberSignature Language="C#" Value="public Azure.Search.Documents.Indexes.Models.SemanticSettings SemanticSettings { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Search.Documents.Indexes.Models.SemanticSettings SemanticSettings" />
-      <MemberSignature Language="DocId" Value="P:Azure.Search.Documents.Indexes.Models.SearchIndex.SemanticSettings" />
-      <MemberSignature Language="VB.NET" Value="Public Property SemanticSettings As SemanticSettings" />
-      <MemberSignature Language="F#" Value="member this.SemanticSettings : Azure.Search.Documents.Indexes.Models.SemanticSettings with get, set" Usage="Azure.Search.Documents.Indexes.Models.SearchIndex.SemanticSettings" />
+    <Member MemberName="SemanticSearch">
+      <MemberSignature Language="C#" Value="public Azure.Search.Documents.Indexes.Models.SemanticSearch SemanticSearch { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Search.Documents.Indexes.Models.SemanticSearch SemanticSearch" />
+      <MemberSignature Language="DocId" Value="P:Azure.Search.Documents.Indexes.Models.SearchIndex.SemanticSearch" />
+      <MemberSignature Language="VB.NET" Value="Public Property SemanticSearch As SemanticSearch" />
+      <MemberSignature Language="F#" Value="member this.SemanticSearch : Azure.Search.Documents.Indexes.Models.SemanticSearch with get, set" Usage="Azure.Search.Documents.Indexes.Models.SearchIndex.SemanticSearch" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Search.Documents</AssemblyName>
         <AssemblyVersion>11.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Search.Documents.Indexes.Models.SemanticSettings</ReturnType>
+        <ReturnType>Azure.Search.Documents.Indexes.Models.SemanticSearch</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Defines parameters for a search index that influence semantic capabilities. </summary>

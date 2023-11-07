@@ -8,13 +8,14 @@
     <AssemblyName>Azure.AI.Language.QuestionAnswering</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
-    <summary> Model factory for read-only models. </summary>
+    <summary> Model factory for models. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -28,6 +29,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Language.QuestionAnswering</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Language.QuestionAnswering.AnswersFromTextResult</ReturnType>
@@ -52,6 +54,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Language.QuestionAnswering</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Language.QuestionAnswering.AnswerSpan</ReturnType>
@@ -82,6 +85,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Language.QuestionAnswering</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Language.QuestionAnswering.AnswersResult</ReturnType>
@@ -106,6 +110,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Language.QuestionAnswering</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Language.QuestionAnswering.KnowledgeBaseAnswer</ReturnType>
@@ -144,6 +149,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Language.QuestionAnswering</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Language.QuestionAnswering.KnowledgeBaseAnswerDialog</ReturnType>
@@ -170,6 +176,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Language.QuestionAnswering</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Language.QuestionAnswering.KnowledgeBaseAnswerPrompt</ReturnType>
@@ -198,6 +205,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Language.QuestionAnswering</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AI.Language.QuestionAnswering.TextAnswer</ReturnType>

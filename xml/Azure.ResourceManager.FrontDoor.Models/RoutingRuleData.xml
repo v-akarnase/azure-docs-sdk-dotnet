@@ -159,7 +159,7 @@
       <Docs>
         <summary>
             A reference to the routing configuration.
-            Please note <see cref="P:Azure.ResourceManager.FrontDoor.Models.RoutingRuleData.RouteConfiguration" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            Please note <see cref="T:Azure.ResourceManager.FrontDoor.Models.RouteConfiguration" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
             The available derived classes include <see cref="T:Azure.ResourceManager.FrontDoor.Models.ForwardingConfiguration" /> and <see cref="T:Azure.ResourceManager.FrontDoor.Models.RedirectConfiguration" />.
             </summary>
         <value>To be added.</value>

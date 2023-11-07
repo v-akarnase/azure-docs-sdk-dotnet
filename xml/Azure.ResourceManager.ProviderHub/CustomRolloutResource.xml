@@ -61,9 +61,9 @@
         <Parameter Name="rolloutName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="providerNamespace">To be added.</param>
-        <param name="rolloutName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="providerNamespace"> The providerNamespace. </param>
+        <param name="rolloutName"> The rolloutName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.ProviderHub.CustomRolloutResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

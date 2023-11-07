@@ -13,7 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> An action that manually reclassifies a job by providing the queue, priority and worker selectors. </summary>
+    <summary>
+            An action that manually reclassifies a job by providing the queue, priority and
+            worker selectors.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

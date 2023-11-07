@@ -36,7 +36,7 @@
         <Parameter Name="callLocator" Type="Azure.Communication.CallAutomation.CallLocator" />
       </Parameters>
       <Docs>
-        <param name="callLocator">Call locator to locate ongoing call.</param>
+        <param name="callLocator"> . </param>
         <summary>
             Parameters for the Start Recording operation.
             </summary>
@@ -89,6 +89,49 @@
             The channel affinity of call recording
             When 'recordingChannelType' is set to 'unmixed', if channelAffinity is not specified, 'channel' will be automatically assigned.
             Channel-Participant mapping details can be found in the metadata of the recording.
+            ///
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalStorage">
+      <MemberSignature Language="C#" Value="public Azure.Communication.CallAutomation.ExternalStorage ExternalStorage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.CallAutomation.ExternalStorage ExternalStorage" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.StartRecordingOptions.ExternalStorage" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExternalStorage As ExternalStorage" />
+      <MemberSignature Language="F#" Value="member this.ExternalStorage : Azure.Communication.CallAutomation.ExternalStorage with get, set" Usage="Azure.Communication.CallAutomation.StartRecordingOptions.ExternalStorage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallAutomation.ExternalStorage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> (Optional) Used to specify external storage for call recording. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PauseOnStart">
+      <MemberSignature Language="C#" Value="public bool PauseOnStart { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool PauseOnStart" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.StartRecordingOptions.PauseOnStart" />
+      <MemberSignature Language="VB.NET" Value="Public Property PauseOnStart As Boolean" />
+      <MemberSignature Language="F#" Value="member this.PauseOnStart : bool with get, set" Usage="Azure.Communication.CallAutomation.StartRecordingOptions.PauseOnStart" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The pause on start option.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -111,7 +154,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            The recording channel of this call recording request.
+            The recording channel.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -134,7 +177,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            The recording content of this call recording request.
+            The recording content.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -157,7 +200,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            The recording format of this call recording request.
+            The recording format.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -180,7 +223,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            Callback uri to recieve callback events of this call recording request.
+            The callLocator.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

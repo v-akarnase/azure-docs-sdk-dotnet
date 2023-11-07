@@ -74,7 +74,7 @@
       <Docs>
         <summary>
             The infrastructure configuration.
-            Please note <see cref="P:Azure.ResourceManager.Workloads.Models.DeploymentConfiguration.InfrastructureConfiguration" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            Please note <see cref="T:Azure.ResourceManager.Workloads.Models.InfrastructureConfiguration" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
             The available derived classes include <see cref="T:Azure.ResourceManager.Workloads.Models.SingleServerConfiguration" /> and <see cref="T:Azure.ResourceManager.Workloads.Models.ThreeTierConfiguration" />.
             </summary>
         <value>To be added.</value>

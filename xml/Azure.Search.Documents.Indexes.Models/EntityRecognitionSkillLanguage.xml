@@ -21,7 +21,7 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary> Deprecated. The language codes supported for input text by EntityRecognitionSkill. </summary>
+    <summary> The language codes supported for input text by EntityRecognitionSkill. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

@@ -47,7 +47,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Activate the email registration for the current tenant
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.DataShare/locations/{location}/activateEmail</description></item><item><term>Operation Id</term><description>EmailRegistrations_ActivateEmail</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.DataShare/locations/{location}/activateEmail</description></item><item><term>Operation Id</term><description>EmailRegistrations_ActivateEmail</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataShare.Mocking.MockableDataShareTenantResource.ActivateEmail(Azure.Core.AzureLocation,Azure.ResourceManager.DataShare.Models.DataShareEmailRegistration,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -82,7 +82,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Activate the email registration for the current tenant
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.DataShare/locations/{location}/activateEmail</description></item><item><term>Operation Id</term><description>EmailRegistrations_ActivateEmail</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.DataShare/locations/{location}/activateEmail</description></item><item><term>Operation Id</term><description>EmailRegistrations_ActivateEmail</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataShare.Mocking.MockableDataShareTenantResource.ActivateEmail(Azure.Core.AzureLocation,Azure.ResourceManager.DataShare.Models.DataShareEmailRegistration,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -115,13 +115,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get an account
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}</description></item><item><term>Operation Id</term><description>Accounts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}</description></item><item><term>Operation Id</term><description>Accounts_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataShare.Mocking.MockableDataShareResourceGroupResource.GetDataShareAccount(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="accountName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="accountName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="accountName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetDataShareAccountAsync">
@@ -150,13 +150,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get an account
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}</description></item><item><term>Operation Id</term><description>Accounts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}</description></item><item><term>Operation Id</term><description>Accounts_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataShare.Mocking.MockableDataShareResourceGroupResource.GetDataShareAccountAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="accountName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="accountName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="accountName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetDataShareAccountResource">
@@ -184,7 +184,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataShare.DataShareAccountResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataShare.DataShareAccountResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataShare.DataShareAccountResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataShare.Mocking.MockableDataShareArmClient.GetDataShareAccountResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataShare.DataShareAccountResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -209,7 +209,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of DataShareAccountResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of DataShareAccountResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataShare.Mocking.MockableDataShareResourceGroupResource.GetDataShareAccounts" /> instead.</description></item></summary>
         <returns> An object representing collection of DataShareAccountResources and their operations over a DataShareAccountResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -240,7 +242,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List Accounts in Subscription
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataShare/accounts</description></item><item><term>Operation Id</term><description>Accounts_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataShare/accounts</description></item><item><term>Operation Id</term><description>Accounts_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataShare.Mocking.MockableDataShareSubscriptionResource.GetDataShareAccounts(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.DataShare.DataShareAccountResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -271,7 +273,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List Accounts in Subscription
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataShare/accounts</description></item><item><term>Operation Id</term><description>Accounts_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataShare/accounts</description></item><item><term>Operation Id</term><description>Accounts_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataShare.Mocking.MockableDataShareSubscriptionResource.GetDataShareAccounts(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.DataShare.DataShareAccountResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -304,7 +306,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get an invitation
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.DataShare/locations/{location}/consumerInvitations/{invitationId}</description></item><item><term>Operation Id</term><description>ConsumerInvitations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.DataShare/locations/{location}/consumerInvitations/{invitationId}</description></item><item><term>Operation Id</term><description>ConsumerInvitations_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataShare.Mocking.MockableDataShareTenantResource.GetDataShareConsumerInvitation(Azure.Core.AzureLocation,System.Guid,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -337,7 +339,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get an invitation
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.DataShare/locations/{location}/consumerInvitations/{invitationId}</description></item><item><term>Operation Id</term><description>ConsumerInvitations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.DataShare/locations/{location}/consumerInvitations/{invitationId}</description></item><item><term>Operation Id</term><description>ConsumerInvitations_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataShare.Mocking.MockableDataShareTenantResource.GetDataShareConsumerInvitationAsync(Azure.Core.AzureLocation,System.Guid,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -367,7 +369,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataShare.DataShareConsumerInvitationResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataShare.DataShareConsumerInvitationResource.CreateResourceIdentifier(Azure.Core.AzureLocation,System.Guid)" /> to create a <see cref="T:Azure.ResourceManager.DataShare.DataShareConsumerInvitationResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataShare.Mocking.MockableDataShareArmClient.GetDataShareConsumerInvitationResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataShare.DataShareConsumerInvitationResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -392,7 +394,9 @@
       </Parameters>
       <Docs>
         <param name="tenantResource"> The <see cref="T:Azure.ResourceManager.Resources.TenantResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of DataShareConsumerInvitationResources in the TenantResource. </summary>
+        <summary>
+            Gets a collection of DataShareConsumerInvitationResources in the TenantResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataShare.Mocking.MockableDataShareTenantResource.GetDataShareConsumerInvitations" /> instead.</description></item></summary>
         <returns> An object representing collection of DataShareConsumerInvitationResources and their operations over a DataShareConsumerInvitationResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -422,7 +426,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataShare.DataShareInvitationResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataShare.DataShareInvitationResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataShare.DataShareInvitationResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataShare.Mocking.MockableDataShareArmClient.GetDataShareInvitationResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataShare.DataShareInvitationResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -452,7 +456,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataShare.DataShareResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataShare.DataShareResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataShare.DataShareResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataShare.Mocking.MockableDataShareArmClient.GetDataShareResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataShare.DataShareResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -482,7 +486,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataShare.DataShareSynchronizationSettingResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataShare.DataShareSynchronizationSettingResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataShare.DataShareSynchronizationSettingResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataShare.Mocking.MockableDataShareArmClient.GetDataShareSynchronizationSettingResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataShare.DataShareSynchronizationSettingResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -512,7 +516,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataShare.DataShareTriggerResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataShare.DataShareTriggerResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataShare.DataShareTriggerResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataShare.Mocking.MockableDataShareArmClient.GetDataShareTriggerResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataShare.DataShareTriggerResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -542,7 +546,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataShare.ProviderShareSubscriptionResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataShare.ProviderShareSubscriptionResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataShare.ProviderShareSubscriptionResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataShare.Mocking.MockableDataShareArmClient.GetProviderShareSubscriptionResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataShare.ProviderShareSubscriptionResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -572,7 +576,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataShare.ShareDataSetMappingResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataShare.ShareDataSetMappingResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataShare.ShareDataSetMappingResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataShare.Mocking.MockableDataShareArmClient.GetShareDataSetMappingResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataShare.ShareDataSetMappingResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -602,7 +606,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataShare.ShareDataSetResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataShare.ShareDataSetResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataShare.ShareDataSetResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataShare.Mocking.MockableDataShareArmClient.GetShareDataSetResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataShare.ShareDataSetResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -632,7 +636,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.DataShare.ShareSubscriptionResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.DataShare.ShareSubscriptionResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.DataShare.ShareSubscriptionResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataShare.Mocking.MockableDataShareArmClient.GetShareSubscriptionResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.DataShare.ShareSubscriptionResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -663,7 +667,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Register an email for the current tenant
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.DataShare/locations/{location}/registerEmail</description></item><item><term>Operation Id</term><description>EmailRegistrations_RegisterEmail</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.DataShare/locations/{location}/registerEmail</description></item><item><term>Operation Id</term><description>EmailRegistrations_RegisterEmail</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataShare.Mocking.MockableDataShareTenantResource.RegisterEmail(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -694,7 +698,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Register an email for the current tenant
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.DataShare/locations/{location}/registerEmail</description></item><item><term>Operation Id</term><description>EmailRegistrations_RegisterEmail</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.DataShare/locations/{location}/registerEmail</description></item><item><term>Operation Id</term><description>EmailRegistrations_RegisterEmail</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataShare.Mocking.MockableDataShareTenantResource.RegisterEmail(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -727,7 +731,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Reject an invitation
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.DataShare/locations/{location}/rejectInvitation</description></item><item><term>Operation Id</term><description>ConsumerInvitations_RejectInvitation</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.DataShare/locations/{location}/rejectInvitation</description></item><item><term>Operation Id</term><description>ConsumerInvitations_RejectInvitation</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataShare.Mocking.MockableDataShareTenantResource.RejectConsumerInvitation(Azure.Core.AzureLocation,Azure.ResourceManager.DataShare.DataShareConsumerInvitationData,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -762,7 +766,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Reject an invitation
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.DataShare/locations/{location}/rejectInvitation</description></item><item><term>Operation Id</term><description>ConsumerInvitations_RejectInvitation</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.DataShare/locations/{location}/rejectInvitation</description></item><item><term>Operation Id</term><description>ConsumerInvitations_RejectInvitation</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.DataShare.Mocking.MockableDataShareTenantResource.RejectConsumerInvitation(Azure.Core.AzureLocation,Azure.ResourceManager.DataShare.DataShareConsumerInvitationData,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

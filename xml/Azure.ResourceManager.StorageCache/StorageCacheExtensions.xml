@@ -45,7 +45,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check that subnets will be valid for AML file system create calls.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageCache/checkAmlFSSubnets</description></item><item><term>Operation Id</term><description>checkAmlFSSubnets</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageCache/checkAmlFSSubnets</description></item><item><term>Operation Id</term><description>checkAmlFSSubnets</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageCache.Mocking.MockableStorageCacheSubscriptionResource.CheckAmlFSSubnets(Azure.ResourceManager.StorageCache.Models.AmlFileSystemSubnetContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -75,7 +75,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check that subnets will be valid for AML file system create calls.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageCache/checkAmlFSSubnets</description></item><item><term>Operation Id</term><description>checkAmlFSSubnets</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageCache/checkAmlFSSubnets</description></item><item><term>Operation Id</term><description>checkAmlFSSubnets</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageCache.Mocking.MockableStorageCacheSubscriptionResource.CheckAmlFSSubnets(Azure.ResourceManager.StorageCache.Models.AmlFileSystemSubnetContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -105,13 +105,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns an AML file system.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StorageCache/amlFilesystems/{amlFilesystemName}</description></item><item><term>Operation Id</term><description>amlFilesystems_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StorageCache/amlFilesystems/{amlFilesystemName}</description></item><item><term>Operation Id</term><description>amlFilesystems_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageCache.Mocking.MockableStorageCacheResourceGroupResource.GetAmlFileSystem(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="amlFileSystemName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="amlFileSystemName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="amlFileSystemName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetAmlFileSystemAsync">
@@ -139,13 +139,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns an AML file system.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StorageCache/amlFilesystems/{amlFilesystemName}</description></item><item><term>Operation Id</term><description>amlFilesystems_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StorageCache/amlFilesystems/{amlFilesystemName}</description></item><item><term>Operation Id</term><description>amlFilesystems_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageCache.Mocking.MockableStorageCacheResourceGroupResource.GetAmlFileSystemAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="amlFileSystemName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="amlFileSystemName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="amlFileSystemName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetAmlFileSystemResource">
@@ -172,7 +172,7 @@
         <summary>
             Gets an object representing an <see cref="T:Azure.ResourceManager.StorageCache.AmlFileSystemResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.StorageCache.AmlFileSystemResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.StorageCache.AmlFileSystemResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageCache.Mocking.MockableStorageCacheArmClient.GetAmlFileSystemResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.StorageCache.AmlFileSystemResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -196,7 +196,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of AmlFileSystemResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of AmlFileSystemResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageCache.Mocking.MockableStorageCacheResourceGroupResource.GetAmlFileSystems" /> instead.</description></item></summary>
         <returns> An object representing collection of AmlFileSystemResources and their operations over a AmlFileSystemResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -224,7 +226,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns all AML file systems the user has access to under a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageCache/amlFilesystems</description></item><item><term>Operation Id</term><description>amlFilesystems_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageCache/amlFilesystems</description></item><item><term>Operation Id</term><description>amlFilesystems_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageCache.Mocking.MockableStorageCacheSubscriptionResource.GetAmlFileSystems(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.StorageCache.AmlFileSystemResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -252,7 +254,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns all AML file systems the user has access to under a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageCache/amlFilesystems</description></item><item><term>Operation Id</term><description>amlFilesystems_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageCache/amlFilesystems</description></item><item><term>Operation Id</term><description>amlFilesystems_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageCache.Mocking.MockableStorageCacheSubscriptionResource.GetAmlFileSystems(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.StorageCache.AmlFileSystemResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -282,7 +284,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the number of available IP addresses needed for the AML file system information provided.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageCache/getRequiredAmlFSSubnetsSize</description></item><item><term>Operation Id</term><description>getRequiredAmlFSSubnetsSize</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageCache/getRequiredAmlFSSubnetsSize</description></item><item><term>Operation Id</term><description>getRequiredAmlFSSubnetsSize</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageCache.Mocking.MockableStorageCacheSubscriptionResource.GetRequiredAmlFSSubnetsSize(Azure.ResourceManager.StorageCache.Models.RequiredAmlFileSystemSubnetsSizeContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -312,7 +314,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the number of available IP addresses needed for the AML file system information provided.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageCache/getRequiredAmlFSSubnetsSize</description></item><item><term>Operation Id</term><description>getRequiredAmlFSSubnetsSize</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageCache/getRequiredAmlFSSubnetsSize</description></item><item><term>Operation Id</term><description>getRequiredAmlFSSubnetsSize</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageCache.Mocking.MockableStorageCacheSubscriptionResource.GetRequiredAmlFSSubnetsSize(Azure.ResourceManager.StorageCache.Models.RequiredAmlFileSystemSubnetsSizeContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -343,13 +345,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a cache.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.StorageCache/caches/{cacheName}</description></item><item><term>Operation Id</term><description>Caches_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.StorageCache/caches/{cacheName}</description></item><item><term>Operation Id</term><description>Caches_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageCache.Mocking.MockableStorageCacheResourceGroupResource.GetStorageCache(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="cacheName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="cacheName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="cacheName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetStorageCacheAsync">
@@ -378,13 +380,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a cache.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.StorageCache/caches/{cacheName}</description></item><item><term>Operation Id</term><description>Caches_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.StorageCache/caches/{cacheName}</description></item><item><term>Operation Id</term><description>Caches_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageCache.Mocking.MockableStorageCacheResourceGroupResource.GetStorageCacheAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="cacheName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="cacheName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="cacheName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetStorageCacheResource">
@@ -412,7 +414,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.StorageCache.StorageCacheResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.StorageCache.StorageCacheResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.StorageCache.StorageCacheResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageCache.Mocking.MockableStorageCacheArmClient.GetStorageCacheResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.StorageCache.StorageCacheResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -437,7 +439,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of StorageCacheResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of StorageCacheResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageCache.Mocking.MockableStorageCacheResourceGroupResource.GetStorageCaches" /> instead.</description></item></summary>
         <returns> An object representing collection of StorageCacheResources and their operations over a StorageCacheResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -466,7 +470,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns all caches the user has access to under a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageCache/caches</description></item><item><term>Operation Id</term><description>Caches_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageCache/caches</description></item><item><term>Operation Id</term><description>Caches_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageCache.Mocking.MockableStorageCacheSubscriptionResource.GetStorageCaches(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.StorageCache.StorageCacheResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -495,7 +499,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns all caches the user has access to under a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageCache/caches</description></item><item><term>Operation Id</term><description>Caches_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageCache/caches</description></item><item><term>Operation Id</term><description>Caches_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageCache.Mocking.MockableStorageCacheSubscriptionResource.GetStorageCaches(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.StorageCache.StorageCacheResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -524,7 +528,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the list of StorageCache.Cache SKUs available to this subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageCache/skus</description></item><item><term>Operation Id</term><description>Skus_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageCache/skus</description></item><item><term>Operation Id</term><description>Skus_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageCache.Mocking.MockableStorageCacheSubscriptionResource.GetStorageCacheSkus(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.StorageCache.Models.StorageCacheSku" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -553,7 +557,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the list of StorageCache.Cache SKUs available to this subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageCache/skus</description></item><item><term>Operation Id</term><description>Skus_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageCache/skus</description></item><item><term>Operation Id</term><description>Skus_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageCache.Mocking.MockableStorageCacheSubscriptionResource.GetStorageCacheSkus(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.StorageCache.Models.StorageCacheSku" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -584,7 +588,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the quantity used and quota limit for resources
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageCache/locations/{location}/usages</description></item><item><term>Operation Id</term><description>AscUsages_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageCache/locations/{location}/usages</description></item><item><term>Operation Id</term><description>AscUsages_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageCache.Mocking.MockableStorageCacheSubscriptionResource.GetStorageCacheUsages(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.StorageCache.Models.StorageCacheUsage" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -615,7 +619,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the quantity used and quota limit for resources
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageCache/locations/{location}/usages</description></item><item><term>Operation Id</term><description>AscUsages_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageCache/locations/{location}/usages</description></item><item><term>Operation Id</term><description>AscUsages_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageCache.Mocking.MockableStorageCacheSubscriptionResource.GetStorageCacheUsages(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.StorageCache.Models.StorageCacheUsage" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -645,7 +649,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.StorageCache.StorageTargetResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.StorageCache.StorageTargetResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.StorageCache.StorageTargetResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageCache.Mocking.MockableStorageCacheArmClient.GetStorageTargetResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.StorageCache.StorageTargetResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -674,7 +678,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the list of cache usage models available to this subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageCache/usageModels</description></item><item><term>Operation Id</term><description>UsageModels_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageCache/usageModels</description></item><item><term>Operation Id</term><description>UsageModels_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageCache.Mocking.MockableStorageCacheSubscriptionResource.GetUsageModels(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.StorageCache.Models.StorageCacheUsageModel" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -703,7 +707,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the list of cache usage models available to this subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageCache/usageModels</description></item><item><term>Operation Id</term><description>UsageModels_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.StorageCache/usageModels</description></item><item><term>Operation Id</term><description>UsageModels_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.StorageCache.Mocking.MockableStorageCacheSubscriptionResource.GetUsageModels(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.StorageCache.Models.StorageCacheUsageModel" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>

@@ -44,7 +44,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks whether the configuration store name is available for use.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.AppConfiguration/checkNameAvailability</description></item><item><term>Operation Id</term><description>CheckAppConfigurationNameAvailability</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.AppConfiguration/checkNameAvailability</description></item><item><term>Operation Id</term><description>CheckAppConfigurationNameAvailability</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppConfiguration.Mocking.MockableAppConfigurationSubscriptionResource.CheckAppConfigurationNameAvailability(Azure.ResourceManager.AppConfiguration.Models.AppConfigurationNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -77,7 +77,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks whether the configuration store name is available for use.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.AppConfiguration/checkNameAvailability</description></item><item><term>Operation Id</term><description>CheckAppConfigurationNameAvailability</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.AppConfiguration/checkNameAvailability</description></item><item><term>Operation Id</term><description>CheckAppConfigurationNameAvailability</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppConfiguration.Mocking.MockableAppConfigurationSubscriptionResource.CheckAppConfigurationNameAvailability(Azure.ResourceManager.AppConfiguration.Models.AppConfigurationNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -109,7 +109,7 @@
         <summary>
             Gets an object representing an <see cref="T:Azure.ResourceManager.AppConfiguration.AppConfigurationKeyValueResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.AppConfiguration.AppConfigurationKeyValueResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.AppConfiguration.AppConfigurationKeyValueResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppConfiguration.Mocking.MockableAppConfigurationArmClient.GetAppConfigurationKeyValueResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.AppConfiguration.AppConfigurationKeyValueResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -139,7 +139,7 @@
         <summary>
             Gets an object representing an <see cref="T:Azure.ResourceManager.AppConfiguration.AppConfigurationPrivateEndpointConnectionResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.AppConfiguration.AppConfigurationPrivateEndpointConnectionResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.AppConfiguration.AppConfigurationPrivateEndpointConnectionResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppConfiguration.Mocking.MockableAppConfigurationArmClient.GetAppConfigurationPrivateEndpointConnectionResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.AppConfiguration.AppConfigurationPrivateEndpointConnectionResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -169,7 +169,7 @@
         <summary>
             Gets an object representing an <see cref="T:Azure.ResourceManager.AppConfiguration.AppConfigurationPrivateLinkResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.AppConfiguration.AppConfigurationPrivateLinkResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.AppConfiguration.AppConfigurationPrivateLinkResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppConfiguration.Mocking.MockableAppConfigurationArmClient.GetAppConfigurationPrivateLinkResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.AppConfiguration.AppConfigurationPrivateLinkResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -200,13 +200,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the properties of the specified configuration store.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppConfiguration/configurationStores/{configStoreName}</description></item><item><term>Operation Id</term><description>ConfigurationStores_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppConfiguration/configurationStores/{configStoreName}</description></item><item><term>Operation Id</term><description>ConfigurationStores_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppConfiguration.Mocking.MockableAppConfigurationResourceGroupResource.GetAppConfigurationStore(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="configStoreName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="configStoreName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="configStoreName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetAppConfigurationStoreAsync">
@@ -235,13 +235,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the properties of the specified configuration store.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppConfiguration/configurationStores/{configStoreName}</description></item><item><term>Operation Id</term><description>ConfigurationStores_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppConfiguration/configurationStores/{configStoreName}</description></item><item><term>Operation Id</term><description>ConfigurationStores_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppConfiguration.Mocking.MockableAppConfigurationResourceGroupResource.GetAppConfigurationStoreAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="configStoreName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="configStoreName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="configStoreName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetAppConfigurationStoreResource">
@@ -269,7 +269,7 @@
         <summary>
             Gets an object representing an <see cref="T:Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppConfiguration.Mocking.MockableAppConfigurationArmClient.GetAppConfigurationStoreResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -294,7 +294,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of AppConfigurationStoreResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of AppConfigurationStoreResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppConfiguration.Mocking.MockableAppConfigurationResourceGroupResource.GetAppConfigurationStores" /> instead.</description></item></summary>
         <returns> An object representing collection of AppConfigurationStoreResources and their operations over a AppConfigurationStoreResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -325,7 +327,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the configuration stores for a given subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.AppConfiguration/configurationStores</description></item><item><term>Operation Id</term><description>ConfigurationStores_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.AppConfiguration/configurationStores</description></item><item><term>Operation Id</term><description>ConfigurationStores_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppConfiguration.Mocking.MockableAppConfigurationSubscriptionResource.GetAppConfigurationStores(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -356,7 +358,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the configuration stores for a given subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.AppConfiguration/configurationStores</description></item><item><term>Operation Id</term><description>ConfigurationStores_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.AppConfiguration/configurationStores</description></item><item><term>Operation Id</term><description>ConfigurationStores_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppConfiguration.Mocking.MockableAppConfigurationSubscriptionResource.GetAppConfigurationStores(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -389,13 +391,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a deleted Azure app configuration store.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.AppConfiguration/locations/{location}/deletedConfigurationStores/{configStoreName}</description></item><item><term>Operation Id</term><description>ConfigurationStores_GetDeleted</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.AppConfiguration/locations/{location}/deletedConfigurationStores/{configStoreName}</description></item><item><term>Operation Id</term><description>ConfigurationStores_GetDeleted</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppConfiguration.Mocking.MockableAppConfigurationSubscriptionResource.GetDeletedAppConfigurationStore(Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="configStoreName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="configStoreName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="configStoreName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetDeletedAppConfigurationStoreAsync">
@@ -426,13 +428,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a deleted Azure app configuration store.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.AppConfiguration/locations/{location}/deletedConfigurationStores/{configStoreName}</description></item><item><term>Operation Id</term><description>ConfigurationStores_GetDeleted</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.AppConfiguration/locations/{location}/deletedConfigurationStores/{configStoreName}</description></item><item><term>Operation Id</term><description>ConfigurationStores_GetDeleted</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppConfiguration.Mocking.MockableAppConfigurationSubscriptionResource.GetDeletedAppConfigurationStoreAsync(Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="configStoreName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="configStoreName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="configStoreName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetDeletedAppConfigurationStoreResource">
@@ -460,7 +462,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.AppConfiguration.DeletedAppConfigurationStoreResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.AppConfiguration.DeletedAppConfigurationStoreResource.CreateResourceIdentifier(System.String,Azure.Core.AzureLocation,System.String)" /> to create a <see cref="T:Azure.ResourceManager.AppConfiguration.DeletedAppConfigurationStoreResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppConfiguration.Mocking.MockableAppConfigurationArmClient.GetDeletedAppConfigurationStoreResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.AppConfiguration.DeletedAppConfigurationStoreResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -485,7 +487,9 @@
       </Parameters>
       <Docs>
         <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of DeletedAppConfigurationStoreResources in the SubscriptionResource. </summary>
+        <summary>
+            Gets a collection of DeletedAppConfigurationStoreResources in the SubscriptionResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppConfiguration.Mocking.MockableAppConfigurationSubscriptionResource.GetDeletedAppConfigurationStores" /> instead.</description></item></summary>
         <returns> An object representing collection of DeletedAppConfigurationStoreResources and their operations over a DeletedAppConfigurationStoreResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>

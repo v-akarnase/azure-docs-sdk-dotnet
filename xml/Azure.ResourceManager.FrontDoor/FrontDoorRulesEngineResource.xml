@@ -63,10 +63,10 @@
         <Parameter Name="rulesEngineName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="frontDoorName">To be added.</param>
-        <param name="rulesEngineName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="frontDoorName"> The frontDoorName. </param>
+        <param name="rulesEngineName"> The rulesEngineName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.FrontDoor.FrontDoorRulesEngineResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

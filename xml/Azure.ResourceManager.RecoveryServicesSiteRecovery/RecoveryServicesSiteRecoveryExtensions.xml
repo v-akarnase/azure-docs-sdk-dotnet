@@ -8,6 +8,7 @@
     <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -28,6 +29,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.MigrationRecoveryPointResource</ReturnType>
@@ -42,7 +44,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.MigrationRecoveryPointResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.MigrationRecoveryPointResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.MigrationRecoveryPointResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryArmClient.GetMigrationRecoveryPointResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.MigrationRecoveryPointResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -57,6 +59,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.ProtectionContainerMappingResource</ReturnType>
@@ -71,7 +74,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.ProtectionContainerMappingResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.ProtectionContainerMappingResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.ProtectionContainerMappingResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryArmClient.GetProtectionContainerMappingResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.ProtectionContainerMappingResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -86,6 +89,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.ProtectionContainerMappingResource&gt;</ReturnType>
@@ -101,7 +105,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the protection container mappings in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionContainerMappings</description></item><item><term>Operation Id</term><description>ReplicationProtectionContainerMappings_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionContainerMappings</description></item><item><term>Operation Id</term><description>ReplicationProtectionContainerMappings_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetProtectionContainerMappings(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.ProtectionContainerMappingResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -120,6 +124,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.ProtectionContainerMappingResource&gt;</ReturnType>
@@ -135,7 +140,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the protection container mappings in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionContainerMappings</description></item><item><term>Operation Id</term><description>ReplicationProtectionContainerMappings_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionContainerMappings</description></item><item><term>Operation Id</term><description>ReplicationProtectionContainerMappings_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetProtectionContainerMappings(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.ProtectionContainerMappingResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -154,6 +159,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.SiteRecoveryReplicationAppliance&gt;</ReturnType>
@@ -171,7 +177,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the list of Azure Site Recovery appliances for the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationAppliances</description></item><item><term>Operation Id</term><description>ReplicationAppliances_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationAppliances</description></item><item><term>Operation Id</term><description>ReplicationAppliances_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetReplicationAppliances(System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.SiteRecoveryReplicationAppliance" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -190,6 +196,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.SiteRecoveryReplicationAppliance&gt;</ReturnType>
@@ -207,7 +214,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the list of Azure Site Recovery appliances for the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationAppliances</description></item><item><term>Operation Id</term><description>ReplicationAppliances_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationAppliances</description></item><item><term>Operation Id</term><description>ReplicationAppliances_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetReplicationAppliances(System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.SiteRecoveryReplicationAppliance" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -226,6 +233,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationEligibilityResultResource&gt;</ReturnType>
@@ -241,13 +249,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Validates whether a given VM can be protected or not in which case returns list of errors.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{virtualMachineName}/providers/Microsoft.RecoveryServices/replicationEligibilityResults/default</description></item><item><term>Operation Id</term><description>ReplicationEligibilityResults_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{virtualMachineName}/providers/Microsoft.RecoveryServices/replicationEligibilityResults/default</description></item><item><term>Operation Id</term><description>ReplicationEligibilityResults_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetReplicationEligibilityResult(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="virtualMachineName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="virtualMachineName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="virtualMachineName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetReplicationEligibilityResultAsync">
@@ -260,6 +268,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationEligibilityResultResource&gt;&gt;</ReturnType>
@@ -275,13 +284,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Validates whether a given VM can be protected or not in which case returns list of errors.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{virtualMachineName}/providers/Microsoft.RecoveryServices/replicationEligibilityResults/default</description></item><item><term>Operation Id</term><description>ReplicationEligibilityResults_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{virtualMachineName}/providers/Microsoft.RecoveryServices/replicationEligibilityResults/default</description></item><item><term>Operation Id</term><description>ReplicationEligibilityResults_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetReplicationEligibilityResultAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="virtualMachineName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="virtualMachineName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="virtualMachineName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetReplicationEligibilityResultResource">
@@ -294,6 +303,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationEligibilityResultResource</ReturnType>
@@ -308,7 +318,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationEligibilityResultResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationEligibilityResultResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationEligibilityResultResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryArmClient.GetReplicationEligibilityResultResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationEligibilityResultResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -323,6 +333,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationEligibilityResultCollection</ReturnType>
@@ -334,13 +345,15 @@
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
         <param name="virtualMachineName"> Virtual Machine name. </param>
-        <summary> Gets a collection of ReplicationEligibilityResultResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of ReplicationEligibilityResultResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetReplicationEligibilityResults(System.String)" /> instead.</description></item></summary>
         <returns> An object representing collection of ReplicationEligibilityResultResources and their operations over a ReplicationEligibilityResultResource. </returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="virtualMachineName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="virtualMachineName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="virtualMachineName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetReplicationProtectedItemResource">
@@ -353,6 +366,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationProtectedItemResource</ReturnType>
@@ -367,7 +381,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationProtectedItemResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationProtectedItemResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationProtectedItemResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryArmClient.GetReplicationProtectedItemResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationProtectedItemResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -382,6 +396,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationProtectedItemResource&gt;</ReturnType>
@@ -401,7 +416,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the list of ASR replication protected items in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectedItems</description></item><item><term>Operation Id</term><description>ReplicationProtectedItems_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectedItems</description></item><item><term>Operation Id</term><description>ReplicationProtectedItems_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetReplicationProtectedItems(System.String,System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationProtectedItemResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -420,6 +435,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationProtectedItemResource&gt;</ReturnType>
@@ -439,7 +455,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the list of ASR replication protected items in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectedItems</description></item><item><term>Operation Id</term><description>ReplicationProtectedItems_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectedItems</description></item><item><term>Operation Id</term><description>ReplicationProtectedItems_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetReplicationProtectedItems(System.String,System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationProtectedItemResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -458,6 +474,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationProtectionIntentResource&gt;</ReturnType>
@@ -475,13 +492,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of an ASR replication protection intent.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionIntents/{intentObjectName}</description></item><item><term>Operation Id</term><description>ReplicationProtectionIntents_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionIntents/{intentObjectName}</description></item><item><term>Operation Id</term><description>ReplicationProtectionIntents_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetReplicationProtectionIntent(System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="resourceName" /> or <paramref name="intentObjectName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="resourceName" /> or <paramref name="intentObjectName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="resourceName" /> or <paramref name="intentObjectName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetReplicationProtectionIntentAsync">
@@ -494,6 +511,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationProtectionIntentResource&gt;&gt;</ReturnType>
@@ -511,13 +529,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of an ASR replication protection intent.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionIntents/{intentObjectName}</description></item><item><term>Operation Id</term><description>ReplicationProtectionIntents_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionIntents/{intentObjectName}</description></item><item><term>Operation Id</term><description>ReplicationProtectionIntents_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetReplicationProtectionIntentAsync(System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="resourceName" /> or <paramref name="intentObjectName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="resourceName" /> or <paramref name="intentObjectName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="resourceName" /> or <paramref name="intentObjectName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetReplicationProtectionIntentResource">
@@ -530,6 +548,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationProtectionIntentResource</ReturnType>
@@ -544,7 +563,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationProtectionIntentResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationProtectionIntentResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationProtectionIntentResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryArmClient.GetReplicationProtectionIntentResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationProtectionIntentResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -559,6 +578,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationProtectionIntentCollection</ReturnType>
@@ -570,13 +590,15 @@
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
         <param name="resourceName"> The name of the recovery services vault. </param>
-        <summary> Gets a collection of ReplicationProtectionIntentResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of ReplicationProtectionIntentResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetReplicationProtectionIntents(System.String)" /> instead.</description></item></summary>
         <returns> An object representing collection of ReplicationProtectionIntentResources and their operations over a ReplicationProtectionIntentResource. </returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="resourceName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="resourceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="resourceName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetReplicationVaultHealth">
@@ -589,6 +611,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.VaultHealthDetails&gt;</ReturnType>
@@ -604,7 +627,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the health details of the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationVaultHealth</description></item><item><term>Operation Id</term><description>ReplicationVaultHealth_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationVaultHealth</description></item><item><term>Operation Id</term><description>ReplicationVaultHealth_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetReplicationVaultHealth(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -623,6 +646,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.VaultHealthDetails&gt;&gt;</ReturnType>
@@ -638,7 +662,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the health details of the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationVaultHealth</description></item><item><term>Operation Id</term><description>ReplicationVaultHealth_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationVaultHealth</description></item><item><term>Operation Id</term><description>ReplicationVaultHealth_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetReplicationVaultHealth(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -657,6 +681,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryAlertResource&gt;</ReturnType>
@@ -674,13 +699,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of the specified email notification(alert) configuration.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationAlertSettings/{alertSettingName}</description></item><item><term>Operation Id</term><description>ReplicationAlertSettings_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationAlertSettings/{alertSettingName}</description></item><item><term>Operation Id</term><description>ReplicationAlertSettings_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryAlert(System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="resourceName" /> or <paramref name="alertSettingName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="resourceName" /> or <paramref name="alertSettingName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="resourceName" /> or <paramref name="alertSettingName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSiteRecoveryAlertAsync">
@@ -693,6 +718,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryAlertResource&gt;&gt;</ReturnType>
@@ -710,13 +736,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of the specified email notification(alert) configuration.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationAlertSettings/{alertSettingName}</description></item><item><term>Operation Id</term><description>ReplicationAlertSettings_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationAlertSettings/{alertSettingName}</description></item><item><term>Operation Id</term><description>ReplicationAlertSettings_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryAlertAsync(System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="resourceName" /> or <paramref name="alertSettingName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="resourceName" /> or <paramref name="alertSettingName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="resourceName" /> or <paramref name="alertSettingName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSiteRecoveryAlertResource">
@@ -729,6 +755,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryAlertResource</ReturnType>
@@ -743,7 +770,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryAlertResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryAlertResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryAlertResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryArmClient.GetSiteRecoveryAlertResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryAlertResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -758,6 +785,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryAlertCollection</ReturnType>
@@ -769,13 +797,15 @@
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
         <param name="resourceName"> The name of the recovery services vault. </param>
-        <summary> Gets a collection of SiteRecoveryAlertResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of SiteRecoveryAlertResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryAlerts(System.String)" /> instead.</description></item></summary>
         <returns> An object representing collection of SiteRecoveryAlertResources and their operations over a SiteRecoveryAlertResource. </returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="resourceName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="resourceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="resourceName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSiteRecoveryEvent">
@@ -788,6 +818,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryEventResource&gt;</ReturnType>
@@ -805,13 +836,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to get the details of an Azure Site recovery event.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationEvents/{eventName}</description></item><item><term>Operation Id</term><description>ReplicationEvents_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationEvents/{eventName}</description></item><item><term>Operation Id</term><description>ReplicationEvents_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryEvent(System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="resourceName" /> or <paramref name="eventName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="resourceName" /> or <paramref name="eventName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="resourceName" /> or <paramref name="eventName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSiteRecoveryEventAsync">
@@ -824,6 +855,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryEventResource&gt;&gt;</ReturnType>
@@ -841,13 +873,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to get the details of an Azure Site recovery event.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationEvents/{eventName}</description></item><item><term>Operation Id</term><description>ReplicationEvents_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationEvents/{eventName}</description></item><item><term>Operation Id</term><description>ReplicationEvents_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryEventAsync(System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="resourceName" /> or <paramref name="eventName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="resourceName" /> or <paramref name="eventName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="resourceName" /> or <paramref name="eventName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSiteRecoveryEventResource">
@@ -860,6 +892,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryEventResource</ReturnType>
@@ -874,7 +907,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryEventResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryEventResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryEventResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryArmClient.GetSiteRecoveryEventResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryEventResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -889,6 +922,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryEventCollection</ReturnType>
@@ -900,13 +934,15 @@
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
         <param name="resourceName"> The name of the recovery services vault. </param>
-        <summary> Gets a collection of SiteRecoveryEventResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of SiteRecoveryEventResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryEvents(System.String)" /> instead.</description></item></summary>
         <returns> An object representing collection of SiteRecoveryEventResources and their operations over a SiteRecoveryEventResource. </returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="resourceName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="resourceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="resourceName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSiteRecoveryFabric">
@@ -919,6 +955,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryFabricResource&gt;</ReturnType>
@@ -938,13 +975,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of an Azure Site Recovery fabric.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}</description></item><item><term>Operation Id</term><description>ReplicationFabrics_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}</description></item><item><term>Operation Id</term><description>ReplicationFabrics_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryFabric(System.String,System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="resourceName" /> or <paramref name="fabricName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="resourceName" /> or <paramref name="fabricName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="resourceName" /> or <paramref name="fabricName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSiteRecoveryFabricAsync">
@@ -957,6 +994,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryFabricResource&gt;&gt;</ReturnType>
@@ -976,13 +1014,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of an Azure Site Recovery fabric.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}</description></item><item><term>Operation Id</term><description>ReplicationFabrics_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}</description></item><item><term>Operation Id</term><description>ReplicationFabrics_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryFabricAsync(System.String,System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="resourceName" /> or <paramref name="fabricName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="resourceName" /> or <paramref name="fabricName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="resourceName" /> or <paramref name="fabricName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSiteRecoveryFabricResource">
@@ -995,6 +1033,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryFabricResource</ReturnType>
@@ -1009,7 +1048,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryFabricResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryFabricResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryFabricResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryArmClient.GetSiteRecoveryFabricResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryFabricResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1024,6 +1063,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryFabricCollection</ReturnType>
@@ -1035,13 +1075,15 @@
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
         <param name="resourceName"> The name of the recovery services vault. </param>
-        <summary> Gets a collection of SiteRecoveryFabricResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of SiteRecoveryFabricResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryFabrics(System.String)" /> instead.</description></item></summary>
         <returns> An object representing collection of SiteRecoveryFabricResources and their operations over a SiteRecoveryFabricResource. </returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="resourceName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="resourceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="resourceName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSiteRecoveryJob">
@@ -1054,6 +1096,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource&gt;</ReturnType>
@@ -1071,13 +1114,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the details of an Azure Site Recovery job.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/{jobName}</description></item><item><term>Operation Id</term><description>ReplicationJobs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/{jobName}</description></item><item><term>Operation Id</term><description>ReplicationJobs_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryJob(System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="resourceName" /> or <paramref name="jobName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="resourceName" /> or <paramref name="jobName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="resourceName" /> or <paramref name="jobName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSiteRecoveryJobAsync">
@@ -1090,6 +1133,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource&gt;&gt;</ReturnType>
@@ -1107,13 +1151,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the details of an Azure Site Recovery job.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/{jobName}</description></item><item><term>Operation Id</term><description>ReplicationJobs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/{jobName}</description></item><item><term>Operation Id</term><description>ReplicationJobs_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryJobAsync(System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="resourceName" /> or <paramref name="jobName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="resourceName" /> or <paramref name="jobName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="resourceName" /> or <paramref name="jobName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSiteRecoveryJobResource">
@@ -1126,6 +1170,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource</ReturnType>
@@ -1140,7 +1185,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryArmClient.GetSiteRecoveryJobResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1155,6 +1200,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobCollection</ReturnType>
@@ -1166,13 +1212,15 @@
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
         <param name="resourceName"> The name of the recovery services vault. </param>
-        <summary> Gets a collection of SiteRecoveryJobResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of SiteRecoveryJobResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryJobs(System.String)" /> instead.</description></item></summary>
         <returns> An object representing collection of SiteRecoveryJobResources and their operations over a SiteRecoveryJobResource. </returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="resourceName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="resourceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="resourceName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSiteRecoveryLogicalNetworkResource">
@@ -1185,6 +1233,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryLogicalNetworkResource</ReturnType>
@@ -1199,7 +1248,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryLogicalNetworkResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryLogicalNetworkResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryLogicalNetworkResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryArmClient.GetSiteRecoveryLogicalNetworkResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryLogicalNetworkResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1214,6 +1263,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryMigrationItemResource</ReturnType>
@@ -1228,7 +1278,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryMigrationItemResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryMigrationItemResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryMigrationItemResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryArmClient.GetSiteRecoveryMigrationItemResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryMigrationItemResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1243,6 +1293,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryMigrationItemResource&gt;</ReturnType>
@@ -1264,7 +1315,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the list of migration items in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationMigrationItems</description></item><item><term>Operation Id</term><description>ReplicationMigrationItems_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationMigrationItems</description></item><item><term>Operation Id</term><description>ReplicationMigrationItems_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryMigrationItems(System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryMigrationItemResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1283,6 +1334,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryMigrationItemResource&gt;</ReturnType>
@@ -1304,7 +1356,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the list of migration items in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationMigrationItems</description></item><item><term>Operation Id</term><description>ReplicationMigrationItems_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationMigrationItems</description></item><item><term>Operation Id</term><description>ReplicationMigrationItems_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryMigrationItems(System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryMigrationItemResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1323,6 +1375,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkMappingResource</ReturnType>
@@ -1337,7 +1390,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkMappingResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkMappingResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkMappingResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryArmClient.GetSiteRecoveryNetworkMappingResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkMappingResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1352,6 +1405,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkMappingResource&gt;</ReturnType>
@@ -1367,7 +1421,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all ASR network mappings in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationNetworkMappings</description></item><item><term>Operation Id</term><description>ReplicationNetworkMappings_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationNetworkMappings</description></item><item><term>Operation Id</term><description>ReplicationNetworkMappings_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryNetworkMappings(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkMappingResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1386,6 +1440,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkMappingResource&gt;</ReturnType>
@@ -1401,7 +1456,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all ASR network mappings in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationNetworkMappings</description></item><item><term>Operation Id</term><description>ReplicationNetworkMappings_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationNetworkMappings</description></item><item><term>Operation Id</term><description>ReplicationNetworkMappings_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryNetworkMappings(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkMappingResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1420,6 +1475,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkResource</ReturnType>
@@ -1434,7 +1490,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryArmClient.GetSiteRecoveryNetworkResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1449,6 +1505,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkResource&gt;</ReturnType>
@@ -1464,7 +1521,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the networks available in a vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationNetworks</description></item><item><term>Operation Id</term><description>ReplicationNetworks_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationNetworks</description></item><item><term>Operation Id</term><description>ReplicationNetworks_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryNetworks(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1483,6 +1540,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkResource&gt;</ReturnType>
@@ -1498,7 +1556,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the networks available in a vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationNetworks</description></item><item><term>Operation Id</term><description>ReplicationNetworks_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationNetworks</description></item><item><term>Operation Id</term><description>ReplicationNetworks_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryNetworks(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1517,6 +1575,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryPointResource</ReturnType>
@@ -1531,7 +1590,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryPointResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryPointResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryPointResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryArmClient.GetSiteRecoveryPointResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryPointResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1546,6 +1605,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryPolicyCollection</ReturnType>
@@ -1557,13 +1617,15 @@
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
         <param name="resourceName"> The name of the recovery services vault. </param>
-        <summary> Gets a collection of SiteRecoveryPolicyResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of SiteRecoveryPolicyResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryPolicies(System.String)" /> instead.</description></item></summary>
         <returns> An object representing collection of SiteRecoveryPolicyResources and their operations over a SiteRecoveryPolicyResource. </returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="resourceName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="resourceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="resourceName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSiteRecoveryPolicy">
@@ -1576,6 +1638,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryPolicyResource&gt;</ReturnType>
@@ -1593,13 +1656,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of a replication policy.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationPolicies/{policyName}</description></item><item><term>Operation Id</term><description>ReplicationPolicies_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationPolicies/{policyName}</description></item><item><term>Operation Id</term><description>ReplicationPolicies_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryPolicy(System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="resourceName" /> or <paramref name="policyName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="resourceName" /> or <paramref name="policyName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="resourceName" /> or <paramref name="policyName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSiteRecoveryPolicyAsync">
@@ -1612,6 +1675,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryPolicyResource&gt;&gt;</ReturnType>
@@ -1629,13 +1693,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of a replication policy.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationPolicies/{policyName}</description></item><item><term>Operation Id</term><description>ReplicationPolicies_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationPolicies/{policyName}</description></item><item><term>Operation Id</term><description>ReplicationPolicies_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryPolicyAsync(System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="resourceName" /> or <paramref name="policyName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="resourceName" /> or <paramref name="policyName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="resourceName" /> or <paramref name="policyName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSiteRecoveryPolicyResource">
@@ -1648,6 +1712,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryPolicyResource</ReturnType>
@@ -1662,7 +1727,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryPolicyResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryPolicyResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryPolicyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryArmClient.GetSiteRecoveryPolicyResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryPolicyResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1677,6 +1742,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryProtectableItemResource</ReturnType>
@@ -1691,7 +1757,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryProtectableItemResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryProtectableItemResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryProtectableItemResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryArmClient.GetSiteRecoveryProtectableItemResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryProtectableItemResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1706,6 +1772,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryProtectionContainerResource</ReturnType>
@@ -1720,7 +1787,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryProtectionContainerResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryProtectionContainerResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryProtectionContainerResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryArmClient.GetSiteRecoveryProtectionContainerResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryProtectionContainerResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1735,6 +1802,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryProtectionContainerResource&gt;</ReturnType>
@@ -1750,7 +1818,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the protection containers in a vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionContainers</description></item><item><term>Operation Id</term><description>ReplicationProtectionContainers_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionContainers</description></item><item><term>Operation Id</term><description>ReplicationProtectionContainers_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryProtectionContainers(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryProtectionContainerResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1769,6 +1837,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryProtectionContainerResource&gt;</ReturnType>
@@ -1784,7 +1853,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the protection containers in a vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionContainers</description></item><item><term>Operation Id</term><description>ReplicationProtectionContainers_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionContainers</description></item><item><term>Operation Id</term><description>ReplicationProtectionContainers_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryProtectionContainers(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryProtectionContainerResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1803,6 +1872,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryRecoveryPlanResource&gt;</ReturnType>
@@ -1820,13 +1890,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of the recovery plan.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryPlans/{recoveryPlanName}</description></item><item><term>Operation Id</term><description>ReplicationRecoveryPlans_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryPlans/{recoveryPlanName}</description></item><item><term>Operation Id</term><description>ReplicationRecoveryPlans_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryRecoveryPlan(System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="resourceName" /> or <paramref name="recoveryPlanName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="resourceName" /> or <paramref name="recoveryPlanName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="resourceName" /> or <paramref name="recoveryPlanName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSiteRecoveryRecoveryPlanAsync">
@@ -1839,6 +1909,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryRecoveryPlanResource&gt;&gt;</ReturnType>
@@ -1856,13 +1927,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of the recovery plan.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryPlans/{recoveryPlanName}</description></item><item><term>Operation Id</term><description>ReplicationRecoveryPlans_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryPlans/{recoveryPlanName}</description></item><item><term>Operation Id</term><description>ReplicationRecoveryPlans_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryRecoveryPlanAsync(System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="resourceName" /> or <paramref name="recoveryPlanName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="resourceName" /> or <paramref name="recoveryPlanName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="resourceName" /> or <paramref name="recoveryPlanName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSiteRecoveryRecoveryPlanResource">
@@ -1875,6 +1946,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryRecoveryPlanResource</ReturnType>
@@ -1889,7 +1961,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryRecoveryPlanResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryRecoveryPlanResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryRecoveryPlanResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryArmClient.GetSiteRecoveryRecoveryPlanResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryRecoveryPlanResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1904,6 +1976,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryRecoveryPlanCollection</ReturnType>
@@ -1915,13 +1988,15 @@
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
         <param name="resourceName"> The name of the recovery services vault. </param>
-        <summary> Gets a collection of SiteRecoveryRecoveryPlanResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of SiteRecoveryRecoveryPlanResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryRecoveryPlans(System.String)" /> instead.</description></item></summary>
         <returns> An object representing collection of SiteRecoveryRecoveryPlanResources and their operations over a SiteRecoveryRecoveryPlanResource. </returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="resourceName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="resourceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="resourceName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSiteRecoveryServicesProviderResource">
@@ -1934,6 +2009,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryServicesProviderResource</ReturnType>
@@ -1948,7 +2024,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryServicesProviderResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryServicesProviderResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryServicesProviderResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryArmClient.GetSiteRecoveryServicesProviderResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryServicesProviderResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1963,6 +2039,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryServicesProviderResource&gt;</ReturnType>
@@ -1978,7 +2055,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the registered recovery services providers in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryServicesProviders</description></item><item><term>Operation Id</term><description>ReplicationRecoveryServicesProviders_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryServicesProviders</description></item><item><term>Operation Id</term><description>ReplicationRecoveryServicesProviders_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryServicesProviders(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryServicesProviderResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1997,6 +2074,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryServicesProviderResource&gt;</ReturnType>
@@ -2012,7 +2090,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the registered recovery services providers in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryServicesProviders</description></item><item><term>Operation Id</term><description>ReplicationRecoveryServicesProviders_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryServicesProviders</description></item><item><term>Operation Id</term><description>ReplicationRecoveryServicesProviders_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryServicesProviders(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryServicesProviderResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -2031,6 +2109,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryVaultSettingResource&gt;</ReturnType>
@@ -2048,13 +2127,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the vault setting. This includes the Migration Hub connection settings.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationVaultSettings/{vaultSettingName}</description></item><item><term>Operation Id</term><description>ReplicationVaultSetting_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationVaultSettings/{vaultSettingName}</description></item><item><term>Operation Id</term><description>ReplicationVaultSetting_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryVaultSetting(System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="resourceName" /> or <paramref name="vaultSettingName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="resourceName" /> or <paramref name="vaultSettingName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="resourceName" /> or <paramref name="vaultSettingName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSiteRecoveryVaultSettingAsync">
@@ -2067,6 +2146,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryVaultSettingResource&gt;&gt;</ReturnType>
@@ -2084,13 +2164,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the vault setting. This includes the Migration Hub connection settings.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationVaultSettings/{vaultSettingName}</description></item><item><term>Operation Id</term><description>ReplicationVaultSetting_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationVaultSettings/{vaultSettingName}</description></item><item><term>Operation Id</term><description>ReplicationVaultSetting_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryVaultSettingAsync(System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="resourceName" /> or <paramref name="vaultSettingName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="resourceName" /> or <paramref name="vaultSettingName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="resourceName" /> or <paramref name="vaultSettingName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSiteRecoveryVaultSettingResource">
@@ -2103,6 +2183,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryVaultSettingResource</ReturnType>
@@ -2117,7 +2198,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryVaultSettingResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryVaultSettingResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryVaultSettingResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryArmClient.GetSiteRecoveryVaultSettingResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryVaultSettingResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2132,6 +2213,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryVaultSettingCollection</ReturnType>
@@ -2143,13 +2225,15 @@
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
         <param name="resourceName"> The name of the recovery services vault. </param>
-        <summary> Gets a collection of SiteRecoveryVaultSettingResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of SiteRecoveryVaultSettingResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryVaultSettings(System.String)" /> instead.</description></item></summary>
         <returns> An object representing collection of SiteRecoveryVaultSettingResources and their operations over a SiteRecoveryVaultSettingResource. </returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="resourceName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="resourceName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="resourceName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetSiteRecoveryVCenterResource">
@@ -2162,6 +2246,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryVCenterResource</ReturnType>
@@ -2176,7 +2261,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryVCenterResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryVCenterResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryVCenterResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryArmClient.GetSiteRecoveryVCenterResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryVCenterResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2191,6 +2276,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryVCenterResource&gt;</ReturnType>
@@ -2206,7 +2292,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the vCenter servers registered in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationvCenters</description></item><item><term>Operation Id</term><description>ReplicationvCenters_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationvCenters</description></item><item><term>Operation Id</term><description>ReplicationvCenters_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryVCenters(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryVCenterResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -2225,6 +2311,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryVCenterResource&gt;</ReturnType>
@@ -2240,7 +2327,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the vCenter servers registered in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationvCenters</description></item><item><term>Operation Id</term><description>ReplicationvCenters_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationvCenters</description></item><item><term>Operation Id</term><description>ReplicationvCenters_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSiteRecoveryVCenters(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryVCenterResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -2259,6 +2346,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationMappingResource</ReturnType>
@@ -2273,7 +2361,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationMappingResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationMappingResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationMappingResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryArmClient.GetStorageClassificationMappingResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationMappingResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2288,6 +2376,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationMappingResource&gt;</ReturnType>
@@ -2303,7 +2392,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the storage classification mappings in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationStorageClassificationMappings</description></item><item><term>Operation Id</term><description>ReplicationStorageClassificationMappings_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationStorageClassificationMappings</description></item><item><term>Operation Id</term><description>ReplicationStorageClassificationMappings_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetStorageClassificationMappings(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationMappingResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -2322,6 +2411,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationMappingResource&gt;</ReturnType>
@@ -2337,7 +2427,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the storage classification mappings in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationStorageClassificationMappings</description></item><item><term>Operation Id</term><description>ReplicationStorageClassificationMappings_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationStorageClassificationMappings</description></item><item><term>Operation Id</term><description>ReplicationStorageClassificationMappings_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetStorageClassificationMappings(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationMappingResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -2356,6 +2446,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationResource</ReturnType>
@@ -2370,7 +2461,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryArmClient.GetStorageClassificationResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2385,6 +2476,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationResource&gt;</ReturnType>
@@ -2400,7 +2492,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the storage classifications in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationStorageClassifications</description></item><item><term>Operation Id</term><description>ReplicationStorageClassifications_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationStorageClassifications</description></item><item><term>Operation Id</term><description>ReplicationStorageClassifications_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetStorageClassifications(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -2419,6 +2511,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationResource&gt;</ReturnType>
@@ -2434,7 +2527,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the storage classifications in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationStorageClassifications</description></item><item><term>Operation Id</term><description>ReplicationStorageClassifications_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationStorageClassifications</description></item><item><term>Operation Id</term><description>ReplicationStorageClassifications_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetStorageClassifications(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -2453,6 +2546,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.SiteRecoverySupportedOperatingSystems&gt;</ReturnType>
@@ -2470,7 +2564,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the data of supported operating systems by SRS.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationSupportedOperatingSystems</description></item><item><term>Operation Id</term><description>SupportedOperatingSystems_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationSupportedOperatingSystems</description></item><item><term>Operation Id</term><description>SupportedOperatingSystems_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSupportedOperatingSystem(System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -2489,6 +2583,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.SiteRecoverySupportedOperatingSystems&gt;&gt;</ReturnType>
@@ -2506,7 +2601,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the data of supported operating systems by SRS.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationSupportedOperatingSystems</description></item><item><term>Operation Id</term><description>SupportedOperatingSystems_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationSupportedOperatingSystems</description></item><item><term>Operation Id</term><description>SupportedOperatingSystems_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.GetSupportedOperatingSystem(System.String,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -2525,6 +2620,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.VaultHealthDetails&gt;</ReturnType>
@@ -2543,7 +2639,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Refreshes health summary of the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationVaultHealth/default/refresh</description></item><item><term>Operation Id</term><description>ReplicationVaultHealth_Refresh</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationVaultHealth/default/refresh</description></item><item><term>Operation Id</term><description>ReplicationVaultHealth_Refresh</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.RefreshReplicationVaultHealth(Azure.WaitUntil,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -2562,6 +2658,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.VaultHealthDetails&gt;&gt;</ReturnType>
@@ -2580,7 +2677,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Refreshes health summary of the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationVaultHealth/default/refresh</description></item><item><term>Operation Id</term><description>ReplicationVaultHealth_Refresh</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationVaultHealth/default/refresh</description></item><item><term>Operation Id</term><description>ReplicationVaultHealth_Refresh</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RecoveryServicesSiteRecovery.Mocking.MockableRecoveryServicesSiteRecoveryResourceGroupResource.RefreshReplicationVaultHealth(Azure.WaitUntil,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">

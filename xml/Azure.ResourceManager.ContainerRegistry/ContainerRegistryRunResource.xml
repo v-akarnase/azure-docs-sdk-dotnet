@@ -125,10 +125,10 @@
         <Parameter Name="runId" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="registryName">To be added.</param>
-        <param name="runId">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="registryName"> The registryName. </param>
+        <param name="runId"> The runId. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.ContainerRegistry.ContainerRegistryRunResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

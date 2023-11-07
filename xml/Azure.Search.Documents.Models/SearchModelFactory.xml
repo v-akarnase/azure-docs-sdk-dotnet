@@ -52,38 +52,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="AnswerResult">
-      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Models.AnswerResult AnswerResult (double? score = default, string key = default, string text = default, string highlights = default, System.Collections.Generic.IReadOnlyDictionary&lt;string,object&gt; additionalProperties = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Search.Documents.Models.AnswerResult AnswerResult(valuetype System.Nullable`1&lt;float64&gt; score, string key, string text, string highlights, class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, object&gt; additionalProperties) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.Models.SearchModelFactory.AnswerResult(System.Nullable{System.Double},System.String,System.String,System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function AnswerResult (Optional score As Nullable(Of Double) = Nothing, Optional key As String = Nothing, Optional text As String = Nothing, Optional highlights As String = Nothing, Optional additionalProperties As IReadOnlyDictionary(Of String, Object) = Nothing) As AnswerResult" />
-      <MemberSignature Language="F#" Value="static member AnswerResult : Nullable&lt;double&gt; * string * string * string * System.Collections.Generic.IReadOnlyDictionary&lt;string, obj&gt; -&gt; Azure.Search.Documents.Models.AnswerResult" Usage="Azure.Search.Documents.Models.SearchModelFactory.AnswerResult (score, key, text, highlights, additionalProperties)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Search.Documents</AssemblyName>
-        <AssemblyVersion>11.5.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Search.Documents.Models.AnswerResult</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="score" Type="System.Nullable&lt;System.Double&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="key" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="text" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="highlights" Type="System.String" Index="3" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="additionalProperties" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Object&gt;" Index="4" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="score"> The score value represents how relevant the answer is to the query relative to other answers returned for the query. </param>
-        <param name="key"> The key of the document the answer was extracted from. </param>
-        <param name="text"> The text passage extracted from the document contents as the answer. </param>
-        <param name="highlights"> Same text passage as in the Text property with highlighted text phrases most relevant to the query. </param>
-        <param name="additionalProperties"> Additional Properties. </param>
-        <summary> Initializes a new instance of AnswerResult. </summary>
-        <returns> A new <see cref="T:Azure.Search.Documents.Models.AnswerResult" /> instance for mocking. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="AutocompleteItem">
       <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Models.AutocompleteItem AutocompleteItem (string text, string queryPlusText);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Search.Documents.Models.AutocompleteItem AutocompleteItem(string text, string queryPlusText) cil managed" />
@@ -167,34 +135,6 @@
         <param name="results"> The list of returned Autocompleted items. </param>
         <summary> Initializes a new instance of AutocompleteResults. </summary>
         <returns> A new AutocompleteResults instance for mocking. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="CaptionResult">
-      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Models.CaptionResult CaptionResult (string text = default, string highlights = default, System.Collections.Generic.IReadOnlyDictionary&lt;string,object&gt; additionalProperties = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Search.Documents.Models.CaptionResult CaptionResult(string text, string highlights, class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, object&gt; additionalProperties) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.Models.SearchModelFactory.CaptionResult(System.String,System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function CaptionResult (Optional text As String = Nothing, Optional highlights As String = Nothing, Optional additionalProperties As IReadOnlyDictionary(Of String, Object) = Nothing) As CaptionResult" />
-      <MemberSignature Language="F#" Value="static member CaptionResult : string * string * System.Collections.Generic.IReadOnlyDictionary&lt;string, obj&gt; -&gt; Azure.Search.Documents.Models.CaptionResult" Usage="Azure.Search.Documents.Models.SearchModelFactory.CaptionResult (text, highlights, additionalProperties)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Search.Documents</AssemblyName>
-        <AssemblyVersion>11.5.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Search.Documents.Models.CaptionResult</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="text" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="highlights" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="additionalProperties" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Object&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="text"> A representative text passage extracted from the document most relevant to the search query. </param>
-        <param name="highlights"> Same text passage as in the Text property with highlighted phrases most relevant to the query. </param>
-        <param name="additionalProperties"> Additional Properties. </param>
-        <summary> Initializes a new instance of CaptionResult. </summary>
-        <returns> A new <see cref="T:Azure.Search.Documents.Models.CaptionResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -302,30 +242,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="DocumentDebugInfo">
-      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Models.DocumentDebugInfo DocumentDebugInfo (Azure.Search.Documents.Models.SemanticDebugInfo semantic = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Search.Documents.Models.DocumentDebugInfo DocumentDebugInfo(class Azure.Search.Documents.Models.SemanticDebugInfo semantic) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.Models.SearchModelFactory.DocumentDebugInfo(Azure.Search.Documents.Models.SemanticDebugInfo)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function DocumentDebugInfo (Optional semantic As SemanticDebugInfo = Nothing) As DocumentDebugInfo" />
-      <MemberSignature Language="F#" Value="static member DocumentDebugInfo : Azure.Search.Documents.Models.SemanticDebugInfo -&gt; Azure.Search.Documents.Models.DocumentDebugInfo" Usage="Azure.Search.Documents.Models.SearchModelFactory.DocumentDebugInfo semantic" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Search.Documents</AssemblyName>
-        <AssemblyVersion>11.5.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Search.Documents.Models.DocumentDebugInfo</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="semantic" Type="Azure.Search.Documents.Models.SemanticDebugInfo" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="semantic"> Contains debugging information specific to semantic search queries. </param>
-        <summary> Initializes a new instance of DocumentDebugInfo. </summary>
-        <returns> A new <see cref="T:Azure.Search.Documents.Models.DocumentDebugInfo" /> instance for mocking. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="FacetResult">
       <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Models.FacetResult FacetResult (long? count, System.Collections.Generic.IReadOnlyDictionary&lt;string,object&gt; additionalProperties);" FrameworkAlternate="azure-dotnet" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Search.Documents.Models.FacetResult FacetResult(valuetype System.Nullable`1&lt;int64&gt; count, class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, object&gt; additionalProperties) cil managed" />
@@ -394,35 +310,45 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="IndexerChangeTrackingState">
-      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Indexes.Models.IndexerChangeTrackingState IndexerChangeTrackingState (string allDocumentsInitialState, string allDocumentsFinalState, string resetDocumentsInitialState, string resetDocumentsFinalState);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Search.Documents.Indexes.Models.IndexerChangeTrackingState IndexerChangeTrackingState(string allDocumentsInitialState, string allDocumentsFinalState, string resetDocumentsInitialState, string resetDocumentsFinalState) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.Models.SearchModelFactory.IndexerChangeTrackingState(System.String,System.String,System.String,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function IndexerChangeTrackingState (allDocumentsInitialState As String, allDocumentsFinalState As String, resetDocumentsInitialState As String, resetDocumentsFinalState As String) As IndexerChangeTrackingState" />
-      <MemberSignature Language="F#" Value="static member IndexerChangeTrackingState : string * string * string * string -&gt; Azure.Search.Documents.Indexes.Models.IndexerChangeTrackingState" Usage="Azure.Search.Documents.Models.SearchModelFactory.IndexerChangeTrackingState (allDocumentsInitialState, allDocumentsFinalState, resetDocumentsInitialState, resetDocumentsFinalState)" />
+    <Member MemberName="IndexerExecutionResult">
+      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Indexes.Models.IndexerExecutionResult IndexerExecutionResult (Azure.Search.Documents.Indexes.Models.IndexerExecutionStatus status = Azure.Search.Documents.Indexes.Models.IndexerExecutionStatus.TransientFailure, string errorMessage = default, DateTimeOffset? startTime = default, DateTimeOffset? endTime = default, System.Collections.Generic.IEnumerable&lt;Azure.Search.Documents.Indexes.Models.SearchIndexerError&gt; errors = default, System.Collections.Generic.IEnumerable&lt;Azure.Search.Documents.Indexes.Models.SearchIndexerWarning&gt; warnings = default, int itemCount = 0, int failedItemCount = 0, string initialTrackingState = default, string finalTrackingState = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Search.Documents.Indexes.Models.IndexerExecutionResult IndexerExecutionResult(valuetype Azure.Search.Documents.Indexes.Models.IndexerExecutionStatus status, string errorMessage, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; startTime, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; endTime, class System.Collections.Generic.IEnumerable`1&lt;class Azure.Search.Documents.Indexes.Models.SearchIndexerError&gt; errors, class System.Collections.Generic.IEnumerable`1&lt;class Azure.Search.Documents.Indexes.Models.SearchIndexerWarning&gt; warnings, int32 itemCount, int32 failedItemCount, string initialTrackingState, string finalTrackingState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.Models.SearchModelFactory.IndexerExecutionResult(Azure.Search.Documents.Indexes.Models.IndexerExecutionStatus,System.String,System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.Collections.Generic.IEnumerable{Azure.Search.Documents.Indexes.Models.SearchIndexerError},System.Collections.Generic.IEnumerable{Azure.Search.Documents.Indexes.Models.SearchIndexerWarning},System.Int32,System.Int32,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function IndexerExecutionResult (Optional status As IndexerExecutionStatus = Azure.Search.Documents.Indexes.Models.IndexerExecutionStatus.TransientFailure, Optional errorMessage As String = Nothing, Optional startTime As Nullable(Of DateTimeOffset) = Nothing, Optional endTime As Nullable(Of DateTimeOffset) = Nothing, Optional errors As IEnumerable(Of SearchIndexerError) = Nothing, Optional warnings As IEnumerable(Of SearchIndexerWarning) = Nothing, Optional itemCount As Integer = 0, Optional failedItemCount As Integer = 0, Optional initialTrackingState As String = Nothing, Optional finalTrackingState As String = Nothing) As IndexerExecutionResult" />
+      <MemberSignature Language="F#" Value="static member IndexerExecutionResult : Azure.Search.Documents.Indexes.Models.IndexerExecutionStatus * string * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * seq&lt;Azure.Search.Documents.Indexes.Models.SearchIndexerError&gt; * seq&lt;Azure.Search.Documents.Indexes.Models.SearchIndexerWarning&gt; * int * int * string * string -&gt; Azure.Search.Documents.Indexes.Models.IndexerExecutionResult" Usage="Azure.Search.Documents.Models.SearchModelFactory.IndexerExecutionResult (status, errorMessage, startTime, endTime, errors, warnings, itemCount, failedItemCount, initialTrackingState, finalTrackingState)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Search.Documents</AssemblyName>
         <AssemblyVersion>11.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Search.Documents.Indexes.Models.IndexerChangeTrackingState</ReturnType>
+        <ReturnType>Azure.Search.Documents.Indexes.Models.IndexerExecutionResult</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="allDocumentsInitialState" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="allDocumentsFinalState" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="resetDocumentsInitialState" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="resetDocumentsFinalState" Type="System.String" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="status" Type="Azure.Search.Documents.Indexes.Models.IndexerExecutionStatus" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="errorMessage" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="startTime" Type="System.Nullable&lt;System.DateTimeOffset&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="endTime" Type="System.Nullable&lt;System.DateTimeOffset&gt;" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="errors" Type="System.Collections.Generic.IEnumerable&lt;Azure.Search.Documents.Indexes.Models.SearchIndexerError&gt;" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="warnings" Type="System.Collections.Generic.IEnumerable&lt;Azure.Search.Documents.Indexes.Models.SearchIndexerWarning&gt;" Index="5" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="itemCount" Type="System.Int32" Index="6" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="failedItemCount" Type="System.Int32" Index="7" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="initialTrackingState" Type="System.String" Index="8" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="finalTrackingState" Type="System.String" Index="9" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
-        <param name="allDocumentsInitialState">Change tracking state used when indexing starts on all documents in the datasource.</param>
-        <param name="allDocumentsFinalState">Change tracking state value when indexing finishes on all documents in the datasource.</param>
-        <param name="resetDocumentsInitialState">Change tracking state used when indexing starts on select, reset documents in the datasource.</param>
-        <param name="resetDocumentsFinalState">Change tracking state value when indexing finishes on select, reset documents in the datasource.</param>
-        <summary>
-            Initializes a new instance of the <see cref="M:Azure.Search.Documents.Models.SearchModelFactory.IndexerChangeTrackingState(System.String,System.String,System.String,System.String)" /> class.
-            </summary>
-        <returns>To be added.</returns>
+        <param name="status"> The outcome of this indexer execution. </param>
+        <param name="errorMessage"> The error message indicating the top-level error, if any. </param>
+        <param name="startTime"> The start time of this indexer execution. </param>
+        <param name="endTime"> The end time of this indexer execution, if the execution has already completed. </param>
+        <param name="errors"> The item-level indexing errors. </param>
+        <param name="warnings"> The item-level indexing warnings. </param>
+        <param name="itemCount"> The number of items that were processed during this indexer execution. This includes both successfully processed items and items where indexing was attempted but failed. </param>
+        <param name="failedItemCount"> The number of items that failed to be indexed during this indexer execution. </param>
+        <param name="initialTrackingState"> Change tracking state with which an indexer execution started. </param>
+        <param name="finalTrackingState"> Change tracking state with which an indexer execution finished. </param>
+        <summary> Initializes a new instance of IndexerExecutionResult. </summary>
+        <returns> A new <see cref="T:Azure.Search.Documents.Indexes.Models.IndexerExecutionResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -472,88 +398,6 @@
         <param name="finalTrackingState"> Change tracking state with which an indexer execution finished. </param>
         <summary> Initializes a new instance of IndexerExecutionResult. </summary>
         <returns> A new IndexerExecutionResult instance for mocking. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="IndexerExecutionResult">
-      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Indexes.Models.IndexerExecutionResult IndexerExecutionResult (Azure.Search.Documents.Indexes.Models.IndexerExecutionStatus status = Azure.Search.Documents.Indexes.Models.IndexerExecutionStatus.TransientFailure, Azure.Search.Documents.Indexes.Models.IndexerExecutionStatusDetail? statusDetail = default, Azure.Search.Documents.Indexes.Models.IndexerState currentState = default, string errorMessage = default, DateTimeOffset? startTime = default, DateTimeOffset? endTime = default, System.Collections.Generic.IEnumerable&lt;Azure.Search.Documents.Indexes.Models.SearchIndexerError&gt; errors = default, System.Collections.Generic.IEnumerable&lt;Azure.Search.Documents.Indexes.Models.SearchIndexerWarning&gt; warnings = default, int itemCount = 0, int failedItemCount = 0, string initialTrackingState = default, string finalTrackingState = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Search.Documents.Indexes.Models.IndexerExecutionResult IndexerExecutionResult(valuetype Azure.Search.Documents.Indexes.Models.IndexerExecutionStatus status, valuetype System.Nullable`1&lt;valuetype Azure.Search.Documents.Indexes.Models.IndexerExecutionStatusDetail&gt; statusDetail, class Azure.Search.Documents.Indexes.Models.IndexerState currentState, string errorMessage, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; startTime, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; endTime, class System.Collections.Generic.IEnumerable`1&lt;class Azure.Search.Documents.Indexes.Models.SearchIndexerError&gt; errors, class System.Collections.Generic.IEnumerable`1&lt;class Azure.Search.Documents.Indexes.Models.SearchIndexerWarning&gt; warnings, int32 itemCount, int32 failedItemCount, string initialTrackingState, string finalTrackingState) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.Models.SearchModelFactory.IndexerExecutionResult(Azure.Search.Documents.Indexes.Models.IndexerExecutionStatus,System.Nullable{Azure.Search.Documents.Indexes.Models.IndexerExecutionStatusDetail},Azure.Search.Documents.Indexes.Models.IndexerState,System.String,System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.Collections.Generic.IEnumerable{Azure.Search.Documents.Indexes.Models.SearchIndexerError},System.Collections.Generic.IEnumerable{Azure.Search.Documents.Indexes.Models.SearchIndexerWarning},System.Int32,System.Int32,System.String,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function IndexerExecutionResult (Optional status As IndexerExecutionStatus = Azure.Search.Documents.Indexes.Models.IndexerExecutionStatus.TransientFailure, Optional statusDetail As Nullable(Of IndexerExecutionStatusDetail) = Nothing, Optional currentState As IndexerState = Nothing, Optional errorMessage As String = Nothing, Optional startTime As Nullable(Of DateTimeOffset) = Nothing, Optional endTime As Nullable(Of DateTimeOffset) = Nothing, Optional errors As IEnumerable(Of SearchIndexerError) = Nothing, Optional warnings As IEnumerable(Of SearchIndexerWarning) = Nothing, Optional itemCount As Integer = 0, Optional failedItemCount As Integer = 0, Optional initialTrackingState As String = Nothing, Optional finalTrackingState As String = Nothing) As IndexerExecutionResult" />
-      <MemberSignature Language="F#" Value="static member IndexerExecutionResult : Azure.Search.Documents.Indexes.Models.IndexerExecutionStatus * Nullable&lt;Azure.Search.Documents.Indexes.Models.IndexerExecutionStatusDetail&gt; * Azure.Search.Documents.Indexes.Models.IndexerState * string * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * seq&lt;Azure.Search.Documents.Indexes.Models.SearchIndexerError&gt; * seq&lt;Azure.Search.Documents.Indexes.Models.SearchIndexerWarning&gt; * int * int * string * string -&gt; Azure.Search.Documents.Indexes.Models.IndexerExecutionResult" Usage="Azure.Search.Documents.Models.SearchModelFactory.IndexerExecutionResult (status, statusDetail, currentState, errorMessage, startTime, endTime, errors, warnings, itemCount, failedItemCount, initialTrackingState, finalTrackingState)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Search.Documents</AssemblyName>
-        <AssemblyVersion>11.5.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Search.Documents.Indexes.Models.IndexerExecutionResult</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="status" Type="Azure.Search.Documents.Indexes.Models.IndexerExecutionStatus" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="statusDetail" Type="System.Nullable&lt;Azure.Search.Documents.Indexes.Models.IndexerExecutionStatusDetail&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="currentState" Type="Azure.Search.Documents.Indexes.Models.IndexerState" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="errorMessage" Type="System.String" Index="3" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="startTime" Type="System.Nullable&lt;System.DateTimeOffset&gt;" Index="4" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="endTime" Type="System.Nullable&lt;System.DateTimeOffset&gt;" Index="5" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="errors" Type="System.Collections.Generic.IEnumerable&lt;Azure.Search.Documents.Indexes.Models.SearchIndexerError&gt;" Index="6" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="warnings" Type="System.Collections.Generic.IEnumerable&lt;Azure.Search.Documents.Indexes.Models.SearchIndexerWarning&gt;" Index="7" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="itemCount" Type="System.Int32" Index="8" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="failedItemCount" Type="System.Int32" Index="9" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="initialTrackingState" Type="System.String" Index="10" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="finalTrackingState" Type="System.String" Index="11" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="status"> The outcome of this indexer execution. </param>
-        <param name="statusDetail"> The outcome of this indexer execution. </param>
-        <param name="currentState"> All of the state that defines and dictates the indexer's current execution. </param>
-        <param name="errorMessage"> The error message indicating the top-level error, if any. </param>
-        <param name="startTime"> The start time of this indexer execution. </param>
-        <param name="endTime"> The end time of this indexer execution, if the execution has already completed. </param>
-        <param name="errors"> The item-level indexing errors. </param>
-        <param name="warnings"> The item-level indexing warnings. </param>
-        <param name="itemCount"> The number of items that were processed during this indexer execution. This includes both successfully processed items and items where indexing was attempted but failed. </param>
-        <param name="failedItemCount"> The number of items that failed to be indexed during this indexer execution. </param>
-        <param name="initialTrackingState"> Change tracking state with which an indexer execution started. </param>
-        <param name="finalTrackingState"> Change tracking state with which an indexer execution finished. </param>
-        <summary> Initializes a new instance of IndexerExecutionResult. </summary>
-        <returns> A new <see cref="T:Azure.Search.Documents.Indexes.Models.IndexerExecutionResult" /> instance for mocking. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="IndexerState">
-      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Indexes.Models.IndexerState IndexerState (Azure.Search.Documents.Indexes.Models.IndexingMode? mode = default, string allDocumentsInitialChangeTrackingState = default, string allDocumentsFinalChangeTrackingState = default, string resetDocumentsInitialChangeTrackingState = default, string resetDocumentsFinalChangeTrackingState = default, System.Collections.Generic.IEnumerable&lt;string&gt; resetDocumentKeys = default, System.Collections.Generic.IEnumerable&lt;string&gt; resetDataSourceDocumentIds = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Search.Documents.Indexes.Models.IndexerState IndexerState(valuetype System.Nullable`1&lt;valuetype Azure.Search.Documents.Indexes.Models.IndexingMode&gt; mode, string allDocumentsInitialChangeTrackingState, string allDocumentsFinalChangeTrackingState, string resetDocumentsInitialChangeTrackingState, string resetDocumentsFinalChangeTrackingState, class System.Collections.Generic.IEnumerable`1&lt;string&gt; resetDocumentKeys, class System.Collections.Generic.IEnumerable`1&lt;string&gt; resetDataSourceDocumentIds) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.Models.SearchModelFactory.IndexerState(System.Nullable{Azure.Search.Documents.Indexes.Models.IndexingMode},System.String,System.String,System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function IndexerState (Optional mode As Nullable(Of IndexingMode) = Nothing, Optional allDocumentsInitialChangeTrackingState As String = Nothing, Optional allDocumentsFinalChangeTrackingState As String = Nothing, Optional resetDocumentsInitialChangeTrackingState As String = Nothing, Optional resetDocumentsFinalChangeTrackingState As String = Nothing, Optional resetDocumentKeys As IEnumerable(Of String) = Nothing, Optional resetDataSourceDocumentIds As IEnumerable(Of String) = Nothing) As IndexerState" />
-      <MemberSignature Language="F#" Value="static member IndexerState : Nullable&lt;Azure.Search.Documents.Indexes.Models.IndexingMode&gt; * string * string * string * string * seq&lt;string&gt; * seq&lt;string&gt; -&gt; Azure.Search.Documents.Indexes.Models.IndexerState" Usage="Azure.Search.Documents.Models.SearchModelFactory.IndexerState (mode, allDocumentsInitialChangeTrackingState, allDocumentsFinalChangeTrackingState, resetDocumentsInitialChangeTrackingState, resetDocumentsFinalChangeTrackingState, resetDocumentKeys, resetDataSourceDocumentIds)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Search.Documents</AssemblyName>
-        <AssemblyVersion>11.5.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Search.Documents.Indexes.Models.IndexerState</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="mode" Type="System.Nullable&lt;Azure.Search.Documents.Indexes.Models.IndexingMode&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="allDocumentsInitialChangeTrackingState" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="allDocumentsFinalChangeTrackingState" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="resetDocumentsInitialChangeTrackingState" Type="System.String" Index="3" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="resetDocumentsFinalChangeTrackingState" Type="System.String" Index="4" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="resetDocumentKeys" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="5" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="resetDataSourceDocumentIds" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="6" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="mode"> The mode the indexer is running in. </param>
-        <param name="allDocumentsInitialChangeTrackingState"> Change tracking state used when indexing starts on all documents in the datasource. </param>
-        <param name="allDocumentsFinalChangeTrackingState"> Change tracking state value when indexing finishes on all documents in the datasource. </param>
-        <param name="resetDocumentsInitialChangeTrackingState"> Change tracking state used when indexing starts on select, reset documents in the datasource. </param>
-        <param name="resetDocumentsFinalChangeTrackingState"> Change tracking state value when indexing finishes on select, reset documents in the datasource. </param>
-        <param name="resetDocumentKeys"> The list of document keys that have been reset. The document key is the document's unique identifier for the data in the search index. The indexer will prioritize selectively re-ingesting these keys. </param>
-        <param name="resetDataSourceDocumentIds"> The list of datasource document ids that have been reset. The datasource document id is the unique identifier for the data in the datasource. The indexer will prioritize selectively re-ingesting these ids. </param>
-        <summary> Initializes a new instance of IndexerState. </summary>
-        <returns> A new <see cref="T:Azure.Search.Documents.Indexes.Models.IndexerState" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -642,57 +486,63 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="QueryResultDocumentRerankerInput">
-      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Models.QueryResultDocumentRerankerInput QueryResultDocumentRerankerInput (string title = default, string content = default, string keywords = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Search.Documents.Models.QueryResultDocumentRerankerInput QueryResultDocumentRerankerInput(string title, string content, string keywords) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.Models.SearchModelFactory.QueryResultDocumentRerankerInput(System.String,System.String,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function QueryResultDocumentRerankerInput (Optional title As String = Nothing, Optional content As String = Nothing, Optional keywords As String = Nothing) As QueryResultDocumentRerankerInput" />
-      <MemberSignature Language="F#" Value="static member QueryResultDocumentRerankerInput : string * string * string -&gt; Azure.Search.Documents.Models.QueryResultDocumentRerankerInput" Usage="Azure.Search.Documents.Models.SearchModelFactory.QueryResultDocumentRerankerInput (title, content, keywords)" />
+    <Member MemberName="QueryAnswerResult">
+      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Models.QueryAnswerResult QueryAnswerResult (double? score = default, string key = default, string text = default, string highlights = default, System.Collections.Generic.IReadOnlyDictionary&lt;string,object&gt; additionalProperties = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Search.Documents.Models.QueryAnswerResult QueryAnswerResult(valuetype System.Nullable`1&lt;float64&gt; score, string key, string text, string highlights, class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, object&gt; additionalProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.Models.SearchModelFactory.QueryAnswerResult(System.Nullable{System.Double},System.String,System.String,System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function QueryAnswerResult (Optional score As Nullable(Of Double) = Nothing, Optional key As String = Nothing, Optional text As String = Nothing, Optional highlights As String = Nothing, Optional additionalProperties As IReadOnlyDictionary(Of String, Object) = Nothing) As QueryAnswerResult" />
+      <MemberSignature Language="F#" Value="static member QueryAnswerResult : Nullable&lt;double&gt; * string * string * string * System.Collections.Generic.IReadOnlyDictionary&lt;string, obj&gt; -&gt; Azure.Search.Documents.Models.QueryAnswerResult" Usage="Azure.Search.Documents.Models.SearchModelFactory.QueryAnswerResult (score, key, text, highlights, additionalProperties)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Search.Documents</AssemblyName>
         <AssemblyVersion>11.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Search.Documents.Models.QueryResultDocumentRerankerInput</ReturnType>
+        <ReturnType>Azure.Search.Documents.Models.QueryAnswerResult</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="title" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="content" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="keywords" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="score" Type="System.Nullable&lt;System.Double&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="key" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="text" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="highlights" Type="System.String" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="additionalProperties" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Object&gt;" Index="4" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
-        <param name="title"> The raw string for the title field that was used for semantic enrichment. </param>
-        <param name="content"> The raw concatenated strings for the content fields that were used for semantic enrichment. </param>
-        <param name="keywords"> The raw concatenated strings for the keyword fields that were used for semantic enrichment. </param>
-        <summary> Initializes a new instance of QueryResultDocumentRerankerInput. </summary>
-        <returns> A new <see cref="T:Azure.Search.Documents.Models.QueryResultDocumentRerankerInput" /> instance for mocking. </returns>
+        <param name="score"> The score value represents how relevant the answer is to the query relative to other answers returned for the query. </param>
+        <param name="key"> The key of the document the answer was extracted from. </param>
+        <param name="text"> The text passage extracted from the document contents as the answer. </param>
+        <param name="highlights"> Same text passage as in the Text property with highlighted text phrases most relevant to the query. </param>
+        <param name="additionalProperties"> Additional Properties. </param>
+        <summary> Initializes a new instance of QueryAnswerResult. </summary>
+        <returns> A new <see cref="T:Azure.Search.Documents.Models.QueryAnswerResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="QueryResultDocumentSemanticField">
-      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Models.QueryResultDocumentSemanticField QueryResultDocumentSemanticField (string name = default, Azure.Search.Documents.Models.SemanticFieldState? state = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Search.Documents.Models.QueryResultDocumentSemanticField QueryResultDocumentSemanticField(string name, valuetype System.Nullable`1&lt;valuetype Azure.Search.Documents.Models.SemanticFieldState&gt; state) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.Models.SearchModelFactory.QueryResultDocumentSemanticField(System.String,System.Nullable{Azure.Search.Documents.Models.SemanticFieldState})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function QueryResultDocumentSemanticField (Optional name As String = Nothing, Optional state As Nullable(Of SemanticFieldState) = Nothing) As QueryResultDocumentSemanticField" />
-      <MemberSignature Language="F#" Value="static member QueryResultDocumentSemanticField : string * Nullable&lt;Azure.Search.Documents.Models.SemanticFieldState&gt; -&gt; Azure.Search.Documents.Models.QueryResultDocumentSemanticField" Usage="Azure.Search.Documents.Models.SearchModelFactory.QueryResultDocumentSemanticField (name, state)" />
+    <Member MemberName="QueryCaptionResult">
+      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Models.QueryCaptionResult QueryCaptionResult (string text = default, string highlights = default, System.Collections.Generic.IReadOnlyDictionary&lt;string,object&gt; additionalProperties = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Search.Documents.Models.QueryCaptionResult QueryCaptionResult(string text, string highlights, class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, object&gt; additionalProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.Models.SearchModelFactory.QueryCaptionResult(System.String,System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function QueryCaptionResult (Optional text As String = Nothing, Optional highlights As String = Nothing, Optional additionalProperties As IReadOnlyDictionary(Of String, Object) = Nothing) As QueryCaptionResult" />
+      <MemberSignature Language="F#" Value="static member QueryCaptionResult : string * string * System.Collections.Generic.IReadOnlyDictionary&lt;string, obj&gt; -&gt; Azure.Search.Documents.Models.QueryCaptionResult" Usage="Azure.Search.Documents.Models.SearchModelFactory.QueryCaptionResult (text, highlights, additionalProperties)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Search.Documents</AssemblyName>
         <AssemblyVersion>11.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Search.Documents.Models.QueryResultDocumentSemanticField</ReturnType>
+        <ReturnType>Azure.Search.Documents.Models.QueryCaptionResult</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="state" Type="System.Nullable&lt;Azure.Search.Documents.Models.SemanticFieldState&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="text" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="highlights" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="additionalProperties" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Object&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
-        <param name="name"> The name of the field that was sent to the semantic enrichment process. </param>
-        <param name="state"> The way the field was used for the semantic enrichment process (fully used, partially used, or unused). </param>
-        <summary> Initializes a new instance of QueryResultDocumentSemanticField. </summary>
-        <returns> A new <see cref="T:Azure.Search.Documents.Models.QueryResultDocumentSemanticField" /> instance for mocking. </returns>
+        <param name="text"> A representative text passage extracted from the document most relevant to the search query. </param>
+        <param name="highlights"> Same text passage as in the Text property with highlighted phrases most relevant to the query. </param>
+        <param name="additionalProperties"> Additional Properties. </param>
+        <summary> Initializes a new instance of QueryCaptionResult. </summary>
+        <returns> A new <see cref="T:Azure.Search.Documents.Models.QueryCaptionResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1214,55 +1064,11 @@
       </Docs>
     </Member>
     <Member MemberName="SearchServiceCounters">
-      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Indexes.Models.SearchServiceCounters SearchServiceCounters (Azure.Search.Documents.Indexes.Models.SearchResourceCounter aliasCounter, Azure.Search.Documents.Indexes.Models.SearchResourceCounter documentCounter, Azure.Search.Documents.Indexes.Models.SearchResourceCounter indexCounter, Azure.Search.Documents.Indexes.Models.SearchResourceCounter indexerCounter, Azure.Search.Documents.Indexes.Models.SearchResourceCounter dataSourceCounter, Azure.Search.Documents.Indexes.Models.SearchResourceCounter storageSizeCounter, Azure.Search.Documents.Indexes.Models.SearchResourceCounter synonymMapCounter, Azure.Search.Documents.Indexes.Models.SearchResourceCounter skillsetCounter);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Search.Documents.Indexes.Models.SearchServiceCounters SearchServiceCounters(class Azure.Search.Documents.Indexes.Models.SearchResourceCounter aliasCounter, class Azure.Search.Documents.Indexes.Models.SearchResourceCounter documentCounter, class Azure.Search.Documents.Indexes.Models.SearchResourceCounter indexCounter, class Azure.Search.Documents.Indexes.Models.SearchResourceCounter indexerCounter, class Azure.Search.Documents.Indexes.Models.SearchResourceCounter dataSourceCounter, class Azure.Search.Documents.Indexes.Models.SearchResourceCounter storageSizeCounter, class Azure.Search.Documents.Indexes.Models.SearchResourceCounter synonymMapCounter, class Azure.Search.Documents.Indexes.Models.SearchResourceCounter skillsetCounter) cil managed" />
+      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Indexes.Models.SearchServiceCounters SearchServiceCounters (Azure.Search.Documents.Indexes.Models.SearchResourceCounter documentCounter = default, Azure.Search.Documents.Indexes.Models.SearchResourceCounter indexCounter = default, Azure.Search.Documents.Indexes.Models.SearchResourceCounter indexerCounter = default, Azure.Search.Documents.Indexes.Models.SearchResourceCounter dataSourceCounter = default, Azure.Search.Documents.Indexes.Models.SearchResourceCounter storageSizeCounter = default, Azure.Search.Documents.Indexes.Models.SearchResourceCounter synonymMapCounter = default, Azure.Search.Documents.Indexes.Models.SearchResourceCounter skillsetCounter = default, Azure.Search.Documents.Indexes.Models.SearchResourceCounter vectorIndexSizeCounter = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Search.Documents.Indexes.Models.SearchServiceCounters SearchServiceCounters(class Azure.Search.Documents.Indexes.Models.SearchResourceCounter documentCounter, class Azure.Search.Documents.Indexes.Models.SearchResourceCounter indexCounter, class Azure.Search.Documents.Indexes.Models.SearchResourceCounter indexerCounter, class Azure.Search.Documents.Indexes.Models.SearchResourceCounter dataSourceCounter, class Azure.Search.Documents.Indexes.Models.SearchResourceCounter storageSizeCounter, class Azure.Search.Documents.Indexes.Models.SearchResourceCounter synonymMapCounter, class Azure.Search.Documents.Indexes.Models.SearchResourceCounter skillsetCounter, class Azure.Search.Documents.Indexes.Models.SearchResourceCounter vectorIndexSizeCounter) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.Models.SearchModelFactory.SearchServiceCounters(Azure.Search.Documents.Indexes.Models.SearchResourceCounter,Azure.Search.Documents.Indexes.Models.SearchResourceCounter,Azure.Search.Documents.Indexes.Models.SearchResourceCounter,Azure.Search.Documents.Indexes.Models.SearchResourceCounter,Azure.Search.Documents.Indexes.Models.SearchResourceCounter,Azure.Search.Documents.Indexes.Models.SearchResourceCounter,Azure.Search.Documents.Indexes.Models.SearchResourceCounter,Azure.Search.Documents.Indexes.Models.SearchResourceCounter)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function SearchServiceCounters (aliasCounter As SearchResourceCounter, documentCounter As SearchResourceCounter, indexCounter As SearchResourceCounter, indexerCounter As SearchResourceCounter, dataSourceCounter As SearchResourceCounter, storageSizeCounter As SearchResourceCounter, synonymMapCounter As SearchResourceCounter, skillsetCounter As SearchResourceCounter) As SearchServiceCounters" />
-      <MemberSignature Language="F#" Value="static member SearchServiceCounters : Azure.Search.Documents.Indexes.Models.SearchResourceCounter * Azure.Search.Documents.Indexes.Models.SearchResourceCounter * Azure.Search.Documents.Indexes.Models.SearchResourceCounter * Azure.Search.Documents.Indexes.Models.SearchResourceCounter * Azure.Search.Documents.Indexes.Models.SearchResourceCounter * Azure.Search.Documents.Indexes.Models.SearchResourceCounter * Azure.Search.Documents.Indexes.Models.SearchResourceCounter * Azure.Search.Documents.Indexes.Models.SearchResourceCounter -&gt; Azure.Search.Documents.Indexes.Models.SearchServiceCounters" Usage="Azure.Search.Documents.Models.SearchModelFactory.SearchServiceCounters (aliasCounter, documentCounter, indexCounter, indexerCounter, dataSourceCounter, storageSizeCounter, synonymMapCounter, skillsetCounter)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Search.Documents</AssemblyName>
-        <AssemblyVersion>11.5.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet-preview">
-          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>Azure.Search.Documents.Indexes.Models.SearchServiceCounters</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="aliasCounter" Type="Azure.Search.Documents.Indexes.Models.SearchResourceCounter" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="documentCounter" Type="Azure.Search.Documents.Indexes.Models.SearchResourceCounter" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="indexCounter" Type="Azure.Search.Documents.Indexes.Models.SearchResourceCounter" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="indexerCounter" Type="Azure.Search.Documents.Indexes.Models.SearchResourceCounter" Index="3" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="dataSourceCounter" Type="Azure.Search.Documents.Indexes.Models.SearchResourceCounter" Index="4" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="storageSizeCounter" Type="Azure.Search.Documents.Indexes.Models.SearchResourceCounter" Index="5" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="synonymMapCounter" Type="Azure.Search.Documents.Indexes.Models.SearchResourceCounter" Index="6" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="skillsetCounter" Type="Azure.Search.Documents.Indexes.Models.SearchResourceCounter" Index="7" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="aliasCounter"> Total number of aliases. </param>
-        <param name="documentCounter"> Total number of documents across all indexes in the service. </param>
-        <param name="indexCounter"> Total number of indexes. </param>
-        <param name="indexerCounter"> Total number of indexers. </param>
-        <param name="dataSourceCounter"> Total number of data sources. </param>
-        <param name="storageSizeCounter"> Total size of used storage in bytes. </param>
-        <param name="synonymMapCounter"> Total number of synonym maps. </param>
-        <param name="skillsetCounter"> Total number of skillsets. </param>
-        <summary> Initializes a new instance of SearchServiceCounters. </summary>
-        <returns> A new SearchServiceCounters instance for mocking. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="SearchServiceCounters">
-      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Indexes.Models.SearchServiceCounters SearchServiceCounters (Azure.Search.Documents.Indexes.Models.SearchResourceCounter aliasCounter = default, Azure.Search.Documents.Indexes.Models.SearchResourceCounter documentCounter = default, Azure.Search.Documents.Indexes.Models.SearchResourceCounter indexCounter = default, Azure.Search.Documents.Indexes.Models.SearchResourceCounter indexerCounter = default, Azure.Search.Documents.Indexes.Models.SearchResourceCounter dataSourceCounter = default, Azure.Search.Documents.Indexes.Models.SearchResourceCounter storageSizeCounter = default, Azure.Search.Documents.Indexes.Models.SearchResourceCounter synonymMapCounter = default, Azure.Search.Documents.Indexes.Models.SearchResourceCounter skillsetCounter = default, Azure.Search.Documents.Indexes.Models.SearchResourceCounter vectorIndexSizeCounter = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Search.Documents.Indexes.Models.SearchServiceCounters SearchServiceCounters(class Azure.Search.Documents.Indexes.Models.SearchResourceCounter aliasCounter, class Azure.Search.Documents.Indexes.Models.SearchResourceCounter documentCounter, class Azure.Search.Documents.Indexes.Models.SearchResourceCounter indexCounter, class Azure.Search.Documents.Indexes.Models.SearchResourceCounter indexerCounter, class Azure.Search.Documents.Indexes.Models.SearchResourceCounter dataSourceCounter, class Azure.Search.Documents.Indexes.Models.SearchResourceCounter storageSizeCounter, class Azure.Search.Documents.Indexes.Models.SearchResourceCounter synonymMapCounter, class Azure.Search.Documents.Indexes.Models.SearchResourceCounter skillsetCounter, class Azure.Search.Documents.Indexes.Models.SearchResourceCounter vectorIndexSizeCounter) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.Models.SearchModelFactory.SearchServiceCounters(Azure.Search.Documents.Indexes.Models.SearchResourceCounter,Azure.Search.Documents.Indexes.Models.SearchResourceCounter,Azure.Search.Documents.Indexes.Models.SearchResourceCounter,Azure.Search.Documents.Indexes.Models.SearchResourceCounter,Azure.Search.Documents.Indexes.Models.SearchResourceCounter,Azure.Search.Documents.Indexes.Models.SearchResourceCounter,Azure.Search.Documents.Indexes.Models.SearchResourceCounter,Azure.Search.Documents.Indexes.Models.SearchResourceCounter,Azure.Search.Documents.Indexes.Models.SearchResourceCounter)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function SearchServiceCounters (Optional aliasCounter As SearchResourceCounter = Nothing, Optional documentCounter As SearchResourceCounter = Nothing, Optional indexCounter As SearchResourceCounter = Nothing, Optional indexerCounter As SearchResourceCounter = Nothing, Optional dataSourceCounter As SearchResourceCounter = Nothing, Optional storageSizeCounter As SearchResourceCounter = Nothing, Optional synonymMapCounter As SearchResourceCounter = Nothing, Optional skillsetCounter As SearchResourceCounter = Nothing, Optional vectorIndexSizeCounter As SearchResourceCounter = Nothing) As SearchServiceCounters" />
-      <MemberSignature Language="F#" Value="static member SearchServiceCounters : Azure.Search.Documents.Indexes.Models.SearchResourceCounter * Azure.Search.Documents.Indexes.Models.SearchResourceCounter * Azure.Search.Documents.Indexes.Models.SearchResourceCounter * Azure.Search.Documents.Indexes.Models.SearchResourceCounter * Azure.Search.Documents.Indexes.Models.SearchResourceCounter * Azure.Search.Documents.Indexes.Models.SearchResourceCounter * Azure.Search.Documents.Indexes.Models.SearchResourceCounter * Azure.Search.Documents.Indexes.Models.SearchResourceCounter * Azure.Search.Documents.Indexes.Models.SearchResourceCounter -&gt; Azure.Search.Documents.Indexes.Models.SearchServiceCounters" Usage="Azure.Search.Documents.Models.SearchModelFactory.SearchServiceCounters (aliasCounter, documentCounter, indexCounter, indexerCounter, dataSourceCounter, storageSizeCounter, synonymMapCounter, skillsetCounter, vectorIndexSizeCounter)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function SearchServiceCounters (Optional documentCounter As SearchResourceCounter = Nothing, Optional indexCounter As SearchResourceCounter = Nothing, Optional indexerCounter As SearchResourceCounter = Nothing, Optional dataSourceCounter As SearchResourceCounter = Nothing, Optional storageSizeCounter As SearchResourceCounter = Nothing, Optional synonymMapCounter As SearchResourceCounter = Nothing, Optional skillsetCounter As SearchResourceCounter = Nothing, Optional vectorIndexSizeCounter As SearchResourceCounter = Nothing) As SearchServiceCounters" />
+      <MemberSignature Language="F#" Value="static member SearchServiceCounters : Azure.Search.Documents.Indexes.Models.SearchResourceCounter * Azure.Search.Documents.Indexes.Models.SearchResourceCounter * Azure.Search.Documents.Indexes.Models.SearchResourceCounter * Azure.Search.Documents.Indexes.Models.SearchResourceCounter * Azure.Search.Documents.Indexes.Models.SearchResourceCounter * Azure.Search.Documents.Indexes.Models.SearchResourceCounter * Azure.Search.Documents.Indexes.Models.SearchResourceCounter * Azure.Search.Documents.Indexes.Models.SearchResourceCounter -&gt; Azure.Search.Documents.Indexes.Models.SearchServiceCounters" Usage="Azure.Search.Documents.Models.SearchModelFactory.SearchServiceCounters (documentCounter, indexCounter, indexerCounter, dataSourceCounter, storageSizeCounter, synonymMapCounter, skillsetCounter, vectorIndexSizeCounter)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Search.Documents</AssemblyName>
@@ -1272,18 +1078,23 @@
         <ReturnType>Azure.Search.Documents.Indexes.Models.SearchServiceCounters</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="aliasCounter" Type="Azure.Search.Documents.Indexes.Models.SearchResourceCounter" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="documentCounter" Type="Azure.Search.Documents.Indexes.Models.SearchResourceCounter" Index="0" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="documentCounter" Type="Azure.Search.Documents.Indexes.Models.SearchResourceCounter" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="indexCounter" Type="Azure.Search.Documents.Indexes.Models.SearchResourceCounter" Index="1" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="indexCounter" Type="Azure.Search.Documents.Indexes.Models.SearchResourceCounter" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="indexerCounter" Type="Azure.Search.Documents.Indexes.Models.SearchResourceCounter" Index="2" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="indexerCounter" Type="Azure.Search.Documents.Indexes.Models.SearchResourceCounter" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="dataSourceCounter" Type="Azure.Search.Documents.Indexes.Models.SearchResourceCounter" Index="3" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="dataSourceCounter" Type="Azure.Search.Documents.Indexes.Models.SearchResourceCounter" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="storageSizeCounter" Type="Azure.Search.Documents.Indexes.Models.SearchResourceCounter" Index="4" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="storageSizeCounter" Type="Azure.Search.Documents.Indexes.Models.SearchResourceCounter" Index="5" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="synonymMapCounter" Type="Azure.Search.Documents.Indexes.Models.SearchResourceCounter" Index="5" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="synonymMapCounter" Type="Azure.Search.Documents.Indexes.Models.SearchResourceCounter" Index="6" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="skillsetCounter" Type="Azure.Search.Documents.Indexes.Models.SearchResourceCounter" Index="6" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="skillsetCounter" Type="Azure.Search.Documents.Indexes.Models.SearchResourceCounter" Index="7" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="vectorIndexSizeCounter" Type="Azure.Search.Documents.Indexes.Models.SearchResourceCounter" Index="8" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="vectorIndexSizeCounter" Type="Azure.Search.Documents.Indexes.Models.SearchResourceCounter" Index="7" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
-        <param name="aliasCounter"> Total number of aliases. </param>
         <param name="documentCounter"> Total number of documents across all indexes in the service. </param>
         <param name="indexCounter"> Total number of indexes. </param>
         <param name="indexerCounter"> Total number of indexers. </param>
@@ -1295,8 +1106,6 @@
         <summary> Initializes a new instance of SearchServiceCounters. </summary>
         <returns> A new <see cref="T:Azure.Search.Documents.Indexes.Models.SearchServiceCounters" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="aliasCounter" />, <paramref name="documentCounter" />, <paramref name="indexCounter" />, <paramref name="indexerCounter" />, <paramref name="dataSourceCounter" />, <paramref name="storageSizeCounter" />, <paramref name="synonymMapCounter" />, <paramref name="skillsetCounter" /> or <paramref name="vectorIndexSizeCounter" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="SearchServiceLimits">
@@ -1388,36 +1197,6 @@
         <param name="text">The text of the suggestion result.</param>
         <summary> Initializes a new instance of SearchSuggestion. </summary>
         <returns>A new SuggestResults instance for mocking.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="SemanticDebugInfo">
-      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Models.SemanticDebugInfo SemanticDebugInfo (Azure.Search.Documents.Models.QueryResultDocumentSemanticField titleField = default, System.Collections.Generic.IEnumerable&lt;Azure.Search.Documents.Models.QueryResultDocumentSemanticField&gt; contentFields = default, System.Collections.Generic.IEnumerable&lt;Azure.Search.Documents.Models.QueryResultDocumentSemanticField&gt; keywordFields = default, Azure.Search.Documents.Models.QueryResultDocumentRerankerInput rerankerInput = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Search.Documents.Models.SemanticDebugInfo SemanticDebugInfo(class Azure.Search.Documents.Models.QueryResultDocumentSemanticField titleField, class System.Collections.Generic.IEnumerable`1&lt;class Azure.Search.Documents.Models.QueryResultDocumentSemanticField&gt; contentFields, class System.Collections.Generic.IEnumerable`1&lt;class Azure.Search.Documents.Models.QueryResultDocumentSemanticField&gt; keywordFields, class Azure.Search.Documents.Models.QueryResultDocumentRerankerInput rerankerInput) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.Models.SearchModelFactory.SemanticDebugInfo(Azure.Search.Documents.Models.QueryResultDocumentSemanticField,System.Collections.Generic.IEnumerable{Azure.Search.Documents.Models.QueryResultDocumentSemanticField},System.Collections.Generic.IEnumerable{Azure.Search.Documents.Models.QueryResultDocumentSemanticField},Azure.Search.Documents.Models.QueryResultDocumentRerankerInput)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function SemanticDebugInfo (Optional titleField As QueryResultDocumentSemanticField = Nothing, Optional contentFields As IEnumerable(Of QueryResultDocumentSemanticField) = Nothing, Optional keywordFields As IEnumerable(Of QueryResultDocumentSemanticField) = Nothing, Optional rerankerInput As QueryResultDocumentRerankerInput = Nothing) As SemanticDebugInfo" />
-      <MemberSignature Language="F#" Value="static member SemanticDebugInfo : Azure.Search.Documents.Models.QueryResultDocumentSemanticField * seq&lt;Azure.Search.Documents.Models.QueryResultDocumentSemanticField&gt; * seq&lt;Azure.Search.Documents.Models.QueryResultDocumentSemanticField&gt; * Azure.Search.Documents.Models.QueryResultDocumentRerankerInput -&gt; Azure.Search.Documents.Models.SemanticDebugInfo" Usage="Azure.Search.Documents.Models.SearchModelFactory.SemanticDebugInfo (titleField, contentFields, keywordFields, rerankerInput)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Search.Documents</AssemblyName>
-        <AssemblyVersion>11.5.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Search.Documents.Models.SemanticDebugInfo</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="titleField" Type="Azure.Search.Documents.Models.QueryResultDocumentSemanticField" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="contentFields" Type="System.Collections.Generic.IEnumerable&lt;Azure.Search.Documents.Models.QueryResultDocumentSemanticField&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="keywordFields" Type="System.Collections.Generic.IEnumerable&lt;Azure.Search.Documents.Models.QueryResultDocumentSemanticField&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="rerankerInput" Type="Azure.Search.Documents.Models.QueryResultDocumentRerankerInput" Index="3" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="titleField"> The title field that was sent to the semantic enrichment process, as well as how it was used. </param>
-        <param name="contentFields"> The content fields that were sent to the semantic enrichment process, as well as how they were used. </param>
-        <param name="keywordFields"> The keyword fields that were sent to the semantic enrichment process, as well as how they were used. </param>
-        <param name="rerankerInput"> The raw concatenated strings that were sent to the semantic enrichment process. </param>
-        <summary> Initializes a new instance of SemanticDebugInfo. </summary>
-        <returns> A new <see cref="T:Azure.Search.Documents.Models.SemanticDebugInfo" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

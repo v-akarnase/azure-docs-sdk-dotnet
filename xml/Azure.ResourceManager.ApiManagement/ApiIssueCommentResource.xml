@@ -65,12 +65,12 @@
         <Parameter Name="commentId" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="serviceName">To be added.</param>
-        <param name="apiId">To be added.</param>
-        <param name="issueId">To be added.</param>
-        <param name="commentId">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="serviceName"> The serviceName. </param>
+        <param name="apiId"> The apiId. </param>
+        <param name="issueId"> The issueId. </param>
+        <param name="commentId"> The commentId. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.ApiManagement.ApiIssueCommentResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

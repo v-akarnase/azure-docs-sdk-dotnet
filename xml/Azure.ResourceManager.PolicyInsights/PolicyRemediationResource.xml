@@ -115,8 +115,8 @@
         <Parameter Name="remediationName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="resourceId">To be added.</param>
-        <param name="remediationName">To be added.</param>
+        <param name="resourceId"> The resourceId. </param>
+        <param name="remediationName"> The remediationName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.PolicyInsights.PolicyRemediationResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

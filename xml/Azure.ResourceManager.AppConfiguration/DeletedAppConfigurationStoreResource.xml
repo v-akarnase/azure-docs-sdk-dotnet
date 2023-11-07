@@ -147,9 +147,9 @@
         <Parameter Name="configStoreName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="location">To be added.</param>
-        <param name="configStoreName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="location"> The location. </param>
+        <param name="configStoreName"> The configStoreName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.AppConfiguration.DeletedAppConfigurationStoreResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

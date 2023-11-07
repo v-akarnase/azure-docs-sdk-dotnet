@@ -163,13 +163,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get information about a guest configuration assignment
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/machines/{machineName}/providers/Microsoft.GuestConfiguration/guestConfigurationAssignments/{guestConfigurationAssignmentName}</description></item><item><term>Operation Id</term><description>GuestConfigurationHCRPAssignments_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/machines/{machineName}/providers/Microsoft.GuestConfiguration/guestConfigurationAssignments/{guestConfigurationAssignmentName}</description></item><item><term>Operation Id</term><description>GuestConfigurationHCRPAssignments_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.GuestConfiguration.Mocking.MockableGuestConfigurationArmClient.GetGuestConfigurationHcrpAssignment(Azure.Core.ResourceIdentifier,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="guestConfigurationAssignmentName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="guestConfigurationAssignmentName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="guestConfigurationAssignmentName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetGuestConfigurationHcrpAssignmentAsync">
@@ -200,13 +200,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get information about a guest configuration assignment
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/machines/{machineName}/providers/Microsoft.GuestConfiguration/guestConfigurationAssignments/{guestConfigurationAssignmentName}</description></item><item><term>Operation Id</term><description>GuestConfigurationHCRPAssignments_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/machines/{machineName}/providers/Microsoft.GuestConfiguration/guestConfigurationAssignments/{guestConfigurationAssignmentName}</description></item><item><term>Operation Id</term><description>GuestConfigurationHCRPAssignments_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.GuestConfiguration.Mocking.MockableGuestConfigurationArmClient.GetGuestConfigurationHcrpAssignmentAsync(Azure.Core.ResourceIdentifier,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="guestConfigurationAssignmentName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="guestConfigurationAssignmentName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="guestConfigurationAssignmentName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetGuestConfigurationHcrpAssignmentResource">
@@ -234,7 +234,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.GuestConfiguration.GuestConfigurationHcrpAssignmentResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.GuestConfiguration.GuestConfigurationHcrpAssignmentResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.GuestConfiguration.GuestConfigurationHcrpAssignmentResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.GuestConfiguration.Mocking.MockableGuestConfigurationArmClient.GetGuestConfigurationHcrpAssignmentResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.GuestConfiguration.GuestConfigurationHcrpAssignmentResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -261,7 +261,9 @@
       <Docs>
         <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
         <param name="scope"> The scope that the resource will apply against. Expected resource type includes the following: Microsoft.HybridCompute/machines. </param>
-        <summary> Gets a collection of GuestConfigurationHcrpAssignmentResources in the ArmResource. </summary>
+        <summary>
+            Gets a collection of GuestConfigurationHcrpAssignmentResources in the ArmClient.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.GuestConfiguration.Mocking.MockableGuestConfigurationArmClient.GetGuestConfigurationHcrpAssignments(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> An object representing collection of GuestConfigurationHcrpAssignmentResources and their operations over a GuestConfigurationHcrpAssignmentResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -294,13 +296,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get information about a guest configuration assignment
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/providers/Microsoft.GuestConfiguration/guestConfigurationAssignments/{guestConfigurationAssignmentName}</description></item><item><term>Operation Id</term><description>GuestConfigurationAssignments_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/providers/Microsoft.GuestConfiguration/guestConfigurationAssignments/{guestConfigurationAssignmentName}</description></item><item><term>Operation Id</term><description>GuestConfigurationAssignments_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.GuestConfiguration.Mocking.MockableGuestConfigurationArmClient.GetGuestConfigurationVmAssignment(Azure.Core.ResourceIdentifier,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="guestConfigurationAssignmentName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="guestConfigurationAssignmentName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="guestConfigurationAssignmentName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetGuestConfigurationVmAssignmentAsync">
@@ -331,13 +333,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get information about a guest configuration assignment
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/providers/Microsoft.GuestConfiguration/guestConfigurationAssignments/{guestConfigurationAssignmentName}</description></item><item><term>Operation Id</term><description>GuestConfigurationAssignments_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/providers/Microsoft.GuestConfiguration/guestConfigurationAssignments/{guestConfigurationAssignmentName}</description></item><item><term>Operation Id</term><description>GuestConfigurationAssignments_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.GuestConfiguration.Mocking.MockableGuestConfigurationArmClient.GetGuestConfigurationVmAssignmentAsync(Azure.Core.ResourceIdentifier,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="guestConfigurationAssignmentName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="guestConfigurationAssignmentName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="guestConfigurationAssignmentName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetGuestConfigurationVmAssignmentResource">
@@ -365,7 +367,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.GuestConfiguration.Mocking.MockableGuestConfigurationArmClient.GetGuestConfigurationVmAssignmentResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmAssignmentResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -392,7 +394,9 @@
       <Docs>
         <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
         <param name="scope"> The scope that the resource will apply against. Expected resource type includes the following: Microsoft.Compute/virtualMachines. </param>
-        <summary> Gets a collection of GuestConfigurationVmAssignmentResources in the ArmResource. </summary>
+        <summary>
+            Gets a collection of GuestConfigurationVmAssignmentResources in the ArmClient.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.GuestConfiguration.Mocking.MockableGuestConfigurationArmClient.GetGuestConfigurationVmAssignments(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> An object representing collection of GuestConfigurationVmAssignmentResources and their operations over a GuestConfigurationVmAssignmentResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -425,13 +429,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get information about a guest configuration assignment for VMSS
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmssName}/providers/Microsoft.GuestConfiguration/guestConfigurationAssignments/{name}</description></item><item><term>Operation Id</term><description>GuestConfigurationAssignmentsVMSS_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmssName}/providers/Microsoft.GuestConfiguration/guestConfigurationAssignments/{name}</description></item><item><term>Operation Id</term><description>GuestConfigurationAssignmentsVMSS_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.GuestConfiguration.Mocking.MockableGuestConfigurationArmClient.GetGuestConfigurationVmssAssignment(Azure.Core.ResourceIdentifier,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="name" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetGuestConfigurationVmssAssignmentAsync">
@@ -462,13 +466,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get information about a guest configuration assignment for VMSS
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmssName}/providers/Microsoft.GuestConfiguration/guestConfigurationAssignments/{name}</description></item><item><term>Operation Id</term><description>GuestConfigurationAssignmentsVMSS_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmssName}/providers/Microsoft.GuestConfiguration/guestConfigurationAssignments/{name}</description></item><item><term>Operation Id</term><description>GuestConfigurationAssignmentsVMSS_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.GuestConfiguration.Mocking.MockableGuestConfigurationArmClient.GetGuestConfigurationVmssAssignmentAsync(Azure.Core.ResourceIdentifier,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="name" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetGuestConfigurationVmssAssignmentResource">
@@ -496,7 +500,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmssAssignmentResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmssAssignmentResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmssAssignmentResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.GuestConfiguration.Mocking.MockableGuestConfigurationArmClient.GetGuestConfigurationVmssAssignmentResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.GuestConfiguration.GuestConfigurationVmssAssignmentResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -523,7 +527,9 @@
       <Docs>
         <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
         <param name="scope"> The scope that the resource will apply against. Expected resource type includes the following: Microsoft.Compute/virtualMachineScaleSets. </param>
-        <summary> Gets a collection of GuestConfigurationVmssAssignmentResources in the ArmResource. </summary>
+        <summary>
+            Gets a collection of GuestConfigurationVmssAssignmentResources in the ArmClient.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.GuestConfiguration.Mocking.MockableGuestConfigurationArmClient.GetGuestConfigurationVmssAssignments(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> An object representing collection of GuestConfigurationVmssAssignmentResources and their operations over a GuestConfigurationVmssAssignmentResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>

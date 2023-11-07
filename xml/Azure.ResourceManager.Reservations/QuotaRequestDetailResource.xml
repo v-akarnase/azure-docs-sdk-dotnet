@@ -65,10 +65,10 @@
         <Parameter Name="id" Type="System.Guid" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="providerId">To be added.</param>
-        <param name="location">To be added.</param>
-        <param name="id">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="providerId"> The providerId. </param>
+        <param name="location"> The location. </param>
+        <param name="id"> The id. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Reservations.QuotaRequestDetailResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

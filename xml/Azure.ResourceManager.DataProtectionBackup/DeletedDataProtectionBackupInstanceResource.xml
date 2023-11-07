@@ -65,10 +65,10 @@
         <Parameter Name="backupInstanceName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="vaultName">To be added.</param>
-        <param name="backupInstanceName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="vaultName"> The vaultName. </param>
+        <param name="backupInstanceName"> The backupInstanceName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.DataProtectionBackup.DeletedDataProtectionBackupInstanceResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

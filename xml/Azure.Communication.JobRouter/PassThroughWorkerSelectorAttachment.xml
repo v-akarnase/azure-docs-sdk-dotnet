@@ -13,7 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> Attaches a worker selector where the value is passed through from the job label with the same key. </summary>
+    <summary>
+            Attaches a worker selector where the value is passed through from the job label
+            with the same key
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -88,11 +91,11 @@
       </Docs>
     </Member>
     <Member MemberName="Key">
-      <MemberSignature Language="C#" Value="public string Key { get; set; }" />
+      <MemberSignature Language="C#" Value="public string Key { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Key" />
       <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.PassThroughWorkerSelectorAttachment.Key" />
-      <MemberSignature Language="VB.NET" Value="Public Property Key As String" />
-      <MemberSignature Language="F#" Value="member this.Key : string with get, set" Usage="Azure.Communication.JobRouter.PassThroughWorkerSelectorAttachment.Key" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Key As String" />
+      <MemberSignature Language="F#" Value="member this.Key : string" Usage="Azure.Communication.JobRouter.PassThroughWorkerSelectorAttachment.Key" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
@@ -108,11 +111,11 @@
       </Docs>
     </Member>
     <Member MemberName="LabelOperator">
-      <MemberSignature Language="C#" Value="public Azure.Communication.JobRouter.LabelOperator LabelOperator { get; set; }" />
+      <MemberSignature Language="C#" Value="public Azure.Communication.JobRouter.LabelOperator LabelOperator { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.Communication.JobRouter.LabelOperator LabelOperator" />
       <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.PassThroughWorkerSelectorAttachment.LabelOperator" />
-      <MemberSignature Language="VB.NET" Value="Public Property LabelOperator As LabelOperator" />
-      <MemberSignature Language="F#" Value="member this.LabelOperator : Azure.Communication.JobRouter.LabelOperator with get, set" Usage="Azure.Communication.JobRouter.PassThroughWorkerSelectorAttachment.LabelOperator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LabelOperator As LabelOperator" />
+      <MemberSignature Language="F#" Value="member this.LabelOperator : Azure.Communication.JobRouter.LabelOperator" Usage="Azure.Communication.JobRouter.PassThroughWorkerSelectorAttachment.LabelOperator" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Communication.JobRouter</AssemblyName>

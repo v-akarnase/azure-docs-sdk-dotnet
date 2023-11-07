@@ -19,11 +19,11 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public SemanticConfiguration (string name, Azure.Search.Documents.Indexes.Models.PrioritizedFields prioritizedFields);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, class Azure.Search.Documents.Indexes.Models.PrioritizedFields prioritizedFields) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.Indexes.Models.SemanticConfiguration.#ctor(System.String,Azure.Search.Documents.Indexes.Models.PrioritizedFields)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, prioritizedFields As PrioritizedFields)" />
-      <MemberSignature Language="F#" Value="new Azure.Search.Documents.Indexes.Models.SemanticConfiguration : string * Azure.Search.Documents.Indexes.Models.PrioritizedFields -&gt; Azure.Search.Documents.Indexes.Models.SemanticConfiguration" Usage="new Azure.Search.Documents.Indexes.Models.SemanticConfiguration (name, prioritizedFields)" />
+      <MemberSignature Language="C#" Value="public SemanticConfiguration (string name, Azure.Search.Documents.Indexes.Models.SemanticPrioritizedFields prioritizedFields);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, class Azure.Search.Documents.Indexes.Models.SemanticPrioritizedFields prioritizedFields) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.Indexes.Models.SemanticConfiguration.#ctor(System.String,Azure.Search.Documents.Indexes.Models.SemanticPrioritizedFields)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, prioritizedFields As SemanticPrioritizedFields)" />
+      <MemberSignature Language="F#" Value="new Azure.Search.Documents.Indexes.Models.SemanticConfiguration : string * Azure.Search.Documents.Indexes.Models.SemanticPrioritizedFields -&gt; Azure.Search.Documents.Indexes.Models.SemanticConfiguration" Usage="new Azure.Search.Documents.Indexes.Models.SemanticConfiguration (name, prioritizedFields)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Search.Documents</AssemblyName>
@@ -31,7 +31,7 @@
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
-        <Parameter Name="prioritizedFields" Type="Azure.Search.Documents.Indexes.Models.PrioritizedFields" />
+        <Parameter Name="prioritizedFields" Type="Azure.Search.Documents.Indexes.Models.SemanticPrioritizedFields" />
       </Parameters>
       <Docs>
         <param name="name"> The name of the semantic configuration. </param>
@@ -63,18 +63,18 @@
       </Docs>
     </Member>
     <Member MemberName="PrioritizedFields">
-      <MemberSignature Language="C#" Value="public Azure.Search.Documents.Indexes.Models.PrioritizedFields PrioritizedFields { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Search.Documents.Indexes.Models.PrioritizedFields PrioritizedFields" />
+      <MemberSignature Language="C#" Value="public Azure.Search.Documents.Indexes.Models.SemanticPrioritizedFields PrioritizedFields { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Search.Documents.Indexes.Models.SemanticPrioritizedFields PrioritizedFields" />
       <MemberSignature Language="DocId" Value="P:Azure.Search.Documents.Indexes.Models.SemanticConfiguration.PrioritizedFields" />
-      <MemberSignature Language="VB.NET" Value="Public Property PrioritizedFields As PrioritizedFields" />
-      <MemberSignature Language="F#" Value="member this.PrioritizedFields : Azure.Search.Documents.Indexes.Models.PrioritizedFields with get, set" Usage="Azure.Search.Documents.Indexes.Models.SemanticConfiguration.PrioritizedFields" />
+      <MemberSignature Language="VB.NET" Value="Public Property PrioritizedFields As SemanticPrioritizedFields" />
+      <MemberSignature Language="F#" Value="member this.PrioritizedFields : Azure.Search.Documents.Indexes.Models.SemanticPrioritizedFields with get, set" Usage="Azure.Search.Documents.Indexes.Models.SemanticConfiguration.PrioritizedFields" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Search.Documents</AssemblyName>
         <AssemblyVersion>11.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Search.Documents.Indexes.Models.PrioritizedFields</ReturnType>
+        <ReturnType>Azure.Search.Documents.Indexes.Models.SemanticPrioritizedFields</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Describes the title, content, and keyword fields to be used for semantic ranking, captions, highlights, and answers. At least one of the three sub properties (titleField, prioritizedKeywordsFields and prioritizedContentFields) need to be set. </summary>

@@ -27,11 +27,27 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected WorkerSelectorAttachment ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.WorkerSelectorAttachment.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of WorkerSelectorAttachment. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Kind">
-      <MemberSignature Language="C#" Value="protected string Kind { get; set; }" />
+      <MemberSignature Language="C#" Value="public string Kind { get; protected set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Kind" />
       <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.WorkerSelectorAttachment.Kind" />
-      <MemberSignature Language="VB.NET" Value="Protected Property Kind As String" />
+      <MemberSignature Language="VB.NET" Value="Public Property Kind As String" />
       <MemberSignature Language="F#" Value="member this.Kind : string with get, set" Usage="Azure.Communication.JobRouter.WorkerSelectorAttachment.Kind" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
@@ -42,7 +58,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> The type discriminator describing the type of label selector attachment. </summary>
+        <summary> The type discriminator describing a sub-type of WorkerSelectorAttachment. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

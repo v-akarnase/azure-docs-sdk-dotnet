@@ -19,19 +19,25 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public SemanticField ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.Indexes.Models.SemanticField.#ctor" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C#" Value="public SemanticField (string fieldName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string fieldName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Search.Documents.Indexes.Models.SemanticField.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (fieldName As String)" />
+      <MemberSignature Language="F#" Value="new Azure.Search.Documents.Indexes.Models.SemanticField : string -&gt; Azure.Search.Documents.Indexes.Models.SemanticField" Usage="new Azure.Search.Documents.Indexes.Models.SemanticField fieldName" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Search.Documents</AssemblyName>
         <AssemblyVersion>11.5.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Parameters />
+      <Parameters>
+        <Parameter Name="fieldName" Type="System.String" />
+      </Parameters>
       <Docs>
+        <param name="fieldName" />
         <summary> Initializes a new instance of SemanticField. </summary>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="fieldName" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="FieldName">

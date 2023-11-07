@@ -20,18 +20,35 @@
   </Attributes>
   <Docs>
     <summary>
-            An attachment of queue selectors to resolve a queue to a job from a classification policy
+            An attachment of queue selectors to resolve a queue to a job from a
+            classification policy
             Please note <see cref="T:Azure.Communication.JobRouter.QueueSelectorAttachment" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
             The available derived classes include <see cref="T:Azure.Communication.JobRouter.ConditionalQueueSelectorAttachment" />, <see cref="T:Azure.Communication.JobRouter.PassThroughQueueSelectorAttachment" />, <see cref="T:Azure.Communication.JobRouter.RuleEngineQueueSelectorAttachment" />, <see cref="T:Azure.Communication.JobRouter.StaticQueueSelectorAttachment" /> and <see cref="T:Azure.Communication.JobRouter.WeightedAllocationQueueSelectorAttachment" />.
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected QueueSelectorAttachment ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.QueueSelectorAttachment.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of QueueSelectorAttachment. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Kind">
-      <MemberSignature Language="C#" Value="protected string Kind { get; set; }" />
+      <MemberSignature Language="C#" Value="public string Kind { get; protected set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Kind" />
       <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.QueueSelectorAttachment.Kind" />
-      <MemberSignature Language="VB.NET" Value="Protected Property Kind As String" />
+      <MemberSignature Language="VB.NET" Value="Public Property Kind As String" />
       <MemberSignature Language="F#" Value="member this.Kind : string with get, set" Usage="Azure.Communication.JobRouter.QueueSelectorAttachment.Kind" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
@@ -42,7 +59,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> The type discriminator describing the type of label selector attachment. </summary>
+        <summary> The type discriminator describing a sub-type of QueueSelectorAttachment. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

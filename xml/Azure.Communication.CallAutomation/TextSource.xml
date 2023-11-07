@@ -64,11 +64,11 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public TextSource (string text, string sourceLocale, Azure.Communication.CallAutomation.VoiceKind voiceKind);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string text, string sourceLocale, valuetype Azure.Communication.CallAutomation.VoiceKind voiceKind) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.TextSource.#ctor(System.String,System.String,Azure.Communication.CallAutomation.VoiceKind)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (text As String, sourceLocale As String, voiceKind As VoiceKind)" />
-      <MemberSignature Language="F#" Value="new Azure.Communication.CallAutomation.TextSource : string * string * Azure.Communication.CallAutomation.VoiceKind -&gt; Azure.Communication.CallAutomation.TextSource" Usage="new Azure.Communication.CallAutomation.TextSource (text, sourceLocale, voiceKind)" />
+      <MemberSignature Language="C#" Value="public TextSource (string text, string sourceLocale, Azure.Communication.CallAutomation.GenderType gender);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string text, string sourceLocale, valuetype Azure.Communication.CallAutomation.GenderType gender) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.TextSource.#ctor(System.String,System.String,Azure.Communication.CallAutomation.GenderType)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (text As String, sourceLocale As String, gender As GenderType)" />
+      <MemberSignature Language="F#" Value="new Azure.Communication.CallAutomation.TextSource : string * string * Azure.Communication.CallAutomation.GenderType -&gt; Azure.Communication.CallAutomation.TextSource" Usage="new Azure.Communication.CallAutomation.TextSource (text, sourceLocale, gender)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
@@ -77,12 +77,12 @@
       <Parameters>
         <Parameter Name="text" Type="System.String" />
         <Parameter Name="sourceLocale" Type="System.String" />
-        <Parameter Name="voiceKind" Type="Azure.Communication.CallAutomation.VoiceKind" />
+        <Parameter Name="gender" Type="Azure.Communication.CallAutomation.GenderType" />
       </Parameters>
       <Docs>
         <param name="text"> Text for the cognitive service to be played. </param>
         <param name="sourceLocale"> The culture info string of the voice. </param>
-        <param name="voiceKind"> The kind the voice. </param>
+        <param name="gender"> The gender of the voice. </param>
         <summary> Initializes a new instance of TextSource. </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -149,22 +149,22 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="VoiceKind">
-      <MemberSignature Language="C#" Value="public Azure.Communication.CallAutomation.VoiceKind? VoiceKind { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.Communication.CallAutomation.VoiceKind&gt; VoiceKind" />
-      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.TextSource.VoiceKind" />
-      <MemberSignature Language="VB.NET" Value="Public Property VoiceKind As Nullable(Of VoiceKind)" />
-      <MemberSignature Language="F#" Value="member this.VoiceKind : Nullable&lt;Azure.Communication.CallAutomation.VoiceKind&gt; with get, set" Usage="Azure.Communication.CallAutomation.TextSource.VoiceKind" />
+    <Member MemberName="VoiceGender">
+      <MemberSignature Language="C#" Value="public Azure.Communication.CallAutomation.GenderType? VoiceGender { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.Communication.CallAutomation.GenderType&gt; VoiceGender" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.TextSource.VoiceGender" />
+      <MemberSignature Language="VB.NET" Value="Public Property VoiceGender As Nullable(Of GenderType)" />
+      <MemberSignature Language="F#" Value="member this.VoiceGender : Nullable&lt;Azure.Communication.CallAutomation.GenderType&gt; with get, set" Usage="Azure.Communication.CallAutomation.TextSource.VoiceGender" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.Communication.CallAutomation.VoiceKind&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.Communication.CallAutomation.GenderType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Voice type. </summary>
+        <summary> Voice gender type. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

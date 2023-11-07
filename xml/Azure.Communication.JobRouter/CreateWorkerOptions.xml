@@ -20,11 +20,11 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public CreateWorkerOptions (string workerId, int totalCapacity);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string workerId, int32 totalCapacity) cil managed" />
+      <MemberSignature Language="C#" Value="public CreateWorkerOptions (string workerId, int capacity);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string workerId, int32 capacity) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.CreateWorkerOptions.#ctor(System.String,System.Int32)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (workerId As String, totalCapacity As Integer)" />
-      <MemberSignature Language="F#" Value="new Azure.Communication.JobRouter.CreateWorkerOptions : string * int -&gt; Azure.Communication.JobRouter.CreateWorkerOptions" Usage="new Azure.Communication.JobRouter.CreateWorkerOptions (workerId, totalCapacity)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (workerId As String, capacity As Integer)" />
+      <MemberSignature Language="F#" Value="new Azure.Communication.JobRouter.CreateWorkerOptions : string * int -&gt; Azure.Communication.JobRouter.CreateWorkerOptions" Usage="new Azure.Communication.JobRouter.CreateWorkerOptions (workerId, capacity)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
@@ -32,11 +32,11 @@
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="workerId" Type="System.String" />
-        <Parameter Name="totalCapacity" Type="System.Int32" />
+        <Parameter Name="capacity" Type="System.Int32" />
       </Parameters>
       <Docs>
         <param name="workerId"> Id of the job. </param>
-        <param name="totalCapacity"> The total capacity score this worker has to manage multiple concurrent jobs. </param>
+        <param name="capacity"> The total capacity score this worker has to manage multiple concurrent jobs. </param>
         <summary>
             Public constructor.
             </summary>
@@ -65,96 +65,12 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="ChannelConfigurations">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,Azure.Communication.JobRouter.ChannelConfiguration&gt; ChannelConfigurations { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, class Azure.Communication.JobRouter.ChannelConfiguration&gt; ChannelConfigurations" />
-      <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.CreateWorkerOptions.ChannelConfigurations" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ChannelConfigurations As IDictionary(Of String, ChannelConfiguration)" />
-      <MemberSignature Language="F#" Value="member this.ChannelConfigurations : System.Collections.Generic.IDictionary&lt;string, Azure.Communication.JobRouter.ChannelConfiguration&gt;" Usage="Azure.Communication.JobRouter.CreateWorkerOptions.ChannelConfigurations" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,Azure.Communication.JobRouter.ChannelConfiguration&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> The channel(s) this worker can handle and their impact on the workers capacity. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="Labels">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,Azure.Communication.JobRouter.LabelValue&gt; Labels { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, class Azure.Communication.JobRouter.LabelValue&gt; Labels" />
-      <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.CreateWorkerOptions.Labels" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Labels As IDictionary(Of String, LabelValue)" />
-      <MemberSignature Language="F#" Value="member this.Labels : System.Collections.Generic.IDictionary&lt;string, Azure.Communication.JobRouter.LabelValue&gt;" Usage="Azure.Communication.JobRouter.CreateWorkerOptions.Labels" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,Azure.Communication.JobRouter.LabelValue&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            A set of key/value pairs that are identifying attributes used by the rules engines to make decisions.
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="QueueAssignments">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,Azure.Communication.JobRouter.RouterQueueAssignment&gt; QueueAssignments { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, class Azure.Communication.JobRouter.RouterQueueAssignment&gt; QueueAssignments" />
-      <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.CreateWorkerOptions.QueueAssignments" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property QueueAssignments As IDictionary(Of String, RouterQueueAssignment)" />
-      <MemberSignature Language="F#" Value="member this.QueueAssignments : System.Collections.Generic.IDictionary&lt;string, Azure.Communication.JobRouter.RouterQueueAssignment&gt;" Usage="Azure.Communication.JobRouter.CreateWorkerOptions.QueueAssignments" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,Azure.Communication.JobRouter.RouterQueueAssignment&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> The queue(s) that this worker can receive work from. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="Tags">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,Azure.Communication.JobRouter.LabelValue&gt; Tags { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, class Azure.Communication.JobRouter.LabelValue&gt; Tags" />
-      <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.CreateWorkerOptions.Tags" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Tags As IDictionary(Of String, LabelValue)" />
-      <MemberSignature Language="F#" Value="member this.Tags : System.Collections.Generic.IDictionary&lt;string, Azure.Communication.JobRouter.LabelValue&gt;" Usage="Azure.Communication.JobRouter.CreateWorkerOptions.Tags" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,Azure.Communication.JobRouter.LabelValue&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            A set of non-identifying attributes attached to this worker.
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TotalCapacity">
-      <MemberSignature Language="C#" Value="public int TotalCapacity { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance int32 TotalCapacity" />
-      <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.CreateWorkerOptions.TotalCapacity" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalCapacity As Integer" />
-      <MemberSignature Language="F#" Value="member this.TotalCapacity : int" Usage="Azure.Communication.JobRouter.CreateWorkerOptions.TotalCapacity" />
+    <Member MemberName="Capacity">
+      <MemberSignature Language="C#" Value="public int Capacity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Capacity" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.CreateWorkerOptions.Capacity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Capacity As Integer" />
+      <MemberSignature Language="F#" Value="member this.Capacity : int" Usage="Azure.Communication.JobRouter.CreateWorkerOptions.Capacity" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
@@ -166,6 +82,112 @@
       <Docs>
         <summary>
             The total capacity score this worker has to manage multiple concurrent jobs.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Channels">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.Communication.JobRouter.RouterChannel&gt; Channels { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Azure.Communication.JobRouter.RouterChannel&gt; Channels" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.CreateWorkerOptions.Channels" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Channels As IList(Of RouterChannel)" />
+      <MemberSignature Language="F#" Value="member this.Channels : System.Collections.Generic.IList&lt;Azure.Communication.JobRouter.RouterChannel&gt;" Usage="Azure.Communication.JobRouter.CreateWorkerOptions.Channels" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Azure.Communication.JobRouter.RouterChannel&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The channel(s) this worker can handle and their impact on the workers capacity. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Labels">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,Azure.Communication.JobRouter.RouterValue&gt; Labels { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, class Azure.Communication.JobRouter.RouterValue&gt; Labels" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.CreateWorkerOptions.Labels" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Labels As IDictionary(Of String, RouterValue)" />
+      <MemberSignature Language="F#" Value="member this.Labels : System.Collections.Generic.IDictionary&lt;string, Azure.Communication.JobRouter.RouterValue&gt;" Usage="Azure.Communication.JobRouter.CreateWorkerOptions.Labels" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,Azure.Communication.JobRouter.RouterValue&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            A set of key/value pairs that are identifying attributes used by the rules engines to make decisions.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Queues">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string&gt; Queues { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; Queues" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.CreateWorkerOptions.Queues" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Queues As IList(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Queues : System.Collections.Generic.IList&lt;string&gt;" Usage="Azure.Communication.JobRouter.CreateWorkerOptions.Queues" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The queue(s) that this worker can receive work from. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestConditions">
+      <MemberSignature Language="C#" Value="public Azure.RequestConditions RequestConditions { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.RequestConditions RequestConditions" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.CreateWorkerOptions.RequestConditions" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestConditions As RequestConditions" />
+      <MemberSignature Language="F#" Value="member this.RequestConditions : Azure.RequestConditions with get, set" Usage="Azure.Communication.JobRouter.CreateWorkerOptions.RequestConditions" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.RequestConditions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The content to send as the request conditions of the request.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tags">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,Azure.Communication.JobRouter.RouterValue&gt; Tags { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, class Azure.Communication.JobRouter.RouterValue&gt; Tags" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.CreateWorkerOptions.Tags" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Tags As IDictionary(Of String, RouterValue)" />
+      <MemberSignature Language="F#" Value="member this.Tags : System.Collections.Generic.IDictionary&lt;string, Azure.Communication.JobRouter.RouterValue&gt;" Usage="Azure.Communication.JobRouter.CreateWorkerOptions.Tags" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,Azure.Communication.JobRouter.RouterValue&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            A set of non-identifying attributes attached to this worker.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

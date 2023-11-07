@@ -38,6 +38,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker</AssemblyName>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="handlers" Type="System.Net.Http.DelegatingHandler[]">
@@ -65,6 +66,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker</AssemblyName>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="credentials" Type="Microsoft.Rest.ServiceClientCredentials" />
@@ -94,6 +96,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker</AssemblyName>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="httpClient" Type="System.Net.Http.HttpClient" />
@@ -116,6 +119,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker</AssemblyName>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="rootHandler" Type="System.Net.Http.HttpClientHandler" />
@@ -145,6 +149,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker</AssemblyName>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="credentials" Type="Microsoft.Rest.ServiceClientCredentials" />
@@ -169,6 +174,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker</AssemblyName>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="credentials" Type="Microsoft.Rest.ServiceClientCredentials" />
@@ -200,6 +206,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker</AssemblyName>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker.IAlterations</ReturnType>
@@ -220,6 +227,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker</AssemblyName>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.ServiceClientCredentials</ReturnType>
@@ -240,6 +248,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker</AssemblyName>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Newtonsoft.Json.JsonSerializerSettings</ReturnType>
@@ -263,6 +272,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker</AssemblyName>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -283,6 +293,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker</AssemblyName>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker.IEndpointKeys</ReturnType>
@@ -303,6 +314,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker</AssemblyName>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker.IEndpointSettings</ReturnType>
@@ -323,6 +335,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker</AssemblyName>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker.IKnowledgebase</ReturnType>
@@ -343,6 +356,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker</AssemblyName>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker.IOperations</ReturnType>
@@ -363,6 +377,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker</AssemblyName>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Newtonsoft.Json.JsonSerializerSettings</ReturnType>

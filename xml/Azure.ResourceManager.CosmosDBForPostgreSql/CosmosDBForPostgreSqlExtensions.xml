@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.CosmosDBForPostgreSql</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDBForPostgreSql</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.CosmosDBForPostgreSql.Models.CosmosDBForPostgreSqlClusterNameAvailabilityResult&gt;</ReturnType>
@@ -42,7 +44,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks availability of a cluster name. Cluster names should be globally unique; at least 3 characters and at most 40 characters long; they must only contain lowercase letters, numbers, and hyphens; and must not start or end with a hyphen.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/checkNameAvailability</description></item><item><term>Operation Id</term><description>Clusters_CheckNameAvailability</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/checkNameAvailability</description></item><item><term>Operation Id</term><description>Clusters_CheckNameAvailability</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDBForPostgreSql.Mocking.MockableCosmosDBForPostgreSqlSubscriptionResource.CheckCosmosDBForPostgreSqlClusterNameAvailability(Azure.ResourceManager.CosmosDBForPostgreSql.Models.CosmosDBForPostgreSqlClusterNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -59,6 +61,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDBForPostgreSql</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.CosmosDBForPostgreSql.Models.CosmosDBForPostgreSqlClusterNameAvailabilityResult&gt;&gt;</ReturnType>
@@ -74,7 +77,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks availability of a cluster name. Cluster names should be globally unique; at least 3 characters and at most 40 characters long; they must only contain lowercase letters, numbers, and hyphens; and must not start or end with a hyphen.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/checkNameAvailability</description></item><item><term>Operation Id</term><description>Clusters_CheckNameAvailability</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/checkNameAvailability</description></item><item><term>Operation Id</term><description>Clusters_CheckNameAvailability</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDBForPostgreSql.Mocking.MockableCosmosDBForPostgreSqlSubscriptionResource.CheckCosmosDBForPostgreSqlClusterNameAvailability(Azure.ResourceManager.CosmosDBForPostgreSql.Models.CosmosDBForPostgreSqlClusterNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -91,6 +94,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDBForPostgreSql</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource&gt;</ReturnType>
@@ -106,13 +110,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a cluster such as compute and storage configuration and cluster lifecycle metadata such as cluster creation date and time.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDBForPostgreSql.Mocking.MockableCosmosDBForPostgreSqlResourceGroupResource.GetCosmosDBForPostgreSqlCluster(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="clusterName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="clusterName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="clusterName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetCosmosDBForPostgreSqlClusterAsync">
@@ -125,6 +129,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDBForPostgreSql</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource&gt;&gt;</ReturnType>
@@ -140,13 +145,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a cluster such as compute and storage configuration and cluster lifecycle metadata such as cluster creation date and time.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDBForPostgreSql.Mocking.MockableCosmosDBForPostgreSqlResourceGroupResource.GetCosmosDBForPostgreSqlClusterAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="clusterName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="clusterName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="clusterName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetCosmosDBForPostgreSqlClusterResource">
@@ -159,6 +164,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDBForPostgreSql</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource</ReturnType>
@@ -173,7 +179,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDBForPostgreSql.Mocking.MockableCosmosDBForPostgreSqlArmClient.GetCosmosDBForPostgreSqlClusterResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -188,6 +194,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDBForPostgreSql</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterCollection</ReturnType>
@@ -197,7 +204,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of CosmosDBForPostgreSqlClusterResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of CosmosDBForPostgreSqlClusterResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDBForPostgreSql.Mocking.MockableCosmosDBForPostgreSqlResourceGroupResource.GetCosmosDBForPostgreSqlClusters" /> instead.</description></item></summary>
         <returns> An object representing collection of CosmosDBForPostgreSqlClusterResources and their operations over a CosmosDBForPostgreSqlClusterResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -212,6 +221,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDBForPostgreSql</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource&gt;</ReturnType>
@@ -225,7 +235,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all clusters in a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2</description></item><item><term>Operation Id</term><description>Clusters_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2</description></item><item><term>Operation Id</term><description>Clusters_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDBForPostgreSql.Mocking.MockableCosmosDBForPostgreSqlSubscriptionResource.GetCosmosDBForPostgreSqlClusters(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -240,6 +250,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDBForPostgreSql</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource&gt;</ReturnType>
@@ -253,7 +264,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all clusters in a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2</description></item><item><term>Operation Id</term><description>Clusters_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2</description></item><item><term>Operation Id</term><description>Clusters_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDBForPostgreSql.Mocking.MockableCosmosDBForPostgreSqlSubscriptionResource.GetCosmosDBForPostgreSqlClusters(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -268,6 +279,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDBForPostgreSql</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterServerResource</ReturnType>
@@ -282,7 +294,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterServerResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterServerResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterServerResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDBForPostgreSql.Mocking.MockableCosmosDBForPostgreSqlArmClient.GetCosmosDBForPostgreSqlClusterServerResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterServerResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -297,6 +309,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDBForPostgreSql</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlConfigurationResource</ReturnType>
@@ -311,7 +324,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlConfigurationResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlConfigurationResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlConfigurationResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDBForPostgreSql.Mocking.MockableCosmosDBForPostgreSqlArmClient.GetCosmosDBForPostgreSqlConfigurationResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlConfigurationResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -326,6 +339,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDBForPostgreSql</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlCoordinatorConfigurationResource</ReturnType>
@@ -340,7 +354,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlCoordinatorConfigurationResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlCoordinatorConfigurationResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlCoordinatorConfigurationResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDBForPostgreSql.Mocking.MockableCosmosDBForPostgreSqlArmClient.GetCosmosDBForPostgreSqlCoordinatorConfigurationResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlCoordinatorConfigurationResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -355,6 +369,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDBForPostgreSql</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlFirewallRuleResource</ReturnType>
@@ -369,7 +384,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlFirewallRuleResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlFirewallRuleResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlFirewallRuleResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDBForPostgreSql.Mocking.MockableCosmosDBForPostgreSqlArmClient.GetCosmosDBForPostgreSqlFirewallRuleResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlFirewallRuleResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -384,6 +399,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDBForPostgreSql</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlNodeConfigurationResource</ReturnType>
@@ -398,7 +414,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlNodeConfigurationResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlNodeConfigurationResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlNodeConfigurationResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDBForPostgreSql.Mocking.MockableCosmosDBForPostgreSqlArmClient.GetCosmosDBForPostgreSqlNodeConfigurationResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlNodeConfigurationResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -413,6 +429,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDBForPostgreSql</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlPrivateEndpointConnectionResource</ReturnType>
@@ -427,7 +444,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlPrivateEndpointConnectionResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlPrivateEndpointConnectionResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlPrivateEndpointConnectionResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDBForPostgreSql.Mocking.MockableCosmosDBForPostgreSqlArmClient.GetCosmosDBForPostgreSqlPrivateEndpointConnectionResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlPrivateEndpointConnectionResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -442,6 +459,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDBForPostgreSql</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlPrivateLinkResource</ReturnType>
@@ -456,7 +474,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlPrivateLinkResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlPrivateLinkResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlPrivateLinkResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDBForPostgreSql.Mocking.MockableCosmosDBForPostgreSqlArmClient.GetCosmosDBForPostgreSqlPrivateLinkResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlPrivateLinkResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -471,6 +489,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDBForPostgreSql</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlRoleResource</ReturnType>
@@ -485,7 +504,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlRoleResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlRoleResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlRoleResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDBForPostgreSql.Mocking.MockableCosmosDBForPostgreSqlArmClient.GetCosmosDBForPostgreSqlRoleResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlRoleResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>

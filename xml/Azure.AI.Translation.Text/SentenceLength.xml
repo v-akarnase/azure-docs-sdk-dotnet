@@ -33,7 +33,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            An integer array representing the lengths of the sentences in the input text. 
+            An integer array representing the lengths of the sentences in the input text.
             The length of the array is the number of sentences, and the values are the length of each sentence.
             </summary>
         <value>To be added.</value>
@@ -56,7 +56,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            An integer array representing the lengths of the sentences in the translated text. 
+            An integer array representing the lengths of the sentences in the translated text.
             The length of the array is the number of sentences, and the values are the length of each sentence.
             </summary>
         <value>To be added.</value>

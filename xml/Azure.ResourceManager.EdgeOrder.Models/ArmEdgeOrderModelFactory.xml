@@ -305,8 +305,8 @@
         <param name="name"> Represents Billing type name. </param>
         <param name="meterDetails">
             Represents MeterDetails
-            Please note <see cref="M:Azure.ResourceManager.EdgeOrder.Models.ArmEdgeOrderModelFactory.EdgeOrderProductMeterDetails(System.String,System.Nullable{System.Double},System.Nullable{Azure.ResourceManager.EdgeOrder.Models.EdgeOrderProductChargingType})" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
-            The available derived classes include <see cref="M:Azure.ResourceManager.EdgeOrder.Models.ArmEdgeOrderModelFactory.Pav2MeterDetails(System.Nullable{System.Double},System.Nullable{Azure.ResourceManager.EdgeOrder.Models.EdgeOrderProductChargingType},System.Nullable{System.Guid})" /> and <see cref="M:Azure.ResourceManager.EdgeOrder.Models.ArmEdgeOrderModelFactory.PurchaseMeterDetails(System.Nullable{System.Double},System.Nullable{Azure.ResourceManager.EdgeOrder.Models.EdgeOrderProductChargingType},System.String,System.String,System.String)" />.
+            Please note <see cref="T:Azure.ResourceManager.EdgeOrder.Models.EdgeOrderProductMeterDetails" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.EdgeOrder.Models.Pav2MeterDetails" /> and <see cref="T:Azure.ResourceManager.EdgeOrder.Models.PurchaseMeterDetails" />.
             </param>
         <param name="meteringType"> Represents Metering type (eg one-time or recurrent). </param>
         <param name="frequency"> Frequency of recurrence. </param>

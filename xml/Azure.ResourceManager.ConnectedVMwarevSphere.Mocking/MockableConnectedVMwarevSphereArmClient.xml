@@ -1,0 +1,361 @@
+<Type Name="MockableConnectedVMwarevSphereArmClient" FullName="Azure.ResourceManager.ConnectedVMwarevSphere.Mocking.MockableConnectedVMwarevSphereArmClient">
+  <TypeSignature Language="C#" Value="public class MockableConnectedVMwarevSphereArmClient : Azure.ResourceManager.ArmResource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MockableConnectedVMwarevSphereArmClient extends Azure.ResourceManager.ArmResource" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.ConnectedVMwarevSphere.Mocking.MockableConnectedVMwarevSphereArmClient" />
+  <TypeSignature Language="VB.NET" Value="Public Class MockableConnectedVMwarevSphereArmClient&#xA;Inherits ArmResource" />
+  <TypeSignature Language="F#" Value="type MockableConnectedVMwarevSphereArmClient = class&#xA;    inherit ArmResource" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> A class to add extension methods to ArmClient. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected MockableConnectedVMwarevSphereArmClient ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVMwarevSphere.Mocking.MockableConnectedVMwarevSphereArmClient.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of the <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.Mocking.MockableConnectedVMwarevSphereArmClient" /> class for mocking. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetGuestAgentResource">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ConnectedVMwarevSphere.GuestAgentResource GetGuestAgentResource (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ConnectedVMwarevSphere.GuestAgentResource GetGuestAgentResource(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVMwarevSphere.Mocking.MockableConnectedVMwarevSphereArmClient.GetGuestAgentResource(Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetGuestAgentResource (id As ResourceIdentifier) As GuestAgentResource" />
+      <MemberSignature Language="F#" Value="abstract member GetGuestAgentResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVMwarevSphere.GuestAgentResource&#xA;override this.GetGuestAgentResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVMwarevSphere.GuestAgentResource" Usage="mockableConnectedVMwarevSphereArmClient.GetGuestAgentResource id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVMwarevSphere.GuestAgentResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.GuestAgentResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.ConnectedVMwarevSphere.GuestAgentResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.GuestAgentResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.GuestAgentResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHybridIdentityMetadataResource">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ConnectedVMwarevSphere.HybridIdentityMetadataResource GetHybridIdentityMetadataResource (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ConnectedVMwarevSphere.HybridIdentityMetadataResource GetHybridIdentityMetadataResource(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVMwarevSphere.Mocking.MockableConnectedVMwarevSphereArmClient.GetHybridIdentityMetadataResource(Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetHybridIdentityMetadataResource (id As ResourceIdentifier) As HybridIdentityMetadataResource" />
+      <MemberSignature Language="F#" Value="abstract member GetHybridIdentityMetadataResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVMwarevSphere.HybridIdentityMetadataResource&#xA;override this.GetHybridIdentityMetadataResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVMwarevSphere.HybridIdentityMetadataResource" Usage="mockableConnectedVMwarevSphereArmClient.GetHybridIdentityMetadataResource id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVMwarevSphere.HybridIdentityMetadataResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.HybridIdentityMetadataResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.ConnectedVMwarevSphere.HybridIdentityMetadataResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.HybridIdentityMetadataResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.HybridIdentityMetadataResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetInventoryItemResource">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ConnectedVMwarevSphere.InventoryItemResource GetInventoryItemResource (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ConnectedVMwarevSphere.InventoryItemResource GetInventoryItemResource(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVMwarevSphere.Mocking.MockableConnectedVMwarevSphereArmClient.GetInventoryItemResource(Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetInventoryItemResource (id As ResourceIdentifier) As InventoryItemResource" />
+      <MemberSignature Language="F#" Value="abstract member GetInventoryItemResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVMwarevSphere.InventoryItemResource&#xA;override this.GetInventoryItemResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVMwarevSphere.InventoryItemResource" Usage="mockableConnectedVMwarevSphereArmClient.GetInventoryItemResource id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVMwarevSphere.InventoryItemResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing an <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.InventoryItemResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.ConnectedVMwarevSphere.InventoryItemResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create an <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.InventoryItemResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.InventoryItemResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMachineExtensionResource">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ConnectedVMwarevSphere.MachineExtensionResource GetMachineExtensionResource (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ConnectedVMwarevSphere.MachineExtensionResource GetMachineExtensionResource(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVMwarevSphere.Mocking.MockableConnectedVMwarevSphereArmClient.GetMachineExtensionResource(Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetMachineExtensionResource (id As ResourceIdentifier) As MachineExtensionResource" />
+      <MemberSignature Language="F#" Value="abstract member GetMachineExtensionResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVMwarevSphere.MachineExtensionResource&#xA;override this.GetMachineExtensionResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVMwarevSphere.MachineExtensionResource" Usage="mockableConnectedVMwarevSphereArmClient.GetMachineExtensionResource id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVMwarevSphere.MachineExtensionResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.MachineExtensionResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.ConnectedVMwarevSphere.MachineExtensionResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.MachineExtensionResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.MachineExtensionResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetResourcePoolResource">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ConnectedVMwarevSphere.ResourcePoolResource GetResourcePoolResource (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ConnectedVMwarevSphere.ResourcePoolResource GetResourcePoolResource(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVMwarevSphere.Mocking.MockableConnectedVMwarevSphereArmClient.GetResourcePoolResource(Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetResourcePoolResource (id As ResourceIdentifier) As ResourcePoolResource" />
+      <MemberSignature Language="F#" Value="abstract member GetResourcePoolResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVMwarevSphere.ResourcePoolResource&#xA;override this.GetResourcePoolResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVMwarevSphere.ResourcePoolResource" Usage="mockableConnectedVMwarevSphereArmClient.GetResourcePoolResource id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVMwarevSphere.ResourcePoolResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.ResourcePoolResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.ConnectedVMwarevSphere.ResourcePoolResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.ResourcePoolResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.ResourcePoolResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetVCenterResource">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ConnectedVMwarevSphere.VCenterResource GetVCenterResource (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ConnectedVMwarevSphere.VCenterResource GetVCenterResource(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVMwarevSphere.Mocking.MockableConnectedVMwarevSphereArmClient.GetVCenterResource(Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetVCenterResource (id As ResourceIdentifier) As VCenterResource" />
+      <MemberSignature Language="F#" Value="abstract member GetVCenterResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVMwarevSphere.VCenterResource&#xA;override this.GetVCenterResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVMwarevSphere.VCenterResource" Usage="mockableConnectedVMwarevSphereArmClient.GetVCenterResource id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVMwarevSphere.VCenterResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VCenterResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.ConnectedVMwarevSphere.VCenterResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VCenterResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VCenterResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetVirtualMachineResource">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ConnectedVMwarevSphere.VirtualMachineResource GetVirtualMachineResource (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ConnectedVMwarevSphere.VirtualMachineResource GetVirtualMachineResource(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVMwarevSphere.Mocking.MockableConnectedVMwarevSphereArmClient.GetVirtualMachineResource(Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetVirtualMachineResource (id As ResourceIdentifier) As VirtualMachineResource" />
+      <MemberSignature Language="F#" Value="abstract member GetVirtualMachineResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVMwarevSphere.VirtualMachineResource&#xA;override this.GetVirtualMachineResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVMwarevSphere.VirtualMachineResource" Usage="mockableConnectedVMwarevSphereArmClient.GetVirtualMachineResource id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVMwarevSphere.VirtualMachineResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VirtualMachineResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.ConnectedVMwarevSphere.VirtualMachineResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VirtualMachineResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VirtualMachineResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetVirtualMachineTemplateResource">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ConnectedVMwarevSphere.VirtualMachineTemplateResource GetVirtualMachineTemplateResource (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ConnectedVMwarevSphere.VirtualMachineTemplateResource GetVirtualMachineTemplateResource(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVMwarevSphere.Mocking.MockableConnectedVMwarevSphereArmClient.GetVirtualMachineTemplateResource(Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetVirtualMachineTemplateResource (id As ResourceIdentifier) As VirtualMachineTemplateResource" />
+      <MemberSignature Language="F#" Value="abstract member GetVirtualMachineTemplateResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVMwarevSphere.VirtualMachineTemplateResource&#xA;override this.GetVirtualMachineTemplateResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVMwarevSphere.VirtualMachineTemplateResource" Usage="mockableConnectedVMwarevSphereArmClient.GetVirtualMachineTemplateResource id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVMwarevSphere.VirtualMachineTemplateResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VirtualMachineTemplateResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.ConnectedVMwarevSphere.VirtualMachineTemplateResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VirtualMachineTemplateResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VirtualMachineTemplateResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetVirtualNetworkResource">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ConnectedVMwarevSphere.VirtualNetworkResource GetVirtualNetworkResource (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ConnectedVMwarevSphere.VirtualNetworkResource GetVirtualNetworkResource(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVMwarevSphere.Mocking.MockableConnectedVMwarevSphereArmClient.GetVirtualNetworkResource(Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetVirtualNetworkResource (id As ResourceIdentifier) As VirtualNetworkResource" />
+      <MemberSignature Language="F#" Value="abstract member GetVirtualNetworkResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVMwarevSphere.VirtualNetworkResource&#xA;override this.GetVirtualNetworkResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVMwarevSphere.VirtualNetworkResource" Usage="mockableConnectedVMwarevSphereArmClient.GetVirtualNetworkResource id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVMwarevSphere.VirtualNetworkResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VirtualNetworkResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.ConnectedVMwarevSphere.VirtualNetworkResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VirtualNetworkResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VirtualNetworkResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetVMwareClusterResource">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ConnectedVMwarevSphere.VMwareClusterResource GetVMwareClusterResource (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ConnectedVMwarevSphere.VMwareClusterResource GetVMwareClusterResource(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVMwarevSphere.Mocking.MockableConnectedVMwarevSphereArmClient.GetVMwareClusterResource(Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetVMwareClusterResource (id As ResourceIdentifier) As VMwareClusterResource" />
+      <MemberSignature Language="F#" Value="abstract member GetVMwareClusterResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVMwarevSphere.VMwareClusterResource&#xA;override this.GetVMwareClusterResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVMwarevSphere.VMwareClusterResource" Usage="mockableConnectedVMwarevSphereArmClient.GetVMwareClusterResource id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVMwarevSphere.VMwareClusterResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VMwareClusterResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.ConnectedVMwarevSphere.VMwareClusterResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VMwareClusterResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VMwareClusterResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetVMwareDatastoreResource">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ConnectedVMwarevSphere.VMwareDatastoreResource GetVMwareDatastoreResource (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ConnectedVMwarevSphere.VMwareDatastoreResource GetVMwareDatastoreResource(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVMwarevSphere.Mocking.MockableConnectedVMwarevSphereArmClient.GetVMwareDatastoreResource(Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetVMwareDatastoreResource (id As ResourceIdentifier) As VMwareDatastoreResource" />
+      <MemberSignature Language="F#" Value="abstract member GetVMwareDatastoreResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVMwarevSphere.VMwareDatastoreResource&#xA;override this.GetVMwareDatastoreResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVMwarevSphere.VMwareDatastoreResource" Usage="mockableConnectedVMwarevSphereArmClient.GetVMwareDatastoreResource id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVMwarevSphere.VMwareDatastoreResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VMwareDatastoreResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.ConnectedVMwarevSphere.VMwareDatastoreResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VMwareDatastoreResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VMwareDatastoreResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetVMwareHostResource">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource GetVMwareHostResource (Azure.Core.ResourceIdentifier id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource GetVMwareHostResource(class Azure.Core.ResourceIdentifier id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVMwarevSphere.Mocking.MockableConnectedVMwarevSphereArmClient.GetVMwareHostResource(Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetVMwareHostResource (id As ResourceIdentifier) As VMwareHostResource" />
+      <MemberSignature Language="F#" Value="abstract member GetVMwareHostResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource&#xA;override this.GetVMwareHostResource : Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource" Usage="mockableConnectedVMwarevSphereArmClient.GetVMwareHostResource id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource" /> object. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -24,6 +24,7 @@
     <AssemblyVersion>5.9.1.0</AssemblyVersion>
     <AssemblyVersion>5.9.2.0</AssemblyVersion>
     <AssemblyVersion>5.9.3.0</AssemblyVersion>
+    <AssemblyVersion>5.10.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -46,6 +47,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs.Processor</AssemblyName>
         <AssemblyVersion>5.9.3.0</AssemblyVersion>
+        <AssemblyVersion>5.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -63,6 +65,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs.Processor</AssemblyName>
         <AssemblyVersion>5.9.3.0</AssemblyVersion>
+        <AssemblyVersion>5.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -106,6 +109,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs.Processor</AssemblyName>
         <AssemblyVersion>5.9.3.0</AssemblyVersion>
+        <AssemblyVersion>5.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventHubs.EventHubConnectionOptions</ReturnType>
@@ -128,6 +132,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs.Processor</AssemblyName>
         <AssemblyVersion>5.9.3.0</AssemblyVersion>
+        <AssemblyVersion>5.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -161,6 +166,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs.Processor</AssemblyName>
         <AssemblyVersion>5.9.3.0</AssemblyVersion>
+        <AssemblyVersion>5.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -190,6 +196,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs.Processor</AssemblyName>
         <AssemblyVersion>5.9.3.0</AssemblyVersion>
+        <AssemblyVersion>5.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -213,6 +220,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs.Processor</AssemblyName>
         <AssemblyVersion>5.9.3.0</AssemblyVersion>
+        <AssemblyVersion>5.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventHubs.Processor.LoadBalancingStrategy</ReturnType>
@@ -238,6 +246,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs.Processor</AssemblyName>
         <AssemblyVersion>5.9.3.0</AssemblyVersion>
+        <AssemblyVersion>5.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.TimeSpan</ReturnType>
@@ -265,6 +274,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs.Processor</AssemblyName>
         <AssemblyVersion>5.9.3.0</AssemblyVersion>
+        <AssemblyVersion>5.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.TimeSpan&gt;</ReturnType>
@@ -297,6 +307,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs.Processor</AssemblyName>
         <AssemblyVersion>5.9.3.0</AssemblyVersion>
+        <AssemblyVersion>5.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.TimeSpan</ReturnType>
@@ -327,6 +338,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs.Processor</AssemblyName>
         <AssemblyVersion>5.9.3.0</AssemblyVersion>
+        <AssemblyVersion>5.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -371,6 +383,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs.Processor</AssemblyName>
         <AssemblyVersion>5.9.3.0</AssemblyVersion>
+        <AssemblyVersion>5.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
@@ -406,6 +419,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs.Processor</AssemblyName>
         <AssemblyVersion>5.9.3.0</AssemblyVersion>
+        <AssemblyVersion>5.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventHubs.EventHubsRetryOptions</ReturnType>
@@ -430,6 +444,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs.Processor</AssemblyName>
         <AssemblyVersion>5.9.3.0</AssemblyVersion>
+        <AssemblyVersion>5.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -459,6 +474,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs.Processor</AssemblyName>
         <AssemblyVersion>5.9.3.0</AssemblyVersion>
+        <AssemblyVersion>5.10.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>

@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CostManagement.Models.AllSavingsBenefitDetails</ReturnType>
@@ -67,6 +69,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CostManagement.Models.AllSavingsList</ReturnType>
@@ -93,6 +96,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CostManagement.Models.AsyncOperationStatusProperties</ReturnType>
@@ -121,6 +125,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CostManagement.Models.BenefitRecommendationModel</ReturnType>
@@ -140,8 +145,8 @@
         <param name="systemData"> The systemData. </param>
         <param name="properties">
             The properties of the benefit recommendations.
-            Please note <see cref="M:Azure.ResourceManager.CostManagement.Models.ArmCostManagementModelFactory.BenefitRecommendationProperties(System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.Nullable{Azure.ResourceManager.CostManagement.Models.LookBackPeriod},System.Nullable{System.Int32},Azure.ResourceManager.CostManagement.Models.RecommendationUsageDetails,System.String,System.Nullable{Azure.ResourceManager.CostManagement.Models.BenefitRecommendationPeriodTerm},System.Nullable{Azure.ResourceManager.CostManagement.Models.BenefitRecommendationUsageGrain},System.String,System.Nullable{System.Decimal},Azure.ResourceManager.CostManagement.Models.AllSavingsBenefitDetails,Azure.ResourceManager.CostManagement.Models.AllSavingsList,System.String)" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
-            The available derived classes include <see cref="M:Azure.ResourceManager.CostManagement.Models.ArmCostManagementModelFactory.SharedScopeBenefitRecommendationProperties(System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.Nullable{Azure.ResourceManager.CostManagement.Models.LookBackPeriod},System.Nullable{System.Int32},Azure.ResourceManager.CostManagement.Models.RecommendationUsageDetails,System.String,System.Nullable{Azure.ResourceManager.CostManagement.Models.BenefitRecommendationPeriodTerm},System.Nullable{Azure.ResourceManager.CostManagement.Models.BenefitRecommendationUsageGrain},System.String,System.Nullable{System.Decimal},Azure.ResourceManager.CostManagement.Models.AllSavingsBenefitDetails,Azure.ResourceManager.CostManagement.Models.AllSavingsList)" /> and <see cref="M:Azure.ResourceManager.CostManagement.Models.ArmCostManagementModelFactory.SingleScopeBenefitRecommendationProperties(System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.Nullable{Azure.ResourceManager.CostManagement.Models.LookBackPeriod},System.Nullable{System.Int32},Azure.ResourceManager.CostManagement.Models.RecommendationUsageDetails,System.String,System.Nullable{Azure.ResourceManager.CostManagement.Models.BenefitRecommendationPeriodTerm},System.Nullable{Azure.ResourceManager.CostManagement.Models.BenefitRecommendationUsageGrain},System.String,System.Nullable{System.Decimal},Azure.ResourceManager.CostManagement.Models.AllSavingsBenefitDetails,Azure.ResourceManager.CostManagement.Models.AllSavingsList,System.String,System.String)" />.
+            Please note <see cref="T:Azure.ResourceManager.CostManagement.Models.BenefitRecommendationProperties" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.CostManagement.Models.SharedScopeBenefitRecommendationProperties" /> and <see cref="T:Azure.ResourceManager.CostManagement.Models.SingleScopeBenefitRecommendationProperties" />.
             </param>
         <param name="kind"> Reservation or SavingsPlan. </param>
         <summary> Initializes a new instance of BenefitRecommendationModel. </summary>
@@ -159,6 +164,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CostManagement.Models.BenefitRecommendationProperties</ReturnType>
@@ -207,6 +213,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CostManagement.Models.BenefitUtilizationSummariesOperationStatus</ReturnType>
@@ -235,6 +242,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CostManagement.Models.BenefitUtilizationSummary</ReturnType>
@@ -267,6 +275,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CostManagement.Models.CommonExportProperties</ReturnType>
@@ -301,6 +310,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CostManagement.CostManagementAlertData</ReturnType>
@@ -355,6 +365,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CostManagement.Models.CostManagementDimension</ReturnType>
@@ -411,6 +422,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CostManagement.CostManagementExportData</ReturnType>
@@ -457,6 +469,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CostManagement.Models.CostManagementNameAvailabilityResult</ReturnType>
@@ -485,6 +498,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CostManagement.CostManagementViewData</ReturnType>
@@ -549,6 +563,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CostManagement.Models.DownloadURL</ReturnType>
@@ -577,6 +592,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CostManagement.Models.ExportRun</ReturnType>
@@ -627,6 +643,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CostManagement.Models.ExportRunErrorDetails</ReturnType>
@@ -653,6 +670,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CostManagement.Models.ForecastColumn</ReturnType>
@@ -679,6 +697,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CostManagement.Models.ForecastResult</ReturnType>
@@ -723,6 +742,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CostManagement.Models.IncludedQuantityUtilizationSummary</ReturnType>
@@ -765,6 +785,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CostManagement.Models.OperationStatus</ReturnType>
@@ -793,6 +814,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CostManagement.Models.QueryColumn</ReturnType>
@@ -819,6 +841,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CostManagement.Models.QueryResult</ReturnType>
@@ -863,6 +886,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CostManagement.Models.RecommendationUsageDetails</ReturnType>
@@ -889,6 +913,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CostManagement.Models.SavingsPlanUtilizationSummary</ReturnType>
@@ -935,6 +960,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CostManagement.ScheduledActionData</ReturnType>
@@ -985,6 +1011,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CostManagement.Models.SharedScopeBenefitRecommendationProperties</ReturnType>
@@ -1031,6 +1058,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CostManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.CostManagement.Models.SingleScopeBenefitRecommendationProperties</ReturnType>

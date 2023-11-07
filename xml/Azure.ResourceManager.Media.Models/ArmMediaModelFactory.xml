@@ -457,7 +457,7 @@
         <param name="track">
             Detailed information about a track in the asset.
             Please note <see cref="T:Azure.ResourceManager.Media.Models.MediaAssetTrackBase" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
-            The available derived classes include <see cref="M:Azure.ResourceManager.Media.Models.ArmMediaModelFactory.AudioTrack(System.String,System.String,System.String,Azure.ResourceManager.Media.Models.HlsSettings,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})" />, <see cref="M:Azure.ResourceManager.Media.Models.ArmMediaModelFactory.TextTrack(System.String,System.String,System.String,System.Nullable{Azure.ResourceManager.Media.Models.PlayerVisibility},Azure.ResourceManager.Media.Models.HlsSettings)" /> and <see cref="T:Azure.ResourceManager.Media.Models.VideoTrack" />.
+            The available derived classes include <see cref="T:Azure.ResourceManager.Media.Models.AudioTrack" />, <see cref="T:Azure.ResourceManager.Media.Models.TextTrack" /> and <see cref="T:Azure.ResourceManager.Media.Models.VideoTrack" />.
             </param>
         <param name="provisioningState"> Provisioning state of the asset track. </param>
         <summary> Initializes a new instance of MediaAssetTrackData. </summary>
@@ -511,8 +511,8 @@
         <param name="lastModifiedOn"> The UTC date and time when the customer has last updated the Job, in 'YYYY-MM-DDThh:mm:ssZ' format. </param>
         <param name="outputs">
             The outputs for the Job.
-            Please note <see cref="M:Azure.ResourceManager.Media.Models.ArmMediaModelFactory.MediaJobOutput(System.String,Azure.ResourceManager.Media.Models.MediaJobError,Azure.ResourceManager.Media.Models.MediaTransformPreset,System.Nullable{Azure.ResourceManager.Media.Models.MediaJobState},System.Nullable{System.Int32},System.String,System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset})" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
-            The available derived classes include <see cref="M:Azure.ResourceManager.Media.Models.ArmMediaModelFactory.MediaJobOutputAsset(Azure.ResourceManager.Media.Models.MediaJobError,Azure.ResourceManager.Media.Models.MediaTransformPreset,System.Nullable{Azure.ResourceManager.Media.Models.MediaJobState},System.Nullable{System.Int32},System.String,System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.String)" />.
+            Please note <see cref="T:Azure.ResourceManager.Media.Models.MediaJobOutput" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.Media.Models.MediaJobOutputAsset" />.
             </param>
         <param name="priority"> Priority with which the job should be processed. Higher priority jobs are processed before lower priority jobs. If not set, the default is normal. </param>
         <param name="correlationData"> Customer provided key, value pairs that will be returned in Job and JobOutput state events. </param>

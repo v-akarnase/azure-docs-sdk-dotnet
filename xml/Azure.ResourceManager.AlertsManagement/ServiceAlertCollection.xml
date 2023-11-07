@@ -160,7 +160,7 @@
         <param name="options"> A property bag which contains all the parameters of this method except the LRO qualifier and request context parameter. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            List all existing alerts, where the results can be filtered on the basis of multiple parameters (e.g. time range). The results can then be sorted on the basis specific fields, with the default being lastModifiedDateTime. 
+            List all existing alerts, where the results can be filtered on the basis of multiple parameters (e.g. time range). The results can then be sorted on the basis specific fields, with the default being lastModifiedDateTime.
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.AlertsManagement/alerts</description></item><item><term>Operation Id</term><description>Alerts_GetAll</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.AlertsManagement.ServiceAlertResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
@@ -250,7 +250,7 @@
         <param name="options"> A property bag which contains all the parameters of this method except the LRO qualifier and request context parameter. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            List all existing alerts, where the results can be filtered on the basis of multiple parameters (e.g. time range). The results can then be sorted on the basis specific fields, with the default being lastModifiedDateTime. 
+            List all existing alerts, where the results can be filtered on the basis of multiple parameters (e.g. time range). The results can then be sorted on the basis specific fields, with the default being lastModifiedDateTime.
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.AlertsManagement/alerts</description></item><item><term>Operation Id</term><description>Alerts_GetAll</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.AlertsManagement.ServiceAlertResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
@@ -341,6 +341,62 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get information related to a specific alert
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.AlertsManagement/alerts/{alertId}</description></item><item><term>Operation Id</term><description>Alerts_GetById</description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIfExists">
+      <MemberSignature Language="C#" Value="public virtual Azure.NullableResponse&lt;Azure.ResourceManager.AlertsManagement.ServiceAlertResource&gt; GetIfExists (Guid alertId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.NullableResponse`1&lt;class Azure.ResourceManager.AlertsManagement.ServiceAlertResource&gt; GetIfExists(valuetype System.Guid alertId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AlertsManagement.ServiceAlertCollection.GetIfExists(System.Guid,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetIfExists (alertId As Guid, Optional cancellationToken As CancellationToken = Nothing) As NullableResponse(Of ServiceAlertResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetIfExists : Guid * System.Threading.CancellationToken -&gt; Azure.NullableResponse&lt;Azure.ResourceManager.AlertsManagement.ServiceAlertResource&gt;&#xA;override this.GetIfExists : Guid * System.Threading.CancellationToken -&gt; Azure.NullableResponse&lt;Azure.ResourceManager.AlertsManagement.ServiceAlertResource&gt;" Usage="serviceAlertCollection.GetIfExists (alertId, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AlertsManagement</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.NullableResponse&lt;Azure.ResourceManager.AlertsManagement.ServiceAlertResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="alertId" Type="System.Guid" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="alertId"> Unique ID of an alert instance. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Tries to get details for this resource from the service.
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.AlertsManagement/alerts/{alertId}</description></item><item><term>Operation Id</term><description>Alerts_GetById</description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIfExistsAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.NullableResponse&lt;Azure.ResourceManager.AlertsManagement.ServiceAlertResource&gt;&gt; GetIfExistsAsync (Guid alertId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.NullableResponse`1&lt;class Azure.ResourceManager.AlertsManagement.ServiceAlertResource&gt;&gt; GetIfExistsAsync(valuetype System.Guid alertId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AlertsManagement.ServiceAlertCollection.GetIfExistsAsync(System.Guid,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetIfExistsAsync (alertId As Guid, Optional cancellationToken As CancellationToken = Nothing) As Task(Of NullableResponse(Of ServiceAlertResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetIfExistsAsync : Guid * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.NullableResponse&lt;Azure.ResourceManager.AlertsManagement.ServiceAlertResource&gt;&gt;&#xA;override this.GetIfExistsAsync : Guid * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.NullableResponse&lt;Azure.ResourceManager.AlertsManagement.ServiceAlertResource&gt;&gt;" Usage="serviceAlertCollection.GetIfExistsAsync (alertId, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AlertsManagement</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.NullableResponse&lt;Azure.ResourceManager.AlertsManagement.ServiceAlertResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="alertId" Type="System.Guid" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="alertId"> Unique ID of an alert instance. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Tries to get details for this resource from the service.
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.AlertsManagement/alerts/{alertId}</description></item><item><term>Operation Id</term><description>Alerts_GetById</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

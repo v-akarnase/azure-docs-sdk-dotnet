@@ -20,11 +20,11 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public CallMediaRecognizeChoiceOptions (Azure.Communication.CommunicationIdentifier targetParticipant, System.Collections.Generic.IEnumerable&lt;Azure.Communication.CallAutomation.RecognitionChoice&gt; choices);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.Communication.CommunicationIdentifier targetParticipant, class System.Collections.Generic.IEnumerable`1&lt;class Azure.Communication.CallAutomation.RecognitionChoice&gt; choices) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CallMediaRecognizeChoiceOptions.#ctor(Azure.Communication.CommunicationIdentifier,System.Collections.Generic.IEnumerable{Azure.Communication.CallAutomation.RecognitionChoice})" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (targetParticipant As CommunicationIdentifier, choices As IEnumerable(Of RecognitionChoice))" />
-      <MemberSignature Language="F#" Value="new Azure.Communication.CallAutomation.CallMediaRecognizeChoiceOptions : Azure.Communication.CommunicationIdentifier * seq&lt;Azure.Communication.CallAutomation.RecognitionChoice&gt; -&gt; Azure.Communication.CallAutomation.CallMediaRecognizeChoiceOptions" Usage="new Azure.Communication.CallAutomation.CallMediaRecognizeChoiceOptions (targetParticipant, choices)" />
+      <MemberSignature Language="C#" Value="public CallMediaRecognizeChoiceOptions (Azure.Communication.CommunicationIdentifier targetParticipant, System.Collections.Generic.IEnumerable&lt;Azure.Communication.CallAutomation.RecognizeChoice&gt; recognizeChoices);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.Communication.CommunicationIdentifier targetParticipant, class System.Collections.Generic.IEnumerable`1&lt;class Azure.Communication.CallAutomation.RecognizeChoice&gt; recognizeChoices) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CallMediaRecognizeChoiceOptions.#ctor(Azure.Communication.CommunicationIdentifier,System.Collections.Generic.IEnumerable{Azure.Communication.CallAutomation.RecognizeChoice})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (targetParticipant As CommunicationIdentifier, recognizeChoices As IEnumerable(Of RecognizeChoice))" />
+      <MemberSignature Language="F#" Value="new Azure.Communication.CallAutomation.CallMediaRecognizeChoiceOptions : Azure.Communication.CommunicationIdentifier * seq&lt;Azure.Communication.CallAutomation.RecognizeChoice&gt; -&gt; Azure.Communication.CallAutomation.CallMediaRecognizeChoiceOptions" Usage="new Azure.Communication.CallAutomation.CallMediaRecognizeChoiceOptions (targetParticipant, recognizeChoices)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
@@ -32,28 +32,28 @@
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="targetParticipant" Type="Azure.Communication.CommunicationIdentifier" />
-        <Parameter Name="choices" Type="System.Collections.Generic.IEnumerable&lt;Azure.Communication.CallAutomation.RecognitionChoice&gt;" />
+        <Parameter Name="recognizeChoices" Type="System.Collections.Generic.IEnumerable&lt;Azure.Communication.CallAutomation.RecognizeChoice&gt;" />
       </Parameters>
       <Docs>
         <param name="targetParticipant">To be added.</param>
-        <param name="choices">To be added.</param>
+        <param name="recognizeChoices">To be added.</param>
         <summary> Initializes a new instance of CallMediaRecognizeChoiceOptions. </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="Choices">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.Communication.CallAutomation.RecognitionChoice&gt; Choices { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Azure.Communication.CallAutomation.RecognitionChoice&gt; Choices" />
-      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.CallMediaRecognizeChoiceOptions.Choices" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Choices As IList(Of RecognitionChoice)" />
-      <MemberSignature Language="F#" Value="member this.Choices : System.Collections.Generic.IList&lt;Azure.Communication.CallAutomation.RecognitionChoice&gt;" Usage="Azure.Communication.CallAutomation.CallMediaRecognizeChoiceOptions.Choices" />
+    <Member MemberName="RecognizeChoices">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Azure.Communication.CallAutomation.RecognizeChoice&gt; RecognizeChoices { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.Communication.CallAutomation.RecognizeChoice&gt; RecognizeChoices" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.CallMediaRecognizeChoiceOptions.RecognizeChoices" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RecognizeChoices As IReadOnlyList(Of RecognizeChoice)" />
+      <MemberSignature Language="F#" Value="member this.RecognizeChoices : System.Collections.Generic.IReadOnlyList&lt;Azure.Communication.CallAutomation.RecognizeChoice&gt;" Usage="Azure.Communication.CallAutomation.CallMediaRecognizeChoiceOptions.RecognizeChoices" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IList&lt;Azure.Communication.CallAutomation.RecognitionChoice&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.Communication.CallAutomation.RecognizeChoice&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>

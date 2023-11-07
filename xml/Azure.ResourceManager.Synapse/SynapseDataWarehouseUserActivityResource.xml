@@ -65,11 +65,11 @@
         <Parameter Name="dataWarehouseUserActivityName" Type="Azure.ResourceManager.Synapse.Models.SynapseDataWarehouseUserActivityName" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="workspaceName">To be added.</param>
-        <param name="sqlPoolName">To be added.</param>
-        <param name="dataWarehouseUserActivityName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="workspaceName"> The workspaceName. </param>
+        <param name="sqlPoolName"> The sqlPoolName. </param>
+        <param name="dataWarehouseUserActivityName"> The dataWarehouseUserActivityName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Synapse.SynapseDataWarehouseUserActivityResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

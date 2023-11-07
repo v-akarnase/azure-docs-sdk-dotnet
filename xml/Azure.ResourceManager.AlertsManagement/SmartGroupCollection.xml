@@ -160,7 +160,7 @@
         <param name="options"> A property bag which contains all the parameters of this method except the LRO qualifier and request context parameter. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            List all the Smart Groups within a specified subscription. 
+            List all the Smart Groups within a specified subscription.
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.AlertsManagement/smartGroups</description></item><item><term>Operation Id</term><description>SmartGroups_GetAll</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.AlertsManagement.SmartGroupResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
@@ -238,7 +238,7 @@
         <param name="options"> A property bag which contains all the parameters of this method except the LRO qualifier and request context parameter. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            List all the Smart Groups within a specified subscription. 
+            List all the Smart Groups within a specified subscription.
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.AlertsManagement/smartGroups</description></item><item><term>Operation Id</term><description>SmartGroups_GetAll</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.AlertsManagement.SmartGroupResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
@@ -317,6 +317,62 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get information related to a specific Smart Group.
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.AlertsManagement/smartGroups/{smartGroupId}</description></item><item><term>Operation Id</term><description>SmartGroups_GetById</description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIfExists">
+      <MemberSignature Language="C#" Value="public virtual Azure.NullableResponse&lt;Azure.ResourceManager.AlertsManagement.SmartGroupResource&gt; GetIfExists (Guid smartGroupId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.NullableResponse`1&lt;class Azure.ResourceManager.AlertsManagement.SmartGroupResource&gt; GetIfExists(valuetype System.Guid smartGroupId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AlertsManagement.SmartGroupCollection.GetIfExists(System.Guid,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetIfExists (smartGroupId As Guid, Optional cancellationToken As CancellationToken = Nothing) As NullableResponse(Of SmartGroupResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetIfExists : Guid * System.Threading.CancellationToken -&gt; Azure.NullableResponse&lt;Azure.ResourceManager.AlertsManagement.SmartGroupResource&gt;&#xA;override this.GetIfExists : Guid * System.Threading.CancellationToken -&gt; Azure.NullableResponse&lt;Azure.ResourceManager.AlertsManagement.SmartGroupResource&gt;" Usage="smartGroupCollection.GetIfExists (smartGroupId, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AlertsManagement</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.NullableResponse&lt;Azure.ResourceManager.AlertsManagement.SmartGroupResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="smartGroupId" Type="System.Guid" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="smartGroupId"> Smart group unique id. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Tries to get details for this resource from the service.
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.AlertsManagement/smartGroups/{smartGroupId}</description></item><item><term>Operation Id</term><description>SmartGroups_GetById</description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIfExistsAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.NullableResponse&lt;Azure.ResourceManager.AlertsManagement.SmartGroupResource&gt;&gt; GetIfExistsAsync (Guid smartGroupId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.NullableResponse`1&lt;class Azure.ResourceManager.AlertsManagement.SmartGroupResource&gt;&gt; GetIfExistsAsync(valuetype System.Guid smartGroupId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.AlertsManagement.SmartGroupCollection.GetIfExistsAsync(System.Guid,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetIfExistsAsync (smartGroupId As Guid, Optional cancellationToken As CancellationToken = Nothing) As Task(Of NullableResponse(Of SmartGroupResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetIfExistsAsync : Guid * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.NullableResponse&lt;Azure.ResourceManager.AlertsManagement.SmartGroupResource&gt;&gt;&#xA;override this.GetIfExistsAsync : Guid * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.NullableResponse&lt;Azure.ResourceManager.AlertsManagement.SmartGroupResource&gt;&gt;" Usage="smartGroupCollection.GetIfExistsAsync (smartGroupId, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.AlertsManagement</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.NullableResponse&lt;Azure.ResourceManager.AlertsManagement.SmartGroupResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="smartGroupId" Type="System.Guid" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="smartGroupId"> Smart group unique id. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Tries to get details for this resource from the service.
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.AlertsManagement/smartGroups/{smartGroupId}</description></item><item><term>Operation Id</term><description>SmartGroups_GetById</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

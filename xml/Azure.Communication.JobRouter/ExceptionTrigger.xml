@@ -44,10 +44,10 @@
       </Docs>
     </Member>
     <Member MemberName="Kind">
-      <MemberSignature Language="C#" Value="protected string Kind { get; set; }" />
+      <MemberSignature Language="C#" Value="public string Kind { get; protected set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Kind" />
       <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.ExceptionTrigger.Kind" />
-      <MemberSignature Language="VB.NET" Value="Protected Property Kind As String" />
+      <MemberSignature Language="VB.NET" Value="Public Property Kind As String" />
       <MemberSignature Language="F#" Value="member this.Kind : string with get, set" Usage="Azure.Communication.JobRouter.ExceptionTrigger.Kind" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>

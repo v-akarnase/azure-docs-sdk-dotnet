@@ -245,7 +245,7 @@
       <Docs>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Retrieve a list of configuration profile version for a configuration profile 
+            Retrieve a list of configuration profile version for a configuration profile
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}/versions</description></item><item><term>Operation Id</term><description>ConfigurationProfilesVersions_ListChildResources</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Automanage.AutomanageConfigurationProfileVersionResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
@@ -272,7 +272,7 @@
       <Docs>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Retrieve a list of configuration profile version for a configuration profile 
+            Retrieve a list of configuration profile version for a configuration profile
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}/versions</description></item><item><term>Operation Id</term><description>ConfigurationProfilesVersions_ListChildResources</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Automanage.AutomanageConfigurationProfileVersionResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
@@ -302,6 +302,70 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get information about a configuration profile version
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}/versions/{versionName}</description></item><item><term>Operation Id</term><description>ConfigurationProfilesVersions_Get</description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="versionName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="versionName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIfExists">
+      <MemberSignature Language="C#" Value="public virtual Azure.NullableResponse&lt;Azure.ResourceManager.Automanage.AutomanageConfigurationProfileVersionResource&gt; GetIfExists (string versionName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.NullableResponse`1&lt;class Azure.ResourceManager.Automanage.AutomanageConfigurationProfileVersionResource&gt; GetIfExists(string versionName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Automanage.AutomanageConfigurationProfileVersionCollection.GetIfExists(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetIfExists (versionName As String, Optional cancellationToken As CancellationToken = Nothing) As NullableResponse(Of AutomanageConfigurationProfileVersionResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetIfExists : string * System.Threading.CancellationToken -&gt; Azure.NullableResponse&lt;Azure.ResourceManager.Automanage.AutomanageConfigurationProfileVersionResource&gt;&#xA;override this.GetIfExists : string * System.Threading.CancellationToken -&gt; Azure.NullableResponse&lt;Azure.ResourceManager.Automanage.AutomanageConfigurationProfileVersionResource&gt;" Usage="automanageConfigurationProfileVersionCollection.GetIfExists (versionName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Automanage</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.NullableResponse&lt;Azure.ResourceManager.Automanage.AutomanageConfigurationProfileVersionResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="versionName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="versionName"> The configuration profile version name. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Tries to get details for this resource from the service.
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}/versions/{versionName}</description></item><item><term>Operation Id</term><description>ConfigurationProfilesVersions_Get</description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="versionName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="versionName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIfExistsAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.NullableResponse&lt;Azure.ResourceManager.Automanage.AutomanageConfigurationProfileVersionResource&gt;&gt; GetIfExistsAsync (string versionName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.NullableResponse`1&lt;class Azure.ResourceManager.Automanage.AutomanageConfigurationProfileVersionResource&gt;&gt; GetIfExistsAsync(string versionName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Automanage.AutomanageConfigurationProfileVersionCollection.GetIfExistsAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetIfExistsAsync (versionName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of NullableResponse(Of AutomanageConfigurationProfileVersionResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetIfExistsAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.NullableResponse&lt;Azure.ResourceManager.Automanage.AutomanageConfigurationProfileVersionResource&gt;&gt;&#xA;override this.GetIfExistsAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.NullableResponse&lt;Azure.ResourceManager.Automanage.AutomanageConfigurationProfileVersionResource&gt;&gt;" Usage="automanageConfigurationProfileVersionCollection.GetIfExistsAsync (versionName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Automanage</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.NullableResponse&lt;Azure.ResourceManager.Automanage.AutomanageConfigurationProfileVersionResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="versionName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="versionName"> The configuration profile version name. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Tries to get details for this resource from the service.
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}/versions/{versionName}</description></item><item><term>Operation Id</term><description>ConfigurationProfilesVersions_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

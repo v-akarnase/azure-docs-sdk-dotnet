@@ -13,7 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> Jobs are distributed in order to workers, starting with the worker that is after the last worker to receive a job. </summary>
+    <summary>
+            Jobs are distributed in order to workers, starting with the worker that is
+            after the last worker to receive a job.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

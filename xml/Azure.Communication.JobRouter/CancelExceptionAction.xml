@@ -33,28 +33,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public CancelExceptionAction (string note = default, string dispositionCode = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string note, string dispositionCode) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.CancelExceptionAction.#ctor(System.String,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional note As String = Nothing, Optional dispositionCode As String = Nothing)" />
-      <MemberSignature Language="F#" Value="new Azure.Communication.JobRouter.CancelExceptionAction : string * string -&gt; Azure.Communication.JobRouter.CancelExceptionAction" Usage="new Azure.Communication.JobRouter.CancelExceptionAction (note, dispositionCode)" />
-      <MemberType>Constructor</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Parameters>
-        <Parameter Name="note" Type="System.String" />
-        <Parameter Name="dispositionCode" Type="System.String" />
-      </Parameters>
-      <Docs>
-        <param name="note"> (Optional) Customer supplied note, e.g., cancellation reason. </param>
-        <param name="dispositionCode"> (Optional) Customer supplied disposition code for specifying any short label. </param>
-        <summary> Initializes a new instance of CancelExceptionAction. </summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="DispositionCode">
       <MemberSignature Language="C#" Value="public string DispositionCode { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string DispositionCode" />
@@ -70,7 +48,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> (Optional) Indicates the outcome of the job, populate this field with your own custom values. </summary>
+        <summary>
+            (Optional) Indicates the outcome of the job, populate this field with your own
+            custom values.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -90,7 +71,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> (Optional) A note that will be appended to the jobs' Notes collection with th current timestamp. </summary>
+        <summary>
+            (Optional) A note that will be appended to the jobs' Notes collection with the
+            current timestamp.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

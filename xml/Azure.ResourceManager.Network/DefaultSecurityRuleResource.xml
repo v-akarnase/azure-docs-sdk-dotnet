@@ -69,10 +69,10 @@
         <Parameter Name="defaultSecurityRuleName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="networkSecurityGroupName">To be added.</param>
-        <param name="defaultSecurityRuleName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="networkSecurityGroupName"> The networkSecurityGroupName. </param>
+        <param name="defaultSecurityRuleName"> The defaultSecurityRuleName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Network.DefaultSecurityRuleResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

@@ -64,10 +64,10 @@
         <Parameter Name="connectionName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="networkVirtualApplianceName">To be added.</param>
-        <param name="connectionName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="networkVirtualApplianceName"> The networkVirtualApplianceName. </param>
+        <param name="connectionName"> The connectionName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Network.NetworkVirtualApplianceConnectionResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

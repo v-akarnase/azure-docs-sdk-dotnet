@@ -11,6 +11,7 @@
     <AssemblyVersion>1.0.2.0</AssemblyVersion>
     <AssemblyVersion>1.0.3.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -31,6 +32,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppContainers.Models.ContainerAppAvailableWorkloadProfile&gt;</ReturnType>
@@ -46,7 +48,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get all available workload profiles for a location.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.App/locations/{location}/availableManagedEnvironmentsWorkloadProfileTypes</description></item><item><term>Operation Id</term><description>AvailableWorkloadProfiles_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.App/locations/{location}/availableManagedEnvironmentsWorkloadProfileTypes</description></item><item><term>Operation Id</term><description>AvailableWorkloadProfiles_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersSubscriptionResource.GetAvailableWorkloadProfiles(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.AppContainers.Models.ContainerAppAvailableWorkloadProfile" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -61,6 +63,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppContainers.Models.ContainerAppAvailableWorkloadProfile&gt;</ReturnType>
@@ -76,7 +79,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get all available workload profiles for a location.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.App/locations/{location}/availableManagedEnvironmentsWorkloadProfileTypes</description></item><item><term>Operation Id</term><description>AvailableWorkloadProfiles_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.App/locations/{location}/availableManagedEnvironmentsWorkloadProfileTypes</description></item><item><term>Operation Id</term><description>AvailableWorkloadProfiles_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersSubscriptionResource.GetAvailableWorkloadProfiles(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.AppContainers.Models.ContainerAppAvailableWorkloadProfile" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -91,6 +94,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppContainers.Models.ContainerAppBillingMeter&gt;</ReturnType>
@@ -106,7 +110,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get all billingMeters for a location.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.App/locations/{location}/billingMeters</description></item><item><term>Operation Id</term><description>BillingMeters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.App/locations/{location}/billingMeters</description></item><item><term>Operation Id</term><description>BillingMeters_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersSubscriptionResource.GetBillingMeters(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.AppContainers.Models.ContainerAppBillingMeter" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -121,6 +125,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppContainers.Models.ContainerAppBillingMeter&gt;</ReturnType>
@@ -136,7 +141,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get all billingMeters for a location.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.App/locations/{location}/billingMeters</description></item><item><term>Operation Id</term><description>BillingMeters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.App/locations/{location}/billingMeters</description></item><item><term>Operation Id</term><description>BillingMeters_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersSubscriptionResource.GetBillingMeters(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.AppContainers.Models.ContainerAppBillingMeter" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -151,6 +156,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppContainers.ContainerAppResource&gt;</ReturnType>
@@ -166,13 +172,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the properties of a Container App.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/containerApps/{containerAppName}</description></item><item><term>Operation Id</term><description>ContainerApps_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/containerApps/{containerAppName}</description></item><item><term>Operation Id</term><description>ContainerApps_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersResourceGroupResource.GetContainerApp(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="containerAppName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="containerAppName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="containerAppName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetContainerAppAsync">
@@ -185,6 +191,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppContainers.ContainerAppResource&gt;&gt;</ReturnType>
@@ -200,13 +207,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the properties of a Container App.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/containerApps/{containerAppName}</description></item><item><term>Operation Id</term><description>ContainerApps_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/containerApps/{containerAppName}</description></item><item><term>Operation Id</term><description>ContainerApps_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersResourceGroupResource.GetContainerAppAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="containerAppName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="containerAppName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="containerAppName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetContainerAppAuthConfigResource">
@@ -219,6 +226,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppAuthConfigResource</ReturnType>
@@ -233,7 +241,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppAuthConfigResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.AppContainers.ContainerAppAuthConfigResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppAuthConfigResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersArmClient.GetContainerAppAuthConfigResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppAuthConfigResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -248,6 +256,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentResource&gt;</ReturnType>
@@ -263,13 +272,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the properties of an connectedEnvironment.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/connectedEnvironments/{connectedEnvironmentName}</description></item><item><term>Operation Id</term><description>ConnectedEnvironments_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/connectedEnvironments/{connectedEnvironmentName}</description></item><item><term>Operation Id</term><description>ConnectedEnvironments_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersResourceGroupResource.GetContainerAppConnectedEnvironment(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="connectedEnvironmentName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="connectedEnvironmentName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="connectedEnvironmentName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetContainerAppConnectedEnvironmentAsync">
@@ -282,6 +291,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentResource&gt;&gt;</ReturnType>
@@ -297,13 +307,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the properties of an connectedEnvironment.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/connectedEnvironments/{connectedEnvironmentName}</description></item><item><term>Operation Id</term><description>ConnectedEnvironments_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/connectedEnvironments/{connectedEnvironmentName}</description></item><item><term>Operation Id</term><description>ConnectedEnvironments_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersResourceGroupResource.GetContainerAppConnectedEnvironmentAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="connectedEnvironmentName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="connectedEnvironmentName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="connectedEnvironmentName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetContainerAppConnectedEnvironmentCertificateResource">
@@ -316,6 +326,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentCertificateResource</ReturnType>
@@ -330,7 +341,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentCertificateResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentCertificateResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentCertificateResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersArmClient.GetContainerAppConnectedEnvironmentCertificateResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentCertificateResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -345,6 +356,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentDaprComponentResource</ReturnType>
@@ -359,7 +371,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentDaprComponentResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentDaprComponentResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentDaprComponentResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersArmClient.GetContainerAppConnectedEnvironmentDaprComponentResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentDaprComponentResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -374,6 +386,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentResource</ReturnType>
@@ -388,7 +401,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersArmClient.GetContainerAppConnectedEnvironmentResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -403,6 +416,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentCollection</ReturnType>
@@ -412,7 +426,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of ContainerAppConnectedEnvironmentResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of ContainerAppConnectedEnvironmentResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersResourceGroupResource.GetContainerAppConnectedEnvironments" /> instead.</description></item></summary>
         <returns> An object representing collection of ContainerAppConnectedEnvironmentResources and their operations over a ContainerAppConnectedEnvironmentResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -427,6 +443,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentResource&gt;</ReturnType>
@@ -440,7 +457,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get all connectedEnvironments for a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.App/connectedEnvironments</description></item><item><term>Operation Id</term><description>ConnectedEnvironments_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.App/connectedEnvironments</description></item><item><term>Operation Id</term><description>ConnectedEnvironments_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersSubscriptionResource.GetContainerAppConnectedEnvironments(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -455,6 +472,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentResource&gt;</ReturnType>
@@ -468,7 +486,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get all connectedEnvironments for a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.App/connectedEnvironments</description></item><item><term>Operation Id</term><description>ConnectedEnvironments_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.App/connectedEnvironments</description></item><item><term>Operation Id</term><description>ConnectedEnvironments_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersSubscriptionResource.GetContainerAppConnectedEnvironments(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -483,6 +501,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentStorageResource</ReturnType>
@@ -497,7 +516,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentStorageResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentStorageResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentStorageResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersArmClient.GetContainerAppConnectedEnvironmentStorageResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppConnectedEnvironmentStorageResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -512,6 +531,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppDetectorPropertyResource</ReturnType>
@@ -526,7 +546,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppDetectorPropertyResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.AppContainers.ContainerAppDetectorPropertyResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppDetectorPropertyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersArmClient.GetContainerAppDetectorPropertyResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppDetectorPropertyResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -541,6 +561,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppDetectorPropertyRevisionResource</ReturnType>
@@ -555,7 +576,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppDetectorPropertyRevisionResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.AppContainers.ContainerAppDetectorPropertyRevisionResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppDetectorPropertyRevisionResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersArmClient.GetContainerAppDetectorPropertyRevisionResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppDetectorPropertyRevisionResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -570,6 +591,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppDetectorResource</ReturnType>
@@ -584,7 +606,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppDetectorResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.AppContainers.ContainerAppDetectorResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppDetectorResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersArmClient.GetContainerAppDetectorResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppDetectorResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -599,6 +621,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppContainers.ContainerAppJobResource&gt;</ReturnType>
@@ -614,13 +637,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the properties of a Container Apps Job.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/jobs/{jobName}</description></item><item><term>Operation Id</term><description>Jobs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/jobs/{jobName}</description></item><item><term>Operation Id</term><description>Jobs_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersResourceGroupResource.GetContainerAppJob(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="jobName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="jobName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="jobName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetContainerAppJobAsync">
@@ -633,6 +656,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppContainers.ContainerAppJobResource&gt;&gt;</ReturnType>
@@ -648,13 +672,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the properties of a Container Apps Job.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/jobs/{jobName}</description></item><item><term>Operation Id</term><description>Jobs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/jobs/{jobName}</description></item><item><term>Operation Id</term><description>Jobs_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersResourceGroupResource.GetContainerAppJobAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="jobName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="jobName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="jobName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetContainerAppJobExecutionResource">
@@ -667,6 +691,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppJobExecutionResource</ReturnType>
@@ -681,7 +706,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppJobExecutionResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.AppContainers.ContainerAppJobExecutionResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppJobExecutionResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersArmClient.GetContainerAppJobExecutionResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppJobExecutionResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -696,6 +721,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppJobResource</ReturnType>
@@ -710,7 +736,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppJobResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.AppContainers.ContainerAppJobResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppJobResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersArmClient.GetContainerAppJobResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppJobResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -725,6 +751,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppJobCollection</ReturnType>
@@ -734,7 +761,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of ContainerAppJobResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of ContainerAppJobResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersResourceGroupResource.GetContainerAppJobs" /> instead.</description></item></summary>
         <returns> An object representing collection of ContainerAppJobResources and their operations over a ContainerAppJobResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -749,6 +778,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppContainers.ContainerAppJobResource&gt;</ReturnType>
@@ -762,7 +792,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the Container Apps Jobs in a given subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.App/jobs</description></item><item><term>Operation Id</term><description>Jobs_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.App/jobs</description></item><item><term>Operation Id</term><description>Jobs_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersSubscriptionResource.GetContainerAppJobs(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppJobResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -777,6 +807,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppContainers.ContainerAppJobResource&gt;</ReturnType>
@@ -790,7 +821,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the Container Apps Jobs in a given subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.App/jobs</description></item><item><term>Operation Id</term><description>Jobs_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.App/jobs</description></item><item><term>Operation Id</term><description>Jobs_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersSubscriptionResource.GetContainerAppJobs(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppJobResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -805,6 +836,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppManagedCertificateResource</ReturnType>
@@ -819,7 +851,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppManagedCertificateResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.AppContainers.ContainerAppManagedCertificateResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppManagedCertificateResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersArmClient.GetContainerAppManagedCertificateResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppManagedCertificateResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -834,6 +866,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentResource&gt;</ReturnType>
@@ -849,13 +882,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the properties of a Managed Environment used to host container apps.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/managedEnvironments/{environmentName}</description></item><item><term>Operation Id</term><description>ManagedEnvironments_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/managedEnvironments/{environmentName}</description></item><item><term>Operation Id</term><description>ManagedEnvironments_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersResourceGroupResource.GetContainerAppManagedEnvironment(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="environmentName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="environmentName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="environmentName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetContainerAppManagedEnvironmentAsync">
@@ -868,6 +901,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentResource&gt;&gt;</ReturnType>
@@ -883,13 +917,13 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the properties of a Managed Environment used to host container apps.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/managedEnvironments/{environmentName}</description></item><item><term>Operation Id</term><description>ManagedEnvironments_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/managedEnvironments/{environmentName}</description></item><item><term>Operation Id</term><description>ManagedEnvironments_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersResourceGroupResource.GetContainerAppManagedEnvironmentAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="environmentName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="environmentName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="environmentName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetContainerAppManagedEnvironmentCertificateResource">
@@ -902,6 +936,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentCertificateResource</ReturnType>
@@ -916,7 +951,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentCertificateResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentCertificateResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentCertificateResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersArmClient.GetContainerAppManagedEnvironmentCertificateResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentCertificateResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -931,6 +966,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentDaprComponentResource</ReturnType>
@@ -945,7 +981,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentDaprComponentResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentDaprComponentResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentDaprComponentResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersArmClient.GetContainerAppManagedEnvironmentDaprComponentResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentDaprComponentResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -960,6 +996,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentDetectorResource</ReturnType>
@@ -974,7 +1011,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentDetectorResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentDetectorResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentDetectorResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersArmClient.GetContainerAppManagedEnvironmentDetectorResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentDetectorResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -989,6 +1026,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentDetectorResourcePropertyResource</ReturnType>
@@ -1003,7 +1041,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentDetectorResourcePropertyResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentDetectorResourcePropertyResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentDetectorResourcePropertyResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersArmClient.GetContainerAppManagedEnvironmentDetectorResourcePropertyResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentDetectorResourcePropertyResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1018,6 +1056,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentResource</ReturnType>
@@ -1032,7 +1071,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersArmClient.GetContainerAppManagedEnvironmentResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1047,6 +1086,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentCollection</ReturnType>
@@ -1056,7 +1096,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of ContainerAppManagedEnvironmentResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of ContainerAppManagedEnvironmentResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersResourceGroupResource.GetContainerAppManagedEnvironments" /> instead.</description></item></summary>
         <returns> An object representing collection of ContainerAppManagedEnvironmentResources and their operations over a ContainerAppManagedEnvironmentResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1071,6 +1113,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentResource&gt;</ReturnType>
@@ -1084,7 +1127,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get all Managed Environments for a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.App/managedEnvironments</description></item><item><term>Operation Id</term><description>ManagedEnvironments_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.App/managedEnvironments</description></item><item><term>Operation Id</term><description>ManagedEnvironments_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersSubscriptionResource.GetContainerAppManagedEnvironments(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1099,6 +1142,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentResource&gt;</ReturnType>
@@ -1112,7 +1156,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get all Managed Environments for a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.App/managedEnvironments</description></item><item><term>Operation Id</term><description>ManagedEnvironments_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.App/managedEnvironments</description></item><item><term>Operation Id</term><description>ManagedEnvironments_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersSubscriptionResource.GetContainerAppManagedEnvironments(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1127,6 +1171,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentStorageResource</ReturnType>
@@ -1141,7 +1186,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentStorageResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentStorageResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentStorageResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersArmClient.GetContainerAppManagedEnvironmentStorageResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppManagedEnvironmentStorageResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1156,6 +1201,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppReplicaResource</ReturnType>
@@ -1170,7 +1216,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppReplicaResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.AppContainers.ContainerAppReplicaResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppReplicaResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersArmClient.GetContainerAppReplicaResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppReplicaResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1185,6 +1231,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppResource</ReturnType>
@@ -1199,7 +1246,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.AppContainers.ContainerAppResource.CreateResourceIdentifier(System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersArmClient.GetContainerAppResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1214,6 +1261,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppRevisionResource</ReturnType>
@@ -1228,7 +1276,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppRevisionResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.AppContainers.ContainerAppRevisionResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppRevisionResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersArmClient.GetContainerAppRevisionResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppRevisionResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1243,6 +1291,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppCollection</ReturnType>
@@ -1252,7 +1301,9 @@
       </Parameters>
       <Docs>
         <param name="resourceGroupResource"> The <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> instance the method will execute against. </param>
-        <summary> Gets a collection of ContainerAppResources in the ResourceGroupResource. </summary>
+        <summary>
+            Gets a collection of ContainerAppResources in the ResourceGroupResource.
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersResourceGroupResource.GetContainerApps" /> instead.</description></item></summary>
         <returns> An object representing collection of ContainerAppResources and their operations over a ContainerAppResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1267,6 +1318,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppContainers.ContainerAppResource&gt;</ReturnType>
@@ -1280,7 +1332,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the Container Apps in a given subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.App/containerApps</description></item><item><term>Operation Id</term><description>ContainerApps_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.App/containerApps</description></item><item><term>Operation Id</term><description>ContainerApps_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersSubscriptionResource.GetContainerApps(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1295,6 +1347,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppContainers.ContainerAppResource&gt;</ReturnType>
@@ -1308,7 +1361,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the Container Apps in a given subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.App/containerApps</description></item><item><term>Operation Id</term><description>ContainerApps_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.App/containerApps</description></item><item><term>Operation Id</term><description>ContainerApps_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersSubscriptionResource.GetContainerApps(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1323,6 +1376,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppContainers.ContainerAppSourceControlResource</ReturnType>
@@ -1337,7 +1391,7 @@
         <summary>
             Gets an object representing a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppSourceControlResource" /> along with the instance operations that can be performed on it but with no data.
             You can use <see cref="M:Azure.ResourceManager.AppContainers.ContainerAppSourceControlResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppSourceControlResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            </summary>
+            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.AppContainers.Mocking.MockableAppContainersArmClient.GetContainerAppSourceControlResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
         <returns> Returns a <see cref="T:Azure.ResourceManager.AppContainers.ContainerAppSourceControlResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>

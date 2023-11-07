@@ -256,7 +256,7 @@
         <ReturnType>Azure.Search.Documents.Indexes.Models.IndexerExecutionEnvironment</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Indicates that Azure Cognitive Search can determine where the indexer should execute. This is the default environment when nothing is specified and is the recommended value. </summary>
+        <summary> Indicates that the search service can determine where the indexer should execute. This is the default environment when nothing is specified and is the recommended value. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

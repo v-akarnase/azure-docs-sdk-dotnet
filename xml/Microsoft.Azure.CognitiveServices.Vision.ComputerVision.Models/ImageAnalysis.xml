@@ -8,6 +8,7 @@
     <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.ComputerVision</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
     <AssemblyVersion>7.0.1.0</AssemblyVersion>
+    <AssemblyVersion>7.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.ComputerVision</AssemblyName>
         <AssemblyVersion>7.0.1.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -44,6 +46,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.ComputerVision</AssemblyName>
         <AssemblyVersion>7.0.1.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="categories" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.CognitiveServices.Vision.ComputerVision.Models.Category&gt;" />
@@ -86,6 +89,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.ComputerVision</AssemblyName>
         <AssemblyVersion>7.0.1.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -112,6 +116,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.ComputerVision</AssemblyName>
         <AssemblyVersion>7.0.1.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -138,6 +143,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.ComputerVision</AssemblyName>
         <AssemblyVersion>7.0.1.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -164,6 +170,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.ComputerVision</AssemblyName>
         <AssemblyVersion>7.0.1.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -190,6 +197,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.ComputerVision</AssemblyName>
         <AssemblyVersion>7.0.1.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -216,6 +224,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.ComputerVision</AssemblyName>
         <AssemblyVersion>7.0.1.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -242,6 +251,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.ComputerVision</AssemblyName>
         <AssemblyVersion>7.0.1.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -268,6 +278,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.ComputerVision</AssemblyName>
         <AssemblyVersion>7.0.1.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -294,6 +305,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.ComputerVision</AssemblyName>
         <AssemblyVersion>7.0.1.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -320,6 +332,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.ComputerVision</AssemblyName>
         <AssemblyVersion>7.0.1.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -346,6 +359,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.ComputerVision</AssemblyName>
         <AssemblyVersion>7.0.1.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -372,6 +386,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Vision.ComputerVision</AssemblyName>
         <AssemblyVersion>7.0.1.0</AssemblyVersion>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

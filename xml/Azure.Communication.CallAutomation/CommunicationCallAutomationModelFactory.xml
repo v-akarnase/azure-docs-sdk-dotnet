@@ -17,6 +17,42 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName="AddParticipantCancelled">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.AddParticipantCancelled AddParticipantCancelled (string callConnectionId = default, string serverCallId = default, string correlationId = default, string invitationId = default, Azure.Communication.CommunicationIdentifier participant = default, string operationContext = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.CallAutomation.AddParticipantCancelled AddParticipantCancelled(string callConnectionId, string serverCallId, string correlationId, string invitationId, class Azure.Communication.CommunicationIdentifier participant, string operationContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.AddParticipantCancelled(System.String,System.String,System.String,System.String,Azure.Communication.CommunicationIdentifier,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function AddParticipantCancelled (Optional callConnectionId As String = Nothing, Optional serverCallId As String = Nothing, Optional correlationId As String = Nothing, Optional invitationId As String = Nothing, Optional participant As CommunicationIdentifier = Nothing, Optional operationContext As String = Nothing) As AddParticipantCancelled" />
+      <MemberSignature Language="F#" Value="static member AddParticipantCancelled : string * string * string * string * Azure.Communication.CommunicationIdentifier * string -&gt; Azure.Communication.CallAutomation.AddParticipantCancelled" Usage="Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.AddParticipantCancelled (callConnectionId, serverCallId, correlationId, invitationId, participant, operationContext)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallAutomation.AddParticipantCancelled</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callConnectionId" Type="System.String" />
+        <Parameter Name="serverCallId" Type="System.String" />
+        <Parameter Name="correlationId" Type="System.String" />
+        <Parameter Name="invitationId" Type="System.String" />
+        <Parameter Name="participant" Type="Azure.Communication.CommunicationIdentifier" />
+        <Parameter Name="operationContext" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="callConnectionId">To be added.</param>
+        <param name="serverCallId">To be added.</param>
+        <param name="correlationId">To be added.</param>
+        <param name="invitationId">To be added.</param>
+        <param name="participant">To be added.</param>
+        <param name="operationContext">To be added.</param>
+        <summary>
+            Initializes a new instance of add participant cancelled event.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="AddParticipantFailed">
       <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.AddParticipantFailed AddParticipantFailed (string callConnectionId = default, string serverCallId = default, string correlationId = default, string operationContext = default, Azure.Communication.CallAutomation.ResultInformation resultInformation = default, Azure.Communication.CommunicationIdentifier participant = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.CallAutomation.AddParticipantFailed AddParticipantFailed(string callConnectionId, string serverCallId, string correlationId, string operationContext, class Azure.Communication.CallAutomation.ResultInformation resultInformation, class Azure.Communication.CommunicationIdentifier participant) cil managed" />
@@ -172,11 +208,11 @@
       </Docs>
     </Member>
     <Member MemberName="CallConnectionProperties">
-      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.CallConnectionProperties CallConnectionProperties (string callConnectionId = default, string serverCallId = default, System.Collections.Generic.IEnumerable&lt;Azure.Communication.CommunicationIdentifier&gt; targets = default, Azure.Communication.CallAutomation.CallConnectionState callConnectionState = default, Uri callbackUri = default, Azure.Communication.CommunicationIdentifier sourceIdentity = default, Azure.Communication.PhoneNumberIdentifier sourceCallerIdNumber = default, string sourceDisplayName = default, Azure.Communication.CommunicationIdentifier answeredBy = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.CallAutomation.CallConnectionProperties CallConnectionProperties(string callConnectionId, string serverCallId, class System.Collections.Generic.IEnumerable`1&lt;class Azure.Communication.CommunicationIdentifier&gt; targets, valuetype Azure.Communication.CallAutomation.CallConnectionState callConnectionState, class System.Uri callbackUri, class Azure.Communication.CommunicationIdentifier sourceIdentity, class Azure.Communication.PhoneNumberIdentifier sourceCallerIdNumber, string sourceDisplayName, class Azure.Communication.CommunicationIdentifier answeredBy) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.CallConnectionProperties(System.String,System.String,System.Collections.Generic.IEnumerable{Azure.Communication.CommunicationIdentifier},Azure.Communication.CallAutomation.CallConnectionState,System.Uri,Azure.Communication.CommunicationIdentifier,Azure.Communication.PhoneNumberIdentifier,System.String,Azure.Communication.CommunicationIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function CallConnectionProperties (Optional callConnectionId As String = Nothing, Optional serverCallId As String = Nothing, Optional targets As IEnumerable(Of CommunicationIdentifier) = Nothing, Optional callConnectionState As CallConnectionState = Nothing, Optional callbackUri As Uri = Nothing, Optional sourceIdentity As CommunicationIdentifier = Nothing, Optional sourceCallerIdNumber As PhoneNumberIdentifier = Nothing, Optional sourceDisplayName As String = Nothing, Optional answeredBy As CommunicationIdentifier = Nothing) As CallConnectionProperties" />
-      <MemberSignature Language="F#" Value="static member CallConnectionProperties : string * string * seq&lt;Azure.Communication.CommunicationIdentifier&gt; * Azure.Communication.CallAutomation.CallConnectionState * Uri * Azure.Communication.CommunicationIdentifier * Azure.Communication.PhoneNumberIdentifier * string * Azure.Communication.CommunicationIdentifier -&gt; Azure.Communication.CallAutomation.CallConnectionProperties" Usage="Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.CallConnectionProperties (callConnectionId, serverCallId, targets, callConnectionState, callbackUri, sourceIdentity, sourceCallerIdNumber, sourceDisplayName, answeredBy)" />
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.CallConnectionProperties CallConnectionProperties (string callConnectionId = default, string serverCallId = default, System.Collections.Generic.IEnumerable&lt;Azure.Communication.CommunicationIdentifier&gt; targets = default, Azure.Communication.CallAutomation.CallConnectionState callConnectionState = default, Uri callbackUri = default, Azure.Communication.CommunicationIdentifier sourceIdentity = default, Azure.Communication.PhoneNumberIdentifier sourceCallerIdNumber = default, string sourceDisplayName = default, string mediaSubscriptionId = default, string dataSubscriptionId = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.CallAutomation.CallConnectionProperties CallConnectionProperties(string callConnectionId, string serverCallId, class System.Collections.Generic.IEnumerable`1&lt;class Azure.Communication.CommunicationIdentifier&gt; targets, valuetype Azure.Communication.CallAutomation.CallConnectionState callConnectionState, class System.Uri callbackUri, class Azure.Communication.CommunicationIdentifier sourceIdentity, class Azure.Communication.PhoneNumberIdentifier sourceCallerIdNumber, string sourceDisplayName, string mediaSubscriptionId, string dataSubscriptionId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.CallConnectionProperties(System.String,System.String,System.Collections.Generic.IEnumerable{Azure.Communication.CommunicationIdentifier},Azure.Communication.CallAutomation.CallConnectionState,System.Uri,Azure.Communication.CommunicationIdentifier,Azure.Communication.PhoneNumberIdentifier,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CallConnectionProperties (Optional callConnectionId As String = Nothing, Optional serverCallId As String = Nothing, Optional targets As IEnumerable(Of CommunicationIdentifier) = Nothing, Optional callConnectionState As CallConnectionState = Nothing, Optional callbackUri As Uri = Nothing, Optional sourceIdentity As CommunicationIdentifier = Nothing, Optional sourceCallerIdNumber As PhoneNumberIdentifier = Nothing, Optional sourceDisplayName As String = Nothing, Optional mediaSubscriptionId As String = Nothing, Optional dataSubscriptionId As String = Nothing) As CallConnectionProperties" />
+      <MemberSignature Language="F#" Value="static member CallConnectionProperties : string * string * seq&lt;Azure.Communication.CommunicationIdentifier&gt; * Azure.Communication.CallAutomation.CallConnectionState * Uri * Azure.Communication.CommunicationIdentifier * Azure.Communication.PhoneNumberIdentifier * string * string * string -&gt; Azure.Communication.CallAutomation.CallConnectionProperties" Usage="Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.CallConnectionProperties (callConnectionId, serverCallId, targets, callConnectionState, callbackUri, sourceIdentity, sourceCallerIdNumber, sourceDisplayName, mediaSubscriptionId, dataSubscriptionId)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
@@ -194,7 +230,8 @@
         <Parameter Name="sourceIdentity" Type="Azure.Communication.CommunicationIdentifier" />
         <Parameter Name="sourceCallerIdNumber" Type="Azure.Communication.PhoneNumberIdentifier" />
         <Parameter Name="sourceDisplayName" Type="System.String" />
-        <Parameter Name="answeredBy" Type="Azure.Communication.CommunicationIdentifier" />
+        <Parameter Name="mediaSubscriptionId" Type="System.String" />
+        <Parameter Name="dataSubscriptionId" Type="System.String" />
       </Parameters>
       <Docs>
         <param name="callConnectionId">The call connection id.</param>
@@ -205,7 +242,8 @@
         <param name="sourceIdentity">Source identity.</param>
         <param name="sourceCallerIdNumber">Caller ID phone number to appear on the invitee.</param>
         <param name="sourceDisplayName">Display name to appear on the invitee.</param>
-        <param name="answeredBy">AnsweredBy identity.</param>
+        <param name="mediaSubscriptionId">The subscriptionId for Media Streaming.</param>
+        <param name="dataSubscriptionId">The subscriptionId for transcription.</param>
         <summary> Initializes a new instance of CallConnectionProperties. </summary>
         <returns> A new <see cref="T:Azure.Communication.CallAutomation.CallConnectionProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
@@ -268,11 +306,11 @@
       </Docs>
     </Member>
     <Member MemberName="CallTransferAccepted">
-      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.CallTransferAccepted CallTransferAccepted (string callConnectionId = default, string serverCallId = default, string correlationId = default, string operationContext = default, Azure.Communication.CallAutomation.ResultInformation resultInformation = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.CallAutomation.CallTransferAccepted CallTransferAccepted(string callConnectionId, string serverCallId, string correlationId, string operationContext, class Azure.Communication.CallAutomation.ResultInformation resultInformation) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.CallTransferAccepted(System.String,System.String,System.String,System.String,Azure.Communication.CallAutomation.ResultInformation)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function CallTransferAccepted (Optional callConnectionId As String = Nothing, Optional serverCallId As String = Nothing, Optional correlationId As String = Nothing, Optional operationContext As String = Nothing, Optional resultInformation As ResultInformation = Nothing) As CallTransferAccepted" />
-      <MemberSignature Language="F#" Value="static member CallTransferAccepted : string * string * string * string * Azure.Communication.CallAutomation.ResultInformation -&gt; Azure.Communication.CallAutomation.CallTransferAccepted" Usage="Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.CallTransferAccepted (callConnectionId, serverCallId, correlationId, operationContext, resultInformation)" />
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.CallTransferAccepted CallTransferAccepted (string callConnectionId = default, string serverCallId = default, string correlationId = default, string operationContext = default, Azure.Communication.CallAutomation.ResultInformation resultInformation = default, Azure.Communication.CommunicationIdentifier transferee = default, Azure.Communication.CommunicationIdentifier transferTarget = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.CallAutomation.CallTransferAccepted CallTransferAccepted(string callConnectionId, string serverCallId, string correlationId, string operationContext, class Azure.Communication.CallAutomation.ResultInformation resultInformation, class Azure.Communication.CommunicationIdentifier transferee, class Azure.Communication.CommunicationIdentifier transferTarget) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.CallTransferAccepted(System.String,System.String,System.String,System.String,Azure.Communication.CallAutomation.ResultInformation,Azure.Communication.CommunicationIdentifier,Azure.Communication.CommunicationIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CallTransferAccepted (Optional callConnectionId As String = Nothing, Optional serverCallId As String = Nothing, Optional correlationId As String = Nothing, Optional operationContext As String = Nothing, Optional resultInformation As ResultInformation = Nothing, Optional transferee As CommunicationIdentifier = Nothing, Optional transferTarget As CommunicationIdentifier = Nothing) As CallTransferAccepted" />
+      <MemberSignature Language="F#" Value="static member CallTransferAccepted : string * string * string * string * Azure.Communication.CallAutomation.ResultInformation * Azure.Communication.CommunicationIdentifier * Azure.Communication.CommunicationIdentifier -&gt; Azure.Communication.CallAutomation.CallTransferAccepted" Usage="Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.CallTransferAccepted (callConnectionId, serverCallId, correlationId, operationContext, resultInformation, transferee, transferTarget)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
@@ -287,13 +325,17 @@
         <Parameter Name="correlationId" Type="System.String" />
         <Parameter Name="operationContext" Type="System.String" />
         <Parameter Name="resultInformation" Type="Azure.Communication.CallAutomation.ResultInformation" />
+        <Parameter Name="transferee" Type="Azure.Communication.CommunicationIdentifier" />
+        <Parameter Name="transferTarget" Type="Azure.Communication.CommunicationIdentifier" />
       </Parameters>
       <Docs>
         <param name="callConnectionId"> Call connection ID. </param>
         <param name="serverCallId"> Server call ID. </param>
         <param name="correlationId"> Correlation ID for event to call correlation. Also called ChainId for skype chain ID. </param>
         <param name="operationContext"> Used by customers when calling mid-call actions to correlate the request to the response event. </param>
-        <param name="resultInformation"> Contains the resulting SIP code, sub-code and message. </param>
+        <param name="resultInformation"> Contains the resulting SIP code/sub-code and message from NGC services. </param>
+        <param name="transferee"> Transferee is the participant who is transferring the call.  </param>
+        <param name="transferTarget"> The identity of the target where call should be transferred to. </param>
         <summary> Initializes a new instance of CallTransferAccepted. </summary>
         <returns> A new <see cref="T:Azure.Communication.CallAutomation.CallTransferAccepted" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
@@ -325,9 +367,71 @@
         <param name="serverCallId"> Server call ID. </param>
         <param name="correlationId"> Correlation ID for event to call correlation. Also called ChainId for skype chain ID. </param>
         <param name="operationContext"> Used by customers when calling mid-call actions to correlate the request to the response event. </param>
-        <param name="resultInformation"> Contains the resulting SIP code, sub-code and message. </param>
+        <param name="resultInformation"> Contains the resulting SIP code/sub-code and message from NGC services. </param>
         <summary> Initializes a new instance of CallTransferFailed. </summary>
         <returns> A new <see cref="T:Azure.Communication.CallAutomation.CallTransferFailed" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CancelAddParticipantFailed">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.CancelAddParticipantFailed CancelAddParticipantFailed (string callConnectionId = default, string serverCallId = default, string correlationId = default, string invitationId = default, Azure.Communication.CallAutomation.ResultInformation resultInformation = default, string operationContext = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.CallAutomation.CancelAddParticipantFailed CancelAddParticipantFailed(string callConnectionId, string serverCallId, string correlationId, string invitationId, class Azure.Communication.CallAutomation.ResultInformation resultInformation, string operationContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.CancelAddParticipantFailed(System.String,System.String,System.String,System.String,Azure.Communication.CallAutomation.ResultInformation,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CancelAddParticipantFailed (Optional callConnectionId As String = Nothing, Optional serverCallId As String = Nothing, Optional correlationId As String = Nothing, Optional invitationId As String = Nothing, Optional resultInformation As ResultInformation = Nothing, Optional operationContext As String = Nothing) As CancelAddParticipantFailed" />
+      <MemberSignature Language="F#" Value="static member CancelAddParticipantFailed : string * string * string * string * Azure.Communication.CallAutomation.ResultInformation * string -&gt; Azure.Communication.CallAutomation.CancelAddParticipantFailed" Usage="Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.CancelAddParticipantFailed (callConnectionId, serverCallId, correlationId, invitationId, resultInformation, operationContext)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallAutomation.CancelAddParticipantFailed</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callConnectionId" Type="System.String" />
+        <Parameter Name="serverCallId" Type="System.String" />
+        <Parameter Name="correlationId" Type="System.String" />
+        <Parameter Name="invitationId" Type="System.String" />
+        <Parameter Name="resultInformation" Type="Azure.Communication.CallAutomation.ResultInformation" />
+        <Parameter Name="operationContext" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="callConnectionId">To be added.</param>
+        <param name="serverCallId">To be added.</param>
+        <param name="correlationId">To be added.</param>
+        <param name="invitationId">To be added.</param>
+        <param name="resultInformation">To be added.</param>
+        <param name="operationContext">To be added.</param>
+        <summary>
+            Initializes a new instance of cancel add participant failed event.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CancelAddParticipantResult">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.CancelAddParticipantResult CancelAddParticipantResult (string invitationId = default, string operationContext = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.CallAutomation.CancelAddParticipantResult CancelAddParticipantResult(string invitationId, string operationContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.CancelAddParticipantResult(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CancelAddParticipantResult (Optional invitationId As String = Nothing, Optional operationContext As String = Nothing) As CancelAddParticipantResult" />
+      <MemberSignature Language="F#" Value="static member CancelAddParticipantResult : string * string -&gt; Azure.Communication.CallAutomation.CancelAddParticipantResult" Usage="Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.CancelAddParticipantResult (invitationId, operationContext)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallAutomation.CancelAddParticipantResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="invitationId" Type="System.String" />
+        <Parameter Name="operationContext" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="invitationId"> Invitation ID used to cancel the request. </param>
+        <param name="operationContext"> The operation context provided by client. </param>
+        <summary> Initializes a new instance of CancelAddParticipantResult. </summary>
+        <returns> A new <see cref="T:Azure.Communication.CallAutomation.CancelAddParticipantResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -357,6 +461,30 @@
             </param>
         <summary> Initializes a new instance of ChoiceResult. </summary>
         <returns> A new <see cref="T:Azure.Communication.CallAutomation.ChoiceResult" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CollectTonesResult">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.CollectTonesResult CollectTonesResult (System.Collections.Generic.IEnumerable&lt;Azure.Communication.CallAutomation.DtmfTone&gt; tones = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.CallAutomation.CollectTonesResult CollectTonesResult(class System.Collections.Generic.IEnumerable`1&lt;valuetype Azure.Communication.CallAutomation.DtmfTone&gt; tones) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.CollectTonesResult(System.Collections.Generic.IEnumerable{Azure.Communication.CallAutomation.DtmfTone})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CollectTonesResult (Optional tones As IEnumerable(Of DtmfTone) = Nothing) As CollectTonesResult" />
+      <MemberSignature Language="F#" Value="static member CollectTonesResult : seq&lt;Azure.Communication.CallAutomation.DtmfTone&gt; -&gt; Azure.Communication.CallAutomation.CollectTonesResult" Usage="Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.CollectTonesResult tones" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallAutomation.CollectTonesResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tones" Type="System.Collections.Generic.IEnumerable&lt;Azure.Communication.CallAutomation.DtmfTone&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="tones" />
+        <summary> Initializes a new instance of CollectTonesResult. </summary>
+        <returns> A new <see cref="T:Azure.Communication.CallAutomation.CollectTonesResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -723,7 +851,7 @@
             Determines the sub-type of the recognize operation.
             In case of cancel operation the this field is not set and is returned empty
             </param>
-        <param name="recognizeResult"> Defines the result for RecognitionType = Dtmf. </param>
+        <param name="recognizeResult"> Defines the result for RecognitionType = Dtmf,Choice,Speech. </param>
         <summary> Initializes a new instance of RecognizeCompletedInternal. </summary>
         <returns> A new <see cref="T:Azure.Communication.CallAutomation.RecognizeCompleted" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
@@ -796,11 +924,11 @@
       </Docs>
     </Member>
     <Member MemberName="RecordingStateResult">
-      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.RecordingStateResult RecordingStateResult (string recordingId = default, Azure.Communication.CallAutomation.RecordingState? recordingState = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.CallAutomation.RecordingStateResult RecordingStateResult(string recordingId, valuetype System.Nullable`1&lt;valuetype Azure.Communication.CallAutomation.RecordingState&gt; recordingState) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.RecordingStateResult(System.String,System.Nullable{Azure.Communication.CallAutomation.RecordingState})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function RecordingStateResult (Optional recordingId As String = Nothing, Optional recordingState As Nullable(Of RecordingState) = Nothing) As RecordingStateResult" />
-      <MemberSignature Language="F#" Value="static member RecordingStateResult : string * Nullable&lt;Azure.Communication.CallAutomation.RecordingState&gt; -&gt; Azure.Communication.CallAutomation.RecordingStateResult" Usage="Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.RecordingStateResult (recordingId, recordingState)" />
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.RecordingStateResult RecordingStateResult (string recordingId = default, Azure.Communication.CallAutomation.RecordingState? recordingState = default, Azure.Communication.CallAutomation.RecordingType? recordingType = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.CallAutomation.RecordingStateResult RecordingStateResult(string recordingId, valuetype System.Nullable`1&lt;valuetype Azure.Communication.CallAutomation.RecordingState&gt; recordingState, valuetype System.Nullable`1&lt;valuetype Azure.Communication.CallAutomation.RecordingType&gt; recordingType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.RecordingStateResult(System.String,System.Nullable{Azure.Communication.CallAutomation.RecordingState},System.Nullable{Azure.Communication.CallAutomation.RecordingType})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function RecordingStateResult (Optional recordingId As String = Nothing, Optional recordingState As Nullable(Of RecordingState) = Nothing, Optional recordingType As Nullable(Of RecordingType) = Nothing) As RecordingStateResult" />
+      <MemberSignature Language="F#" Value="static member RecordingStateResult : string * Nullable&lt;Azure.Communication.CallAutomation.RecordingState&gt; * Nullable&lt;Azure.Communication.CallAutomation.RecordingType&gt; -&gt; Azure.Communication.CallAutomation.RecordingStateResult" Usage="Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.RecordingStateResult (recordingId, recordingState, recordingType)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
@@ -812,10 +940,12 @@
       <Parameters>
         <Parameter Name="recordingId" Type="System.String" />
         <Parameter Name="recordingState" Type="System.Nullable&lt;Azure.Communication.CallAutomation.RecordingState&gt;" />
+        <Parameter Name="recordingType" Type="System.Nullable&lt;Azure.Communication.CallAutomation.RecordingType&gt;" />
       </Parameters>
       <Docs>
         <param name="recordingId" />
         <param name="recordingState" />
+        <param name="recordingType" />
         <summary> Initializes a new instance of RecordingStateResult. </summary>
         <returns> A new <see cref="T:Azure.Communication.CallAutomation.RecordingStateResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
@@ -945,19 +1075,19 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SendDtmfTonesCompleted">
-      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.SendDtmfTonesCompleted SendDtmfTonesCompleted (string callConnectionId = default, string serverCallId = default, string correlationId = default, string operationContext = default, Azure.Communication.CallAutomation.ResultInformation resultInformation = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.CallAutomation.SendDtmfTonesCompleted SendDtmfTonesCompleted(string callConnectionId, string serverCallId, string correlationId, string operationContext, class Azure.Communication.CallAutomation.ResultInformation resultInformation) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.SendDtmfTonesCompleted(System.String,System.String,System.String,System.String,Azure.Communication.CallAutomation.ResultInformation)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function SendDtmfTonesCompleted (Optional callConnectionId As String = Nothing, Optional serverCallId As String = Nothing, Optional correlationId As String = Nothing, Optional operationContext As String = Nothing, Optional resultInformation As ResultInformation = Nothing) As SendDtmfTonesCompleted" />
-      <MemberSignature Language="F#" Value="static member SendDtmfTonesCompleted : string * string * string * string * Azure.Communication.CallAutomation.ResultInformation -&gt; Azure.Communication.CallAutomation.SendDtmfTonesCompleted" Usage="Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.SendDtmfTonesCompleted (callConnectionId, serverCallId, correlationId, operationContext, resultInformation)" />
+    <Member MemberName="SendDtmfCompleted">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.SendDtmfCompleted SendDtmfCompleted (string callConnectionId = default, string serverCallId = default, string correlationId = default, string operationContext = default, Azure.Communication.CallAutomation.ResultInformation resultInformation = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.CallAutomation.SendDtmfCompleted SendDtmfCompleted(string callConnectionId, string serverCallId, string correlationId, string operationContext, class Azure.Communication.CallAutomation.ResultInformation resultInformation) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.SendDtmfCompleted(System.String,System.String,System.String,System.String,Azure.Communication.CallAutomation.ResultInformation)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function SendDtmfCompleted (Optional callConnectionId As String = Nothing, Optional serverCallId As String = Nothing, Optional correlationId As String = Nothing, Optional operationContext As String = Nothing, Optional resultInformation As ResultInformation = Nothing) As SendDtmfCompleted" />
+      <MemberSignature Language="F#" Value="static member SendDtmfCompleted : string * string * string * string * Azure.Communication.CallAutomation.ResultInformation -&gt; Azure.Communication.CallAutomation.SendDtmfCompleted" Usage="Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.SendDtmfCompleted (callConnectionId, serverCallId, correlationId, operationContext, resultInformation)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Communication.CallAutomation.SendDtmfTonesCompleted</ReturnType>
+        <ReturnType>Azure.Communication.CallAutomation.SendDtmfCompleted</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="callConnectionId" Type="System.String" />
@@ -967,31 +1097,29 @@
         <Parameter Name="resultInformation" Type="Azure.Communication.CallAutomation.ResultInformation" />
       </Parameters>
       <Docs>
-        <param name="callConnectionId" />
-        <param name="serverCallId" />
-        <param name="correlationId" />
-        <param name="operationContext" />
-        <param name="resultInformation" />
-        <summary>
-            Initializes a new instance of SendDtmfTonesCompleted.
-            </summary>
-        <returns />
+        <param name="callConnectionId"> Call connection ID. </param>
+        <param name="serverCallId"> Server call ID. </param>
+        <param name="correlationId"> Correlation ID for event to call correlation. </param>
+        <param name="operationContext"> Used by customers when calling mid-call actions to correlate the request to the response event. </param>
+        <param name="resultInformation"> Contains the resulting SIP code, sub-code and message. </param>
+        <summary> Initializes a new instance of SendDtmfCompleted. </summary>
+        <returns> A new <see cref="T:Azure.Communication.CallAutomation.SendDtmfCompleted" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SendDtmfTonesFailed">
-      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.SendDtmfTonesFailed SendDtmfTonesFailed (string callConnectionId = default, string serverCallId = default, string correlationId = default, string operationContext = default, Azure.Communication.CallAutomation.ResultInformation resultInformation = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.CallAutomation.SendDtmfTonesFailed SendDtmfTonesFailed(string callConnectionId, string serverCallId, string correlationId, string operationContext, class Azure.Communication.CallAutomation.ResultInformation resultInformation) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.SendDtmfTonesFailed(System.String,System.String,System.String,System.String,Azure.Communication.CallAutomation.ResultInformation)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function SendDtmfTonesFailed (Optional callConnectionId As String = Nothing, Optional serverCallId As String = Nothing, Optional correlationId As String = Nothing, Optional operationContext As String = Nothing, Optional resultInformation As ResultInformation = Nothing) As SendDtmfTonesFailed" />
-      <MemberSignature Language="F#" Value="static member SendDtmfTonesFailed : string * string * string * string * Azure.Communication.CallAutomation.ResultInformation -&gt; Azure.Communication.CallAutomation.SendDtmfTonesFailed" Usage="Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.SendDtmfTonesFailed (callConnectionId, serverCallId, correlationId, operationContext, resultInformation)" />
+    <Member MemberName="SendDtmfFailed">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.SendDtmfFailed SendDtmfFailed (string callConnectionId = default, string serverCallId = default, string correlationId = default, string operationContext = default, Azure.Communication.CallAutomation.ResultInformation resultInformation = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.CallAutomation.SendDtmfFailed SendDtmfFailed(string callConnectionId, string serverCallId, string correlationId, string operationContext, class Azure.Communication.CallAutomation.ResultInformation resultInformation) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.SendDtmfFailed(System.String,System.String,System.String,System.String,Azure.Communication.CallAutomation.ResultInformation)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function SendDtmfFailed (Optional callConnectionId As String = Nothing, Optional serverCallId As String = Nothing, Optional correlationId As String = Nothing, Optional operationContext As String = Nothing, Optional resultInformation As ResultInformation = Nothing) As SendDtmfFailed" />
+      <MemberSignature Language="F#" Value="static member SendDtmfFailed : string * string * string * string * Azure.Communication.CallAutomation.ResultInformation -&gt; Azure.Communication.CallAutomation.SendDtmfFailed" Usage="Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.SendDtmfFailed (callConnectionId, serverCallId, correlationId, operationContext, resultInformation)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Communication.CallAutomation.SendDtmfTonesFailed</ReturnType>
+        <ReturnType>Azure.Communication.CallAutomation.SendDtmfFailed</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="callConnectionId" Type="System.String" />
@@ -1001,15 +1129,13 @@
         <Parameter Name="resultInformation" Type="Azure.Communication.CallAutomation.ResultInformation" />
       </Parameters>
       <Docs>
-        <param name="callConnectionId" />
-        <param name="serverCallId" />
-        <param name="correlationId" />
-        <param name="operationContext" />
-        <param name="resultInformation" />
-        <summary>
-            Initializes a new instance of SendDtmfTonesFailed.
-            </summary>
-        <returns />
+        <param name="callConnectionId"> Call connection ID. </param>
+        <param name="serverCallId"> Server call ID. </param>
+        <param name="correlationId"> Correlation ID for event to call correlation. </param>
+        <param name="operationContext"> Used by customers when calling mid-call actions to correlate the request to the response event. </param>
+        <param name="resultInformation"> Contains the resulting SIP code, sub-code and message. </param>
+        <summary> Initializes a new instance of SendDtmfFailed. </summary>
+        <returns> A new <see cref="T:Azure.Communication.CallAutomation.SendDtmfFailed" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1063,6 +1189,168 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="TranscriptionFailed">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.TranscriptionFailed TranscriptionFailed (string callConnectionId = default, string serverCallId = default, string correlationId = default, string operationContext = default, Azure.Communication.CallAutomation.ResultInformation resultInformation = default, Azure.Communication.CallAutomation.TranscriptionUpdate transcriptionUpdateResult = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.CallAutomation.TranscriptionFailed TranscriptionFailed(string callConnectionId, string serverCallId, string correlationId, string operationContext, class Azure.Communication.CallAutomation.ResultInformation resultInformation, class Azure.Communication.CallAutomation.TranscriptionUpdate transcriptionUpdateResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.TranscriptionFailed(System.String,System.String,System.String,System.String,Azure.Communication.CallAutomation.ResultInformation,Azure.Communication.CallAutomation.TranscriptionUpdate)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function TranscriptionFailed (Optional callConnectionId As String = Nothing, Optional serverCallId As String = Nothing, Optional correlationId As String = Nothing, Optional operationContext As String = Nothing, Optional resultInformation As ResultInformation = Nothing, Optional transcriptionUpdateResult As TranscriptionUpdate = Nothing) As TranscriptionFailed" />
+      <MemberSignature Language="F#" Value="static member TranscriptionFailed : string * string * string * string * Azure.Communication.CallAutomation.ResultInformation * Azure.Communication.CallAutomation.TranscriptionUpdate -&gt; Azure.Communication.CallAutomation.TranscriptionFailed" Usage="Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.TranscriptionFailed (callConnectionId, serverCallId, correlationId, operationContext, resultInformation, transcriptionUpdateResult)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallAutomation.TranscriptionFailed</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callConnectionId" Type="System.String" />
+        <Parameter Name="serverCallId" Type="System.String" />
+        <Parameter Name="correlationId" Type="System.String" />
+        <Parameter Name="operationContext" Type="System.String" />
+        <Parameter Name="resultInformation" Type="Azure.Communication.CallAutomation.ResultInformation" />
+        <Parameter Name="transcriptionUpdateResult" Type="Azure.Communication.CallAutomation.TranscriptionUpdate" />
+      </Parameters>
+      <Docs>
+        <param name="callConnectionId"> Call connection ID. </param>
+        <param name="serverCallId"> Server call ID. </param>
+        <param name="correlationId"> Correlation ID for event to call correlation. Also called ChainId for skype chain ID. </param>
+        <param name="operationContext"> Used by customers when calling answerCall action to correlate the request to the response event. </param>
+        <param name="resultInformation"> Contains the resulting SIP code/sub-code and message from NGC services. </param>
+        <param name="transcriptionUpdateResult"> Defines the result for TranscriptionUpdate with the current status and the details about the status. </param>
+        <summary> Initializes a new instance of TranscriptionFailed. </summary>
+        <returns> A new <see cref="T:Azure.Communication.CallAutomation.TranscriptionFailed" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TranscriptionResumed">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.TranscriptionResumed TranscriptionResumed (string callConnectionId = default, string serverCallId = default, string correlationId = default, string operationContext = default, Azure.Communication.CallAutomation.ResultInformation resultInformation = default, Azure.Communication.CallAutomation.TranscriptionUpdate transcriptionUpdateResult = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.CallAutomation.TranscriptionResumed TranscriptionResumed(string callConnectionId, string serverCallId, string correlationId, string operationContext, class Azure.Communication.CallAutomation.ResultInformation resultInformation, class Azure.Communication.CallAutomation.TranscriptionUpdate transcriptionUpdateResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.TranscriptionResumed(System.String,System.String,System.String,System.String,Azure.Communication.CallAutomation.ResultInformation,Azure.Communication.CallAutomation.TranscriptionUpdate)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function TranscriptionResumed (Optional callConnectionId As String = Nothing, Optional serverCallId As String = Nothing, Optional correlationId As String = Nothing, Optional operationContext As String = Nothing, Optional resultInformation As ResultInformation = Nothing, Optional transcriptionUpdateResult As TranscriptionUpdate = Nothing) As TranscriptionResumed" />
+      <MemberSignature Language="F#" Value="static member TranscriptionResumed : string * string * string * string * Azure.Communication.CallAutomation.ResultInformation * Azure.Communication.CallAutomation.TranscriptionUpdate -&gt; Azure.Communication.CallAutomation.TranscriptionResumed" Usage="Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.TranscriptionResumed (callConnectionId, serverCallId, correlationId, operationContext, resultInformation, transcriptionUpdateResult)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallAutomation.TranscriptionResumed</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callConnectionId" Type="System.String" />
+        <Parameter Name="serverCallId" Type="System.String" />
+        <Parameter Name="correlationId" Type="System.String" />
+        <Parameter Name="operationContext" Type="System.String" />
+        <Parameter Name="resultInformation" Type="Azure.Communication.CallAutomation.ResultInformation" />
+        <Parameter Name="transcriptionUpdateResult" Type="Azure.Communication.CallAutomation.TranscriptionUpdate" />
+      </Parameters>
+      <Docs>
+        <param name="callConnectionId"> Call connection ID. </param>
+        <param name="serverCallId"> Server call ID. </param>
+        <param name="correlationId"> Correlation ID for event to call correlation. Also called ChainId for skype chain ID. </param>
+        <param name="operationContext"> Used by customers when calling answerCall action to correlate the request to the response event. </param>
+        <param name="resultInformation"> Contains the resulting SIP code/sub-code and message from NGC services. </param>
+        <param name="transcriptionUpdateResult"> Defines the result for TranscriptionUpdate with the current status and the details about the status. </param>
+        <summary> Initializes a new instance of TranscriptionResumed. </summary>
+        <returns> A new <see cref="T:Azure.Communication.CallAutomation.TranscriptionResumed" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TranscriptionStarted">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.TranscriptionStarted TranscriptionStarted (string callConnectionId = default, string serverCallId = default, string correlationId = default, string operationContext = default, Azure.Communication.CallAutomation.ResultInformation resultInformation = default, Azure.Communication.CallAutomation.TranscriptionUpdate transcriptionUpdateResult = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.CallAutomation.TranscriptionStarted TranscriptionStarted(string callConnectionId, string serverCallId, string correlationId, string operationContext, class Azure.Communication.CallAutomation.ResultInformation resultInformation, class Azure.Communication.CallAutomation.TranscriptionUpdate transcriptionUpdateResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.TranscriptionStarted(System.String,System.String,System.String,System.String,Azure.Communication.CallAutomation.ResultInformation,Azure.Communication.CallAutomation.TranscriptionUpdate)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function TranscriptionStarted (Optional callConnectionId As String = Nothing, Optional serverCallId As String = Nothing, Optional correlationId As String = Nothing, Optional operationContext As String = Nothing, Optional resultInformation As ResultInformation = Nothing, Optional transcriptionUpdateResult As TranscriptionUpdate = Nothing) As TranscriptionStarted" />
+      <MemberSignature Language="F#" Value="static member TranscriptionStarted : string * string * string * string * Azure.Communication.CallAutomation.ResultInformation * Azure.Communication.CallAutomation.TranscriptionUpdate -&gt; Azure.Communication.CallAutomation.TranscriptionStarted" Usage="Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.TranscriptionStarted (callConnectionId, serverCallId, correlationId, operationContext, resultInformation, transcriptionUpdateResult)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallAutomation.TranscriptionStarted</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callConnectionId" Type="System.String" />
+        <Parameter Name="serverCallId" Type="System.String" />
+        <Parameter Name="correlationId" Type="System.String" />
+        <Parameter Name="operationContext" Type="System.String" />
+        <Parameter Name="resultInformation" Type="Azure.Communication.CallAutomation.ResultInformation" />
+        <Parameter Name="transcriptionUpdateResult" Type="Azure.Communication.CallAutomation.TranscriptionUpdate" />
+      </Parameters>
+      <Docs>
+        <param name="callConnectionId"> Call connection ID. </param>
+        <param name="serverCallId"> Server call ID. </param>
+        <param name="correlationId"> Correlation ID for event to call correlation. Also called ChainId for skype chain ID. </param>
+        <param name="operationContext"> Used by customers when calling answerCall action to correlate the request to the response event. </param>
+        <param name="resultInformation"> Contains the resulting SIP code/sub-code and message from NGC services. </param>
+        <param name="transcriptionUpdateResult"> Defines the result for TranscriptionUpdate with the current status and the details about the status. </param>
+        <summary> Initializes a new instance of TranscriptionStarted. </summary>
+        <returns> A new <see cref="T:Azure.Communication.CallAutomation.TranscriptionStarted" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TranscriptionStopped">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.TranscriptionStopped TranscriptionStopped (string callConnectionId = default, string serverCallId = default, string correlationId = default, string operationContext = default, Azure.Communication.CallAutomation.ResultInformation resultInformation = default, Azure.Communication.CallAutomation.TranscriptionUpdate transcriptionUpdateResult = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.CallAutomation.TranscriptionStopped TranscriptionStopped(string callConnectionId, string serverCallId, string correlationId, string operationContext, class Azure.Communication.CallAutomation.ResultInformation resultInformation, class Azure.Communication.CallAutomation.TranscriptionUpdate transcriptionUpdateResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.TranscriptionStopped(System.String,System.String,System.String,System.String,Azure.Communication.CallAutomation.ResultInformation,Azure.Communication.CallAutomation.TranscriptionUpdate)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function TranscriptionStopped (Optional callConnectionId As String = Nothing, Optional serverCallId As String = Nothing, Optional correlationId As String = Nothing, Optional operationContext As String = Nothing, Optional resultInformation As ResultInformation = Nothing, Optional transcriptionUpdateResult As TranscriptionUpdate = Nothing) As TranscriptionStopped" />
+      <MemberSignature Language="F#" Value="static member TranscriptionStopped : string * string * string * string * Azure.Communication.CallAutomation.ResultInformation * Azure.Communication.CallAutomation.TranscriptionUpdate -&gt; Azure.Communication.CallAutomation.TranscriptionStopped" Usage="Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.TranscriptionStopped (callConnectionId, serverCallId, correlationId, operationContext, resultInformation, transcriptionUpdateResult)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallAutomation.TranscriptionStopped</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callConnectionId" Type="System.String" />
+        <Parameter Name="serverCallId" Type="System.String" />
+        <Parameter Name="correlationId" Type="System.String" />
+        <Parameter Name="operationContext" Type="System.String" />
+        <Parameter Name="resultInformation" Type="Azure.Communication.CallAutomation.ResultInformation" />
+        <Parameter Name="transcriptionUpdateResult" Type="Azure.Communication.CallAutomation.TranscriptionUpdate" />
+      </Parameters>
+      <Docs>
+        <param name="callConnectionId"> Call connection ID. </param>
+        <param name="serverCallId"> Server call ID. </param>
+        <param name="correlationId"> Correlation ID for event to call correlation. Also called ChainId for skype chain ID. </param>
+        <param name="operationContext"> Used by customers when calling answerCall action to correlate the request to the response event. </param>
+        <param name="resultInformation"> Contains the resulting SIP code/sub-code and message from NGC services. </param>
+        <param name="transcriptionUpdateResult"> Defines the result for TranscriptionUpdate with the current status and the details about the status. </param>
+        <summary> Initializes a new instance of TranscriptionStopped. </summary>
+        <returns> A new <see cref="T:Azure.Communication.CallAutomation.TranscriptionStopped" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TranscriptionUpdate">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.TranscriptionUpdate TranscriptionUpdate (Azure.Communication.CallAutomation.TranscriptionStatus? transcriptionStatus = default, Azure.Communication.CallAutomation.TranscriptionStatusDetails? transcriptionStatusDetails = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.CallAutomation.TranscriptionUpdate TranscriptionUpdate(valuetype System.Nullable`1&lt;valuetype Azure.Communication.CallAutomation.TranscriptionStatus&gt; transcriptionStatus, valuetype System.Nullable`1&lt;valuetype Azure.Communication.CallAutomation.TranscriptionStatusDetails&gt; transcriptionStatusDetails) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.TranscriptionUpdate(System.Nullable{Azure.Communication.CallAutomation.TranscriptionStatus},System.Nullable{Azure.Communication.CallAutomation.TranscriptionStatusDetails})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function TranscriptionUpdate (Optional transcriptionStatus As Nullable(Of TranscriptionStatus) = Nothing, Optional transcriptionStatusDetails As Nullable(Of TranscriptionStatusDetails) = Nothing) As TranscriptionUpdate" />
+      <MemberSignature Language="F#" Value="static member TranscriptionUpdate : Nullable&lt;Azure.Communication.CallAutomation.TranscriptionStatus&gt; * Nullable&lt;Azure.Communication.CallAutomation.TranscriptionStatusDetails&gt; -&gt; Azure.Communication.CallAutomation.TranscriptionUpdate" Usage="Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.TranscriptionUpdate (transcriptionStatus, transcriptionStatusDetails)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallAutomation.TranscriptionUpdate</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="transcriptionStatus" Type="System.Nullable&lt;Azure.Communication.CallAutomation.TranscriptionStatus&gt;" />
+        <Parameter Name="transcriptionStatusDetails" Type="System.Nullable&lt;Azure.Communication.CallAutomation.TranscriptionStatusDetails&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="transcriptionStatus" />
+        <param name="transcriptionStatusDetails" />
+        <summary> Initializes a new instance of TranscriptionUpdate. </summary>
+        <returns> A new <see cref="T:Azure.Communication.CallAutomation.TranscriptionUpdate" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="TransferCallToParticipantResult">
       <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.TransferCallToParticipantResult TransferCallToParticipantResult (string operationContext = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.CallAutomation.TransferCallToParticipantResult TransferCallToParticipantResult(string operationContext) cil managed" />
@@ -1084,6 +1372,54 @@
         <param name="operationContext"> The operation context provided by client. </param>
         <summary> Initializes a new instance of TransferCallToParticipantResult. </summary>
         <returns> A new <see cref="T:Azure.Communication.CallAutomation.TransferCallToParticipantResult" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnmuteParticipantsResult">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.UnmuteParticipantsResult UnmuteParticipantsResult (string operationContext = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.CallAutomation.UnmuteParticipantsResult UnmuteParticipantsResult(string operationContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.UnmuteParticipantsResult(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UnmuteParticipantsResult (Optional operationContext As String = Nothing) As UnmuteParticipantsResult" />
+      <MemberSignature Language="F#" Value="static member UnmuteParticipantsResult : string -&gt; Azure.Communication.CallAutomation.UnmuteParticipantsResult" Usage="Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.UnmuteParticipantsResult operationContext" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallAutomation.UnmuteParticipantsResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operationContext" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operationContext"> The operation context provided by client. </param>
+        <summary> Initializes a new instance of UnmuteParticipantsResult. </summary>
+        <returns> A new <see cref="T:Azure.Communication.CallAutomation.UnmuteParticipantsResult" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserConsent">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.UserConsent UserConsent (int? recording = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Communication.CallAutomation.UserConsent UserConsent(valuetype System.Nullable`1&lt;int32&gt; recording) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.UserConsent(System.Nullable{System.Int32})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UserConsent (Optional recording As Nullable(Of Integer) = Nothing) As UserConsent" />
+      <MemberSignature Language="F#" Value="static member UserConsent : Nullable&lt;int&gt; -&gt; Azure.Communication.CallAutomation.UserConsent" Usage="Azure.Communication.CallAutomation.CommunicationCallAutomationModelFactory.UserConsent recording" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallAutomation.UserConsent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="recording" Type="System.Nullable&lt;System.Int32&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="recording" />
+        <summary> Initializes a new instance of UserConsent. </summary>
+        <returns> A new <see cref="T:Azure.Communication.CallAutomation.UserConsent" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

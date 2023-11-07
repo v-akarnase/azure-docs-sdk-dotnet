@@ -64,10 +64,10 @@
         <Parameter Name="storageTargetName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="cacheName">To be added.</param>
-        <param name="storageTargetName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="cacheName"> The cacheName. </param>
+        <param name="storageTargetName"> The storageTargetName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.StorageCache.StorageTargetResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

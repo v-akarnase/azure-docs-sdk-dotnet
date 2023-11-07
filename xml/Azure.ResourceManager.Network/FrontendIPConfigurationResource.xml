@@ -69,10 +69,10 @@
         <Parameter Name="frontendIPConfigurationName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="loadBalancerName">To be added.</param>
-        <param name="frontendIPConfigurationName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="loadBalancerName"> The loadBalancerName. </param>
+        <param name="frontendIPConfigurationName"> The frontendIPConfigurationName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Network.FrontendIPConfigurationResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

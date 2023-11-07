@@ -37,7 +37,7 @@
         <Parameter Name="allowedOrigins" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
       </Parameters>
       <Docs>
-        <param name="allowedOrigins"> The list of origins from which JavaScript code will be granted access to your index. Can contain a list of hosts of the form {protocol}://{fully-qualified-domain-name}[:{port#}], or a single '*' to allow all origins (not recommended). </param>
+        <param name="allowedOrigins"> The list of origins from which JavaScript code will be granted access to your index. Can contain a list of hosts of the form {protocol}://{fully-qualified-domain-name}[:{port#}], or a single `*` to allow all origins (not recommended). </param>
         <summary> Initializes a new instance of CorsOptions. </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

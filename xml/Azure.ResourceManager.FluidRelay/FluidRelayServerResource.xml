@@ -128,9 +128,9 @@
         <Parameter Name="fluidRelayServerName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroup">To be added.</param>
-        <param name="fluidRelayServerName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroup"> The resourceGroup. </param>
+        <param name="fluidRelayServerName"> The fluidRelayServerName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.FluidRelay.FluidRelayServerResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -299,10 +299,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroup}/providers/Microsoft.FluidRelay/fluidRelayServers/{fluidRelayServerName}/fluidRelayContainers/{fluidRelayContainerName}</description></item><item><term>Operation Id</term><description>FluidRelayContainers_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="fluidRelayContainerName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="fluidRelayContainerName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="fluidRelayContainerName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetFluidRelayContainerAsync">
@@ -332,10 +332,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroup}/providers/Microsoft.FluidRelay/fluidRelayServers/{fluidRelayServerName}/fluidRelayContainers/{fluidRelayContainerName}</description></item><item><term>Operation Id</term><description>FluidRelayContainers_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="fluidRelayContainerName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="fluidRelayContainerName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="fluidRelayContainerName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetFluidRelayContainers">

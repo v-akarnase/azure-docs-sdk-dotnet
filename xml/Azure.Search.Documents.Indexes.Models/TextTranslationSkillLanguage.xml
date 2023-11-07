@@ -510,26 +510,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="Ga">
-      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage Ga { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage Ga" />
-      <MemberSignature Language="DocId" Value="P:Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage.Ga" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Ga As TextTranslationSkillLanguage" />
-      <MemberSignature Language="F#" Value="static member Ga : Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage" Usage="Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage.Ga" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Search.Documents</AssemblyName>
-        <AssemblyVersion>11.5.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> Irish. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="GetHashCode">
       <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
@@ -748,26 +728,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="Kn">
-      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage Kn { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage Kn" />
-      <MemberSignature Language="DocId" Value="P:Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage.Kn" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Kn As TextTranslationSkillLanguage" />
-      <MemberSignature Language="F#" Value="static member Kn : Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage" Usage="Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage.Kn" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Search.Documents</AssemblyName>
-        <AssemblyVersion>11.5.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> Kannada. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="Ko">
       <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage Ko { get; }" />
       <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage Ko" />
@@ -848,46 +808,6 @@
       </ReturnValue>
       <Docs>
         <summary> Malagasy. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="Mi">
-      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage Mi { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage Mi" />
-      <MemberSignature Language="DocId" Value="P:Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage.Mi" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Mi As TextTranslationSkillLanguage" />
-      <MemberSignature Language="F#" Value="static member Mi : Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage" Usage="Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage.Mi" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Search.Documents</AssemblyName>
-        <AssemblyVersion>11.5.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> Maori. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="Ml">
-      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage Ml { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage Ml" />
-      <MemberSignature Language="DocId" Value="P:Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage.Ml" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Ml As TextTranslationSkillLanguage" />
-      <MemberSignature Language="F#" Value="static member Ml : Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage" Usage="Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage.Ml" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Search.Documents</AssemblyName>
-        <AssemblyVersion>11.5.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> Malayalam. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1097,26 +1017,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="Pa">
-      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage Pa { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage Pa" />
-      <MemberSignature Language="DocId" Value="P:Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage.Pa" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Pa As TextTranslationSkillLanguage" />
-      <MemberSignature Language="F#" Value="static member Pa : Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage" Usage="Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage.Pa" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Search.Documents</AssemblyName>
-        <AssemblyVersion>11.5.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> Punjabi. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="Pl">
       <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage Pl { get; }" />
       <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage Pl" />
@@ -1155,46 +1055,6 @@
       </ReturnValue>
       <Docs>
         <summary> Portuguese. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="PtBr">
-      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage PtBr { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage PtBr" />
-      <MemberSignature Language="DocId" Value="P:Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage.PtBr" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PtBr As TextTranslationSkillLanguage" />
-      <MemberSignature Language="F#" Value="static member PtBr : Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage" Usage="Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage.PtBr" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Search.Documents</AssemblyName>
-        <AssemblyVersion>11.5.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> Portuguese (Brazil). </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="PtPT">
-      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage PtPT { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage PtPT" />
-      <MemberSignature Language="DocId" Value="P:Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage.PtPT" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PtPT As TextTranslationSkillLanguage" />
-      <MemberSignature Language="F#" Value="static member PtPT : Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage" Usage="Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage.PtPT" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Search.Documents</AssemblyName>
-        <AssemblyVersion>11.5.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> Portuguese (Portugal). </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1468,46 +1328,6 @@
       </ReturnValue>
       <Docs>
         <summary> Klingon. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TlhLatn">
-      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage TlhLatn { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage TlhLatn" />
-      <MemberSignature Language="DocId" Value="P:Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage.TlhLatn" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TlhLatn As TextTranslationSkillLanguage" />
-      <MemberSignature Language="F#" Value="static member TlhLatn : Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage" Usage="Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage.TlhLatn" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Search.Documents</AssemblyName>
-        <AssemblyVersion>11.5.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> Klingon (Latin script). </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TlhPiqd">
-      <MemberSignature Language="C#" Value="public static Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage TlhPiqd { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage TlhPiqd" />
-      <MemberSignature Language="DocId" Value="P:Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage.TlhPiqd" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TlhPiqd As TextTranslationSkillLanguage" />
-      <MemberSignature Language="F#" Value="static member TlhPiqd : Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage" Usage="Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage.TlhPiqd" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Search.Documents</AssemblyName>
-        <AssemblyVersion>11.5.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Search.Documents.Indexes.Models.TextTranslationSkillLanguage</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> Klingon (Klingon script). </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

@@ -60,7 +60,7 @@
         <Parameter Name="resourceName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="resourceName">To be added.</param>
+        <param name="resourceName"> The resourceName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.PolicyInsights.PolicyMetadataResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

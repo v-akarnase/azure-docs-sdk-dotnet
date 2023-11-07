@@ -62,10 +62,10 @@
         <Parameter Name="providerInstanceName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="monitorName">To be added.</param>
-        <param name="providerInstanceName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="monitorName"> The monitorName. </param>
+        <param name="providerInstanceName"> The providerInstanceName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Workloads.SapProviderInstanceResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

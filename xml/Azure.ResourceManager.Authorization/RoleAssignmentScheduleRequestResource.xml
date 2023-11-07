@@ -115,8 +115,8 @@
         <Parameter Name="roleAssignmentScheduleRequestName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="scope">To be added.</param>
-        <param name="roleAssignmentScheduleRequestName">To be added.</param>
+        <param name="scope"> The scope. </param>
+        <param name="roleAssignmentScheduleRequestName"> The roleAssignmentScheduleRequestName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Authorization.RoleAssignmentScheduleRequestResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

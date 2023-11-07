@@ -21,7 +21,7 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary> Defines the names of all tokenizers supported by Azure Cognitive Search. </summary>
+    <summary> Defines the names of all tokenizers supported by the search engine. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

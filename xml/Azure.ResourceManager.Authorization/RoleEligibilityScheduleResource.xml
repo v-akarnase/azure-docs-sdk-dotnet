@@ -61,8 +61,8 @@
         <Parameter Name="roleEligibilityScheduleName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="scope">To be added.</param>
-        <param name="roleEligibilityScheduleName">To be added.</param>
+        <param name="scope"> The scope. </param>
+        <param name="roleEligibilityScheduleName"> The roleEligibilityScheduleName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Authorization.RoleEligibilityScheduleResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

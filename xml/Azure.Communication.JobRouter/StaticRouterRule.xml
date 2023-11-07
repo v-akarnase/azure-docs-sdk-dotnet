@@ -13,23 +13,26 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A rule providing static rules that always return the same result, regardless of input. </summary>
+    <summary>
+            A rule providing static rules that always return the same result, regardless of
+            input.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public StaticRouterRule (Azure.Communication.JobRouter.LabelValue value);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.Communication.JobRouter.LabelValue value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.StaticRouterRule.#ctor(Azure.Communication.JobRouter.LabelValue)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (value As LabelValue)" />
-      <MemberSignature Language="F#" Value="new Azure.Communication.JobRouter.StaticRouterRule : Azure.Communication.JobRouter.LabelValue -&gt; Azure.Communication.JobRouter.StaticRouterRule" Usage="new Azure.Communication.JobRouter.StaticRouterRule value" />
+      <MemberSignature Language="C#" Value="public StaticRouterRule (Azure.Communication.JobRouter.RouterValue value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.Communication.JobRouter.RouterValue value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.StaticRouterRule.#ctor(Azure.Communication.JobRouter.RouterValue)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (value As RouterValue)" />
+      <MemberSignature Language="F#" Value="new Azure.Communication.JobRouter.StaticRouterRule : Azure.Communication.JobRouter.RouterValue -&gt; Azure.Communication.JobRouter.StaticRouterRule" Usage="new Azure.Communication.JobRouter.StaticRouterRule value" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="value" Type="Azure.Communication.JobRouter.LabelValue" />
+        <Parameter Name="value" Type="Azure.Communication.JobRouter.RouterValue" />
       </Parameters>
       <Docs>
         <param name="value"> The static value this rule always returns. </param>
@@ -38,18 +41,18 @@
       </Docs>
     </Member>
     <Member MemberName="Value">
-      <MemberSignature Language="C#" Value="public Azure.Communication.JobRouter.LabelValue Value { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.JobRouter.LabelValue Value" />
+      <MemberSignature Language="C#" Value="public Azure.Communication.JobRouter.RouterValue Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.JobRouter.RouterValue Value" />
       <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.StaticRouterRule.Value" />
-      <MemberSignature Language="VB.NET" Value="Public Property Value As LabelValue" />
-      <MemberSignature Language="F#" Value="member this.Value : Azure.Communication.JobRouter.LabelValue with get, set" Usage="Azure.Communication.JobRouter.StaticRouterRule.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As RouterValue" />
+      <MemberSignature Language="F#" Value="member this.Value : Azure.Communication.JobRouter.RouterValue with get, set" Usage="Azure.Communication.JobRouter.StaticRouterRule.Value" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Communication.JobRouter.LabelValue</ReturnType>
+        <ReturnType>Azure.Communication.JobRouter.RouterValue</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The static value this rule always returns. </summary>

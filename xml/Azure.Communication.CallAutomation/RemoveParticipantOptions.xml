@@ -43,6 +43,28 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="CallbackUri">
+      <MemberSignature Language="C#" Value="public Uri CallbackUri { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri CallbackUri" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.RemoveParticipantOptions.CallbackUri" />
+      <MemberSignature Language="VB.NET" Value="Public Property CallbackUri As Uri" />
+      <MemberSignature Language="F#" Value="member this.CallbackUri : Uri with get, set" Usage="Azure.Communication.CallAutomation.RemoveParticipantOptions.CallbackUri" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Uri</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The callback URI override for this transfer call request.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="OperationContext">
       <MemberSignature Language="C#" Value="public string OperationContext { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string OperationContext" />

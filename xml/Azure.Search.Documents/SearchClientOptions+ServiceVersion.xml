@@ -47,12 +47,12 @@
             </summary>
       </Docs>
     </Member>
-    <Member MemberName="V2021_04_30_Preview">
-      <MemberSignature Language="C#" Value="V2021_04_30_Preview" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Search.Documents.SearchClientOptions/ServiceVersion V2021_04_30_Preview = int32(2)" />
-      <MemberSignature Language="DocId" Value="F:Azure.Search.Documents.SearchClientOptions.ServiceVersion.V2021_04_30_Preview" />
-      <MemberSignature Language="VB.NET" Value="V2021_04_30_Preview" />
-      <MemberSignature Language="F#" Value="V2021_04_30_Preview = 2" Usage="Azure.Search.Documents.SearchClientOptions.ServiceVersion.V2021_04_30_Preview" />
+    <Member MemberName="V2023_11_01">
+      <MemberSignature Language="C#" Value="V2023_11_01" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Search.Documents.SearchClientOptions/ServiceVersion V2023_11_01 = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Search.Documents.SearchClientOptions.ServiceVersion.V2023_11_01" />
+      <MemberSignature Language="VB.NET" Value="V2023_11_01" />
+      <MemberSignature Language="F#" Value="V2023_11_01 = 2" Usage="Azure.Search.Documents.SearchClientOptions.ServiceVersion.V2023_11_01" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Search.Documents</AssemblyName>
@@ -64,28 +64,7 @@
       <MemberValue>2</MemberValue>
       <Docs>
         <summary>
-            The 2021_04_30_Preview version of the Azure Cognitive Search service.
-            </summary>
-      </Docs>
-    </Member>
-    <Member MemberName="V2023_10_01_Preview">
-      <MemberSignature Language="C#" Value="V2023_10_01_Preview" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Search.Documents.SearchClientOptions/ServiceVersion V2023_10_01_Preview = int32(3)" />
-      <MemberSignature Language="DocId" Value="F:Azure.Search.Documents.SearchClientOptions.ServiceVersion.V2023_10_01_Preview" />
-      <MemberSignature Language="VB.NET" Value="V2023_10_01_Preview" />
-      <MemberSignature Language="F#" Value="V2023_10_01_Preview = 3" Usage="Azure.Search.Documents.SearchClientOptions.ServiceVersion.V2023_10_01_Preview" />
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Search.Documents</AssemblyName>
-        <AssemblyVersion>11.5.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Search.Documents.SearchClientOptions+ServiceVersion</ReturnType>
-      </ReturnValue>
-      <MemberValue>3</MemberValue>
-      <Docs>
-        <summary>
-            The 2023_10_01_Preview version of the Azure Cognitive Search service.
+            The 2023_11_01 version of the Azure Cognitive Search service.
             </summary>
       </Docs>
     </Member>

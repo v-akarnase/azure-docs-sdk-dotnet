@@ -64,11 +64,11 @@
         <Parameter Name="dataSetName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="accountName">To be added.</param>
-        <param name="shareName">To be added.</param>
-        <param name="dataSetName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="accountName"> The accountName. </param>
+        <param name="shareName"> The shareName. </param>
+        <param name="dataSetName"> The dataSetName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.DataShare.ShareDataSetResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -277,7 +277,7 @@
         <param name="data"> The new data set information. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Create a DataSet 
+            Create a DataSet
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/dataSets/{dataSetName}</description></item><item><term>Operation Id</term><description>DataSets_Create</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -311,7 +311,7 @@
         <param name="data"> The new data set information. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
-            Create a DataSet 
+            Create a DataSet
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/dataSets/{dataSetName}</description></item><item><term>Operation Id</term><description>DataSets_Create</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

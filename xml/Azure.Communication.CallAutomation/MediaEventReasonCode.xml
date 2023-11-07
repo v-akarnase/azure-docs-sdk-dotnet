@@ -47,26 +47,6 @@
           <paramref name="value" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="CognitiveServicesError">
-      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.MediaEventReasonCode CognitiveServicesError { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.CallAutomation.MediaEventReasonCode CognitiveServicesError" />
-      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.MediaEventReasonCode.CognitiveServicesError" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CognitiveServicesError As MediaEventReasonCode" />
-      <MemberSignature Language="F#" Value="static member CognitiveServicesError : Azure.Communication.CallAutomation.MediaEventReasonCode" Usage="Azure.Communication.CallAutomation.MediaEventReasonCode.CognitiveServicesError" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Communication.CallAutomation.MediaEventReasonCode</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> Action failed, cognitive service error. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="CompletedSuccessfully">
       <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.MediaEventReasonCode CompletedSuccessfully { get; }" />
       <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.CallAutomation.MediaEventReasonCode CompletedSuccessfully" />
@@ -278,6 +258,26 @@
         <param name="right">To be added.</param>
         <summary> Determines if two <see cref="T:Azure.Communication.CallAutomation.MediaEventReasonCode" /> values are not the same. </summary>
         <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlayCognitiveServicesPlayError">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.MediaEventReasonCode PlayCognitiveServicesPlayError { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.CallAutomation.MediaEventReasonCode PlayCognitiveServicesPlayError" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.MediaEventReasonCode.PlayCognitiveServicesPlayError" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PlayCognitiveServicesPlayError As MediaEventReasonCode" />
+      <MemberSignature Language="F#" Value="static member PlayCognitiveServicesPlayError : Azure.Communication.CallAutomation.MediaEventReasonCode" Usage="Azure.Communication.CallAutomation.MediaEventReasonCode.PlayCognitiveServicesPlayError" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallAutomation.MediaEventReasonCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Action failed, cognitive service error. </summary>
+        <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

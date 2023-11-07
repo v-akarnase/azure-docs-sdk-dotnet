@@ -66,12 +66,12 @@
         <Parameter Name="dataConnectionName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="workspaceName">To be added.</param>
-        <param name="kustoPoolName">To be added.</param>
-        <param name="databaseName">To be added.</param>
-        <param name="dataConnectionName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="workspaceName"> The workspaceName. </param>
+        <param name="kustoPoolName"> The kustoPoolName. </param>
+        <param name="databaseName"> The databaseName. </param>
+        <param name="dataConnectionName"> The dataConnectionName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Synapse.SynapseDataConnectionResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

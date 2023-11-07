@@ -129,10 +129,10 @@
         <Parameter Name="apiName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroup">To be added.</param>
-        <param name="integrationServiceEnvironmentName">To be added.</param>
-        <param name="apiName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroup"> The resourceGroup. </param>
+        <param name="integrationServiceEnvironmentName"> The integrationServiceEnvironmentName. </param>
+        <param name="apiName"> The apiName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Logic.IntegrationServiceEnvironmentManagedApiResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

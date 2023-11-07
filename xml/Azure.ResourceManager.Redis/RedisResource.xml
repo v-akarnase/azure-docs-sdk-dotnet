@@ -12,6 +12,7 @@
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.1.0</AssemblyVersion>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <AssemblyVersion>1.3.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -36,6 +37,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -53,6 +55,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Redis.RedisResource&gt;</ReturnType>
@@ -85,6 +88,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisResource&gt;&gt;</ReturnType>
@@ -117,6 +121,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -127,9 +132,9 @@
         <Parameter Name="name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="name">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="name"> The name. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Redis.RedisResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -145,6 +150,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Redis.RedisData</ReturnType>
@@ -166,6 +172,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -195,6 +202,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -224,6 +232,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -257,6 +266,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -290,6 +300,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Redis.Models.RedisForceRebootResult&gt;</ReturnType>
@@ -320,6 +331,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.Models.RedisForceRebootResult&gt;&gt;</ReturnType>
@@ -350,6 +362,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Redis.RedisResource&gt;</ReturnType>
@@ -376,6 +389,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisResource&gt;&gt;</ReturnType>
@@ -402,6 +416,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Redis.Models.RedisAccessKeys&gt;</ReturnType>
@@ -428,6 +443,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.Models.RedisAccessKeys&gt;&gt;</ReturnType>
@@ -454,6 +470,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Redis.Models.RedisPrivateLinkResource&gt;</ReturnType>
@@ -480,6 +497,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Redis.Models.RedisPrivateLinkResource&gt;</ReturnType>
@@ -506,6 +524,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Redis.RedisFirewallRuleResource&gt;</ReturnType>
@@ -522,10 +541,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cache/redis/{cacheName}/firewallRules/{ruleName}</description></item><item><term>Operation Id</term><description>FirewallRules_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="ruleName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="ruleName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="ruleName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetRedisFirewallRuleAsync">
@@ -538,6 +557,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisFirewallRuleResource&gt;&gt;</ReturnType>
@@ -554,10 +574,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cache/redis/{cacheName}/firewallRules/{ruleName}</description></item><item><term>Operation Id</term><description>FirewallRules_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="ruleName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="ruleName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="ruleName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetRedisFirewallRules">
@@ -570,6 +590,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Redis.RedisFirewallRuleCollection</ReturnType>
@@ -591,6 +612,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Redis.RedisLinkedServerWithPropertyCollection</ReturnType>
@@ -612,6 +634,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Redis.RedisLinkedServerWithPropertyResource&gt;</ReturnType>
@@ -628,10 +651,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cache/redis/{name}/linkedServers/{linkedServerName}</description></item><item><term>Operation Id</term><description>LinkedServer_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="linkedServerName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="linkedServerName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="linkedServerName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetRedisLinkedServerWithPropertyAsync">
@@ -644,6 +667,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisLinkedServerWithPropertyResource&gt;&gt;</ReturnType>
@@ -660,10 +684,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cache/redis/{name}/linkedServers/{linkedServerName}</description></item><item><term>Operation Id</term><description>LinkedServer_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="linkedServerName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="linkedServerName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="linkedServerName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetRedisPatchSchedule">
@@ -676,6 +700,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Redis.RedisPatchScheduleResource&gt;</ReturnType>
@@ -704,6 +729,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisPatchScheduleResource&gt;&gt;</ReturnType>
@@ -732,6 +758,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Redis.RedisPatchScheduleCollection</ReturnType>
@@ -753,6 +780,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Redis.RedisPrivateEndpointConnectionResource&gt;</ReturnType>
@@ -769,10 +797,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cache/redis/{cacheName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="privateEndpointConnectionName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="privateEndpointConnectionName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="privateEndpointConnectionName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetRedisPrivateEndpointConnectionAsync">
@@ -785,6 +813,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisPrivateEndpointConnectionResource&gt;&gt;</ReturnType>
@@ -801,10 +830,10 @@
             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cache/redis/{cacheName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="privateEndpointConnectionName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="privateEndpointConnectionName" /> is null. </exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="privateEndpointConnectionName" /> is an empty string, and was expected to be non-empty. </exception>
       </Docs>
     </Member>
     <Member MemberName="GetRedisPrivateEndpointConnections">
@@ -817,6 +846,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Redis.RedisPrivateEndpointConnectionCollection</ReturnType>
@@ -838,6 +868,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Redis.Models.RedisUpgradeNotification&gt;</ReturnType>
@@ -866,6 +897,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Redis.Models.RedisUpgradeNotification&gt;</ReturnType>
@@ -894,6 +926,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -914,6 +947,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -947,6 +981,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -980,6 +1015,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Redis.Models.RedisAccessKeys&gt;</ReturnType>
@@ -1010,6 +1046,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.Models.RedisAccessKeys&gt;&gt;</ReturnType>
@@ -1040,6 +1077,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Redis.RedisResource&gt;</ReturnType>
@@ -1070,6 +1108,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisResource&gt;&gt;</ReturnType>
@@ -1100,6 +1139,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -1119,6 +1159,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Redis.RedisResource&gt;</ReturnType>
@@ -1149,6 +1190,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisResource&gt;&gt;</ReturnType>
@@ -1179,6 +1221,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1219,6 +1262,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Redis.RedisResource&gt;</ReturnType>
@@ -1252,6 +1296,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1292,6 +1337,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Redis.RedisResource&gt;&gt;</ReturnType>

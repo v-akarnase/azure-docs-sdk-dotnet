@@ -240,8 +240,8 @@
         <Parameter Name="deploymentName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="scope">To be added.</param>
-        <param name="deploymentName">To be added.</param>
+        <param name="scope"> The scope. </param>
+        <param name="deploymentName"> The deploymentName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Resources.ArmDeploymentResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

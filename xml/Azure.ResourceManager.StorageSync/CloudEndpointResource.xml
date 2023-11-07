@@ -119,11 +119,11 @@
         <Parameter Name="cloudEndpointName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="storageSyncServiceName">To be added.</param>
-        <param name="syncGroupName">To be added.</param>
-        <param name="cloudEndpointName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="storageSyncServiceName"> The storageSyncServiceName. </param>
+        <param name="syncGroupName"> The syncGroupName. </param>
+        <param name="cloudEndpointName"> The cloudEndpointName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.StorageSync.CloudEndpointResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

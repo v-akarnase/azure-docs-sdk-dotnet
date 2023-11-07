@@ -65,12 +65,12 @@
         <Parameter Name="requestHistoryName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="subscriptionId">To be added.</param>
-        <param name="resourceGroupName">To be added.</param>
-        <param name="workflowName">To be added.</param>
-        <param name="runName">To be added.</param>
-        <param name="actionName">To be added.</param>
-        <param name="requestHistoryName">To be added.</param>
+        <param name="subscriptionId"> The subscriptionId. </param>
+        <param name="resourceGroupName"> The resourceGroupName. </param>
+        <param name="workflowName"> The workflowName. </param>
+        <param name="runName"> The runName. </param>
+        <param name="actionName"> The actionName. </param>
+        <param name="requestHistoryName"> The requestHistoryName. </param>
         <summary> Generate the resource identifier of a <see cref="T:Azure.ResourceManager.Logic.LogicWorkflowRunActionRequestHistoryResource" /> instance. </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
