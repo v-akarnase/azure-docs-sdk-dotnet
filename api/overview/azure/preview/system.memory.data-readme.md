@@ -1,14 +1,12 @@
 ---
 title: 
-keywords: Azure, .net, SDK, API, System.Memory.Data,
-ms.date: 11/04/2020
+keywords: Azure, dotnet, SDK, API, System.Memory.Data, core
+ms.date: 11/07/2023
 ms.topic: reference
-ms.devlang: .net
-ms.service: 
-ms.technology: azure
-ms.prod: azure
+ms.devlang: dotnet
+ms.service: core
 ---
-#  System.Memory.Data library for .NET (Preview) 
+#  System.Memory.Data library for .NET
 
 ## Binary Data
  The `BinaryData` type provides a lightweight abstraction for a payload of bytes. It provides convenient helper methods to get out commonly used primitives, such as streams, strings, or bytes. The assumption when converting to and from string is that the encoding is UTF-8.
@@ -72,4 +70,7 @@ var model = new CustomModel
 var data = BinaryData.FromObjectAsJson(model);
 model = data.ToObjectFromJson<CustomModel>();
 ```
+
+
+
 
